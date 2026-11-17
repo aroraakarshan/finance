@@ -12,9 +12,9 @@ research only, not advice; no orders placed. "not verified" = could not confirm 
 ## Numbers (values at the 2026-11-13 close, USD/INR 94.1997, FBIL reference rate via rbi.org.in)
 
 Sources: `portfolio/summary.md` (2026-11-15), `scripts.value` run 2026-11-15, sectors from yfinance `info`
-(checked 2026-11-15). Total Rs 4,20,97,035 (summary.md as of 2026-11-15, commit 0dd3a98 and later: adds Punjab Gramin Bank FDs
+(checked 2026-11-15). Total Rs 4,20,97,035 (summary.md as of 2026-11-15, version of 2026-11-15 and later: adds Punjab Gramin Bank FDs
 Rs 72 L and savings Rs 10 L (both user estimates, details pending) and EPF Rs 41,03,127 (passbooks 2026-08-19, locked);
-US values now at FBIL 94.1997 instead of yfinance 94.0338. Before that, commit 7d88cf8: physical gold 109.1 g Rs 12,90,192 at
+US values now at FBIL 94.1997 instead of yfinance 94.0338. Before that, version of 2026-11-15: physical gold 109.1 g Rs 12,90,192 at
 IBJA rate of 2026-11-13; FDs now principal + accrued interest Rs 49,31,288 (accrued Rs 1,54,654); US $213,304 incl. INDmoney $14,653 with
 $4,574.05 wallet cash; HDFC savings Rs 8,54,314 (13 Nov) + 9 FDs Rs 47,76,634 principal (6.25%, 10 May 2026
 -> 10 May 2027); AngelOne as of 8 Nov). Earlier bases: Rs 2,23,19,002, Rs 2,26,82,726 (= market

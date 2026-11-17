@@ -7,7 +7,7 @@
 - Decided 16 Nov: emergency fund about Rs 6 L = Rs 2 L HDFC savings + about Rs 4 L Kotak Arbitrage (card first); no liquid fund; no PPF; no extra gold (gold stays ~3.5%, band 3-6%; only the Rs 1,97,734 silver swap). Unassigned money about Rs 16.7 L = HDFC savings ~Rs 10.5 L + ABSL silver ~Rs 4.23 L + rest of the silver ~Rs 1.94 L (all silver sold 18 Nov): pending user decision (one combined choice for the unassigned money).
 - Tax (finance-tax, tax/FY2026-27/fd-and-advance-tax.md s3; FD interest taxed on accrual, about Rs 3.04 L in FY26-27, no 80TTA in the new regime): FD 4.10% after tax, liquid/debt fund 4.24%, arbitrage 5.10% (<12 m) or 5.71% (>12 m); early break costs 1% below the booking rate: hold to 10 May 2027.
 
-Facts: `portfolio/summary.md` (commit 1355470, 2026-11-16), `portfolio/plan.md` (rows 30-31, 73-76), `portfolio/decisions.md` (rows 11-12, commits ecf2c5f and f2e4c6c). Research only,
+Facts: `portfolio/summary.md` (version of 2026-11-16, 2026-11-16), `portfolio/plan.md` (rows 30-31, 73-76), `portfolio/decisions.md` (rows 11-12, version of 2026-11-16). Research only,
 not advice; no orders. User: 35.88% marginal slab, new regime. After tax at slab = yield x 0.6412. "nv" = not verified.
 
 ## Key table: rupee safe money (share of Rs 4,20,97,879, 2026-11-16)

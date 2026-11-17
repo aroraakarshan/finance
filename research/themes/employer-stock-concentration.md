@@ -8,7 +8,7 @@ MSFT (current employer) 13.7%; 45.3% is US tech. Single stocks can fall 40-87% a
 Proposal: sell QCOM in two steps (432 sh Nov-Dec 2026, 195 sh Apr 2027) to 134 sh (~5%), MSFT lots on their
 long-term dates, new vests at once; proceeds into Ireland UCITS ETFs. Tax on all QCOM: about Rs 5.66 L.
 
-## Key numbers (13 Nov 2026 close, USD/INR 94.1997 FBIL; total Rs 4,20,97,035 incl. bank money, gold and EPF, summary.md 2026-11-15, commit 0dd3a98+)
+## Key numbers (13 Nov 2026 close, USD/INR 94.1997 FBIL; total Rs 4,20,97,035 incl. bank money, gold and EPF, summary.md 2026-11-15, version of 2026-11-15 and later)
 
 | Holding / group | USD | INR | Share of total | Share of market investments (Rs 2,27,18,113: brokers only) |
 |---|---|---|---|---|

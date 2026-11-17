@@ -16,7 +16,7 @@ That money goes into the four other equity funds at 35/30/25/10 with no new mone
 units from the AngelOne export (2026-11-07) x AMFI NAVs of 2026-11-13 (NAVAll.txt). Actual proceeds
 will differ a little with the sale-date NAVs, so split the real proceeds in the same proportions:
 UTI 54.5%, PPFAS 8.7%, HDFC 18.1%, Quant 18.7%. % AngelOne and % total use the 8 Nov snapshot
-AngelOne total (Rs 26,24,910); % total uses Rs 4,20,97,035 (summary.md, commit 0dd3a98 and later, incl. HDFC and Punjab Gramin Bank savings and FDs, physical gold, EPF).
+AngelOne total (Rs 26,24,910); % total uses Rs 4,20,97,035 (summary.md, version of 2026-11-15 and later, incl. HDFC and Punjab Gramin Bank savings and FDs, physical gold, EPF).
 
 | Fund | Role | Weight of 4 | Now Rs | Buy Rs | After Rs | % of bucket | % AngelOne | % total |
 |---|---|---|---|---|---|---|---|---|

@@ -8,7 +8,7 @@
 
 Back to the index: [cash-and-fds](../cash-and-fds.md). Research only, not advice; no orders. User: 35.88% slab, new regime; after tax at slab = yield x 0.6412. "nv" = not verified.
 
-Sources: `portfolio/plan.md` (lines 13, 42, 74, section 4), `portfolio/decisions.md` (rows 11-12; commit f2e4c6c), [silver-gold.md](../silver-gold.md), 2026-11-16.
+Sources: `portfolio/plan.md` (lines 13, 42, 74, section 4), `portfolio/decisions.md` (rows 11-12; version of 2026-11-16), [silver-gold.md](../silver-gold.md), 2026-11-16.
 
 ## 1. Gold and silver (decided 16 Nov; plan.md lines 13 and 74)
 

@@ -55,7 +55,7 @@ Holding three funds with the same benchmark (BSE PSU TRI) adds no diversificatio
 | Metals FoF | Silver FoF, Gold-Silver FoF | 2,77,554 | 13.5 | 10.6 | 0.66 |
 | Total MF | 15 | 20,49,770 | 100 | 78.1 | 4.87 |
 
-Whole portfolio ([portfolio/summary.md](../../../portfolio/summary.md), commit 0dd3a98 and later; total Rs 4,20,97,035 incl. HDFC + Punjab Gramin Bank savings and FDs
+Whole portfolio ([portfolio/summary.md](../../../portfolio/summary.md), version of 2026-11-15 and later; total Rs 4,20,97,035 incl. HDFC + Punjab Gramin Bank savings and FDs
 Rs 1,39,85,602 = 33.2% (Punjab Gramin Bank Rs 82 L are estimates), EPF Rs 41,03,127 = 9.75% (locked), physical gold
 Rs 12,90,192 = 3.06%; USD/INR 94.1997): US single stocks
 46.5% of total, QCOM + MSFT 43.1% (QCOM 29.4%), semiconductors (QCOM, AVGO, NVDA) 30.4% (rupee values from [employer-stock-concentration/concentration.md](../employer-stock-concentration/concentration.md)); Indian equity MFs (the 6 rows above minus arbitrage and metals) Rs 14.70 L = 56.0% of AngelOne

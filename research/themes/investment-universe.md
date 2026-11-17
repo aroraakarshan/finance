@@ -10,7 +10,7 @@ place no orders. Details, numbers and sources are in the linked notes; tax answe
 - Foreign bond ETFs and US money market funds may be taxed as always short-term (35.88%): ask a CA first.
 - The current ranked action list is `research/global/README.md` section 3.
 
-User (portfolio/summary.md, 2026-11-15): salaried Indian resident, total about Rs 4.21 Cr (incl. bank deposits, EPF and physical gold; commit 0dd3a98).
+User (portfolio/summary.md, 2026-11-15): salaried Indian resident, total about Rs 4.21 Cr (incl. bank deposits, EPF and physical gold; version of 2026-11-15).
 QCOM 761 (IBKR) 41.5% and MSFT 116.888 (Fidelity) 19.3% = 60.8% in two US stocks; AngelOne Rs 26 L
 (15 MFs; metals 31.6% of AngelOne but 3.7% of total); US stocks about $11k (INDmoney, moving to IBKR); wants to learn
 trading; no trading rules yet. Tax bracket: 15% surcharge, so slab income 35.88%, foreign

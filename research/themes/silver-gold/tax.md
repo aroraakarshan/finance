@@ -6,7 +6,7 @@
 - A new loss saves only 14.95% this year, about Rs 9,900 at most.
 - Your decision 16 Nov: sell all ABSL too (net about -Rs 34,226 at the 16 Nov close (ST -35,337, LT +1,110; finance-tax 17 Nov, tax/angelone-metals-and-mf-exits.md 3A; offsets QCOM sale 1 LTCG, saves about Rs 5,117)); tax pending finance-tax.
 
-Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` commit 0dd3a98 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
+Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` version of 2026-11-15 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
 
 ## 3. Tax (India) - figures from `finance-tax`
 

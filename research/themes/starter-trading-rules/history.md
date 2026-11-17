@@ -9,7 +9,7 @@ Each finding below maps to a rule in [rules.md](rules.md). Decide which US holdi
 
 ## Numbers used
 
-Numbers used below (portfolio/summary.md as of commit 58caa59, 2026-11-15; US values at the
+Numbers used below (portfolio/summary.md as of version of 2026-11-15, 2026-11-15; US values at the
 2026-11-13 close; INDmoney wallet cash 2026-11-15; HDFC savings 2026-11-13, FDs 2026-11-15, physical gold 2026-11-13; Punjab Gramin Bank 2026-11-15 (user estimate); EPF 2026-08-19; USD/INR 94.1997 (summary.md; earlier versions of this note used 94.0338, the `INR=X` close
 2026-11-13; AngelOne as of 2026-11-08):
 
@@ -71,5 +71,5 @@ Discrepancies found (also for STATUS.md, which this task did not edit):
 - BSX bought at $104-107 (2025) and sold at $45.77 (2026-11-05): price drop or split not verified.
 
 ## Sources
-- portfolio/summary.md (commit 58caa59, 2026-11-15) for holdings, values and USD/INR.
+- portfolio/summary.md (version of 2026-11-15, 2026-11-15) for holdings, values and USD/INR.
 - `scripts.brokers.indmoney.trades()` and `python -m scripts.pnl indmoney`, run 2026-11-15.

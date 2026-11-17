@@ -19,4 +19,4 @@ Back to the index: [cash-and-fds](../cash-and-fds.md). Research only, not advice
 - Upstox, One State One RRB notification (26 RRBs into 12; ownership 50/35/15), 2025-04-08: https://upstox.com/news/business-news/latest-updates/govt-notifies-merger-of-26-regional-rural-banks-into-12-entities-under-one-state-one-rrb-policy/article-159203/
 - BusinessLine, "PNB sponsored RRBs in Punjab, Bihar consolidated" (headline only), 2019-01-07: https://www.thehindubusinessline.com/money-and-banking/pnb-sponsored-rrbs-in-punjab-bihar-consolidated/article25930340.ece
 - PSU Connect, PNB-PGB co-branded credit card, 2026-06-20 (headline): https://www.psuconnect.in/bank-news/pnb-and-punjab-gramin-bank-launch-pnb-pgb-veer-co-branded-credit-card
-- portfolio/summary.md (commit 0dd3a98 and later), portfolio/plan.md (rows 30-31, section 4), 2026-11-15.
+- portfolio/summary.md (version of 2026-11-15 and later), portfolio/plan.md (rows 30-31, section 4), 2026-11-15.

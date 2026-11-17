@@ -8,7 +8,7 @@ This is a proposal; you decide and place the trades.
 
 Written 2026-11-15 by `finance-research`; research only, not advice. Index: `employer-stock-decision/` (written by finance-main).
 Prices: 2026-11-13 close (QCOM $172.47, MSFT $523.88), USD/INR 94.0338 for the analysis; total Rs 4,20,97,035 at USD/INR 94.1997 (FBIL) incl. Punjab Gramin Bank
-estimates and EPF (`portfolio/summary.md`, 2026-11-15, commit 0dd3a98+; was Rs 2,97,58,520 when first written).
+estimates and EPF (`portfolio/summary.md`, 2026-11-15, version of 2026-11-15 and later; was Rs 2,97,58,520 when first written).
 
 ## 1. Valuation (USD; yfinance, fetched 2026-11-15; LTM = last 4 quarters)
 

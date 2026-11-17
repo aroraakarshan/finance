@@ -11,7 +11,7 @@ Back to the index: [cash-and-fds](../cash-and-fds.md). Research only, not advice
 
 | Fact | Detail | Source, date |
 |---|---|---|
-| Exposure | FDs about Rs 72 L + savings about Rs 10 L = Rs 82 L (user estimates; rates, maturities, statement pending) = 19.5% of Rs 4,20,97,879 (2026-11-16) | portfolio/summary.md, 2026-11-15 (commit 0dd3a98 and later) |
+| Exposure | FDs about Rs 72 L + savings about Rs 10 L = Rs 82 L (user estimates; rates, maturities, statement pending) = 19.5% of Rs 4,20,97,879 (2026-11-16) | portfolio/summary.md, 2026-11-15 (version of 2026-11-15 and later) |
 | After 16 Nov | No gold from PGB (dropped 16 Nov); Rs 5 L moved to HDFC savings, so savings about Rs 5,00,000; PGB total about Rs 77 L = 18.3% of Rs 4,20,97,879 | plan.md lines 13, 42; decisions.md row 11; computed. summary.md (2026-11-16) still shows PGB savings Rs 10 L |
 | DICGC | Covers RRBs; Rs 5 L per depositor per bank, principal plus interest; so about Rs 77 L (about Rs 72 L after the 16 Nov move) is uninsured | Outlook Money, 2026-11-11 |
 | Capacity rule | Accounts in the same capacity and rights are added up; joint accounts with holders in a different order, or a spouse's account in her own name, count as separate depositors (spouse: inference). Interest on money the user gives a spouse is taxed to the user (clubbing: finance-tax) | The Hindu, 2019-10-07 (old Rs 1 L limit; current DICGC wording nv) |

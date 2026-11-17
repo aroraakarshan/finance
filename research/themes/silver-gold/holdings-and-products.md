@@ -6,11 +6,11 @@
 - Silver ETFs traded 9-13% above iNAV in Oct 2025 and up to 11% below NAV in Jan-Feb 2026: use limit orders near iNAV.
 - Gold and gold-silver FoFs paused new money from 2026-10-16; ETFs stayed open.
 
-Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` commit 0dd3a98 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
+Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` version of 2026-11-15 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
 
 ## 1. What is held (AngelOne, as of 2026-11-08, from `portfolio/summary.md`)
 
-AngelOne = Rs 26,24,910 (6.2% of total). Total = Rs 4,20,97,035 (summary.md commit 0dd3a98 and later, 2026-11-15).
+AngelOne = Rs 26,24,910 (6.2% of total). Total = Rs 4,20,97,035 (summary.md version of 2026-11-15 and later, 2026-11-15).
 
 | Holding | Plan | Market value | % AngelOne | % total | Gain/loss (8 Nov) |
 |---|---|---|---|---|---|

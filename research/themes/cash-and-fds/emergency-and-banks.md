@@ -34,7 +34,7 @@ for gold), pending user decision (one combined choice for the unassigned money, 
 
 | Fact | Detail | Source, date |
 |---|---|---|
-| Exposure | about Rs 61,86,446 at HDFC Bank (savings about Rs 12,54,314 after 16 Nov: + Rs 5 L from PGB, - Rs 1 L to the emergency arbitrage; + 9 FDs Rs 49,32,132 incl. interest accrued) = 14.7% of total (Rs 4,20,97,879) | summary.md, 2026-11-16 (commit 1355470); plan.md line 42 |
+| Exposure | about Rs 61,86,446 at HDFC Bank (savings about Rs 12,54,314 after 16 Nov: + Rs 5 L from PGB, - Rs 1 L to the emergency arbitrage; + 9 FDs Rs 49,32,132 incl. interest accrued) = 14.7% of total (Rs 4,20,97,879) | summary.md, 2026-11-16 (version of 2026-11-16); plan.md line 42 |
 | DICGC cover | Rs 5 L per depositor per bank, principal plus interest; each bank covered separately. So ~Rs 56.9 L is uninsured | RBI post quoted by Outlook Money, 2026-11-11 |
 | Same "capacity" rule | All accounts held in the same capacity and rights are added up. Accounts as guardian of a minor, partner of a firm, or joint accounts with holders in a different order count separately. A spouse's account in her own name is a different depositor (inference, nv) | The Hindu, 2019-10-07 (written at the old Rs 1 L limit; dicgc.org.in needs JavaScript, current wording nv) |
 | HDFC Bank status | D-SIB (with SBI, ICICI Bank) since 2017; extra CET1 capital 0.40% of RWA. 2025 list, based on data at 31 Mar 2025; the 2026 list is not out (nv) | The Hindu, 2025-12-02 |

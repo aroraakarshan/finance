@@ -1,9 +1,9 @@
 # Silver and gold holdings: review and proposal
 
 Written 2026-11-15 by `finance-research`, updated 2026-11-15. Total-based shares as of
-`portfolio/summary.md` commit 0dd3a98 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin
+`portfolio/summary.md` version of 2026-11-15 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin
 Bank (PGB, estimates) savings and FDs, EPF (locked) and physical gold; US at 13 Nov close, USD/INR 94.1997; gold
-IBJA 13 Nov). Your decision 16 Nov (portfolio/decisions.md row 11, commit f2e4c6c): no extra gold, gold about 3.5% (band 3-6%), sell all silver incl. ABSL. Amounts from `portfolio/plan.md`. Research only, not advice; no orders placed. Details, figures and sources are in the parts below.
+IBJA 13 Nov). Your decision 16 Nov (portfolio/decisions.md row 11, version of 2026-11-16): no extra gold, gold about 3.5% (band 3-6%), sell all silver incl. ABSL. Amounts from `portfolio/plan.md`. Research only, not advice; no orders placed. Details, figures and sources are in the parts below.
 
 ## Summary
 - Metals now Rs 21,19,868 = 5.04% of total (Rs 4,20,97,035): physical gold Rs 12,90,192 (3.06%) + AngelOne Rs 8,29,676 (1.97%, 88% silver).

@@ -8,7 +8,7 @@
 - Priority: the MF book is 4.87% of total (Rs 4,20,97,035); QCOM + MSFT at 43.1% is the bigger risk.
 
 Written 2026-11-15 (third version). Holdings 2026-11-07 (AngelOne export), NAVs 2026-11-13, total
-from [portfolio/summary.md](../../portfolio/summary.md) commit 0dd3a98 and later (incl. HDFC and Punjab Gramin Bank savings and FDs, physical gold, EPF). Research and a proposal, not an order.
+from [portfolio/summary.md](../../portfolio/summary.md) version of 2026-11-15 and later (incl. HDFC and Punjab Gramin Bank savings and FDs, physical gold, EPF). Research and a proposal, not an order.
 
 ## Target after the switch (details: [plan.md](mutual-fund-overlap/plan.md) section 4)
 | Fund | Role | Weight of 4 | Now Rs | Buy Rs | After Rs | % of bucket | % AngelOne | % total |

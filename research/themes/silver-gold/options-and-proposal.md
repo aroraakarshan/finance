@@ -6,7 +6,7 @@
 - Money not going to gold (ABSL ~Rs 4.23 L + rest of the 3 products ~Rs 1,94,466) joins the unassigned HDFC savings (~Rs 10.5 L): pending user decision (one combined choice for the unassigned money).
 - Selling the 3 products books ST loss ~Rs 78,094 (2026-27 tax Rs 9,915 -> 0, finance-tax); ABSL adds about -Rs 34,226 at the 16 Nov close (finance-tax 17 Nov; offsets the QCOM sale 1 gain, saves about Rs 5,117).
 
-Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` commit 0dd3a98 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
+Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` version of 2026-11-15 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
 
 ## 6. Options
 
@@ -34,7 +34,7 @@ FIFO-trim point no longer applies). Exit ICICI Silver ETF (same exposure, bigges
 
 ## 7. Plan (your decision 16 Nov 2026, user via finance-main; total Rs 4,20,97,035)
 
-**Option F.** Total Rs 4,20,97,035 (summary.md commit 0dd3a98 and later; Rs 4,20,97,879 after commit f2e4c6c,
+**Option F.** Total Rs 4,20,97,035 (summary.md version of 2026-11-15 and later; Rs 4,20,97,879 after version of 2026-11-16,
 same percentages).
 - Gold: physical Rs 12,90,192 + GOLDIETF Rs 1,97,734 = **Rs 14,87,926 = 3.53% of total**; target about 3.5%,
   band 3-6%, no top-ups (none from savings, PGB or the maturing FDs). Silver: **0%**. Metals after = gold only.

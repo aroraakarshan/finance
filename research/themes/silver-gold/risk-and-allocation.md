@@ -6,7 +6,7 @@
 - Guideline (WGC): 7.5-15% gold of the whole portfolio; with physical gold metals are 5.04% of total, gold 3.30% (below range). Your decision 16 Nov: gold about 3.5% incl. physical (band 3-6%), silver 0%, no top-ups.
 - Judge on the total (QCOM+MSFT 43.1% of total), not on AngelOne alone (31.6%).
 
-Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` commit 0dd3a98 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
+Back to the index: [silver-gold](../silver-gold.md). Written 2026-11-15 by `finance-research`, updated 2026-11-15 (see "What changed"). Total-based shares as of `portfolio/summary.md` version of 2026-11-15 and later (2026-11-15; total Rs 4,20,97,035 incl. HDFC and Punjab Gramin Bank savings and FDs (PGB = estimates), EPF (locked) and physical gold; your decision 16 Nov: no extra gold (about 3.5%, band 3-6%), all silver sold; US at 13 Nov close, USD/INR 94.1997). Research only, not advice; no orders placed. "Checked" = date the source was read. "not verified" = could not confirm.
 
 ## 4. Risk: silver vs gold vs Nifty
 

@@ -9,7 +9,7 @@ Back to the index: [employer-stock-concentration.md](../employer-stock-concentra
 
 | Source | Used for | Access | Checked |
 |---|---|---|---|
-| `portfolio/summary.md` (commit 21a4c78), `portfolio/accounts.md` | Totals, accounts, employers | Repository | 2026-11-15 |
+| `portfolio/summary.md` (version of 2026-11-15), `portfolio/accounts.md` | Totals, accounts, employers | Repository | 2026-11-15 |
 | `scripts.value`, `etrade.transfers()`, `fidelity.holdings()`, `fidelity.purchases()` | Values, lots, ESPP terms | Own scripts | run 2026-11-15 |
 | `Salary/Microsoft/Stock/StockExport_2026-11-08.xlsx` | Unvested awards, vest schedule | Google Drive | 2026-11-15 |
 | yfinance (prices, `INR=X`, sectors via `info`) | Drawdowns, volatility, correlation, FX at acquisition | Python | 2026-11-15 |

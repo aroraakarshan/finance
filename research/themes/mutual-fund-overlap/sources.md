@@ -14,7 +14,7 @@ and a proposal, not an order. Nothing has been bought or sold.
 **Updated 2026-11-15 (second version).** What changed:
 - Denominators. Percentages are now shown on two bases: % of AngelOne (Rs 26,24,910, 8 Nov) and % of
   total investments (now Rs 2,26,82,726 = US $213,304 x 94.0338 + AngelOne; [portfolio/summary.md](../../../portfolio/summary.md),
-  commit 21a4c78). The first version assumed about $15k in US stocks; the real US figure is
+  version of 2026-11-15). The first version assumed about $15k in US stocks; the real US figure is
   about Rs 2.01 Cr = 88.4% of total, with QCOM + MSFT 79.8% (Rs 1,81,00,087 from
   [employer-stock-concentration/concentration.md](../employer-stock-concentration/concentration.md) over the new total).
   So the whole MF book is 78.1% of AngelOne but only 9.0% of total.
@@ -23,7 +23,7 @@ and a proposal, not an order. Nothing has been bought or sold.
   now known from AngelOne MF transaction files, so section 0's inference is superseded.
 - The fund choice is unchanged; its priority is lower (section 6).
 
-**Updated 2026-11-15 (third version, total base).** [portfolio/summary.md](../../../portfolio/summary.md) (commit 21a4c78) now counts
+**Updated 2026-11-15 (third version, total base).** [portfolio/summary.md](../../../portfolio/summary.md) (version of 2026-11-15) now counts
 INDmoney wallet cash ($4,574.05; INDmoney $14,653). New total Rs 2,26,82,726 (was Rs 2,23,19,002),
 US $213,304 (was $209,436) x 94.0338 = Rs 2,00,57,786 = 88.4% of total. AngelOne unchanged
 (Rs 26,24,910), so % of AngelOne is unchanged. Every "% of total" below is recomputed on the new total
@@ -44,7 +44,7 @@ of themselves (e.g. MF book 9.18% -> 9.04%, QCOM + MSFT 81.1% -> 79.8%). No conc
   within 0.07%; PPFAS exit load in [G] matches [P].
 - [TX] [tax/angelone-metals-and-mf-exits.md](../../../tax/angelone-metals-and-mf-exits.md) (finance-tax, 2026-11-15), cited by section number.
 
-**Updated 2026-11-15 (fourth version, bank added).** `portfolio/summary.md` commit 1a65a2e adds HDFC
+**Updated 2026-11-15 (fourth version, bank added).** `portfolio/summary.md` version of 2026-11-15 adds HDFC
 savings Rs 8,54,314 (13 Nov) and 9 FDs Rs 47,76,634 principal (6.25%, 10 May 2026 -> 10 May 2027, interest
 accrued not counted). New total Rs 2,83,13,674 (was Rs 2,26,82,726). AngelOne unchanged, so % of AngelOne
 and all decided amounts are unchanged. Every "% of total" is recomputed:
@@ -68,7 +68,7 @@ Rupee values for QCOM/MSFT, semis, single stocks and US tech are from
 Conclusions unchanged: the MF switch is still a tidy-up; QCOM + MSFT is still the main risk; metals stay
 below the 5-15% guideline. One new point: the arbitrage parking role is covered by the bank money (plan.md).
 
-**Updated 2026-11-15 (fifth version, gold and FD interest).** `portfolio/summary.md` commit 7d88cf8 adds
+**Updated 2026-11-15 (fifth version, gold and FD interest).** `portfolio/summary.md` version of 2026-11-15 adds
 physical gold Rs 12,90,192 (109.1 g, IBJA rate 2026-11-13) and FD accrued interest (FDs now Rs 49,31,288,
 2026-11-15). New total Rs 2,97,58,520 (was Rs 2,83,13,674). % of AngelOne and decided amounts unchanged.
 
@@ -92,7 +92,7 @@ One conclusion changes: metals including physical gold are 7.12% of total, insid
 (before: below it). The decision stays with silver-gold.md (your decision 16 Nov: all silver sold, no extra
 gold; metals after the plan = gold only, about 3.5% of total). MF conclusions unchanged.
 
-**Updated 2026-11-15 (sixth version, Punjab Gramin Bank and EPF).** `portfolio/summary.md` commit 0dd3a98
+**Updated 2026-11-15 (sixth version, Punjab Gramin Bank and EPF).** `portfolio/summary.md` version of 2026-11-15
 and later adds Punjab Gramin Bank FDs Rs 72,00,000 and savings Rs 10,00,000 (both user estimates,
 2026-11-15) and EPF Rs 41,03,127 (passbooks 2026-08-19, locked). USD/INR is now 94.1997 (was 94.0338), so
 US rupee values are recomputed from the dollar amounts. New total Rs 4,20,97,035 (was Rs 2,97,58,520).

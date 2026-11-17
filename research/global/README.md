@@ -12,7 +12,7 @@ Each note has its numbers with sources and dates; tax lines come from `finance-t
 - Skip: more US tech, Taiwan, the Korea index, themed ETFs, crypto, foreign bond ETFs and US-listed ETFs.
 - Keep IBKR as the only foreign broker; learn trading with Rs 2 L, paper trades first. Ranked list: section 3.
 
-User (portfolio/summary.md, 2026-11-15): Rs 4.21 Cr (incl. HDFC Rs 57.9 L, Punjab Gramin Bank about Rs 82 L (estimate), EPF Rs 41 L, physical gold Rs 12.9 L; commit 0dd3a98); QCOM about 29%, QCOM + MSFT about 43%;
+User (portfolio/summary.md, 2026-11-15): Rs 4.21 Cr (incl. HDFC Rs 57.9 L, Punjab Gramin Bank about Rs 82 L (estimate), EPF Rs 41 L, physical gold Rs 12.9 L; version of 2026-11-15); QCOM about 29%, QCOM + MSFT about 43%;
 AngelOne Rs 26 L (Indian MFs, silver being sold 18 Nov - 9 Dec); IBKR cash account; wants growth and to learn trading.
 
 ## 1. Map
