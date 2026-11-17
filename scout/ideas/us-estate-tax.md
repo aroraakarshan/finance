@@ -12,10 +12,10 @@
 
 ## Details
 - Situation: US shares $207,935 + broker cash $5,369 (IBKR $795, INDmoney wallet $4,574.05;
-  `portfolio/summary.md` (2026-11-15, commit 21a4c78)). US-situs amount $207,935-213,304 depending on whether broker cash counts; the
+  `portfolio/summary.md` (2026-11-15)). US-situs amount $207,935-213,304 depending on whether broker cash counts; the
   threshold is $60,000; tax at death about $46,057 (about Rs 43.3 L) on $213,304, $44,339 on shares
   only (`research/themes/us-estate-tax.md` s2, updated 2026-11-15 13:00; scout recomputed: match).
-  The HDFC savings, FDs and physical gold in `portfolio/summary.md` (2026-11-15, commit 7d88cf8) are Indian assets, so the US-situs amount and
+  The HDFC savings, FDs and physical gold in `portfolio/summary.md` (2026-11-15) are Indian assets, so the US-situs amount and
   the estate-tax estimate are unchanged (not recomputed); only their share of the larger total falls
   (US accounts 67.4% of Rs 2,97,58,520). Pro-rata debt deduction (s2) uses the worldwide estate, which
   is now larger: for finance-legal / research to restate, not computed here.
@@ -46,7 +46,7 @@
   policy; the family information sheet; an Indian lawyer about a will. Open legal items: broker death
   procedures and US probate (E5), not verified.
 - Cash note: the INDmoney wallet cash ($4,574.05, includes the GEV $706.03) is now in the US total
-  (`portfolio/summary.md` (2026-11-15, commit 21a4c78)); resolved. See idea 6.
+  (`portfolio/summary.md` (2026-11-15)); resolved. See idea 6.
 - Blocked inside this idea: direct US T-bills for idle USD. They are not US-situs, but LRS status is
   GREY for OTC debt (`research/themes/ibkr-global.md` s3.3) and the gain may be always short-term at
   35.88% (AF s.76; `tax/investment-types.md` s0 item 1, s7 items 1 and 10). The estate note lists it

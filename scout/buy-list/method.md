@@ -12,7 +12,7 @@ then the lower correlation.
 
 What is ranked: only ideas beyond `portfolio/plan.md` (the 9-fund split, SIPs and gold are your decisions; PPF declined 2026-11-16;
 they are scored below only as a check). No count limit on single stocks: plan.md and `portfolio/targets.md` set
-none; the bands decide (each single stock at most 10%; class bands in the buy list's band check). Size and funding: the rule in `portfolio/targets.md` "Money for new ideas" (ecab32c: 1% per idea including funds, 5% in all), applied in the buy list's "Money and timing". 
+none; the bands decide (each single stock at most 10%; class bands in the buy list's band check). Size and funding: the rule in `portfolio/targets.md` "Money for new ideas" (15 Nov 2026: 1% per idea including funds, 5% in all), applied in the buy list's "Money and timing". 
 
 | Check | 2 points | 1 point | 0 points |
 |---|---|---|---|

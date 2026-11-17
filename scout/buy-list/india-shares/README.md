@@ -3,7 +3,7 @@
 ## Summary
 - One option for the Rs 5.5 L (not decided; scout recommends the index fund instead, see [where to put it](where-to-put.md)). If you choose it, buy with limit orders, Rs 1 L each on the first day (about Rs 4.90 L): TCS, HDFC Bank, LIC, Bajaj Auto and Apollo Hospitals (research's 17 Nov picks); Rs 0.5 L waits for the first second step that triggers.
 - Money: Rs 5.5 L HDFC savings: not yet decided by the user; options compared in [where to put it](where-to-put.md). This basket is one option, not a plan.
-- Over the 5% limit for ideas by about Rs 4.2 L once this is added: your decision (see "Cap" below). Long-term buys under `portfolio/plan.md` and `targets.md`, not trades: the Rs 40k trading cap does not apply (`AGENTS.md`, 8ff598e).
+- Over the 5% limit for ideas by about Rs 4.2 L once this is added: your decision (see "Cap" below). Long-term buys under `portfolio/plan.md` and `targets.md`, not trades: the Rs 40k trading cap does not apply ([AGENTS.md](../../../AGENTS.md), as of 17 Nov 2026).
 - Famous names: TCS buy in steps (research: Rs 1 L now, Rs 2.5 L in all); Reliance WATCH (only at Rs 1,200 or less); Titan WATCH (only at Rs 4,300 or less after a clean Q3); Tata Motors CV WATCH (optional limit order at Rs 390 or less, below); Trent WATCH (Q3 same-store trigger); Tata Motors PV WATCH (only after JLR EBIT >= 3% and positive FCF); Eternal buy in steps below Rs 335 (optional limit order, below); Swiggy WATCH (buy only after Q3 FY27 proof); Tata Steel WATCH (buy only after UK
   break-even or a signed Dutch deal) ([blue chips](bluechips.md)).
 

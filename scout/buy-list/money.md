@@ -60,7 +60,7 @@ Raised since the last version (the 1% cap is now about Rs 4.2 L and the 5% about
 | Others | as before | unchanged | Keep about Rs 4.8 L free for the High-growth section; the foreign room of sale 1 is nearly used (6.70 of 7.0 L) |
 | Not moved up | 8309, PHARMABEES, REITs, 2359, REGN | still in Watch | No entry condition met: 8309 JPY 1,786.5 vs JPY 1,450-1,550; PHARMABEES Rs 29.32 vs Rs 24.9; 2359 waits for 18 Dec; REGN $955 vs about $840; REITs have no trigger |
 
-Note: `portfolio/targets.md` "Money for new ideas" (ecab32c, read 2026-11-15 18:15) already has the new caps (about
+Note: `portfolio/targets.md` "Money for new ideas" (read 2026-11-15 18:15) already has the new caps (about
 Rs 4.2 L and Rs 21 L) but its points 2 and 4 still say Indian ideas come only from the May 2027 FD money or part of
 the silver leftover; the PGB savings and PGB FD money are not written there yet. `plan.md` assigns the PGB savings
 only to gold (about Rs 6.17 L); the remaining about Rs 3.8 L is not assigned.

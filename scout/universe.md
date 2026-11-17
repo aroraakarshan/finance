@@ -29,7 +29,7 @@ re-derive their figures. New facts from the 2026-11-15 scan are in `scout/feed.m
 | [EST] | `research/themes/us-estate-tax.md` (2026-11-15, corrected for broker cash) |
 | [SG] / [MF] | `research/themes/silver-gold.md` / `mutual-fund-overlap.md` (2026-11-15; restated on the full total at 02:40 IST, see section 4 note) |
 | [HE] | `research/themes/holdings-events-2026-11.md` (2026-11-15) |
-| [PS] | `portfolio/summary.md` (2026-11-15, commit 7d88cf8, physical gold IBJA 13 Nov: US closes of 13 Nov, AngelOne of 8 Nov, MFs of 7 Nov, INDmoney wallet cash 15 Nov, HDFC savings 13 Nov, FDs 15 Nov) |
+| [PS] | `portfolio/summary.md` (2026-11-15, physical gold IBJA 13 Nov: US closes of 13 Nov, AngelOne of 8 Nov, MFs of 7 Nov, INDmoney wallet cash 15 Nov, HDFC savings 13 Nov, FDs 15 Nov) |
 | [F] | `scout/feed.md` entry of the given date |
 
 ## Where the user stands ([PS], 2026-11-15)

@@ -9,7 +9,7 @@
 - Bands: no band gets worse; US (46.5%) and safe money (44.9%) are above their bands and non-US is at 0% today, which the plan's sales fix.
 - All long-term buys (the Rs 2 L trading budget is separate). You decide and place every order.
 
-Funding rule: `portfolio/targets.md` section "Money for new ideas" (commit ecab32c; caps at the new total) and the new
+Funding rule: `portfolio/targets.md` section "Money for new ideas" (15 Nov 2026; caps at the new total) and the new
 Punjab Gramin Bank money relayed by finance-main on 2026-11-15 18:13 (not yet in `targets.md`; see "Money and timing").
 Written 2026-11-15 by `finance-scout` (helper `scout-buylist`); rewritten the same day after `portfolio/plan.md`,
 `portfolio/targets.md` and the market brief `news/market/2026-11-15.md`. Portfolio total Rs 4,20,97,035 on

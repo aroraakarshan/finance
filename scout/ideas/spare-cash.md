@@ -4,7 +4,7 @@
 - READY for the user's decision (cash management, not a trade): hold the 9 HDFC FDs to maturity on
   10 May 2027; keep a Rs 6 L buffer (Rs 2 L in HDFC savings + Rs 4 L in a liquid fund); plan the
   Rs 50.82 L that matures in May 2027 (no gold from this cash).
-- No PPF (user decision 2026-11-16, `portfolio/decisions.md` line 11; commit ecf2c5f): the Rs 1.5 L once kept for PPF is freed. About Rs 5.5 L of
+- No PPF (user decision 2026-11-16, `portfolio/decisions.md` line 11): the Rs 1.5 L once kept for PPF is freed. About Rs 5.5 L of
   HDFC savings is now unassigned (`STATUS.md` 2026-11-16), waiting for the user's choice between Indian
   ideas from that money and Kotak Arbitrage; the scout does not decide it.
 - Tax (`tax/FY2026-27/fd-and-advance-tax.md` s2-s4): FD interest is taxed as it accrues, about
@@ -15,7 +15,7 @@
   money; nothing from savings or FDs.
 
 ## Details
-- Situation (`portfolio/summary.md` (2026-11-15, commit 7d88cf8) for totals; FD terms from commit 1a65a2e): savings ****9102 Rs 8,54,313.55
+- Situation (`portfolio/summary.md` (2026-11-15) for totals; FD terms from the same file): savings ****9102 Rs 8,54,313.55
   (13 Nov); 9 FDs opened 2026-05-10 at 6.25%, cumulative, each Rs 5,30,737.10 -> Rs 5,64,693.10 on
   2027-05-10; total principal Rs 47,76,633.90, at maturity Rs 50,82,237.90. The summary now counts the
   FDs with interest accrued to 15 Nov: Rs 49,31,288. Savings + FDs Rs 57,85,602 = 19.4% of the
@@ -36,7 +36,7 @@
     (Rs 14,87,926); physical gold Rs 12,90,192 leaves a gap of Rs 1,97,734, met from the AngelOne
     silver-merge money (GOLDIETF 2 x Rs 98,867, Nov-Dec 2026); the other Rs 2,08,771 of the merge goes to
     Kotak Arbitrage (idea 3). The earlier Rs 7,54,865 gold tranche from the FDs now goes to arbitrage.
-  - PPF: declined (user decision 2026-11-16, `portfolio/decisions.md` line 11, commit ecf2c5f: the user does not want the 15-year lock; EPF is his
+  - PPF: declined (user decision 2026-11-16, `portfolio/decisions.md` line 11: the user does not want the 15-year lock; EPF is his
     locked safe money). Not proposed again.
   - Savings now (`STATUS.md` 2026-11-16): about Rs 12.5 L after Rs 5 L moved in from Punjab Gramin Bank:
     Rs 2 L emergency, Rs 5 L for the planned buys and Dec/Jan gold, about Rs 5.5 L unassigned (Indian

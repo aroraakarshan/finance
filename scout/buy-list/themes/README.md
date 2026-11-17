@@ -58,7 +58,7 @@ Room (5% cap, Rs L):
 | NU reservation (H3) | 1.5 (dollars, no sale slot set) | Research WATCH; late loans up 2 quarters. Frees 5% room, not cash in a given sale |
 | **Total** | **4.68** | Ideas: 20.75 - 4.68 + 3.46 (day 1) + 1.0 (KAP kept) = **Rs 20.53 L (4.88%)**; Rs 0.52 L of the 5% stays free |
 
-Old proposal (706916b): Rs 4.85 L in THEON 1.5, TECHNOE 1.5, KAP 0.85, YPSN 1.0 (ideas 20.92 L). Now: Rs 4.46 L in THEON 1.4,
+Old proposal (17 Nov 2026): Rs 4.85 L in THEON 1.5, TECHNOE 1.5, KAP 0.85, YPSN 1.0 (ideas 20.92 L). Now: Rs 4.46 L in THEON 1.4,
 Nabtesco 2.06, KAP 1.0 kept; TECHNOE out (research WATCH), YPSN a watch item.
 
 ### 2b. Dollars: the catch
@@ -99,7 +99,7 @@ take a sale slot. Details: [brk](brk.md).
 ## 4. Discrepancies to resolve
 | # | What | Owner |
 |---|---|---|
-| 1 | RESOLVED (research note committed 75e4b81). TECHNOE: BUY in [country](country.md) but SELL TO BOOK LOSS (1 share, -35%) in [AngelOne review](../india-shares/angelone-review.md). [Research](../../../research/stocks/TECHNOE.md) decided: sell the share, do not rebuy now, WATCH on its terms; now out of the slot | Resolved by finance-research; finance-tax books the loss |
+| 1 | RESOLVED (research note of 17 Nov 2026). TECHNOE: BUY in [country](country.md) but SELL TO BOOK LOSS (1 share, -35%) in [AngelOne review](../india-shares/angelone-review.md). [Research](../../../research/stocks/TECHNOE.md) decided: sell the share, do not rebuy now, WATCH on its terms; now out of the slot | Resolved by finance-research; finance-tax books the loss |
 | 2 | RESOLVED 17 Nov: Hitachi Energy India (POWERINDIA): research WATCH at or below Rs 25,000 on its Q3 FY27 terms ([POWERINDIA.md](../../../research/stocks/POWERINDIA.md)) | Resolved (finance-research, finance-scout) |
 | 3 | Siemens Energy: Yahoo's forward P/E (14.7 at EUR 128.98; 15.3 in [world](../growth/world.md)) is wrong; about 21.9 on the FY27 guide | finance-scout (fix world.md) |
 | 4 | Fanuc is on world.md's "not included" list for a falling forward EPS, which [health-robotics](health-robotics.md) finds is stale Yahoo data; research now rates Fanuc WATCH at JPY 4,800 | finance-scout (fix world.md) |

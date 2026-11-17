@@ -79,8 +79,8 @@
   value ranks. The value screen has no own-history check.
 - AngelOne holdings check: GESHIP, CHENNPETRO and MAHABANK are not held. AngelOne holds ICICIGI,
   DALBHARAT, FINPIPE, KPIL, TECHNOE, TIMETECHNO, AZAD, ELGIEQUIP, KIRLPNU, TEGA, SUZLON, ASTRAL and
-  ETFs SILVER, SILVERIETF (`portfolio/summary.md` "AngelOne stocks and ETFs (holdings list)", commit
-  fdf8efa; from the AngelOne Tax P&L FY2026-27 Open Holdings sheet to 2026-11-15).
+  ETFs SILVER, SILVERIETF (`portfolio/summary.md` "AngelOne stocks and ETFs (holdings list)", 2026-11-15;
+  from the AngelOne Tax P&L FY2026-27 Open Holdings sheet to 2026-11-15).
 - Index lists from Wikipedia may lag recent index changes.
 
 Back to [Stock screens 2026-11-15](screens-2026-11-15.md) and [Ideas](../ideas.md).

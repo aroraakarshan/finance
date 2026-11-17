@@ -24,7 +24,7 @@ discussion, not instructions: agents place no orders and the user decides. The t
 trading, never for real money. Real money needs the paper check (8 weeks, 20 trades) and a new user
 approval. Non-trading process items can be READY as before.
 
-Figures: `portfolio/summary.md` (2026-11-15, commit 7d88cf8; US closes of 13 Nov, USD/INR 94.0338; AngelOne of 8 Nov; HDFC
+Figures: `portfolio/summary.md` (2026-11-15; US closes of 13 Nov, USD/INR 94.0338; AngelOne of 8 Nov; HDFC
 savings 13 Nov; 9 FDs with interest accrued to 15 Nov; physical gold 109.1 g at the IBJA rate of 13 Nov).
 Total Rs 2,97,58,520 (was Rs 2,83,13,674 before physical gold and FD accrued interest were counted).
 Shares of the total: `research/themes/employer-stock-concentration.md` s1 (restated on this total; scout arithmetic matches).

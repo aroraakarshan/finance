@@ -2,7 +2,7 @@
 
 ## Summary
 - DECIDED by the user 2026-11-15 (`portfolio/decisions.md` lines 16-19; steps in `portfolio/plan.md`
-  sections 2-3, commit 6ee7a5e):
+  sections 2-3, 2026-11-15):
   - QCOM: keep about 134 shares (about 7% of the total); sell about 430 (432) in Nov-Dec 2026, after the
     CA confirms the lot choice and before QCOM's results (about 3 Feb 2027), and 195 in Apr 2027 (627 in all).
   - MSFT: sell each vested lot on its long-term date (2027-01-01 to 2028-09-01) and every new vest at
@@ -20,7 +20,7 @@
 - QCOM and MSFT are 60.8% of the Rs 2,97,58,520 total today (`research/themes/employer-stock-concentration.md` s1).
 
 ## Details
-- Situation (`portfolio/summary.md` (2026-11-15, commit 7d88cf8); shares: `research/themes/employer-stock-concentration.md` s1, restated on Rs 2,97,58,520; scout
+- Situation (`portfolio/summary.md` (2026-11-15); shares: `research/themes/employer-stock-concentration.md` s1, restated on Rs 2,97,58,520; scout
   arithmetic matches): QCOM $131,250 = 41.5%, MSFT $61,235 = 19.3%, together 60.8% of the total;
   semiconductors (QCOM, AVGO, NVDA) 43.0%; US tech (QCOM, MSFT, AVGO, NVDA, CRWD, IONQ, SHLS, GOOGL)
   64.0%; US single stocks 65.7%. Of market investments only (without HDFC bank cash and physical gold):

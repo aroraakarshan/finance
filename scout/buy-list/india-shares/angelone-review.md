@@ -48,7 +48,7 @@ sale charges; ST/LT if sold on 18 Nov. Metrics: see Data notes.
   charges (Rs 28,874 with TIMETECHNO).
 - Prices: tax figures use the 13 Nov close (Rs 23,508), this table the 16 Nov close (Rs 23,419). finance-tax compares its
   13 Nov value without TIMETECHNO (Rs 22,939) with finance-main's Rs 23,419, which includes it; on the same basis they agree.
-- This note was first committed at 03:04 on 17 Nov (6becca4) with tax "pending", before the tax figures.
+- This note was first committed at 03:04 on 17 Nov 2026 with tax "pending", before the tax figures.
 
 ## Data notes
 - ASTRAL, ICICIGI, SUZLON: Nifty 200 [screen](screen.md) (16 Nov). ASTRAL rank 84 of 129 passing; ICICIGI rank 103;

@@ -11,7 +11,7 @@
   total incl. physical gold; nothing from savings or FDs. The user places the orders.
 
 ## Details
-- Situation (`portfolio/summary.md` (2026-11-15, commit 7d88cf8)): AngelOne Rs 26,24,910 = 8.8% of the Rs 2,97,58,520 total; 15 MFs
+- Situation (`portfolio/summary.md` (2026-11-15)): AngelOne Rs 26,24,910 = 8.8% of the Rs 2,97,58,520 total; 15 MFs
   Rs 20,49,769 with overlap; AngelOne silver and gold Rs 8,29,676 = 31.6% of AngelOne, 2.8% of the total
   (scout). Physical gold (109.1 g, IBJA rate 13 Nov) Rs 12,90,192 = 4.3% of the total, now in the summary.
   Gold target: 5% of the total incl. physical gold (user decision 2026-11-15) = Rs 14,87,926; gap after

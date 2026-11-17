@@ -7,7 +7,7 @@
   research skip line of about Rs 120: SKIP.
 - Banks are raising FD rates after the repo hike (8% taxable = about 5.1% after tax; PPF 7.1% tax-free).
 - Holdings: NVDA CEO resigned; SHLS-Array merger expected to close Q1 2027; IONQ resale prospectus.
-- 2026-11-16 user decision: no PPF (ecf2c5f).
+- 2026-11-16 user decision: no PPF ([decisions](../portfolio/decisions.md)).
 
 ## How to read this feed
 One entry per finding, newest first (by source date). Written by `finance-scout`. Facts only; no
@@ -40,7 +40,7 @@ fee-schedule change log (none published).
 | 11-30 | MSFT RSU vest, 3 shares gross; MSCI review effective after close (research-reported) | [2026-11-08](feed/2026-11.md#2026-11-08---holding-msft-vests-this-month) |
 | 2026-12-18 | US OMB list of "biotech companies of concern" under the BIOSECURE Act due; decides the WuXi AppTec (2359) watch | `research/stocks/2359.md` |
 | 2027-03-15 | Advance tax 100% instalment: about Rs 15,000 more due (Rs 1,50,000 paid 9 Nov covers 15 Dec; about Rs 71,000 more if the PGB FDs still run) | `tax/FY2026-27/fd-and-advance-tax.md` s5 |
-| 2027-05-10 | All 9 HDFC FDs mature: Rs 47,76,634 principal, Rs 50,82,238 at maturity (6.25%) | `portfolio/summary.md` (2026-11-15, commit 1a65a2e); [idea 6](ideas/spare-cash.md) |
+| 2027-05-10 | All 9 HDFC FDs mature: Rs 47,76,634 principal, Rs 50,82,238 at maturity (6.25%) | `portfolio/summary.md` (2026-11-15); [idea 6](ideas/spare-cash.md) |
 
 ## 2026-11-16 - India IPO: Mahanadi Coalfields price band Rs 129-136 (scout verdict SKIP)
 - Price band Rs 129-136 (face value Rs 2); lot 110 shares; minimum Rs 14,960 at Rs 136 (Rs 14,190 at

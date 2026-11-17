@@ -53,7 +53,7 @@ to fold in.
 ## Discrepancies for finance-main (and owners)
 1. Stale denominator in research: mostly fixed. The first versions of `research/themes/silver-gold.md`
    and `research/themes/mutual-fund-overlap.md` sized the portfolio with about $15k of US stock; both
-   were restated on the Rs 2,23,19,002 total in commit a0cd631 (2026-11-15 02:40 IST): metals 3.7% of
+   were restated on the Rs 2,23,19,002 total on 2026-11-15 (02:40 IST): metals 3.7% of
    the total (8,29,676 / 2,23,19,002), 31.6% of AngelOne only, Rs 5 L cut withdrawn. One stale line
    remains: `mutual-fund-overlap.md` s1 Notes (PPFAS foreign stocks "overlaps your ~$15k US stocks";
    US accounts are $209,436). Owner: finance-research. `STATUS.md` still lists the issue as open.

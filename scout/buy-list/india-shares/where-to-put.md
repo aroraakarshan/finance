@@ -16,7 +16,7 @@ Rs 4,20,91,872), `portfolio/summary.md` (16 Nov 2026, Rs 4,20,97,879), `portfoli
 - Non-US equity 0% (band 30-45%): about Rs 70 L of QCOM sale money goes into the 9 Irish funds in Nov-Dec 2026 and
   about Rs 35 L more in Apr 2027 (`plan.md` section 2), so this gap closes without this money.
 - US equity 46.5% (band 18-32%) and safe money 44.9% (band 15-25%; EPF counted): both above their bands.
-- Rule 4 (`targets.md` "Money for new ideas", 7f500b4; 86851b3 was reverted in 412735b): before May 2027 an Indian
+- Rule 4 (`targets.md` "Money for new ideas", [targets](../../../portfolio/targets.md) of 17 Nov 2026; an earlier 17 Nov change was reverted the same day): before May 2027 an Indian
   idea can only use part of the unassigned money (about Rs 16.6 L: HDFC savings Rs 10.5 L, ABSL Silver ETF money
   Rs 4.2 L, rest of the silver money Rs 1.9 L), "pending your decision", or wait. `plan.md` row "ABSL Silver ETF
   money ... Not assigned yet: HDFC savings, pending your one decision".
