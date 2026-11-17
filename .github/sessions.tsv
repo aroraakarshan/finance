@@ -1,0 +1,11 @@
+workspace	finance
+session	tab	role
+finance-main	coordinator	Main and coordinator (only it starts sessions): talks to the user, downloads statements, updates the portfolio, hands work to the others, commits; owns portfolio/, scripts/, STATUS.md, AGENTS.md, MAP.md, roles/, .github/
+finance-scout	discover	Investment universe, weekly scans, screens and ranked ideas in all 5 markets; owns scout/
+finance-news	discover	Daily news, filings, results and analyst changes, sentiment and dated catalysts per stock; owns news/
+finance-research	analyse	Stock and market research, scored sources; owns research/
+finance-trader	analyse	Trade plans, strategy backtests, paper trades first, never places orders; owns trading/ (own stage only in trading/watchlist.md)
+finance-tax	decide	Capital gains, Schedule FA, foreign tax credit, ITR figures, tax line in each trade plan; owns tax/
+finance-journal	decide	Logs paper and real trades, checks them against the trading rules, monthly reviews, signal scores; owns journal/
+finance-legal	decide	Succession and compliance, India first: wills, nominations, heirs, FEMA/LRS, Schedule FA checklists, questions for a lawyer/CA (not legal advice); owns legal/
+finance-income	earn	Ways to earn more besides investing: pay at work, using his expertise outside the job (within employer rules), side income and cost cuts; owns income/

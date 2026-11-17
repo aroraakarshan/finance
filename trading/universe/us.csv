@@ -1,0 +1,919 @@
+symbol,name,source,sector,close,avg_volume,avg_value,history_start,included,reason
+MMM,3M,S&P 500,Industrials,183.66,3366624,576715183,2010-01-04,yes,
+AOS,A. O. Smith,S&P 500,Industrials,64.24,1624612,97110190,2010-01-04,yes,
+ABT,Abbott Laboratories,S&P 500,Health Care,108.52,9277570,959654314,2010-01-04,yes,
+ABBV,AbbVie,S&P 500,Health Care,295.03,4950200,1364580529,2013-01-02,yes,
+ACN,Accenture,S&P 500,Information Technology,250.49,6448664,1390831266,2010-01-04,yes,
+ADBE,Adobe Inc.,S&P 500+Nasdaq 100,Information Technology,243.08,4710568,1165160234,2010-01-04,yes,
+AMD,Advanced Micro Devices,S&P 500+Nasdaq 100,Information Technology,534.06,26969938,14613662045,2010-01-04,yes,
+AES,AES Corporation,S&P 500,Utilities,14.91,8649698,127718051,2010-01-04,yes,
+AFL,Aflac,S&P 500,Financials,127.61,1832782,216963666,2010-01-04,yes,
+A,Agilent Technologies,S&P 500,Health Care,173.96,2217598,372991113,2010-01-04,yes,
+APD,Air Products,S&P 500,Materials,316.53,1089924,320922376,2010-01-04,yes,
+ABNB,Airbnb,S&P 500+Nasdaq 100,Consumer Discretionary,186.78,4575440,774148642,2020-12-10,yes,
+AKAM,Akamai Technologies,S&P 500,Information Technology,85.4,6130218,599320226,2010-01-04,yes,
+ALB,Albemarle Corporation,S&P 500,Materials,93.53,2538712,264636507,2010-01-04,yes,
+ARE,Alexandria Real Estate Equities,S&P 500,Real Estate,43.84,2274208,103862553,2010-01-04,yes,
+ALGN,Align Technology,S&P 500,Health Care,168.32,1045718,159982355,2010-01-04,yes,
+ALLE,Allegion,S&P 500,Industrials,191.98,1105210,182702566,2013-11-18,yes,
+LNT,Alliant Energy,S&P 500,Utilities,73.43,2880908,195037565,2010-01-04,yes,
+ALL,Allstate,S&P 500,Financials,267.64,2005952,487923958,2010-01-04,yes,
+GOOGL,Alphabet Inc. (Class A),S&P 500+Nasdaq 100,Communication Services,295.77,31791730,10181340183,2010-01-04,yes,
+GOOG,Alphabet Inc. (Class C),S&P 500+Nasdaq 100,Communication Services,292.52,20733138,6577900490,2010-01-04,yes,
+MO,Altria,S&P 500,Consumer Staples,78.64,8161110,590515261,2010-01-04,yes,
+AMZN,Amazon,S&P 500+Nasdaq 100,Consumer Discretionary,266.66,40980858,10431245721,2010-01-04,yes,
+AMCR,Amcor,S&P 500,Materials,43.8,3442454,151778549,2012-05-15,yes,
+AEE,Ameren,S&P 500,Utilities,114.77,1904522,200657947,2010-01-04,yes,
+AEP,American Electric Power,S&P 500+Nasdaq 100,Utilities,129.18,3896918,481206833,2010-01-04,yes,
+AXP,American Express,S&P 500,Financials,320.6,3123806,981231886,2010-01-04,yes,
+AIG,American International Group,S&P 500,Financials,82.86,4487442,348409037,2010-01-04,yes,
+AMT,American Tower,S&P 500,Real Estate,191.64,3066710,548148130,2010-01-04,yes,
+AWK,American Water Works,S&P 500,Utilities,149.6,1970414,271003204,2010-01-04,yes,
+AMP,Ameriprise Financial,S&P 500,Financials,519.43,612040,311646956,2010-01-04,no,50d avg volume under 1M
+AME,Ametek,S&P 500,Industrials,242.11,1506574,365489475,2010-01-04,yes,
+AMGN,Amgen,S&P 500+Nasdaq 100,Health Care,465.67,2942028,1244854433,2010-01-04,yes,
+APH,Amphenol,S&P 500,Information Technology,78.23,13294718,1070864308,2010-01-04,yes,
+ADI,Analog Devices,S&P 500+Nasdaq 100,Information Technology,397.97,3885426,1526902165,2010-01-04,yes,
+AON,Aon plc,S&P 500,Financials,338.31,1825212,543187269,2010-01-04,yes,
+APA,APA Corporation,S&P 500,Energy,48.44,5789880,265670334,2010-01-04,yes,
+APO,Apollo Global Management,S&P 500,Financials,123.47,3466112,411782110,2011-03-30,yes,
+AAPL,Apple Inc.,S&P 500+Nasdaq 100,Information Technology,356.27,43513844,14737937484,2010-01-04,yes,
+AMAT,Applied Materials,S&P 500+Nasdaq 100,Information Technology,370.5,7292358,3105857942,2010-01-04,yes,
+APP,AppLovin,S&P 500+Nasdaq 100,Communication Services,409.1,5306248,1634987351,2021-04-15,yes,
+APTV,Aptiv,S&P 500,Consumer Discretionary,38.75,3373868,146533463,2011-11-17,yes,
+ACGL,Arch Capital Group,S&P 500,Financials,109.61,2994480,294830262,2010-01-04,yes,
+ADM,Archer Daniels Midland,S&P 500,Consumer Staples,72.9,3493804,277788251,2010-01-04,yes,
+ARES,Ares Management,S&P 500,Financials,134.61,2259442,280602658,2014-05-02,yes,
+ANET,Arista Networks,S&P 500,Information Technology,197.29,6552958,1240489249,2014-06-06,yes,
+AJG,Arthur J. Gallagher & Co.,S&P 500,Financials,282.94,1588298,404197945,2010-01-04,yes,
+AIZ,Assurant,S&P 500,Financials,322.11,394810,112672090,2010-01-04,no,50d avg volume under 1M
+T,AT&T,S&P 500,Communication Services,22.18,46581762,1078621397,2010-01-04,yes,
+ATO,Atmos Energy,S&P 500,Utilities,176.3,1050214,173642211,2010-01-04,yes,
+ADSK,Autodesk,S&P 500+Nasdaq 100,Information Technology,264.42,2070986,483681377,2010-01-04,yes,
+ADP,Automatic Data Processing,S&P 500+Nasdaq 100,Industrials,309.93,2192978,619245942,2010-01-04,yes,
+AZO,AutoZone,S&P 500,Consumer Discretionary,3259.7,266618,790545568,2010-01-04,no,50d avg volume under 1M
+AVY,Avery Dennison,S&P 500,Materials,188.03,724462,127179040,2010-01-04,no,50d avg volume under 1M
+AXON,Axon Enterprise,S&P 500+Nasdaq 100,Industrials,315.43,1263458,502782667,2010-01-04,yes,
+BKR,Baker Hughes,S&P 500+Nasdaq 100,Energy,49.44,8505430,464553948,2010-01-04,yes,
+BALL,Ball Corporation,S&P 500,Materials,65.47,2304908,142571997,2010-01-04,yes,
+BAC,Bank of America,S&P 500,Financials,51.02,39144430,2111380970,2010-01-04,yes,
+BAX,Baxter International,S&P 500,Health Care,25.81,6896402,168165097,2010-01-04,yes,
+BDX,Becton Dickinson,S&P 500,Health Care,218.03,1845636,354330721,2010-01-04,yes,
+BRK-B,Berkshire Hathaway,S&P 500,Financials,592.94,4782466,2546591701,2010-01-04,yes,
+BBY,Best Buy,S&P 500,Consumer Discretionary,104.07,3059256,285466404,2010-01-04,yes,
+TECH,Bio-Techne,S&P 500,Health Care,72.8,2959642,214429253,2010-01-04,yes,
+BIIB,Biogen,S&P 500,Health Care,253.4,1176748,275837218,2010-01-04,yes,
+BLK,BlackRock,S&P 500,Financials,1222.91,613372,685278391,2010-01-04,no,50d avg volume under 1M
+BX,Blackstone Inc.,S&P 500,Financials,120.19,5096194,594022308,2010-01-04,yes,
+XYZ,"Block, Inc.",S&P 500,Financials,84.58,4991528,394707050,2015-11-19,yes,
+BE,Bloom Energy,S&P 500,Industrials,191.99,17036364,4083863155,2018-07-25,yes,
+BNY,BNY Mellon,S&P 500,Financials,153.41,3701758,548569851,2010-01-04,yes,
+BA,Boeing,S&P 500,Industrials,171.5,8870934,1641586809,2010-01-04,yes,
+BKNG,Booking Holdings,S&P 500+Nasdaq 100,Consumer Discretionary,159.58,8036006,1310218981,2010-01-04,yes,
+BSX,Boston Scientific,S&P 500,Health Care,44.34,19555368,858216369,2010-01-04,yes,
+BMY,Bristol Myers Squibb,S&P 500,Health Care,63.43,11714616,719055268,2010-01-04,yes,
+AVGO,Broadcom,S&P 500+Nasdaq 100,Information Technology,347.01,25342516,8714125561,2010-01-04,yes,
+BR,Broadridge Financial Solutions,S&P 500,Industrials,192.45,993218,173312356,2010-01-04,no,50d avg volume under 1M
+BRO,Brown & Brown,S&P 500,Financials,71.93,2489888,166394547,2010-01-04,yes,
+BF-B,Brown-Forman,S&P 500,Consumer Staples,30.65,2587476,71746375,2010-01-04,yes,
+BG,Bunge Global,S&P 500,Consumer Staples,101.65,1797918,193441862,2010-01-04,yes,
+BXP,"BXP, Inc.",S&P 500,Real Estate,63.78,1444584,89605062,2010-01-04,yes,
+CHRW,C.H. Robinson,S&P 500,Industrials,134.46,1868482,262520403,2010-01-04,yes,
+CDNS,Cadence Design Systems,S&P 500+Nasdaq 100,Information Technology,323.01,2480646,789567715,2010-01-04,yes,
+CPT,Camden Property Trust,S&P 500,Real Estate,99.15,1035460,102882286,2010-01-04,yes,
+COF,Capital One,S&P 500,Financials,195.08,4008860,808047361,2010-01-04,yes,
+CAH,Cardinal Health,S&P 500,Health Care,281.1,1769658,430180178,2010-01-04,yes,
+CCL,Carnival Corporation,S&P 500,Consumer Discretionary,29.23,22040956,561835865,2010-01-04,yes,
+CARR,Carrier Global,S&P 500,Industrials,54.2,6484422,357239449,2020-03-19,yes,
+CVNA,Carvana,S&P 500,Consumer Discretionary,72.37,9162326,604433114,2017-04-28,yes,
+CASY,Casey's,S&P 500,Consumer Staples,712.08,596710,384043580,2010-01-04,no,50d avg volume under 1M
+CAT,Caterpillar Inc.,S&P 500,Industrials,600.2,3030168,2164670030,2010-01-04,yes,
+CBOE,Cboe Global Markets,S&P 500,Financials,375.42,1209630,369704441,2010-06-15,yes,
+CBRE,CBRE Group,S&P 500,Real Estate,133.12,2312910,308197652,2010-01-04,yes,
+CDW,CDW Corporation,S&P 500,Information Technology,171.65,1588904,240542978,2013-06-27,yes,
+COR,Cencora,S&P 500,Health Care,359.03,1322232,432612365,2010-01-04,yes,
+CNC,Centene Corporation,S&P 500,Health Care,71.27,5057746,341669068,2010-01-04,yes,
+CNP,CenterPoint Energy,S&P 500,Utilities,41.19,7596700,301367514,2010-01-04,yes,
+CF,CF Industries,S&P 500,Materials,125.09,2405518,291370745,2010-01-04,yes,
+CRL,Charles River Laboratories,S&P 500,Health Care,337.97,1108292,348883371,2010-01-04,yes,
+SCHW,Charles Schwab Corporation,S&P 500,Financials,92.98,8663370,833688279,2010-01-04,yes,
+CHTR,Charter Communications,S&P 500,Communication Services,138.39,3033062,360728251,2010-01-05,yes,
+CVX,Chevron Corporation,S&P 500,Energy,219.89,8699744,1871544197,2010-01-04,yes,
+CMG,Chipotle Mexican Grill,S&P 500,Consumer Discretionary,35.28,19019530,609268827,2010-01-04,yes,
+CB,Chubb Limited,S&P 500,Financials,375.74,1575032,548846991,2010-01-04,yes,
+CHD,Church & Dwight,S&P 500,Consumer Staples,113.0,1949500,197490228,2010-01-04,yes,
+CIEN,Ciena,S&P 500,Information Technology,280.54,3046072,1041811807,2010-01-04,yes,
+CI,Cigna,S&P 500,Health Care,297.0,1621022,465980570,2010-01-04,yes,
+CINF,Cincinnati Financial,S&P 500,Financials,189.65,672308,116184383,2010-01-04,no,50d avg volume under 1M
+CTAS,Cintas,S&P 500+Nasdaq 100,Industrials,226.24,1974896,411240462,2010-01-04,yes,
+CSCO,Cisco,S&P 500+Nasdaq 100,Information Technology,95.64,18625306,1987287171,2010-01-04,yes,
+C,Citigroup,S&P 500,Financials,124.01,9630646,1223438707,2010-01-04,yes,
+CFG,Citizens Financial Group,S&P 500,Financials,65.26,4352280,281915650,2014-09-24,yes,
+CLX,Clorox,S&P 500,Consumer Staples,109.46,3201894,287421652,2010-01-04,yes,
+CME,CME Group,S&P 500,Financials,317.97,1910174,547852591,2010-01-04,yes,
+CMS,CMS Energy,S&P 500,Utilities,70.38,4026662,267881611,2010-01-04,yes,
+KO,Coca-Cola Company (The),S&P 500,Consumer Staples,99.25,16919672,1540535984,2010-01-04,yes,
+CTSH,Cognizant,S&P 500,Information Technology,63.01,6444176,401363323,2010-01-04,yes,
+COHR,Coherent Corp.,S&P 500,Information Technology,218.15,8099220,2081710690,2010-01-04,yes,
+COIN,Coinbase,S&P 500,Financials,127.65,8831164,1505886477,2021-04-14,yes,
+CL,Colgate-Palmolive,S&P 500,Consumer Staples,99.67,5142864,465887607,2010-01-04,yes,
+CMCSA,Comcast,S&P 500+Nasdaq 100,Communication Services,25.16,31341478,711618853,2010-01-04,yes,
+FIX,Comfort Systems USA,S&P 500,Industrials,1112.5,525142,710991745,2010-01-04,no,50d avg volume under 1M
+COP,ConocoPhillips,S&P 500,Energy,142.28,6718248,921009385,2010-01-04,yes,
+ED,Consolidated Edison,S&P 500,Utilities,121.0,2274136,251137061,2010-01-04,yes,
+STZ,Constellation Brands,S&P 500,Consumer Staples,145.61,2477622,312826595,2010-01-04,yes,
+CEG,Constellation Energy,S&P 500+Nasdaq 100,Utilities,280.2,3795972,1026472482,2022-01-19,yes,
+COO,Cooper Companies (The),S&P 500,Health Care,62.65,4070974,233766102,2010-01-04,yes,
+CPRT,Copart,S&P 500+Nasdaq 100,Industrials,31.83,11073532,324920954,2010-01-04,yes,
+GLW,Corning Inc.,S&P 500,Information Technology,114.08,9234760,1275556856,2010-01-04,yes,
+CPAY,Corpay,S&P 500,Financials,462.22,502512,206763181,2010-12-15,no,50d avg volume under 1M
+CSGP,CoStar Group,S&P 500,Real Estate,30.96,6051752,181828244,2010-01-04,yes,
+COST,Costco,S&P 500+Nasdaq 100,Consumer Staples,1106.21,2318814,2243321472,2010-01-04,yes,
+CRH,CRH plc,S&P 500,Materials,93.16,5489520,478791700,2010-01-04,yes,
+CRWD,CrowdStrike,S&P 500+Nasdaq 100,Information Technology,226.61,9597304,2340510100,2019-06-12,yes,
+CCI,Crown Castle,S&P 500,Real Estate,90.83,4724634,376139695,2010-01-04,yes,
+CSX,CSX Corporation,S&P 500+Nasdaq 100,Industrials,52.05,11064256,543882983,2010-01-04,yes,
+CMI,Cummins,S&P 500,Industrials,452.18,1290480,657429881,2010-01-04,yes,
+CVS,CVS Health,S&P 500,Health Care,89.35,9659492,849766308,2010-01-04,yes,
+DHR,Danaher Corporation,S&P 500,Health Care,233.02,4239770,942551009,2010-01-04,yes,
+DRI,Darden Restaurants,S&P 500,Consumer Discretionary,228.74,1122768,236019586,2010-01-04,yes,
+DDOG,Datadog,S&P 500+Nasdaq 100,Information Technology,184.16,3667026,856981343,2019-09-19,yes,
+DVA,DaVita,S&P 500,Health Care,174.56,752754,137803784,2010-01-04,no,50d avg volume under 1M
+DECK,Deckers Brands,S&P 500,Consumer Discretionary,86.82,3418952,281739735,2010-01-04,yes,
+DE,Deere & Company,S&P 500,Industrials,673.54,1188122,794811909,2010-01-04,yes,
+DELL,Dell Technologies,S&P 500,Information Technology,344.53,7753410,3788135954,2016-08-17,yes,
+DAL,Delta Air Lines,S&P 500,Industrials,86.25,7103934,581039699,2010-01-04,yes,
+DVN,Devon Energy,S&P 500,Energy,46.58,11245366,539463757,2010-01-04,yes,
+DXCM,Dexcom,S&P 500+Nasdaq 100,Health Care,83.33,4384210,368422987,2010-01-04,yes,
+FANG,Diamondback Energy,S&P 500+Nasdaq 100,Energy,184.93,2581088,494917265,2012-10-12,yes,
+DLR,Digital Realty,S&P 500,Real Estate,179.99,2267626,407083662,2010-01-04,yes,
+DG,Dollar General,S&P 500,Consumer Staples,134.14,2242028,287096944,2010-01-04,yes,
+DLTR,Dollar Tree,S&P 500,Consumer Staples,138.08,2406902,295228716,2010-01-04,yes,
+D,Dominion Energy,S&P 500,Utilities,67.66,4732002,304069255,2010-01-04,yes,
+DPZ,Domino's,S&P 500,Consumer Discretionary,341.72,780674,242182414,2010-01-04,no,50d avg volume under 1M
+DASH,DoorDash,S&P 500+Nasdaq 100,Consumer Discretionary,171.51,4654680,866343811,2020-12-09,yes,
+DOV,Dover Corporation,S&P 500,Industrials,209.95,1286362,253740274,2010-01-04,yes,
+DOW,Dow Inc.,S&P 500,Materials,33.04,8692708,263043567,2019-03-20,yes,
+DHI,D. R. Horton,S&P 500,Consumer Discretionary,145.55,3194230,452248319,2010-01-04,yes,
+DTE,DTE Energy,S&P 500,Utilities,139.72,1653108,214113016,2010-01-04,yes,
+DUK,Duke Energy,S&P 500,Utilities,129.16,4259064,511682570,2010-01-04,yes,
+DD,DuPont,S&P 500,Industrials,153.78,1074238,146974889,2010-01-04,yes,
+ETN,Eaton Corporation,S&P 500,Industrials,352.97,2589718,1013984725,2010-01-04,yes,
+EBAY,eBay Inc.,S&P 500,Consumer Discretionary,120.92,4421780,504652075,2010-01-04,yes,
+ECHO,EchoStar,S&P 500,Communication Services,100.0,4139938,389293579,2010-01-04,yes,
+ECL,Ecolab,S&P 500,Materials,309.27,1401868,404008744,2010-01-04,yes,
+EIX,Edison International,S&P 500,Utilities,60.18,4464960,248221370,2010-01-04,yes,
+EW,Edwards Lifesciences,S&P 500,Health Care,107.15,4134826,378415435,2010-01-04,yes,
+ELV,Elevance Health,S&P 500,Health Care,429.69,1311020,546358573,2010-01-04,yes,
+EME,Emcor,S&P 500,Industrials,659.36,432962,306721392,2010-01-04,no,50d avg volume under 1M
+EMR,Emerson Electric,S&P 500,Industrials,166.38,2722968,434054216,2010-01-04,yes,
+ETR,Entergy,S&P 500,Utilities,111.15,3078456,322878064,2010-01-04,yes,
+EOG,EOG Resources,S&P 500,Energy,158.32,3176830,472895687,2010-01-04,yes,
+EQT,EQT Corporation,S&P 500,Energy,52.81,8301608,437145730,2010-01-04,yes,
+EFX,Equifax,S&P 500,Industrials,188.12,1896864,312930415,2010-01-04,yes,
+EQIX,Equinix,S&P 500,Real Estate,1053.79,579794,590282899,2010-01-04,no,50d avg volume under 1M
+ERIE,Erie Indemnity,S&P 500,Financials,274.73,198332,48661673,2010-01-04,no,50d avg volume under 1M
+ESS,Essex Property Trust,S&P 500,Real Estate,273.32,547656,148042023,2010-01-04,no,50d avg volume under 1M
+EL,Estee Lauder Companies (The),S&P 500,Consumer Staples,111.75,3296478,337926552,2010-01-04,yes,
+EG,Everest Group,S&P 500,Financials,427.19,425702,165160311,2010-01-04,no,50d avg volume under 1M
+EVRG,Evergy,S&P 500,Utilities,88.78,2350900,194523902,2010-01-04,yes,
+P,Everpure,S&P 500,Information Technology,107.99,5210326,615705899,2015-10-06,yes,
+ES,Eversource Energy,S&P 500,Utilities,71.73,2914610,196096524,2010-01-04,yes,
+EXC,Exelon,S&P 500+Nasdaq 100,Utilities,46.25,8128582,351984899,2010-01-04,yes,
+EXE,Expand Energy,S&P 500,Energy,88.53,3324672,296656731,2021-02-10,yes,
+EXPE,Expedia Group,S&P 500,Consumer Discretionary,257.97,2141076,590567210,2010-01-04,yes,
+EXPD,Expeditors International,S&P 500,Industrials,194.8,1202586,232316053,2010-01-04,yes,
+EXR,Extra Space Storage,S&P 500,Real Estate,158.5,1468128,207956603,2010-01-04,yes,
+XOM,ExxonMobil,S&P 500,Energy,170.59,13537842,2290853027,2010-01-04,yes,
+FFIV,"F5, Inc.",S&P 500,Information Technology,309.14,794368,313411444,2010-01-04,no,50d avg volume under 1M
+FDS,FactSet,S&P 500,Financials,332.69,797742,236784898,2010-01-04,no,50d avg volume under 1M
+FICO,Fair Isaac,S&P 500,Information Technology,720.19,945110,693822557,2010-01-04,no,50d avg volume under 1M
+FAST,Fastenal,S&P 500+Nasdaq 100,Industrials,55.19,7504372,383137994,2010-01-04,yes,
+FRT,Federal Realty Investment Trust,S&P 500,Real Estate,112.92,960402,105187027,2010-01-04,no,50d avg volume under 1M
+FDX,FedEx,S&P 500,Industrials,324.14,1482272,448625088,2010-01-04,yes,
+FDXF,FedEx Freight,S&P 500,Industrials,133.93,1589830,188436432,2026-05-27,yes,
+FERG,Ferguson Enterprises,S&P 500,Industrials,256.47,1445482,332248438,2010-01-05,yes,
+FIS,Fidelity National Information Services,S&P 500,Financials,29.54,7720354,262259760,2010-01-04,yes,
+FITB,Fifth Third Bancorp,S&P 500,Financials,54.5,6712386,351017419,2010-01-04,yes,
+FSLR,First Solar,S&P 500,Information Technology,171.39,2696716,499781252,2010-01-04,yes,
+FE,FirstEnergy,S&P 500,Utilities,47.0,4549336,205449973,2010-01-04,yes,
+FISV,Fiserv,S&P 500,Financials,63.78,7403034,381934216,2010-01-04,yes,
+FLEX,Flex Ltd.,S&P 500,Information Technology,74.98,4934614,460422873,2010-01-04,yes,
+F,Ford Motor Company,S&P 500,Consumer Discretionary,11.91,44202118,551104764,2010-01-04,yes,
+FTNT,Fortinet,S&P 500+Nasdaq 100,Information Technology,127.22,4830738,765348809,2010-01-04,yes,
+FTV,Fortive,S&P 500,Industrials,67.92,2580208,156053717,2016-07-05,yes,
+FOXA,Fox Corporation (Class A),S&P 500,Communication Services,68.42,6500904,426009935,2019-03-12,yes,
+FOX,Fox Corporation (Class B),S&P 500,Communication Services,61.11,1048274,60787382,2019-03-13,yes,
+BEN,Franklin Resources,S&P 500,Financials,36.02,4051616,132643428,2010-01-04,yes,
+FCX,Freeport-McMoRan,S&P 500,Materials,59.24,11600892,788945308,2010-01-04,yes,
+GRMN,Garmin,S&P 500,Consumer Discretionary,283.03,859492,242350973,2010-01-04,no,50d avg volume under 1M
+IT,Gartner,S&P 500,Information Technology,192.15,1082692,214889421,2010-01-04,yes,
+GE,GE Aerospace,S&P 500,Industrials,331.81,4824736,1507794202,2010-01-04,yes,
+GEHC,GE HealthCare,S&P 500+Nasdaq 100,Health Care,83.02,3949254,281567268,2022-12-15,yes,
+GEV,GE Vernova,S&P 500,Industrials,803.13,3024152,2680589586,2024-03-27,yes,
+GEN,Gen Digital,S&P 500,Information Technology,30.4,9345478,237207540,2010-01-04,yes,
+GNRC,Generac,S&P 500,Industrials,190.77,1318526,262878744,2010-02-11,yes,
+GD,General Dynamics,S&P 500,Industrials,363.46,1297004,451868730,2010-01-04,yes,
+GIS,General Mills,S&P 500,Consumer Staples,34.32,9781108,330914935,2010-01-04,yes,
+GM,General Motors,S&P 500,Consumer Discretionary,86.0,7824846,650377854,2010-11-18,yes,
+GPC,Genuine Parts Company,S&P 500,Consumer Discretionary,123.34,971826,123995370,2010-01-04,no,50d avg volume under 1M
+GILD,Gilead Sciences,S&P 500+Nasdaq 100,Health Care,168.08,6162484,960773663,2010-01-04,yes,
+GPN,Global Payments,S&P 500,Financials,91.9,2949070,263471806,2010-01-04,yes,
+GL,Globe Life,S&P 500,Financials,160.74,510468,83984974,2010-01-04,no,50d avg volume under 1M
+GDDY,GoDaddy,S&P 500,Information Technology,114.12,2029122,209990537,2015-03-31,yes,
+GS,Goldman Sachs,S&P 500,Financials,916.56,2178748,1999195582,2010-01-04,yes,
+HAL,Halliburton,S&P 500,Energy,33.78,10107908,340420088,2010-01-04,yes,
+HIG,Hartford (The),S&P 500,Financials,137.48,1826238,241464804,2010-01-04,yes,
+HAS,Hasbro,S&P 500,Consumer Discretionary,120.55,2126270,220576205,2010-01-04,yes,
+HCA,HCA Healthcare,S&P 500,Health Care,499.05,1387180,627374599,2011-03-10,yes,
+DOC,Healthpeak Properties,S&P 500,Real Estate,19.98,5844156,113811641,2010-01-04,yes,
+HSIC,Henry Schein,S&P 500,Health Care,86.22,1384554,118730719,2010-01-04,yes,
+HSY,Hershey Company (The),S&P 500,Consumer Staples,174.27,1678016,282967408,2010-01-04,yes,
+HPE,Hewlett Packard Enterprise,S&P 500,Information Technology,48.29,19814724,1170412067,2015-10-19,yes,
+HLT,Hilton Worldwide,S&P 500,Consumer Discretionary,373.09,1785170,602563571,2013-12-12,yes,
+HD,Home Depot (The),S&P 500,Consumer Discretionary,348.69,4934580,1534410353,2010-01-04,yes,
+HONA,Honeywell Aerospace,S&P 500+Nasdaq 100,Industrials,165.01,3512556,563921772,2026-06-15,yes,
+HON,Honeywell Technologies,S&P 500+Nasdaq 100,Industrials,222.46,2758814,586968099,2010-01-04,yes,
+HRL,Hormel Foods,S&P 500,Consumer Staples,22.09,5054258,103453212,2010-01-04,yes,
+HST,Host Hotels & Resorts,S&P 500,Real Estate,25.5,8730904,205707655,2010-01-04,yes,
+HWM,Howmet Aerospace,S&P 500,Industrials,220.82,3764522,819024083,2016-11-01,yes,
+HPQ,HP Inc.,S&P 500,Information Technology,29.36,13990170,441523094,2010-01-04,yes,
+HUBB,Hubbell Incorporated,S&P 500,Industrials,436.98,600370,270483193,2010-01-04,no,50d avg volume under 1M
+HUM,Humana,S&P 500,Health Care,450.0,1451910,598457399,2010-01-04,yes,
+HBAN,Huntington Bancshares,S&P 500,Financials,15.82,25502228,399997923,2010-01-04,yes,
+HII,Huntington Ingalls Industries,S&P 500,Industrials,306.24,546312,154001680,2011-03-22,no,50d avg volume under 1M
+IBM,IBM,S&P 500,Information Technology,247.13,5333948,1259417906,2010-01-04,yes,
+IEX,IDEX Corporation,S&P 500,Industrials,237.63,708264,163844323,2010-01-04,no,50d avg volume under 1M
+IDXX,Idexx Laboratories,S&P 500+Nasdaq 100,Health Care,704.23,586406,337426557,2010-01-04,no,50d avg volume under 1M
+ITW,Illinois Tool Works,S&P 500,Industrials,287.52,1356852,369499478,2010-01-04,yes,
+ILMN,"Illumina, Inc.",S&P 500,Health Care,207.01,3114008,773903507,2010-01-04,yes,
+INCY,Incyte,S&P 500,Health Care,120.97,1713588,203530042,2010-01-04,yes,
+IR,Ingersoll Rand,S&P 500,Industrials,85.06,4664752,360375487,2017-05-12,yes,
+PODD,Insulet Corporation,S&P 500,Health Care,152.48,1537378,217558659,2010-01-04,yes,
+INTC,Intel,S&P 500+Nasdaq 100,Information Technology,59.66,122965672,11105202782,2010-01-04,yes,
+IBKR,Interactive Brokers,S&P 500,Financials,81.79,4400566,369206012,2010-01-04,yes,
+ICE,Intercontinental Exchange,S&P 500,Financials,178.51,3121862,502210030,2010-01-04,yes,
+IFF,International Flavors & Fragrances,S&P 500,Materials,81.16,2155916,187204370,2010-01-04,yes,
+IP,International Paper,S&P 500,Materials,34.43,5580684,190675470,2010-01-04,yes,
+INTU,Intuit,S&P 500+Nasdaq 100,Information Technology,341.7,3329292,1047438843,2010-01-04,yes,
+ISRG,Intuitive Surgical,S&P 500+Nasdaq 100,Health Care,443.59,2449706,1025892641,2010-01-04,yes,
+IVZ,Invesco,S&P 500,Financials,28.92,5005914,146419116,2010-01-04,yes,
+INVH,Invitation Homes,S&P 500,Real Estate,26.85,5578538,149874456,2017-02-01,yes,
+IQV,IQVIA,S&P 500,Health Care,265.12,1471622,393976659,2013-05-09,yes,
+IRM,Iron Mountain,S&P 500,Real Estate,113.75,1572638,177768482,2010-01-04,yes,
+JBHT,J.B. Hunt,S&P 500,Industrials,232.85,1034172,241530418,2010-01-04,yes,
+JBL,Jabil,S&P 500,Information Technology,254.25,1349100,388906461,2010-01-04,yes,
+JKHY,Jack Henry & Associates,S&P 500,Financials,177.67,933512,147571696,2010-01-04,no,50d avg volume under 1M
+J,Jacobs Solutions,S&P 500,Industrials,158.23,879252,127528625,2010-01-04,no,50d avg volume under 1M
+JNJ,Johnson & Johnson,S&P 500,Health Care,285.75,7236336,1926065889,2010-01-04,yes,
+JCI,Johnson Controls,S&P 500,Industrials,139.33,4073158,595586843,2010-01-04,yes,
+JPM,JPMorgan Chase,S&P 500,Financials,346.19,7502370,2548601300,2010-01-04,yes,
+KDP,Keurig Dr Pepper,S&P 500+Nasdaq 100,Consumer Staples,36.34,15460500,526372876,2010-01-04,yes,
+KEY,KeyCorp,S&P 500,Financials,21.46,16136694,335584614,2010-01-04,yes,
+KEYS,Keysight Technologies,S&P 500,Information Technology,297.68,1260448,416618105,2014-10-20,yes,
+KMB,Kimberly-Clark,S&P 500,Consumer Staples,109.43,5826908,603481613,2010-01-04,yes,
+KIM,Kimco Realty,S&P 500,Real Estate,25.55,6060978,143045447,2010-01-04,yes,
+KMI,Kinder Morgan,S&P 500,Energy,31.92,13685716,436945328,2011-02-11,yes,
+KKR,KKR & Co.,S&P 500,Financials,98.05,4881856,458776620,2010-07-15,yes,
+KLAC,KLA Corporation,S&P 500+Nasdaq 100,Information Technology,152.32,11706530,1965661175,2010-01-04,yes,
+KHC,Kraft Heinz,S&P 500,Consumer Staples,25.11,17393518,417659812,2015-07-06,yes,
+KR,Kroger,S&P 500,Consumer Staples,70.8,7130656,443517670,2010-01-04,yes,
+LHX,L3Harris,S&P 500,Industrials,272.35,1720732,433613286,2010-01-04,yes,
+LH,Labcorp,S&P 500,Health Care,370.48,770450,254238071,2010-01-04,no,50d avg volume under 1M
+LRCX,Lam Research,S&P 500+Nasdaq 100,Information Technology,225.92,11009456,2926016248,2010-01-04,yes,
+LVS,Las Vegas Sands,S&P 500,Consumer Discretionary,40.39,6210766,239504704,2010-01-04,yes,
+LDOS,Leidos,S&P 500,Industrials,130.53,1179246,151527150,2010-01-04,yes,
+LEN,Lennar,S&P 500,Consumer Discretionary,83.61,4917134,396675605,2010-01-04,yes,
+LII,Lennox International,S&P 500,Industrials,352.02,600726,214959946,2010-01-04,no,50d avg volume under 1M
+LLY,Lilly (Eli),S&P 500,Health Care,1443.5,2561782,3223831857,2010-01-04,yes,
+LIN,Linde plc,S&P 500+Nasdaq 100,Materials,526.06,2100374,1029029586,2010-01-04,yes,
+LYV,Live Nation Entertainment,S&P 500,Communication Services,178.45,2279068,395585804,2010-01-04,yes,
+LMT,Lockheed Martin,S&P 500,Industrials,596.04,1378696,775044555,2010-01-04,yes,
+L,Loews Corporation,S&P 500,Financials,111.9,847172,91812758,2010-01-04,no,50d avg volume under 1M
+LOW,Lowe's,S&P 500,Consumer Discretionary,227.73,3307792,660525904,2010-01-04,yes,
+LULU,Lululemon Athletica,S&P 500,Consumer Discretionary,105.65,5056688,507307942,2010-01-04,yes,
+LITE,Lumentum,S&P 500+Nasdaq 100,Information Technology,596.62,5499842,4655392384,2015-07-23,yes,
+LYB,LyondellBasell,S&P 500,Materials,64.43,3673950,229649213,2010-04-28,yes,
+MTB,M&T Bank,S&P 500,Financials,221.12,988852,220598006,2010-01-04,no,50d avg volume under 1M
+MPC,Marathon Petroleum,S&P 500,Energy,414.65,2543092,1067895151,2011-06-24,yes,
+MAR,Marriott International,S&P 500+Nasdaq 100,Consumer Discretionary,423.16,1578994,594176607,2010-01-04,yes,
+MRSH,Marsh McLennan,S&P 500,Financials,207.78,2586518,474968111,2010-01-04,yes,
+MLM,Martin Marietta Materials,S&P 500,Materials,513.61,877230,444005400,2010-01-04,no,50d avg volume under 1M
+MRVL,Marvell Technology,S&P 500+Nasdaq 100,Information Technology,156.76,23986652,5213995922,2010-01-04,yes,
+MAS,Masco,S&P 500,Industrials,84.68,2337108,171509430,2010-01-04,yes,
+MA,Mastercard,S&P 500,Financials,661.19,3009716,1813749527,2010-01-04,yes,
+MKC,McCormick & Company,S&P 500,Consumer Staples,46.96,3869356,182607366,2010-01-04,yes,
+MCD,McDonald's,S&P 500,Consumer Discretionary,271.97,5875036,1468300510,2010-01-04,yes,
+MCK,McKesson,S&P 500,Health Care,1102.81,774242,735291878,2010-01-04,no,50d avg volume under 1M
+MDT,Medtronic,S&P 500,Health Care,102.86,18891528,1722070069,2010-01-04,yes,
+MRK,Merck & Co.,S&P 500,Health Care,147.76,9648834,1409574497,2010-01-04,yes,
+META,Meta Platforms,S&P 500+Nasdaq 100,Communication Services,641.69,22390956,15199353574,2012-05-18,yes,
+MET,MetLife,S&P 500,Financials,102.65,3155242,310000291,2010-01-04,yes,
+MTD,Mettler Toledo,S&P 500,Health Care,1738.91,203292,315824195,2010-01-04,no,50d avg volume under 1M
+MGM,MGM Resorts,S&P 500,Consumer Discretionary,33.49,5324658,169885100,2010-01-04,yes,
+MCHP,Microchip Technology,S&P 500+Nasdaq 100,Information Technology,61.68,11644258,833934928,2010-01-04,yes,
+MU,Micron Technology,S&P 500+Nasdaq 100,Information Technology,778.31,28238280,26181118684,2010-01-04,yes,
+MSFT,Microsoft,S&P 500+Nasdaq 100,Information Technology,523.88,23331624,12149118806,2010-01-04,yes,
+MAA,Mid-America Apartment Communities,S&P 500,Real Estate,117.89,1128900,133370105,2010-01-04,yes,
+MRNA,Moderna,S&P 500+Nasdaq 100,Health Care,223.37,15779026,3185747871,2018-12-07,yes,
+MDLZ,Mondelez International,S&P 500+Nasdaq 100,Consumer Staples,67.54,7893720,492251584,2010-01-04,yes,
+MPWR,Monolithic Power Systems,S&P 500+Nasdaq 100,Information Technology,1390.54,891300,1133811723,2010-01-04,no,50d avg volume under 1M
+MNST,Monster Beverage,S&P 500+Nasdaq 100,Consumer Staples,46.46,9845966,440981965,2010-01-04,yes,
+MCO,Moody's Corporation,S&P 500,Financials,508.2,867186,414830363,2010-01-04,no,50d avg volume under 1M
+MS,Morgan Stanley,S&P 500,Financials,190.65,6004078,1144131995,2010-01-04,yes,
+MOS,Mosaic Company (The),S&P 500,Materials,21.92,9811384,208216832,2010-01-04,yes,
+MSI,Motorola Solutions,S&P 500,Information Technology,531.2,984586,470402737,2010-01-04,no,50d avg volume under 1M
+MSCI,MSCI,S&P 500,Financials,658.17,600300,349942988,2010-01-04,no,50d avg volume under 1M
+NDAQ,"Nasdaq, Inc.",S&P 500,Financials,108.47,3377842,331941224,2010-01-04,yes,
+NTAP,NetApp,S&P 500,Information Technology,181.37,2275312,466395940,2010-01-04,yes,
+NFLX,Netflix,S&P 500+Nasdaq 100,Communication Services,62.15,39713274,2724481917,2010-01-04,yes,
+NEM,Newmont,S&P 500,Materials,113.14,6477596,766584325,2010-01-04,yes,
+NWSA,News Corp (Class A),S&P 500,Communication Services,26.97,4167996,120745731,2013-06-19,yes,
+NWS,News Corp (Class B),S&P 500,Communication Services,29.89,1159506,37038946,2013-06-19,yes,
+NEE,NextEra Energy,S&P 500,Utilities,85.12,12592836,1019063302,2010-01-04,yes,
+NKE,"Nike, Inc.",S&P 500,Consumer Discretionary,37.99,33798168,1227675341,2010-01-04,yes,
+NI,NiSource,S&P 500,Utilities,46.05,5680438,237769337,2010-01-04,yes,
+NDSN,Nordson Corporation,S&P 500,Industrials,324.74,354456,114233625,2010-01-04,no,50d avg volume under 1M
+NSC,Norfolk Southern,S&P 500,Industrials,327.88,992510,320730226,2010-01-04,no,50d avg volume under 1M
+NTRS,Northern Trust,S&P 500,Financials,178.24,1143426,197391415,2010-01-04,yes,
+NOC,Northrop Grumman,S&P 500,Industrials,550.43,979484,507726709,2010-01-04,no,50d avg volume under 1M
+NCLH,Norwegian Cruise Line Holdings,S&P 500,Consumer Discretionary,17.96,20738570,328187136,2013-01-18,yes,
+NRG,NRG Energy,S&P 500,Utilities,97.1,3475342,342013938,2010-01-04,yes,
+NUE,Nucor,S&P 500,Materials,251.73,1352482,345125938,2010-01-04,yes,
+NVDA,Nvidia,S&P 500+Nasdaq 100,Information Technology,162.85,148200396,29981619928,2010-01-04,yes,
+NVR,"NVR, Inc.",S&P 500,Consumer Discretionary,5853.92,43948,266685682,2010-01-04,no,50d avg volume under 1M
+NXPI,NXP Semiconductors,S&P 500+Nasdaq 100,Information Technology,265.09,4337790,1049769165,2010-08-06,yes,
+ORLY,O'Reilly Automotive,S&P 500+Nasdaq 100,Consumer Discretionary,92.19,6281380,550226492,2010-01-04,yes,
+OXY,Occidental Petroleum,S&P 500,Energy,58.75,9772968,581371837,2010-01-04,yes,
+OKTA,"Okta, Inc.",S&P 500,Information Technology,182.87,4201982,820884139,2017-04-07,yes,
+ODFL,Old Dominion,S&P 500+Nasdaq 100,Industrials,174.54,1933678,344028041,2010-01-04,yes,
+OMC,Omnicom Group,S&P 500,Communication Services,87.98,2927828,233349193,2010-01-04,yes,
+ON,ON Semiconductor,S&P 500,Information Technology,71.06,11494372,846021644,2010-01-04,yes,
+OKE,Oneok,S&P 500,Energy,89.75,3410470,309378278,2010-01-04,yes,
+ORCL,Oracle Corporation,S&P 500,Information Technology,125.35,37075938,5030371140,2010-01-04,yes,
+OTIS,Otis Worldwide,S&P 500,Industrials,77.5,4790586,337978284,2020-03-19,yes,
+PCAR,Paccar,S&P 500+Nasdaq 100,Industrials,106.66,3679714,402285133,2010-01-04,yes,
+PKG,Packaging Corporation of America,S&P 500,Materials,251.02,672212,162045683,2010-01-04,no,50d avg volume under 1M
+PLTR,Palantir Technologies,S&P 500+Nasdaq 100,Information Technology,167.99,24172732,4446574418,2020-09-30,yes,
+PANW,Palo Alto Networks,S&P 500+Nasdaq 100,Information Technology,322.24,5977632,2181994752,2012-07-20,yes,
+PH,Parker Hannifin,S&P 500,Industrials,955.68,642908,602364947,2010-01-04,no,50d avg volume under 1M
+PAYX,Paychex,S&P 500+Nasdaq 100,Industrials,115.68,3141252,344921843,2010-01-04,yes,
+PYPL,PayPal,S&P 500+Nasdaq 100,Financials,59.28,11282212,625725643,2015-07-06,yes,
+PNR,Pentair,S&P 500,Industrials,68.3,2923160,171559919,2010-01-04,yes,
+PEP,PepsiCo,S&P 500+Nasdaq 100,Consumer Staples,145.44,9822350,1310444891,2010-01-04,yes,
+PFE,Pfizer,S&P 500,Health Care,28.89,33087812,943012512,2010-01-04,yes,
+PCG,PG&E Corporation,S&P 500,Utilities,13.25,34653284,452364039,2010-01-04,yes,
+PM,Philip Morris International,S&P 500,Consumer Staples,198.96,4677256,915420655,2010-01-04,yes,
+PSX,Phillips 66,S&P 500,Energy,264.9,3023434,809148952,2012-04-12,yes,
+PNW,Pinnacle West Capital,S&P 500,Utilities,107.0,1452344,145169551,2010-01-04,yes,
+PNC,PNC Financial Services,S&P 500,Financials,232.29,1901178,428261515,2010-01-04,yes,
+PPG,PPG Industries,S&P 500,Materials,122.56,1904368,211446892,2010-01-04,yes,
+PPL,PPL Corporation,S&P 500,Utilities,35.67,7751172,266955256,2010-01-04,yes,
+PFG,Principal Financial Group,S&P 500,Financials,113.55,1308612,147624823,2010-01-04,yes,
+PG,Procter & Gamble,S&P 500,Consumer Staples,169.8,9228090,1425936011,2010-01-04,yes,
+PGR,Progressive Corporation,S&P 500,Financials,235.78,2697764,589306851,2010-01-04,yes,
+PLD,Prologis,S&P 500,Real Estate,128.67,3825882,498376264,2010-01-04,yes,
+PRU,Prudential Financial,S&P 500,Financials,123.55,1687134,198206217,2010-01-04,yes,
+PTC,PTC Inc.,S&P 500,Information Technology,196.0,2867064,514985207,2010-01-04,yes,
+PEG,Public Service Enterprise Group,S&P 500,Utilities,75.88,3726086,265104600,2010-01-04,yes,
+PSA,Public Storage,S&P 500,Real Estate,332.59,978100,299736827,2010-01-04,no,50d avg volume under 1M
+PHM,PulteGroup,S&P 500,Consumer Discretionary,127.01,1980182,237770052,2010-01-04,yes,
+Q,Qnity Electronics,S&P 500,Information Technology,118.36,1821968,219633665,2025-10-27,yes,
+QCOM,Qualcomm,S&P 500+Nasdaq 100,Information Technology,172.47,13558500,2406181069,2010-01-04,yes,
+PWR,Quanta Services,S&P 500,Industrials,602.01,1226514,749992338,2010-01-04,yes,
+DGX,Quest Diagnostics,S&P 500,Health Care,259.6,1049606,252164187,2010-01-04,yes,
+RL,Ralph Lauren Corporation,S&P 500,Consumer Discretionary,386.3,608204,223305404,2010-01-04,no,50d avg volume under 1M
+RJF,Raymond James Financial,S&P 500,Financials,168.64,1233540,199799003,2010-01-04,yes,
+RDDT,Reddit,S&P 500,Communication Services,98.45,5852780,763963452,2024-03-21,yes,
+O,Realty Income,S&P 500,Real Estate,58.82,8057934,453333372,2010-01-04,yes,
+REG,Regency Centers,S&P 500,Real Estate,76.11,1362260,100446256,2010-01-04,yes,
+REGN,Regeneron Pharmaceuticals,S&P 500+Nasdaq 100,Health Care,955.47,835392,698329158,2010-01-04,no,50d avg volume under 1M
+RF,Regions Financial Corporation,S&P 500,Financials,28.86,10171316,285353475,2010-01-04,yes,
+RSG,Republic Services,S&P 500,Industrials,252.99,1451124,330152239,2010-01-04,yes,
+RMD,ResMed,S&P 500,Health Care,239.53,1287730,298437148,2010-01-04,yes,
+RVTY,Revvity,S&P 500,Health Care,154.39,1986706,298726161,2010-01-04,yes,
+HOOD,Robinhood Markets,S&P 500,Financials,77.86,20320074,2106903849,2021-07-29,yes,
+ROK,Rockwell Automation,S&P 500,Industrials,402.46,879814,370876582,2010-01-04,no,50d avg volume under 1M
+ROL,"Rollins, Inc.",S&P 500,Industrials,38.88,7495152,250440529,2010-01-04,yes,
+ROP,Roper Technologies,S&P 500+Nasdaq 100,Information Technology,479.98,950800,392347309,2010-01-04,no,50d avg volume under 1M
+ROST,Ross Stores,S&P 500+Nasdaq 100,Consumer Discretionary,231.68,2053530,475414308,2010-01-04,yes,
+RCL,Royal Caribbean Group,S&P 500,Consumer Discretionary,323.27,2590082,710676818,2010-01-04,yes,
+RTX,RTX Corporation,S&P 500,Industrials,198.58,4787132,924687919,2010-01-04,yes,
+SPGI,S&P Global,S&P 500,Financials,473.59,1819950,777745262,2010-01-04,yes,
+CRM,Salesforce,S&P 500,Information Technology,217.84,8967186,2124691776,2010-01-04,yes,
+SNDK,Sandisk,S&P 500+Nasdaq 100,Information Technology,885.01,10211664,14071873211,2025-02-13,yes,
+SBAC,SBA Communications,S&P 500,Real Estate,189.35,1097908,196916725,2010-01-04,yes,
+SLB,Schlumberger,S&P 500,Energy,51.67,12570016,647216450,2010-01-04,yes,
+STX,Seagate Technology,S&P 500+Nasdaq 100,Information Technology,528.29,5207282,3738018973,2010-01-04,yes,
+SRE,Sempra,S&P 500,Utilities,79.54,3851244,312379240,2010-01-04,yes,
+NOW,ServiceNow,S&P 500,Information Technology,102.25,14903970,1913116856,2012-06-29,yes,
+SHW,Sherwin-Williams,S&P 500,Materials,349.89,1822840,605405470,2010-01-04,yes,
+SPG,Simon Property Group,S&P 500,Real Estate,232.97,1324658,279104592,2010-01-04,yes,
+SKYD,Skydance,S&P 500,Communication Services,7.52,27524848,244456364,2010-01-04,yes,
+SWKS,Skyworks Solutions,S&P 500,Information Technology,89.94,6618366,556399975,2010-01-04,yes,
+SJM,J.M. Smucker Company (The),S&P 500,Consumer Staples,132.69,1217260,150754019,2010-01-04,yes,
+SW,Smurfit Westrock,S&P 500,Materials,42.35,4637718,198275799,2010-01-04,yes,
+SNA,Snap-on,S&P 500,Industrials,368.62,366342,134076277,2010-01-04,no,50d avg volume under 1M
+SOLV,Solventum,S&P 500,Health Care,89.08,1081482,94586162,2024-03-26,yes,
+SO,Southern Company,S&P 500,Utilities,93.59,7042484,627627232,2010-01-04,yes,
+LUV,Southwest Airlines,S&P 500,Industrials,44.94,6343596,265682595,2010-01-04,yes,
+SWK,Stanley Black & Decker,S&P 500,Industrials,113.27,1745496,171154888,2010-01-04,yes,
+SBUX,Starbucks,S&P 500+Nasdaq 100,Consumer Discretionary,106.44,8400930,825484512,2010-01-04,yes,
+STT,State Street Corporation,S&P 500,Financials,173.45,2048310,358721720,2010-01-04,yes,
+STLD,Steel Dynamics,S&P 500,Materials,229.43,982602,233275741,2010-01-04,no,50d avg volume under 1M
+STE,Steris,S&P 500,Health Care,264.32,752002,169682839,2010-01-04,no,50d avg volume under 1M
+SYK,Stryker Corporation,S&P 500,Health Care,309.64,3065542,898650763,2010-01-04,yes,
+SMCI,Supermicro,S&P 500,Information Technology,26.87,41108350,1466730760,2010-01-04,yes,
+SYF,Synchrony Financial,S&P 500,Financials,72.25,3739444,275261349,2014-07-31,yes,
+SNPS,Synopsys,S&P 500+Nasdaq 100,Information Technology,455.2,2231552,1001810254,2010-01-04,yes,
+SYY,Sysco,S&P 500,Consumer Staples,77.1,4053884,319209986,2010-01-04,yes,
+TMUS,T-Mobile US,S&P 500+Nasdaq 100,Communication Services,169.95,6035638,972873177,2010-01-04,yes,
+TROW,T. Rowe Price,S&P 500,Financials,108.93,1891222,198372012,2010-01-04,yes,
+TTWO,Take-Two Interactive,S&P 500+Nasdaq 100,Communication Services,227.82,2825464,590937918,2010-01-04,yes,
+TPR,"Tapestry, Inc.",S&P 500,Consumer Discretionary,132.41,2872234,340918218,2010-01-04,yes,
+TRGP,Targa Resources,S&P 500,Energy,297.33,1216402,349153029,2010-12-07,yes,
+TGT,Target Corporation,S&P 500,Consumer Staples,161.45,3714080,576619636,2010-01-04,yes,
+TEL,TE Connectivity,S&P 500,Information Technology,216.34,1945000,414993012,2010-01-04,yes,
+TDY,Teledyne Technologies,S&P 500,Information Technology,643.73,331268,206464601,2010-01-04,no,50d avg volume under 1M
+TER,Teradyne,S&P 500+Nasdaq 100,Information Technology,249.55,3370624,1085883404,2010-01-04,yes,
+TSLA,"Tesla, Inc.",S&P 500+Nasdaq 100,Consumer Discretionary,390.22,37444628,13986262553,2010-06-29,yes,
+TXN,Texas Instruments,S&P 500+Nasdaq 100,Information Technology,303.6,7139772,2026641392,2010-01-04,yes,
+TPL,Texas Pacific Land Corporation,S&P 500,Energy,291.91,393306,130109227,2010-01-04,no,50d avg volume under 1M
+TXT,Textron,S&P 500,Industrials,83.65,1867104,148954509,2010-01-04,yes,
+TMO,Thermo Fisher Scientific,S&P 500,Health Care,700.22,2285150,1533179109,2010-01-04,yes,
+TJX,TJX Companies,S&P 500,Consumer Discretionary,134.37,7627558,1025269976,2010-01-04,yes,
+TKO,TKO Group Holdings,S&P 500,Communication Services,195.42,1145234,211719065,2010-01-04,yes,
+TSCO,Tractor Supply,S&P 500,Consumer Discretionary,36.45,11820174,395208942,2010-01-04,yes,
+TT,Trane Technologies,S&P 500,Industrials,417.99,1409532,620148774,2010-01-04,yes,
+TDG,TransDigm Group,S&P 500,Industrials,1217.28,397700,452870379,2010-01-04,no,50d avg volume under 1M
+TRV,Travelers Companies (The),S&P 500,Financials,403.23,1431746,548311128,2010-01-04,yes,
+TRMB,Trimble Inc.,S&P 500,Information Technology,55.64,2319844,136049468,2010-01-04,yes,
+TFC,Truist Financial,S&P 500,Financials,49.97,7993814,381157894,2010-01-04,yes,
+TWLO,Twilio,S&P 500,Information Technology,211.21,3332926,876257251,2016-06-23,yes,
+TYL,Tyler Technologies,S&P 500,Information Technology,424.06,761606,279033943,2010-01-04,no,50d avg volume under 1M
+TSN,Tyson Foods,S&P 500,Consumer Staples,58.82,3658838,199770716,2010-01-04,yes,
+USB,U.S. Bancorp,S&P 500,Financials,60.99,7630958,450905881,2010-01-04,yes,
+UBER,Uber,S&P 500,Industrials,69.69,18088330,1258085182,2019-05-10,yes,
+UDR,"UDR, Inc.",S&P 500,Real Estate,36.44,4481302,156342249,2010-01-04,yes,
+ULTA,Ulta Beauty,S&P 500,Consumer Discretionary,660.66,467078,274250758,2010-01-04,no,50d avg volume under 1M
+UNP,Union Pacific Corporation,S&P 500,Industrials,302.44,2523330,725612082,2010-01-04,yes,
+UAL,United Airlines Holdings,S&P 500,Industrials,109.31,4839170,523017555,2010-01-04,yes,
+UPS,United Parcel Service,S&P 500,Industrials,112.4,5034342,508355842,2010-01-04,yes,
+URI,United Rentals,S&P 500,Industrials,1124.56,519818,553349007,2010-01-04,no,50d avg volume under 1M
+UNH,UnitedHealth Group,S&P 500,Health Care,407.46,5521658,2159292784,2010-01-04,yes,
+UHS,Universal Health Services,S&P 500,Health Care,194.07,729026,132130650,2010-01-04,no,50d avg volume under 1M
+VLO,Valero Energy,S&P 500,Energy,379.83,3325178,1315965757,2010-01-04,yes,
+VEEV,Veeva Systems,S&P 500,Health Care,301.53,1466340,426902193,2013-10-16,yes,
+VTR,Ventas,S&P 500,Real Estate,88.92,3809914,326873748,2010-01-04,yes,
+VLTO,Veralto,S&P 500,Industrials,118.25,1875244,192806628,2023-10-04,yes,
+VRSN,Verisign,S&P 500,Information Technology,313.02,934900,281918268,2010-01-04,no,50d avg volume under 1M
+VRSK,Verisk Analytics,S&P 500,Industrials,207.82,1255852,231951567,2010-01-04,yes,
+VZ,Verizon,S&P 500,Communication Services,46.36,25215580,1145029623,2010-01-04,yes,
+VRTX,Vertex Pharmaceuticals,S&P 500+Nasdaq 100,Health Care,538.6,1290404,676966044,2010-01-04,yes,
+VRT,Vertiv,S&P 500,Industrials,202.07,6705570,1515389492,2018-08-02,yes,
+VTRS,Viatris,S&P 500,Health Care,20.82,9136402,166468446,2010-01-04,yes,
+VICI,Vici Properties,S&P 500,Real Estate,25.01,10458306,250067589,2018-01-02,yes,
+V,Visa Inc.,S&P 500,Financials,425.76,6449942,2526897913,2010-01-04,yes,
+VST,Vistra Corp.,S&P 500,Utilities,133.01,6663938,949025728,2016-10-05,yes,
+VMRK,Vivmark Residential,S&P 500,Real Estate,64.22,5464734,341153273,2010-01-04,yes,
+VMC,Vulcan Materials Company,S&P 500,Materials,278.63,1263702,327365805,2010-01-04,yes,
+VYLR,Vylor,S&P 500,Consumer Staples,72.54,5109966,367834894,2026-10-01,no,under 50 bars
+WRB,W. R. Berkley Corporation,S&P 500,Financials,77.44,2824280,201449677,2010-01-04,yes,
+GWW,W. W. Grainger,S&P 500,Industrials,1489.3,279958,374407216,2010-01-04,no,50d avg volume under 1M
+WAB,Wabtec,S&P 500,Industrials,297.96,920938,263535354,2010-01-04,no,50d avg volume under 1M
+WMT,Walmart,S&P 500+Nasdaq 100,Consumer Staples,128.09,21724262,2493810977,2010-01-04,yes,
+DIS,Walt Disney Company (The),S&P 500,Communication Services,118.97,8305582,906079682,2010-01-04,yes,
+WM,Waste Management,S&P 500,Industrials,243.83,2302824,510118559,2010-01-04,yes,
+WAT,Waters Corporation,S&P 500,Health Care,460.25,870944,385749955,2010-01-04,no,50d avg volume under 1M
+WEC,WEC Energy Group,S&P 500,Utilities,117.6,2942328,316849160,2010-01-04,yes,
+WFC,Wells Fargo,S&P 500,Financials,86.05,14370728,1201414945,2010-01-04,yes,
+WELL,Welltower,S&P 500,Real Estate,244.46,2775540,647941311,2010-01-04,yes,
+WST,West Pharmaceutical Services,S&P 500,Health Care,416.42,654740,250905771,2010-01-04,no,50d avg volume under 1M
+WDC,Western Digital,S&P 500+Nasdaq 100,Information Technology,295.65,8518736,3282881771,2010-01-04,yes,
+WY,Weyerhaeuser,S&P 500,Real Estate,20.81,8135692,163970809,2010-01-04,yes,
+WSM,"Williams-Sonoma, Inc.",S&P 500,Consumer Discretionary,254.05,1083716,260348164,2010-01-04,yes,
+WMB,Williams Companies,S&P 500,Energy,69.09,8248148,584294372,2010-01-04,yes,
+WTW,Willis Towers Watson,S&P 500,Financials,335.34,550858,172252175,2010-01-04,no,50d avg volume under 1M
+WDAY,"Workday, Inc.",S&P 500+Nasdaq 100,Information Technology,196.45,2284852,442915838,2012-10-12,yes,
+WYNN,Wynn Resorts,S&P 500,Consumer Discretionary,85.06,2396812,191900859,2010-01-04,yes,
+XEL,Xcel Energy,S&P 500+Nasdaq 100,Utilities,81.61,6693342,509084414,2010-01-04,yes,
+XYL,Xylem Inc.,S&P 500,Industrials,94.18,3032198,305695690,2011-10-13,yes,
+YUM,Yum! Brands,S&P 500,Consumer Discretionary,161.33,2441384,361177559,2010-01-04,yes,
+ZBRA,Zebra Technologies,S&P 500,Information Technology,324.0,612208,217865694,2010-01-04,no,50d avg volume under 1M
+ZBH,Zimmer Biomet,S&P 500,Health Care,103.21,2243184,216206889,2010-01-04,yes,
+ZTS,Zoetis,S&P 500,Health Care,83.82,4535478,345568273,2013-02-01,yes,
+ALNY,Alnylam Pharmaceuticals,Nasdaq 100,Health Care,165.04,2116564,422841108,2010-01-04,yes,
+ARM,Arm Holdings,Nasdaq 100,Technology,190.53,5667206,1404902997,2023-09-14,yes,
+ASML,ASML Holding,Nasdaq 100,Technology,1495.16,1554370,2547472891,2010-01-04,yes,
+ALAB,Astera Labs,Nasdaq 100,Technology,221.83,4576452,1313178033,2024-03-20,yes,
+CCEP,Coca-Cola Europacific Partners,Nasdaq 100,Consumer Staples,118.57,1827606,196449570,2010-01-04,yes,
+CRWV,CoreWeave,Nasdaq 100,Technology,53.13,52140724,3456557408,2025-03-28,yes,
+FER,Ferrovial,Nasdaq 100,Industrials,61.68,2347880,126943175,2012-08-13,yes,
+MELI,Mercado Libre,Nasdaq 100,Consumer Discretionary,1491.49,646424,1121115420,2010-01-04,no,50d avg volume under 1M
+MSTR,MicroStrategy,Nasdaq 100,Technology,111.62,19954198,2882687996,2010-01-04,yes,
+NBIS,Nebius Group,Nasdaq 100,Technology,115.88,22062678,4018810093,2024-10-21,yes,
+PDD,PDD Holdings,Nasdaq 100,Technology,78.97,5917042,470398886,2018-07-26,yes,
+RKLB,Rocket Lab,Nasdaq 100,Industrials,61.53,20808552,1301814551,2020-11-24,yes,
+SHOP,Shopify,Nasdaq 100,Technology,147.09,9357620,1413015634,2015-05-20,yes,
+SPCX,SpaceX,Nasdaq 100,Telecommunications,139.11,100642730,14964795929,2026-06-12,yes,
+TRI,Thomson Reuters,Nasdaq 100,Technology,109.3,1616120,173017842,2010-01-04,yes,
+AA,Alcoa,S&P 400,Materials,39.74,4540778,191212661,2010-01-04,yes,
+AAL,American Airlines Group,S&P 400,Industrials,13.17,65214492,844563586,2010-01-04,yes,
+AAON,AAON,S&P 400,Industrials,80.25,1307784,98121380,2010-01-04,yes,
+ACI,Albertsons,S&P 400,Consumer Staples,13.08,8756130,110324008,2020-06-26,yes,
+ACM,AECOM,S&P 400,Industrials,70.5,1412954,88227005,2010-01-04,yes,
+ADC,Agree Realty,S&P 400,Real Estate,69.37,1724654,116406135,2010-01-04,yes,
+AEIS,Advanced Energy,S&P 400,Information Technology,219.68,623618,154113870,2010-01-04,no,50d avg volume under 1M
+AFG,American Financial Group,S&P 400,Financials,161.02,437648,64335129,2010-01-04,no,50d avg volume under 1M
+AGCO,AGCO,S&P 400,Industrials,111.94,950228,108407041,2010-01-04,no,50d avg volume under 1M
+AGNC,AGNC Investment,S&P 400,Financials,8.23,34595544,313457741,2010-01-04,yes,
+AHR,American Healthcare REIT,S&P 400,Real Estate,57.78,3244370,172542303,2024-02-07,yes,
+AIT,Applied Industrial Technologies,S&P 400,Industrials,297.6,290356,92232119,2010-01-04,no,50d avg volume under 1M
+ALGM,Allegro MicroSystems,S&P 400,Information Technology,30.13,3013392,102008340,2020-10-29,yes,
+ALK,Alaska Air Group,S&P 400,Industrials,38.48,3520388,133564276,2010-01-04,yes,
+ALLY,Ally Financial,S&P 400,Financials,38.31,4063432,156564073,2014-01-28,yes,
+ALSN,Allison Transmission,S&P 400,Industrials,126.69,785768,91619580,2012-03-15,no,50d avg volume under 1M
+ALV,Autoliv,S&P 400,Consumer Discretionary,120.42,808848,94633633,2010-01-04,no,50d avg volume under 1M
+AM,Antero Midstream,S&P 400,Energy,20.46,2854642,58962096,2017-05-04,yes,
+AMG,Affiliated Managers Group,S&P 400,Financials,394.79,314792,117999069,2010-01-04,no,50d avg volume under 1M
+AMH,American Homes 4 Rent,S&P 400,Real Estate,32.42,2915970,91282778,2013-08-01,yes,
+AMKR,Amkor Technology,S&P 400,Information Technology,36.11,4663016,204344699,2010-01-04,yes,
+AN,AutoNation,S&P 400,Consumer Discretionary,177.75,619356,107139667,2010-01-04,no,50d avg volume under 1M
+ANF,Abercrombie & Fitch,S&P 400,Consumer Discretionary,148.88,1196808,177004539,2010-01-04,yes,
+APG,APi Group,S&P 400,Industrials,43.47,3441194,138286105,2020-04-29,yes,
+APPF,AppFolio,S&P 400,Information Technology,224.34,348914,74312679,2015-06-26,no,50d avg volume under 1M
+AR,Antero Resources,S&P 400,Energy,38.74,4233674,159034804,2013-10-10,yes,
+ARMK,Aramark,S&P 400,Consumer Discretionary,53.94,2763074,151546142,2013-12-12,yes,
+ARW,Arrow Electronics,S&P 400,Information Technology,192.9,531472,114812046,2010-01-04,no,50d avg volume under 1M
+ARWR,Arrowhead Pharmaceuticals,S&P 400,Health Care,47.78,2157600,134785060,2010-01-04,yes,
+ASB,Associated Bank,S&P 400,Financials,30.94,2167014,64439458,2010-01-04,yes,
+ASH,Ashland Global,S&P 400,Materials,76.47,669234,48407097,2010-01-04,no,50d avg volume under 1M
+ATI,ATI Inc.,S&P 400,Industrials,183.09,1644808,301026017,2010-01-04,yes,
+ATR,AptarGroup,S&P 400,Materials,143.09,500392,64263182,2010-01-04,no,50d avg volume under 1M
+AVAV,AeroVironment,S&P 400,Industrials,117.52,1771704,243367537,2010-01-04,yes,
+AVNT,Avient,S&P 400,Materials,44.66,798780,33267381,2010-01-04,no,50d avg volume under 1M
+AVT,Avnet,S&P 400,Information Technology,83.97,1437508,134104173,2010-01-04,yes,
+AVTR,Avantor,S&P 400,Health Care,15.54,9336988,147572101,2019-05-17,yes,
+AXTA,Axalta,S&P 400,Materials,36.56,1930306,65395444,2014-11-12,yes,
+AYI,Acuity Brands,S&P 400,Industrials,330.53,336738,104785387,2010-01-04,no,50d avg volume under 1M
+BAH,Booz Allen Hamilton,S&P 400,Industrials,86.22,1915520,149402589,2010-11-18,yes,
+BBWI,"Bath & Body Works, Inc.",S&P 400,Consumer Discretionary,21.39,6534112,124660094,2010-01-04,yes,
+BC,Brunswick,S&P 400,Consumer Discretionary,76.14,812986,56644061,2010-01-04,no,50d avg volume under 1M
+BCO,Brink's,S&P 400,Industrials,116.85,489888,52393502,2010-01-04,no,50d avg volume under 1M
+BDC,Belden Inc.,S&P 400,Information Technology,101.88,419206,45367756,2010-01-04,no,50d avg volume under 1M
+BHF,Brighthouse Financial,S&P 400,Financials,43.89,916196,44068387,2017-07-17,no,50d avg volume under 1M
+BILL,Bill Holdings,S&P 400,Information Technology,54.48,1547466,73902697,2019-12-12,yes,
+BIO,Bio-Rad Laboratories,S&P 400,Health Care,366.36,255832,95547711,2010-01-04,no,50d avg volume under 1M
+BJ,BJ's Wholesale Club,S&P 400,Consumer Staples,110.34,1862650,185722534,2018-06-28,yes,
+BKH,Black Hills Corporation,S&P 400,Utilities,86.7,1302516,100461266,2010-01-04,yes,
+BMRN,BioMarin Pharmaceutical,S&P 400,Health Care,57.23,2314348,135298817,2010-01-04,yes,
+BRKR,Bruker,S&P 400,Health Care,61.59,2429894,145127550,2010-01-04,yes,
+BROS,Dutch Bros Inc.,S&P 400,Consumer Discretionary,35.9,4834116,192187052,2021-09-15,yes,
+BRX,Brixmor Property Group,S&P 400,Real Estate,30.3,3284516,92796471,2013-10-30,yes,
+BSY,Bentley Systems,S&P 400,Information Technology,44.33,2883428,107151844,2020-09-23,yes,
+BTSG,BrightSpring Health Services,S&P 400,Health Care,71.21,2527988,156745117,2024-01-26,yes,
+BURL,Burlington Stores,S&P 400,Consumer Discretionary,242.86,1403548,356147204,2013-10-02,yes,
+BWA,BorgWarner,S&P 400,Consumer Discretionary,50.89,2728678,157826767,2010-01-04,yes,
+BWXT,BWX Technologies,S&P 400,Industrials,122.97,1221946,166121046,2010-08-02,yes,
+BYD,Boyd Gaming,S&P 400,Consumer Discretionary,77.24,1099426,79559024,2010-01-04,yes,
+CACI,CACI International,S&P 400,Industrials,642.22,252290,158153804,2010-01-04,no,50d avg volume under 1M
+CAR,Avis Budget Group,S&P 400,Industrials,125.45,443152,49958623,2010-01-04,no,50d avg volume under 1M
+CART,Maplebear Inc.,S&P 400,Consumer Staples,58.87,5659002,300565260,2023-09-19,yes,
+CAVA,Cava Group,S&P 400,Consumer Discretionary,58.23,3560228,197058115,2023-06-15,yes,
+CBSH,Commerce Bancshares,S&P 400,Financials,55.74,993184,55608464,2010-01-04,no,50d avg volume under 1M
+CBT,Cabot Corp,S&P 400,Materials,71.92,401376,30456212,2010-01-04,no,50d avg volume under 1M
+CCK,Crown Holdings,S&P 400,Materials,121.57,907360,102261959,2010-01-04,no,50d avg volume under 1M
+CDE,Coeur Mining,S&P 400,Materials,13.98,34907184,583051746,2010-01-04,yes,
+CDP,COPT Defense Properties,S&P 400,Real Estate,33.13,934324,31418740,2010-01-04,no,50d avg volume under 1M
+CELH,Celsius Holdings,S&P 400,Consumer Staples,32.42,6295688,181270727,2010-01-04,yes,
+CFR,Frost Bank,S&P 400,Financials,158.17,474576,74637488,2010-01-04,no,50d avg volume under 1M
+CG,Carlyle Group (The),S&P 400,Financials,39.77,3412766,136194486,2012-05-03,yes,
+CGNX,Cognex,S&P 400,Information Technology,50.01,1911100,109135038,2010-01-04,yes,
+CHDN,Churchill Downs Inc.,S&P 400,Consumer Discretionary,99.72,1162928,98336626,2010-01-04,yes,
+CHE,Chemed Corp.,S&P 400,Health Care,548.2,151678,78487632,2010-01-04,no,50d avg volume under 1M
+CHH,Choice Hotels,S&P 400,Consumer Discretionary,118.78,571756,61076903,2010-01-04,no,50d avg volume under 1M
+CHRD,Chord Energy,S&P 400,Energy,149.93,752614,108697935,2010-06-17,no,50d avg volume under 1M
+CHWY,Chewy,S&P 400,Consumer Discretionary,22.52,8691462,178806739,2019-06-14,yes,
+CLF,Cleveland-Cliffs,S&P 400,Materials,12.65,19406790,248665930,2010-01-04,yes,
+CLH,Clean Harbors,S&P 400,Industrials,293.81,492764,151697665,2010-01-04,no,50d avg volume under 1M
+CMC,Commercial Metals,S&P 400,Materials,62.13,1156608,74675777,2010-01-04,yes,
+CNH,CNH Industrial,S&P 400,Industrials,11.91,16413552,205801921,2013-09-30,yes,
+CNM,Core & Main,S&P 400,Industrials,45.0,2398240,103242225,2021-07-22,yes,
+CNO,CNO Financial Group,S&P 400,Financials,57.47,974186,53544776,2010-01-04,no,50d avg volume under 1M
+CNX,CNX Resources,S&P 400,Energy,36.56,1856902,64458033,2010-01-04,yes,
+COKE,Coca-Cola Consolidated,S&P 400,Consumer Staples,214.34,544932,109039357,2010-01-04,no,50d avg volume under 1M
+COLB,Columbia Banking System,S&P 400,Financials,30.6,2801556,83388416,2010-01-04,yes,
+COLM,Columbia Sportswear,S&P 400,Consumer Discretionary,73.47,756528,46830467,2010-01-04,no,50d avg volume under 1M
+CORT,Corcept Therapeutics,S&P 400,Health Care,72.94,1364254,138496822,2010-01-04,yes,
+CR,Crane,S&P 400,Industrials,209.74,404440,81454347,2023-03-29,no,50d avg volume under 1M
+CRBG,Corebridge Financial,S&P 400,Financials,36.35,4855878,168066835,2022-09-16,yes,
+CROX,Crocs,S&P 400,Consumer Discretionary,163.72,1233586,160827333,2010-01-04,yes,
+CRS,Carpenter Technology,S&P 400,Industrials,291.57,986884,336783599,2010-01-04,no,50d avg volume under 1M
+CRUS,Cirrus Logic,S&P 400,Information Technology,120.19,828794,95305985,2010-01-04,no,50d avg volume under 1M
+CSL,Carlisle Companies,S&P 400,Industrials,396.13,461992,157580594,2010-01-04,no,50d avg volume under 1M
+CTRE,CareTrust REIT,S&P 400,Real Estate,38.07,2794792,103613476,2014-05-29,yes,
+CTVA,Corteva,S&P 400,Materials,9.43,31906391,391252291,2019-05-24,yes,
+CUBE,CubeSmart,S&P 400,Real Estate,44.91,2478584,98389760,2010-01-04,yes,
+CUZ,Cousins Properties,S&P 400,Real Estate,29.64,1493792,42430873,2010-01-04,yes,
+CVLT,CommVault Systems,S&P 400,Information Technology,152.07,651888,101064594,2010-01-04,no,50d avg volume under 1M
+CW,Curtiss-Wright,S&P 400,Industrials,472.06,420278,216534990,2010-01-04,no,50d avg volume under 1M
+CXT,Crane NXT,S&P 400,Information Technology,56.92,635934,34055113,2010-01-04,no,50d avg volume under 1M
+CYTK,Cytokinetics,S&P 400,Health Care,56.13,2051176,130439143,2010-01-04,yes,
+DAR,Darling Ingredients,S&P 400,Consumer Staples,55.99,2319796,137748056,2010-01-04,yes,
+DBX,Dropbox,S&P 400,Information Technology,33.53,4536570,157004803,2018-03-23,yes,
+DCI,Donaldson Company,S&P 400,Industrials,86.7,627492,54574921,2010-01-04,no,50d avg volume under 1M
+DINO,HF Sinclair,S&P 400,Energy,102.18,2549426,283335062,2010-01-04,yes,
+DKS,Dick's Sporting Goods,S&P 400,Consumer Discretionary,149.7,2565264,349557405,2010-01-04,yes,
+DLB,Dolby,S&P 400,Information Technology,63.61,767010,46559989,2010-01-04,no,50d avg volume under 1M
+DOCN,DigitalOcean,S&P 400,Information Technology,86.32,3255202,351593008,2021-03-24,yes,
+DOCS,Doximity,S&P 400,Health Care,33.34,2858482,84481781,2021-06-24,yes,
+DOCU,Docusign,S&P 400,Information Technology,80.76,2874622,210499685,2018-04-27,yes,
+DT,Dynatrace,S&P 400,Information Technology,44.8,7713072,432112800,2019-08-01,yes,
+DTM,DT Midstream,S&P 400,Energy,119.73,983626,120839866,2021-07-01,no,50d avg volume under 1M
+DUOL,Duolingo,S&P 400,Consumer Discretionary,165.31,1246012,185129011,2021-07-28,yes,
+DY,Dycom Industries,S&P 400,Industrials,221.54,617606,160108932,2010-01-04,no,50d avg volume under 1M
+EAT,Brinker International,S&P 400,Consumer Discretionary,198.33,1434472,291154095,2010-01-04,yes,
+EEFT,Euronet Worldwide,S&P 400,Financials,71.11,774356,50859003,2010-01-04,no,50d avg volume under 1M
+EGP,EastGroup Properties,S&P 400,Real Estate,197.62,567254,112494147,2010-01-04,no,50d avg volume under 1M
+EHC,Encompass Health,S&P 400,Health Care,140.99,1031994,131162648,2010-01-04,yes,
+ELAN,Elanco,S&P 400,Health Care,26.78,5404656,126711438,2018-09-20,yes,
+ELF,e.l.f. Beauty,S&P 400,Consumer Staples,117.98,1419268,152847924,2016-09-22,yes,
+ELS,Equity Lifestyle Properties,S&P 400,Real Estate,62.12,1959700,117756601,2010-01-04,yes,
+ENS,EnerSys,S&P 400,Industrials,143.0,584164,99412437,2010-01-04,no,50d avg volume under 1M
+ENSG,Ensign Group,S&P 400,Health Care,188.41,376706,66537225,2010-01-04,no,50d avg volume under 1M
+ENTG,Entegris,S&P 400,Information Technology,147.41,2797210,407998528,2010-01-04,yes,
+EPR,EPR Properties,S&P 400,Real Estate,60.15,973974,55764248,2010-01-04,no,50d avg volume under 1M
+EQH,Equitable Holdings,S&P 400,Financials,56.1,2805750,150307096,2018-05-10,yes,
+ESAB,ESAB,S&P 400,Industrials,83.25,1145206,81359444,2022-03-29,yes,
+ESNT,Essent Group Ltd.,S&P 400,Financials,64.58,828030,53849146,2013-10-31,no,50d avg volume under 1M
+EVR,Evercore,S&P 400,Financials,296.35,540756,146576295,2010-01-04,no,50d avg volume under 1M
+EWBC,East West Bancorp,S&P 400,Financials,131.21,858382,109743531,2010-01-04,no,50d avg volume under 1M
+EXEL,Exelixis,S&P 400,Health Care,69.0,2506728,158567734,2010-01-04,yes,
+EXLS,EXL Service,S&P 400,Industrials,43.25,2221876,85991421,2010-01-04,yes,
+EXP,Eagle Materials,S&P 400,Materials,180.79,451848,80892168,2010-01-04,no,50d avg volume under 1M
+EXPO,"Exponent, Inc.",S&P 400,Industrials,87.31,554092,40262455,2010-01-04,no,50d avg volume under 1M
+FAF,First American Financial Corporation,S&P 400,Financials,64.87,1065364,70031155,2010-05-28,yes,
+FBIN,Fortune Brands Innovations,S&P 400,Industrials,48.05,2518960,107723998,2011-09-16,yes,
+FCFS,FirstCash,S&P 400,Financials,184.7,490192,97763140,2010-01-04,no,50d avg volume under 1M
+FCN,FTI Consulting,S&P 400,Industrials,202.81,476872,75045089,2010-01-04,no,50d avg volume under 1M
+FFIN,First Financial Bankshares,S&P 400,Financials,30.28,957428,30001705,2010-01-04,no,50d avg volume under 1M
+FHI,Federated Hermes,S&P 400,Financials,63.76,796908,46503683,2010-01-04,no,50d avg volume under 1M
+FHN,First Horizon,S&P 400,Financials,23.53,6083450,142363213,2010-01-04,yes,
+FIVE,Five Below,S&P 400,Consumer Discretionary,246.68,961566,223071929,2012-07-19,no,50d avg volume under 1M
+FLG,Flagstar Bank,S&P 400,Financials,10.48,6159400,69830387,2010-01-04,yes,
+FLR,Fluor,S&P 400,Industrials,48.98,2295176,113653972,2010-01-04,yes,
+FLS,Flowserve,S&P 400,Industrials,83.1,1652092,123693710,2010-01-04,yes,
+FN,Fabrinet,S&P 400,Information Technology,327.98,997630,380994137,2010-06-25,no,50d avg volume under 1M
+FNB,FNB Corporation,S&P 400,Financials,18.18,5068258,89888428,2010-01-04,yes,
+FND,Floor & Decor,S&P 400,Consumer Discretionary,47.75,2855146,135947035,2017-04-27,yes,
+FNF,Fidelity National Financial,S&P 400,Financials,43.41,2858296,118892144,2010-01-04,yes,
+FORM,FormFactor,S&P 400,Information Technology,87.53,1727066,201345540,2010-01-04,yes,
+FOUR,Shift4,S&P 400,Financials,44.78,2288432,93190251,2020-06-05,yes,
+FR,First Industrial Realty Trust,S&P 400,Real Estate,55.18,1481390,85274150,2010-01-04,yes,
+FTI,TechnipFMC,S&P 400,Energy,66.26,2959022,206235111,2010-01-04,yes,
+G,Genpact,S&P 400,Industrials,43.61,1972952,73734860,2010-01-04,yes,
+GAP,Gap Inc.,S&P 400,Consumer Discretionary,21.07,5797248,128303599,2010-01-04,yes,
+GATX,GATX,S&P 400,Industrials,191.43,230824,40671669,2010-01-04,no,50d avg volume under 1M
+GBCI,Glacier Bancorp,S&P 400,Financials,48.11,1146008,52450734,2010-01-04,yes,
+GEF,"Greif, Inc.",S&P 400,Materials,70.89,371352,29938504,2010-01-04,no,50d avg volume under 1M
+GGG,Graco Inc.,S&P 400,Industrials,72.42,1791652,132688579,2010-01-04,yes,
+GHC,Graham Holdings,S&P 400,Consumer Discretionary,1244.05,29226,34197483,2010-01-04,no,50d avg volume under 1M
+GKOS,Glaukos,S&P 400,Health Care,245.72,1333026,263917152,2015-06-25,yes,
+GLPI,Gaming and Leisure Properties,S&P 400,Real Estate,39.34,2909504,114134519,2013-10-14,yes,
+GME,GameStop,S&P 400,Consumer Discretionary,25.85,9320146,226761718,2010-01-04,yes,
+GMED,Globus Medical,S&P 400,Health Care,72.14,1761008,133811214,2012-08-03,yes,
+GNTX,Gentex,S&P 400,Consumer Discretionary,19.2,2718890,57445279,2010-01-04,yes,
+GPK,Graphic Packaging,S&P 400,Materials,10.87,7817354,74339997,2010-01-04,yes,
+GWRE,Guidewire Software,S&P 400,Information Technology,158.22,1290922,205308937,2012-01-25,yes,
+GXO,GXO Logistics,S&P 400,Industrials,54.63,1359462,66745072,2021-07-22,yes,
+H,Hyatt,S&P 400,Consumer Discretionary,187.7,808418,136526307,2010-01-04,no,50d avg volume under 1M
+HAE,Haemonetics,S&P 400,Health Care,122.94,682700,78317614,2010-01-04,no,50d avg volume under 1M
+HALO,Halozyme,S&P 400,Health Care,100.27,2402126,274362910,2010-01-04,yes,
+HGV,Hilton Grand Vacations,S&P 400,Consumer Discretionary,43.92,1218092,46426705,2017-01-04,yes,
+HIMS,Hims & Hers Health,S&P 400,Health Care,19.73,12102988,319632487,2019-09-13,yes,
+HL,Hecla Mining,S&P 400,Materials,13.1,32377884,537271177,2010-01-04,yes,
+HLI,Houlihan Lokey,S&P 400,Financials,142.84,820218,110396778,2015-08-13,no,50d avg volume under 1M
+HLNE,Hamilton Lane,S&P 400,Financials,93.73,643196,56741911,2017-03-01,no,50d avg volume under 1M
+HOG,Harley-Davidson,S&P 400,Consumer Discretionary,32.38,2100320,60038094,2010-01-04,yes,
+HOMB,Home BancShares,S&P 400,Financials,29.99,1632056,47697422,2010-01-04,yes,
+HQY,HealthEquity,S&P 400,Health Care,103.46,839750,80658903,2014-07-31,no,50d avg volume under 1M
+HR,Healthcare Realty Trust,S&P 400,Real Estate,19.32,5338324,96000048,2010-01-04,yes,
+HRB,H&R Block,S&P 400,Consumer Discretionary,50.01,1913652,89159151,2010-01-04,yes,
+HUBS,HubSpot,S&P 400,Information Technology,217.25,1528688,341380219,2014-10-09,yes,
+HWC,Hancock Whitney,S&P 400,Financials,65.28,1018140,73040660,2010-01-04,yes,
+HXL,Hexcel,S&P 400,Industrials,79.46,1164248,98205440,2010-01-04,yes,
+IBOC,Intl Bancshares Corp,S&P 400,Financials,67.76,335224,23107596,2010-01-04,no,50d avg volume under 1M
+IDA,Idacorp,S&P 400,Utilities,146.5,613414,83651772,2010-01-04,no,50d avg volume under 1M
+IDCC,InterDigital,S&P 400,Information Technology,288.62,206352,66505236,2010-01-04,no,50d avg volume under 1M
+IESC,IES Holdings,S&P 400,Industrials,170.28,391558,96598808,2010-01-04,no,50d avg volume under 1M
+INGR,Ingredion,S&P 400,Consumer Staples,94.14,743156,71461646,2010-01-04,no,50d avg volume under 1M
+IPGP,IPG Photonics,S&P 400,Information Technology,67.78,387626,29262947,2010-01-04,no,50d avg volume under 1M
+IRT,Independence Realty Trust,S&P 400,Real Estate,14.96,3740004,55440167,2013-08-13,yes,
+ITT,ITT Inc.,S&P 400,Industrials,211.18,859418,174353842,2010-01-04,no,50d avg volume under 1M
+JAZZ,Jazz Pharmaceuticals,S&P 400,Health Care,241.55,790960,180397032,2010-01-04,no,50d avg volume under 1M
+JEF,Jefferies,S&P 400,Financials,45.69,2380304,112232093,2010-01-04,yes,
+JHX,James Hardie Industries,S&P 400,Materials,27.8,12973488,353050774,2010-01-04,yes,
+JLL,Jones Lang LaSalle,S&P 400,Real Estate,366.83,468914,156153946,2010-01-04,no,50d avg volume under 1M
+KBH,KB Home,S&P 400,Consumer Discretionary,47.9,1531184,71799802,2010-01-04,yes,
+KBR,"KBR, Inc.",S&P 400,Industrials,35.59,1702978,62736545,2010-01-04,yes,
+KD,Kyndryl,S&P 400,Information Technology,16.81,4271198,57621416,2021-10-22,yes,
+KEX,Kirby Corporation,S&P 400,Industrials,129.72,584618,78545838,2010-01-04,no,50d avg volume under 1M
+KNF,Knife River Corporation,S&P 400,Materials,56.3,902872,49180773,2023-06-06,no,50d avg volume under 1M
+KNSL,Kinsale Capital Group,S&P 400,Financials,395.89,242118,87479575,2016-07-28,no,50d avg volume under 1M
+KNX,Knight-Swift,S&P 400,Industrials,63.8,3687466,237130561,2010-01-04,yes,
+KRC,Kilroy Realty Corp,S&P 400,Real Estate,36.04,1484960,51772084,2010-01-04,yes,
+KRG,Kite Realty Group Trust,S&P 400,Real Estate,25.55,2121022,52710218,2010-01-04,yes,
+KRYS,Krystal Biotech,S&P 400,Health Care,305.23,297462,96593225,2017-09-20,no,50d avg volume under 1M
+KTOS,Kratos Defense & Security Solutions,S&P 400,Industrials,33.91,4595618,190969506,2010-01-04,yes,
+LAD,Lithia Motors,S&P 400,Consumer Discretionary,296.52,339728,103403887,2010-01-04,no,50d avg volume under 1M
+LAMR,Lamar Advertising Company,S&P 400,Real Estate,161.76,600366,90762303,2010-01-04,no,50d avg volume under 1M
+LEA,Lear,S&P 400,Consumer Discretionary,108.71,589956,70534060,2010-01-04,no,50d avg volume under 1M
+LECO,Lincoln Electric,S&P 400,Industrials,282.86,372912,99513238,2010-01-04,no,50d avg volume under 1M
+LFUS,Littelfuse,S&P 400,Information Technology,387.64,243694,97032892,2010-01-04,no,50d avg volume under 1M
+LIVN,LivaNova,S&P 400,Health Care,91.32,690312,56392195,2015-10-19,no,50d avg volume under 1M
+LNTH,Lantheus Holdings,S&P 400,Health Care,101.59,1020672,102370501,2015-06-25,yes,
+LOPE,Grand Canyon Education,S&P 400,Consumer Discretionary,120.6,354670,51372476,2010-01-04,no,50d avg volume under 1M
+LPX,Louisiana-Pacific,S&P 400,Industrials,75.85,1246580,87242648,2010-01-04,yes,
+LSCC,Lattice Semiconductor,S&P 400,Information Technology,112.35,2261270,252735223,2010-01-04,yes,
+LSTR,Landstar System,S&P 400,Industrials,149.68,390978,62711607,2010-01-04,no,50d avg volume under 1M
+M,Macy's,S&P 400,Consumer Discretionary,24.7,6454842,148521178,2010-01-04,yes,
+MANH,Manhattan Associates,S&P 400,Information Technology,257.15,734408,167270860,2010-01-04,no,50d avg volume under 1M
+MAT,Mattel,S&P 400,Consumer Discretionary,15.12,6832804,104411905,2010-01-04,yes,
+MEDP,Medpace,S&P 400,Health Care,653.94,272600,172469433,2016-08-11,no,50d avg volume under 1M
+MIDD,Middleby,S&P 400,Industrials,135.16,567022,64963320,2010-01-04,no,50d avg volume under 1M
+MKSI,MKS Instruments,S&P 400,Information Technology,215.65,1438386,333327419,2010-01-04,yes,
+MLI,Mueller Industries,S&P 400,Industrials,54.89,1781060,103950148,2010-01-04,yes,
+MMS,Maximus Inc.,S&P 400,Industrials,64.71,676756,39704525,2010-01-04,no,50d avg volume under 1M
+MOG-A,Moog Inc.,S&P 400,Industrials,339.51,285578,103285968,2010-01-04,no,50d avg volume under 1M
+MOH,Molina Healthcare,S&P 400,Health Care,209.49,799414,163579590,2010-01-04,no,50d avg volume under 1M
+MORN,"Morningstar, Inc.",S&P 400,Financials,246.26,281346,59643472,2010-01-04,no,50d avg volume under 1M
+MP,MP Materials,S&P 400,Materials,38.76,5765258,249261223,2020-06-22,yes,
+MSA,MSA Safety,S&P 400,Industrials,174.17,266898,47682719,2010-01-04,no,50d avg volume under 1M
+MSM,MSC Industrial Direct,S&P 400,Industrials,118.47,872478,105944083,2010-01-04,no,50d avg volume under 1M
+MTDR,Matador Resources,S&P 400,Energy,53.47,1672364,91997748,2012-02-02,yes,
+MTG,MGIC Investment Corporation,S&P 400,Financials,27.77,2498478,70392519,2010-01-04,yes,
+MTN,Vail Resorts,S&P 400,Consumer Discretionary,152.61,799528,114222551,2010-01-04,no,50d avg volume under 1M
+MTSI,MACOM Technology Solutions,S&P 400,Information Technology,232.06,1694620,441626570,2012-03-15,yes,
+MTZ,MasTec,S&P 400,Industrials,182.78,1658060,330189815,2010-01-04,yes,
+MUR,Murphy Oil,S&P 400,Energy,36.82,1666176,64208877,2010-01-04,yes,
+MUSA,Murphy USA,S&P 400,Consumer Discretionary,543.88,260128,135754688,2013-08-19,no,50d avg volume under 1M
+MZTI,The Marzetti Company,S&P 400,Consumer Staples,110.97,412086,42966395,2010-01-04,no,50d avg volume under 1M
+NBIX,Neurocrine Biosciences,S&P 400,Health Care,167.4,1380760,205799803,2010-01-04,yes,
+NEU,NewMarket Corporation,S&P 400,Materials,709.19,130568,109953731,2010-01-04,no,50d avg volume under 1M
+NFG,National Fuel Gas,S&P 400,Utilities,76.71,1038908,81358308,2010-01-04,yes,
+NJR,New Jersey Resources,S&P 400,Utilities,55.59,693304,36379374,2010-01-04,no,50d avg volume under 1M
+NLY,Annaly Capital Management,S&P 400,Financials,17.65,12289326,233434659,2010-01-04,yes,
+NNN,NNN Reit,S&P 400,Real Estate,41.18,2554982,104656058,2010-01-04,yes,
+NOV,NOV Inc.,S&P 400,Energy,18.09,3635124,70057005,2010-01-04,yes,
+NOVT,Novanta,S&P 400,Information Technology,118.88,455258,62761966,2010-01-04,no,50d avg volume under 1M
+NTNX,Nutanix,S&P 400,Information Technology,60.38,2364432,161732330,2016-09-30,yes,
+NVST,Envista Holdings,S&P 400,Health Care,24.49,3112668,75449947,2019-09-18,yes,
+NVT,nVent Electric plc,S&P 400,Industrials,114.69,2631646,365918845,2018-04-24,yes,
+NWE,NorthWestern Energy,S&P 400,Utilities,84.91,620970,47013570,2010-01-04,no,50d avg volume under 1M
+NXST,Nexstar Media Group,S&P 400,Communication Services,207.94,383616,65252556,2010-01-04,no,50d avg volume under 1M
+NXT,Nextpower,S&P 400,Industrials,95.03,2567610,224545454,2023-02-09,yes,
+NYT,New York Times Company,S&P 400,Communication Services,72.81,2813966,188651205,2010-01-04,yes,
+OC,Owens Corning,S&P 400,Industrials,115.94,1192766,143778882,2010-01-04,yes,
+OGE,OGE Energy,S&P 400,Utilities,51.56,2101546,99725010,2010-01-04,yes,
+OGS,One Gas,S&P 400,Utilities,83.86,648364,49632541,2014-01-16,no,50d avg volume under 1M
+OHI,Omega Healthcare Investors,S&P 400,Real Estate,47.05,2103152,96694586,2010-01-04,yes,
+OLED,Universal Display,S&P 400,Information Technology,89.29,772700,63140405,2010-01-04,no,50d avg volume under 1M
+OLLI,Ollie's Bargain Outlet,S&P 400,Consumer Discretionary,94.76,1632774,140022523,2015-07-16,yes,
+ONB,Old National Bank,S&P 400,Financials,25.05,4579384,114933905,2010-01-04,yes,
+ONTO,Onto Innovation,S&P 400,Information Technology,203.62,1028770,245985648,2019-10-28,yes,
+OPCH,Option Care Health,S&P 400,Health Care,31.65,4712422,140350838,2010-01-04,yes,
+ORA,Ormat Technologies,S&P 400,Utilities,90.45,925778,85880141,2010-01-04,no,50d avg volume under 1M
+ORI,Old Republic International,S&P 400,Financials,39.68,1739418,68069697,2010-01-04,yes,
+OSK,Oshkosh,S&P 400,Industrials,141.78,695024,94812256,2010-01-04,no,50d avg volume under 1M
+OVV,Ovintiv,S&P 400,Energy,65.39,3373924,217661358,2010-01-04,yes,
+OZK,Bank OZK,S&P 400,Financials,50.76,1553038,73796327,2010-01-04,yes,
+PAG,Penske Automotive Group,S&P 400,Consumer Discretionary,212.0,504928,104890142,2010-01-04,no,50d avg volume under 1M
+PATH,UiPath,S&P 400,Information Technology,13.27,35201442,476336227,2021-04-21,yes,
+PB,Prosperity Bancshares,S&P 400,Financials,73.15,1008856,70067792,2010-01-04,yes,
+PBF,PBF Energy,S&P 400,Energy,71.28,3226908,247325580,2012-12-13,yes,
+PCTY,Paylocity,S&P 400,Industrials,178.22,688224,109596589,2014-03-19,no,50d avg volume under 1M
+PEGA,Pegasystems,S&P 400,Information Technology,32.43,2551380,89134580,2010-01-04,yes,
+PEN,"Penumbra, Inc.",S&P 400,Health Care,320.91,377380,120784275,2015-09-18,no,50d avg volume under 1M
+PFGC,Performance Food Group,S&P 400,Consumer Staples,111.17,1649800,162164608,2015-09-30,yes,
+PII,Polaris,S&P 400,Consumer Discretionary,64.43,836182,47513320,2010-01-04,no,50d avg volume under 1M
+PINS,Pinterest,S&P 400,Communication Services,19.15,14178302,281881871,2019-04-18,yes,
+PK,Park Hotels & Resorts,S&P 400,Real Estate,16.17,3809416,60100770,2017-01-04,yes,
+PLNT,Planet Fitness,S&P 400,Consumer Discretionary,61.18,2189712,105945818,2015-08-06,yes,
+PNFP,Pinnacle Financial Partners,S&P 400,Financials,101.05,1149998,112240725,2010-01-04,yes,
+POR,Portland General Electric,S&P 400,Utilities,45.91,2146106,96816029,2010-01-04,yes,
+POST,Post Holdings,S&P 400,Consumer Staples,81.18,796562,62507558,2012-01-27,no,50d avg volume under 1M
+PPC,Pilgrim's Pride,S&P 400,Consumer Staples,28.12,1265346,35963903,2010-01-04,yes,
+PR,Permian Resources,S&P 400,Energy,23.05,9969020,230095608,2016-04-15,yes,
+PRI,Primerica,S&P 400,Financials,293.39,202166,57429195,2010-04-01,no,50d avg volume under 1M
+PSN,Parsons Corporation,S&P 400,Industrials,49.72,1186676,54928570,2019-05-08,yes,
+PVH,PVH Corp.,S&P 400,Consumer Discretionary,93.33,868670,70146520,2010-01-04,no,50d avg volume under 1M
+QLYS,Qualys,S&P 400,Information Technology,172.94,806212,153760403,2012-09-28,no,50d avg volume under 1M
+R,Ryder,S&P 400,Industrials,282.0,308412,78334502,2010-01-04,no,50d avg volume under 1M
+RBA,RB Global,S&P 400,Industrials,95.15,1972764,169597904,2010-01-04,yes,
+RBC,RBC Bearings,S&P 400,Industrials,485.55,328752,161204768,2010-01-04,no,50d avg volume under 1M
+REXR,Rexford Industrial Realty,S&P 400,Real Estate,37.55,2782894,104393352,2013-07-19,yes,
+RGA,Reinsurance Group of America,S&P 400,Financials,275.15,424326,109632400,2010-01-04,no,50d avg volume under 1M
+RGEN,Repligen,S&P 400,Health Care,167.79,1228604,218109584,2010-01-04,yes,
+RGLD,Royal Gold,S&P 400,Materials,256.89,663430,163475701,2010-01-04,no,50d avg volume under 1M
+RH,RH,S&P 400,Consumer Discretionary,129.39,851594,109808401,2012-11-02,no,50d avg volume under 1M
+RLI,RLI Corp.,S&P 400,Financials,69.65,840250,51655960,2010-01-04,no,50d avg volume under 1M
+RMBS,Rambus,S&P 400,Information Technology,82.23,2142860,197144562,2010-01-04,yes,
+RNR,RenaissanceRe,S&P 400,Financials,353.62,411868,139384284,2010-01-04,no,50d avg volume under 1M
+ROIV,Roivant Sciences,S&P 400,Health Care,39.53,8050084,305713485,2020-12-08,yes,
+RPM,RPM International,S&P 400,Materials,103.73,1174250,117639091,2010-01-04,yes,
+RRC,Range Resources,S&P 400,Energy,51.83,4137626,196333458,2010-01-04,yes,
+RRX,Regal Rexnord,S&P 400,Industrials,176.41,1211740,194954542,2010-01-04,yes,
+RS,"Reliance, Inc.",S&P 400,Materials,427.33,297662,122102400,2010-01-04,no,50d avg volume under 1M
+RYAN,Ryan Specialty,S&P 400,Financials,46.89,2139760,88486577,2021-07-22,yes,
+RYN,Rayonier,S&P 400,Real Estate,21.5,3637788,70750948,2010-01-04,yes,
+SAIA,Saia,S&P 400,Industrials,342.29,356316,121647739,2010-01-04,no,50d avg volume under 1M
+SAIC,Science Applications Intl Corp,S&P 400,Industrials,150.24,421744,57771958,2013-09-16,no,50d avg volume under 1M
+SANM,Sanmina Corporation,S&P 400,Information Technology,158.31,812288,146171286,2010-01-04,no,50d avg volume under 1M
+SARO,StandardAero,S&P 400,Industrials,27.73,3957700,92382440,2024-10-02,yes,
+SBRA,Sabra Health Care REIT,S&P 400,Real Estate,20.44,2590302,50911417,2010-01-04,yes,
+SCI,Service Corp Intl,S&P 400,Consumer Discretionary,74.98,1218586,94662159,2010-01-04,yes,
+SEIC,SEI Investments Company,S&P 400,Financials,108.91,797200,83878607,2010-01-04,no,50d avg volume under 1M
+SF,Stifel,S&P 400,Financials,72.75,1421082,101183673,2010-01-04,yes,
+SFM,Sprouts Farmers Market,S&P 400,Consumer Staples,52.07,3171436,188559101,2013-08-01,yes,
+SGI,Somnigroup International,S&P 400,Consumer Discretionary,60.76,3096262,199106050,2010-01-04,yes,
+SHC,Sotera Health,S&P 400,Health Care,16.61,2261674,40306138,2020-11-20,yes,
+SIGI,Selective Insurance Group,S&P 400,Financials,102.67,533386,49027596,2010-01-04,no,50d avg volume under 1M
+SIRI,SiriusXM,S&P 400,Communication Services,31.85,4551124,128029013,2010-01-04,yes,
+SITM,SiTime,S&P 400,Information Technology,444.54,625900,320907821,2019-11-20,no,50d avg volume under 1M
+SLAB,Silicon Labs,S&P 400,Information Technology,221.43,340920,75477342,2010-01-04,no,50d avg volume under 1M
+SLGN,Silgan Holdings,S&P 400,Materials,40.9,1179522,44876820,2010-01-04,yes,
+SLM,SLM Corp,S&P 400,Financials,17.2,3165322,66311273,2010-01-04,yes,
+SMG,Scotts Miracle-Gro Company,S&P 400,Materials,63.84,1118308,63008085,2010-01-04,yes,
+SMTC,Semtech,S&P 400,Information Technology,114.59,3496972,532909287,2010-01-04,yes,
+SN,SharkNinja,S&P 400,Consumer Discretionary,226.39,1665386,312632684,2023-07-31,yes,
+SNX,TD Synnex,S&P 400,Information Technology,237.58,910976,234148697,2010-01-04,no,50d avg volume under 1M
+SOLS,Solstice Advanced Materials,S&P 400,Materials,66.12,2278900,136867025,2025-10-20,yes,
+SON,Sonoco,S&P 400,Materials,48.94,1270022,62262848,2010-01-04,yes,
+SPXC,SPX Technologies,S&P 400,Industrials,154.83,686592,114838991,2010-01-04,no,50d avg volume under 1M
+SR,Spire,S&P 400,Utilities,88.84,521168,42910157,2010-01-04,no,50d avg volume under 1M
+SSB,South State Bank,S&P 400,Financials,104.61,722524,74301434,2010-01-04,no,50d avg volume under 1M
+SSD,Simpson Manufacturing,S&P 400,Industrials,198.01,325262,59001379,2010-01-04,no,50d avg volume under 1M
+ST,Sensata Technologies,S&P 400,Industrials,38.56,1483648,61280524,2010-03-11,yes,
+STAG,STAG Industrial,S&P 400,Real Estate,36.97,1491098,54572052,2011-04-15,yes,
+STRL,Sterling Infrastructure,S&P 400,Industrials,292.39,818800,326069846,2010-01-04,no,50d avg volume under 1M
+STWD,Starwood Property Trust,S&P 400,Financials,11.34,6048126,78581282,2010-01-04,yes,
+SUI,Sun Communities,S&P 400,Real Estate,118.52,1201688,138088207,2010-01-04,yes,
+SWX,Southwest Gas Corp,S&P 400,Utilities,93.66,740684,64832002,2010-01-04,no,50d avg volume under 1M
+SYNA,Synaptics,S&P 400,Information Technology,118.14,1064656,121237328,2010-01-04,yes,
+TCBI,Texas Capital Bancshares,S&P 400,Financials,99.95,541638,52131208,2010-01-04,no,50d avg volume under 1M
+TEX,Terex,S&P 400,Industrials,56.94,1514692,82962513,2010-01-04,yes,
+THC,Tenet Health,S&P 400,Health Care,286.03,778918,209674381,2010-01-04,no,50d avg volume under 1M
+THG,Hanover Insurance,S&P 400,Financials,248.26,298044,68861113,2010-01-04,no,50d avg volume under 1M
+THO,Thor Industries,S&P 400,Consumer Discretionary,77.04,928200,66242128,2010-01-04,no,50d avg volume under 1M
+TKR,Timken,S&P 400,Industrials,108.91,920380,104933760,2010-01-04,no,50d avg volume under 1M
+TLN,Talen Energy,S&P 400,Utilities,376.01,1073254,363079475,2023-06-02,yes,
+TNL,Travel + Leisure Co.,S&P 400,Consumer Discretionary,78.65,802250,54396608,2010-01-04,no,50d avg volume under 1M
+TOL,Toll Brothers,S&P 400,Consumer Discretionary,147.85,1105652,154124600,2010-01-04,yes,
+TOST,"Toast, Inc.",S&P 400,Financials,34.68,8870264,283845783,2021-09-22,yes,
+TREX,Trex,S&P 400,Industrials,52.76,1964882,95584846,2010-01-04,yes,
+TRU,TransUnion,S&P 400,Industrials,81.07,3071654,225680326,2015-06-25,yes,
+TTC,Toro,S&P 400,Industrials,105.89,740208,73088487,2010-01-04,no,50d avg volume under 1M
+TTEK,Tetra Tech,S&P 400,Industrials,38.83,2443076,89316136,2010-01-04,yes,
+TTMI,TTM Technologies,S&P 400,Information Technology,74.08,3622682,341772918,2010-01-04,yes,
+TXNM,TXNM Energy,S&P 400,Utilities,58.87,1397792,81221034,2010-01-04,yes,
+TXRH,Texas Roadhouse,S&P 400,Consumer Discretionary,185.98,1278538,219057754,2010-01-04,yes,
+UBSI,United Bankshares,S&P 400,Financials,48.15,979454,46229367,2010-01-04,no,50d avg volume under 1M
+UFPI,UFP Industries,S&P 400,Industrials,79.49,465832,37209168,2010-01-04,no,50d avg volume under 1M
+UGI,UGI Corp,S&P 400,Utilities,37.72,1645752,61829854,2010-01-04,yes,
+ULS,UL Solutions,S&P 400,Industrials,80.36,972282,68827238,2024-04-12,no,50d avg volume under 1M
+UMBF,UMB Financial Corp.,S&P 400,Financials,133.86,654688,87788375,2010-01-04,no,50d avg volume under 1M
+UNM,Unum,S&P 400,Financials,79.84,2146318,188082665,2010-01-04,yes,
+USFD,US Foods,S&P 400,Consumer Staples,108.45,2423900,241409671,2016-05-26,yes,
+UTHR,United Therapeutics,S&P 400,Health Care,591.17,758250,408701065,2010-01-04,no,50d avg volume under 1M
+VAL,Valaris,S&P 400,Energy,84.14,1014430,86415797,2021-05-03,yes,
+VC,Visteon,S&P 400,Consumer Discretionary,82.27,589090,49951739,2010-10-05,no,50d avg volume under 1M
+VFC,VF Corporation,S&P 400,Consumer Discretionary,20.68,9872006,161244946,2010-01-04,yes,
+VIAV,Viavi Solutions,S&P 400,Information Technology,30.72,6102014,216654411,2010-01-04,yes,
+VICR,Vicor Corporation,S&P 400,Industrials,159.05,980770,216086609,2010-01-04,no,50d avg volume under 1M
+VLY,Valley Bank,S&P 400,Financials,14.34,7126622,95802711,2010-01-04,yes,
+VMI,Valmont Industries,S&P 400,Industrials,420.92,194444,87917686,2010-01-04,no,50d avg volume under 1M
+VNO,Vornado Realty Trust,S&P 400,Real Estate,34.71,1435006,49372324,2010-01-04,yes,
+VNOM,Viper Energy,S&P 400,Energy,42.34,2165076,91682587,2014-06-18,yes,
+VNT,Vontier,S&P 400,Information Technology,43.64,1480834,52303598,2020-09-24,yes,
+VOYA,Voya Financial,S&P 400,Financials,102.0,1103948,109638517,2013-05-02,yes,
+VVV,Valvoline,S&P 400,Consumer Discretionary,34.62,2814678,87347564,2016-09-23,yes,
+WAL,Western Alliance Bancorporation,S&P 400,Financials,74.79,1123620,85463320,2010-01-04,yes,
+WCC,WESCO International,S&P 400,Industrials,321.79,641846,220873268,2010-01-04,no,50d avg volume under 1M
+WEX,WEX Inc.,S&P 400,Financials,181.53,594512,108795508,2010-01-04,no,50d avg volume under 1M
+WFRD,Weatherford International,S&P 400,Energy,86.45,1028040,85866185,2021-01-04,yes,
+WH,Wyndham Hotels & Resorts,S&P 400,Consumer Discretionary,79.32,1310948,96194325,2018-05-21,yes,
+WHR,Whirlpool Corporation,S&P 400,Consumer Discretionary,29.06,3799120,114763632,2010-01-04,yes,
+WING,Wingstop,S&P 400,Consumer Discretionary,158.86,1381688,174105729,2015-06-12,yes,
+WLK,Westlake Corporation,S&P 400,Materials,63.61,915790,60083323,2010-01-04,no,50d avg volume under 1M
+WMG,Warner Music Group,S&P 400,Communication Services,32.3,2153886,63389380,2020-06-03,yes,
+WMS,Advanced Drainage Systems,S&P 400,Industrials,125.58,808074,104130074,2014-07-25,no,50d avg volume under 1M
+WPC,W. P. Carey,S&P 400,Real Estate,65.67,1754818,114054708,2010-01-04,yes,
+WSO,Watsco,S&P 400,Industrials,308.46,586276,178445301,2010-01-04,no,50d avg volume under 1M
+WTFC,Wintrust Financial,S&P 400,Financials,155.48,535636,79306416,2010-01-04,no,50d avg volume under 1M
+WTRG,Essential Utilities,S&P 400,Utilities,45.23,2491672,102858425,2010-01-04,yes,
+WTS,Watts Water Technologies,S&P 400,Industrials,360.39,247732,87851237,2010-01-04,no,50d avg volume under 1M
+WWD,"Woodward, Inc.",S&P 400,Industrials,329.86,710304,230261552,2010-01-04,no,50d avg volume under 1M
+XPO,"XPO, Inc.",S&P 400,Industrials,192.81,1174138,214747102,2010-01-04,yes,
+XRAY,Dentsply Sirona,S&P 400,Health Care,9.16,4980996,46817674,2010-01-04,yes,
+YETI,Yeti Holdings,S&P 400,Consumer Discretionary,39.42,1809710,75556703,2018-10-25,yes,
+ZION,Zions Bancorporation,S&P 400,Financials,66.34,1579672,101983877,2010-01-04,yes,

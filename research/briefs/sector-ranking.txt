@@ -1,0 +1,29 @@
+Sector ranking for one region. Write ONLY research/sectors/ranking/REGION.md under /Users/akarshanarora/Developers/finance/. No commit. Today is the run date. ASCII only; use plain words for a non-expert user. Every number needs a source and date; mark anything unverified "not verified".
+
+Read first: AGENTS.md "Writing for the user", research/sources.md (respect site terms) and ~/.copilot/skills/market-data/SKILL.md.
+
+Sector index sources:
+- India: niftyindices APIs (P/E history by index: Nifty Bank, IT, Pharma, Healthcare, FMCG, Auto, Metal, Energy, Realty, Media, PSU Bank, Financial Services, Oil and Gas, Consumer Durables, Infrastructure, India Defence, Chemicals; see research/sources.md).
+- US: FactSet Earnings Insight (sector forward P/E vs 5/10-yr averages, sector earnings growth), SPDR sector ETFs via yfinance (XLK, XLC, XLY, XLP, XLE, XLB, XLI, XLU, XLRE, XLF, XLV).
+- Europe: STOXX 600 sector ETFs or iShares STOXX Europe 600 sector UCITS (EXV1 etc.), MSCI Europe sector factsheets.
+- Japan: TOPIX-17 sector indices or Japan sector ETFs, JPX.
+- Other Asia: MSCI AC Asia ex Japan sectors, Hang Seng sector indices, Korea and Taiwan where relevant.
+
+yfinance is in /Users/akarshanarora/Developers/finance/.venv; throttle 2 s between calls (many agents share the IP). Scratch files only in ~/.cache/finance-research/rank-REGION/ (delete it at the end).
+
+Rank all 11 GICS sectors (information technology, communication services, consumer discretionary, consumer staples, energy, materials, industrials, utilities, real estate, financials, health care) for your region. Use the region's natural sub-sectors where they matter (e.g. India: PSU banks, defence, capital goods, autos, IT services, FMCG).
+
+Start the file with `## Summary` (at most 5 lines): the most and least attractive sectors in this region now, and why.
+
+Then one table, one row per sector, with these columns:
+- sector;
+- mood and momentum: 1y and 6m return of the sector index or ETF vs the market, dated;
+- valuation vs history: forward P/E or the right measure vs its own 5-10 yr average, and vs the market;
+- earnings growth outlook: next year's consensus where available;
+- key risk;
+- verdict: attractive / neutral / avoid, with a one-line reason;
+- sources.
+
+Under about 120 lines.
+
+Reply with a 3-line summary and the list of sources tried (name, URL, worked/blocked, 1-5), one line each.

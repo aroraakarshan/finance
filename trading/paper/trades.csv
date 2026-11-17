@@ -1,0 +1,4 @@
+id,strategy,approval,signal,symbol,market,ccy,signal_date,status,limit,fill_date,fill_price,stop,target,time_stop_date,shares,risk_inr,fx,exit_date,exit_price,exit_reason,r_multiple,pnl_inr,pnl_ccy,costs_inr,notes
+2026-11-16-BILL-turtle2r,turtle2r,below bar,20d high breakout 2026-11-16 (close 57.63 > prior 20d high 55.01),BILL,US,USD,2026-11-16,pending,57.9182,,,53.8115,66.1315,,5,1935,94.2380,,,,,,,,stop/target are estimates until the fill
+2026-11-16-PG-turtle2r,turtle2r,below bar,20d high breakout 2026-11-16 (close 173.02 > prior 20d high 170.73),PG,US,USD,2026-11-16,pending,173.8851,,,167.3462,186.9629,,2,1232,94.2380,,,,,,,,stop/target are estimates until the fill
+2026-11-16-CMCSA-turtle2r,turtle2r,below bar,20d high breakout 2026-11-16 (close 25.60 > prior 20d high 25.42),CMCSA,US,USD,2026-11-16,pending,25.7280,,,24.2914,28.6012,,14,1895,94.2380,,,,,,,,stop/target are estimates until the fill

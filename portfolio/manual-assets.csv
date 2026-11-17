@@ -1,0 +1,5 @@
+symbol,name,account,asset,value,as_of,source
+PGB-FD,Punjab Gramin Bank FDs (estimate),Punjab Gramin Bank,FD,7200000,2026-11-15,"estimate, user-stated 2026-11-15, details pending (rates, maturities)"
+PGB-SAVINGS,Punjab Gramin Bank savings (estimate),Punjab Gramin Bank,Cash,1000000,2026-11-15,"estimate, user-stated 2026-11-15, statement pending"
+EPF-QCOM,EPF Qualcomm member account,EPFO,EPF,2897496,2026-08-19,"EPFO passbook printed 2026-08-19 (Qualcomm FY2026-27): employee + employer shares; not transferred to Microsoft, no contributions since; pension (EPS) left out"
+EPF-MSFT,EPF Microsoft member account,EPFO,EPF,1205631,2026-08-19,"EPFO passbook printed 2026-08-19 (Microsoft FY2026-27): employee + employer shares to the Jul 2026 wage month; EPS shows 0 (D10); contributions after Jul 2026 and 2026-27 interest not yet in"

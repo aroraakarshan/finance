@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" data-theme="reader">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$title - finance</title>
+<script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+<link rel="stylesheet" href="${root}style.css">
+</head>
+<body class="$kind">
+<header class="bar">
+<a class="brand" href="${root}index.html">finance</a>
+<nav>$nav</nav>
+<a class="theme" href="#" onclick="var d=document.documentElement;d.dataset.theme=d.dataset.theme=='list'?'reader':'list';try{localStorage.setItem('theme',d.dataset.theme)}catch(e){};return false;">theme: reader / list</a>
+</header>
+<main>
+$body
+</main>
+<footer>Built $built by <code>python -m scripts.site</code>. Click a table header to sort.</footer>
+<script>
+document.querySelectorAll("table").forEach(function(t){
+  t.querySelectorAll("thead th").forEach(function(th,i){
+    th.addEventListener("click",function(){
+      var b=t.tBodies[0];if(!b)return;
+      var asc=th.dataset.dir!="asc";th.dataset.dir=asc?"asc":"desc";
+      var key=function(r){var s=((r.cells[i]||{}).textContent||"").trim();
+        if(/^[-+~]?\s*(Rs|\$$|EUR|JPY)?\s*-?[0-9][0-9,.]*\s*(%|L|Cr|k)?$$/.test(s))return parseFloat(s.replace(/[^0-9.\-]/g,""));
+        return s.toLowerCase();};
+      Array.from(b.rows).sort(function(x,y){var a=key(x),c=key(y);
+        var r=(typeof a==typeof c)?(a<c?-1:a>c?1:0):(typeof a=="number"?-1:1);return asc?r:-r;})
+        .forEach(function(r){b.appendChild(r);});
+    });
+  });
+});
+</script>
+</body>
+</html>

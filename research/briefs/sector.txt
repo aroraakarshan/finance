@@ -1,0 +1,39 @@
+Sector research for the user: market research, NOT about his current portfolio. Write ONLY the files named in your task, under /Users/akarshanarora/Developers/finance/research/sectors/. No commit, no orders. Today is the run date. ASCII only. Use plain, simple words: the user is not a finance professional, so explain any term in a few words the first time. Every number needs a source and date; mark anything unverified "not verified".
+
+Read first:
+- AGENTS.md "Writing for the user".
+- research/sources.md. Prefer high scores and respect site terms: no TradingView; web_fetch only for stockanalysis; light single reads of screener.in.
+- ~/.copilot/skills/equity-analysis/SKILL.md and its references/comps.md (peer comparison), dcf.md and earnings.md.
+- ~/.copilot/skills/market-data/SKILL.md for Yahoo data traps: EPS units, adjusted operating income, enterpriseValue, Indian standalone vs consolidated EPS, TZ=UTC for dates.
+- research/themes/opp-sectors-themes.md: do not repeat it; link it.
+
+Scratch files only in ~/.cache/finance-research/SECTORNAME/ (delete that folder at the end). yfinance is in /Users/akarshanarora/Developers/finance/.venv; throttle to 2 s between calls, because 10+ agents share the IP.
+
+User:
+- Indian resident.
+- Can buy Indian stocks and ETFs at AngelOne, and listed foreign stocks and Irish UCITS ETFs at IBKR (LRS; no derivatives or margin abroad).
+- Prefers Irish UCITS over US-listed ETFs (US estate tax).
+- Already heavy in US semis/tech (QCOM, MSFT).
+
+Each sector (or part) covers:
+1. `## Summary` (at most 5 lines, plain words): what is happening, is it a good time, what to buy and why.
+2. Market mood and recent performance by region (India, US, Europe, Japan, other Asia): 1y/3y/5y sector index or ETF returns, with dates.
+3. Valuation vs history: forward P/E or the right measure (P/B for banks, EV/EBITDA for energy); the sector vs the market and vs its own 10-year average, with sources.
+4. Growth outlook: drivers, and named forecasts where they exist.
+5. Key risks.
+6. A "what to buy" table: 3-6 candidates across India, US, Europe, Japan and Asia, mixing stocks and sector ETFs.
+   - Columns: name | ticker (exchange) | where to buy (AngelOne/IBKR) | why (one sentence) | valuation (P/E or other, recomputed in its own currency) | one-line tax.
+   - Tax lines come from tax/investment-types.md and tax/new-investments.md:
+     - Indian listed equity: STCG 20%; LTCG 12.5% above Rs 1.25 L after 12 months.
+     - Foreign shares: LTCG 12.5% after 24 months, else slab.
+     - Irish UCITS accumulating: no tax until sale.
+     - Dividends: at slab, with credit for treaty withholding (rate by country in research/global/<country>.md).
+   - Mark US-listed names "US-situs (estate tax)".
+7. Sources.
+
+Keep each file under about 150 lines. If longer, split it into parts with a README.md index (Summary, the what-to-buy table, and links).
+
+Reply with:
+- a 3-line summary;
+- the top 3 candidates (ticker, market, one-line why);
+- sources tried (name, URL, worked/blocked, 1-5), one line each.

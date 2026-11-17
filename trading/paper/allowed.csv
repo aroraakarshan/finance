@@ -1,0 +1,2 @@
+strategy,market,status,approved_by,date,note
+short-breakout-2R,US,below-bar,user via finance-main,2026-11-16,"rules-following test; full-universe rules-sized PF 1.21 (full period) / 1.19 (2020-2026), trading/backtests/short-breakout/universe.md"

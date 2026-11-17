@@ -1,0 +1,68 @@
+# Glossary
+
+Plain meanings of the words in [plan.md](plan.md), one line each.
+
+- Lakh (L): Rs 1,00,000. Crore (Cr): Rs 1,00,00,000 = 100 lakh.
+- Share: a small piece of ownership of one company.
+- Code (ticker): the short name of a share or fund in a trading app, e.g. QCOM (Qualcomm), MSFT (Microsoft), AVGO (Broadcom), GOOGL (Alphabet/Google), NVDA (Nvidia), CRWD (CrowdStrike), CEG (Constellation Energy), VRT (Vertiv).
+- SCLX, SMNR, IONQ, SYRS, TRVI, SHLS: codes of small US companies you hold at INDmoney (Scilex, Semnur, IonQ, Syros, Trevi, Shoals).
+- Fund (mutual fund): a pool of many people's money that buys many shares for you.
+- Direct, Growth: the fund version with no agent fee that reinvests its gains; pick this one.
+- Pension fund (ICICI Pension Fund): the company that invests your NPS money.
+- Index fund: a fund that simply copies a list of companies, such as the Nifty 50; low cost.
+- Nifty 50: India's 50 biggest listed companies. Nifty Next 50: the next 50. Midcap 150: the next 150 medium-sized companies.
+- Large cap / mid cap / small cap: big / medium / small companies.
+- Flexi cap fund: a fund whose manager can buy companies of any size.
+- ETF (exchange-traded fund): a fund you buy and sell like a share, during market hours.
+- FoF (fund of funds): a fund that buys another fund; costs a little more.
+- PSU (public sector undertaking): a company owned mostly by the government.
+- SIP (systematic investment plan): an automatic monthly buy of a fund.
+- Arbitrage fund: a low-risk fund that earns from small price gaps; taxed like a share fund, so it keeps more after tax than a deposit.
+- Liquid fund: a very safe fund of short loans; money back in 1 day, part of it instantly.
+- Gold ETF (GOLDIETF): a fund that holds real gold; you buy it like a share instead of buying jewellery.
+- Silver ETF: the same, for silver.
+- MSCI World ex USA: a list of big companies in rich countries other than the US.
+- Small cap value: smaller companies that are cheap compared with their profits.
+- UCITS fund (Irish fund): a European-regulated fund based in Ireland; not counted as US property for US estate tax.
+- Accumulating fund: a fund that reinvests its dividends instead of paying them out.
+- Fund codes at IBKR: EXUS (world outside the US), IJPA (Japan), XDEW (US, equal weight), AVGS (small cheap companies worldwide), XDWH (health care worldwide), XDW0 (energy worldwide), FLXC (China), LTAM (Latin America), IB01 (very short US government loans).
+- Equal weight: a fund that puts the same amount in every company of its list, so the biggest companies do not dominate.
+- Sector fund: a fund that holds only one kind of business worldwide, e.g. health care or energy.
+- Dividend: the part of a company's profit it pays to its shareholders.
+- US Treasury bond 0-1 year: a loan to the US government that is repaid within a year; very safe, in dollars.
+- 180-day rule: Indian rules say money from a sale abroad must be invested again or brought home within 180 days.
+- IBKR (Interactive Brokers): your broker for US and world shares.
+- AngelOne: your Indian broker for shares and funds. INDmoney: an older US-share app you are leaving. Fidelity: where your Microsoft shares sit.
+- Limit order: an order that buys or sells only at your price or better.
+- Share move (transfer): moving shares from INDmoney to IBKR without selling them.
+- Fraction (share piece): the part of a share after the decimal point, e.g. 0.49 of a share.
+- Vest: the date your employer's share award becomes yours.
+- ESPP (employee share purchase plan): Microsoft's plan to buy its shares at a discount from your salary.
+- Offering (ESPP): one 3-month period of the ESPP (starting 1 Jan, 1 Apr, 1 Jul, 1 Oct); the shares are bought on its last day. You must sign up before it starts.
+- Fidelity NetBenefits: Fidelity's website for Microsoft share plans, where you set the ESPP rate.
+- Wire: a bank transfer of money to another account, here dollars from Fidelity to IBKR.
+- Lot: the shares you got on one date at one price; each lot has its own long-term date and tax.
+- Long-term date: the first day a lot counts as long-term (for foreign shares, 2 years and 1 day after you got it).
+- Results (earnings): the figures a company publishes every 3 months; its share price can jump or fall on that day.
+- Long-term: a share or fund held long enough (2 years for foreign shares, 1 year for Indian share funds and gold ETFs) to pay a lower tax rate.
+- Loss shares: shares now worth less than you paid; selling them books a loss that cuts tax on gains.
+- Carry forward (loss): a loss not used this year is kept for up to 8 later years, only if you file the tax return (ITR) by its due date.
+- Wash-sale rule: a US rule that ignores a loss if you buy the same share back within 30 days; it does not apply to you.
+- Payout instruction: where Fidelity sends your sale money (today your HDFC account; to be IBKR).
+- Step (tranche): one part of a sale spread over time.
+- Fixed deposit (FD): money locked at a bank for a fixed time at a fixed interest rate.
+- Small finance bank deposit: a fixed deposit at a smaller bank that pays more; keep under Rs 5 L per bank, the insured limit.
+- Government bonds (T-bills, G-secs): loans to the Government of India; very safe if held to the end.
+- RBI Retail Direct: the Reserve Bank of India website where you can buy government bonds directly.
+- PPF (Public Provident Fund): a government savings account; 7.1% tax-free, locked 15 years, Rs 1.5 L a year at most.
+- NPS (National Pension System): a retirement account; your employer can pay into it from your salary and you save tax; locked until 60.
+- Active choice 75% equity: you choose NPS to put 75% in shares, the rest in bonds.
+- Basic pay: the "basic" line on your payslip.
+- Emergency fund: money you can reach in a day for 6 months of spending.
+- US estate tax: a US tax on US shares owned by a non-American when they die, on the amount above $60,000.
+- Term life insurance: insurance that pays your family a fixed sum if you die during the term; no payout otherwise.
+- CA (chartered accountant): a qualified tax adviser.
+- Advance tax: income tax paid during the year in parts (by 15 Jun, 15 Sep, 15 Dec and 15 Mar) instead of all at the end; paying late adds interest.
+- Surcharge: an extra tax on top of income tax for high incomes; it rises in steps, e.g. above Rs 2 Cr of income in a year.
+- HR (human resources): the team at work that handles salary and benefits.
+- Paper trading: practice trades written down, with no real money.

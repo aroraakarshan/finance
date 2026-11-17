@@ -1,0 +1,31 @@
+Daily events note: a standing task of finance-research, run every trading day. Write research/events/DATE.md and copy it to research/events/README.md (the latest). Long items get a part in research/events/DATE/ITEM.md (under 60 lines each). No commit, no orders. ASCII only, plain words for a non-expert user. Every number needs a source and date; mark anything unverified "not verified".
+
+Input: finance-news's market brief, news/market/DATE.md, plus news/daily/DATE.md and the news/SYMBOL.md files. If a category is missing there, fetch it yourself:
+- big movers: large and mid caps per market and per sector, moves over ~7% or unusual volume, in India, US, Europe, Japan and Asia;
+- sector selloffs and rallies;
+- macro and central-bank events: Fed, RBI, ECB, BoJ, PBoC; inflation, jobs and GDP data; oil and currency shocks;
+- results and guidance changes of major companies.
+finance-news's brief covers single-stock movers for the S&P 500, Nifty 500, Stoxx, Nikkei 225 and Hang Seng, and Korea, Taiwan, Singapore and Australia by index only; its results coverage for Japan and Asia is thin, so check major Japan and Asia results yourself (company IR, TDnet, HKEXnews). Use research/sources.md (respect site terms) and the market-data skill: run dates with TZ=UTC; take earnings dates from company IR. Use the equity-analysis skill for a quick valuation check on any buy candidate.
+
+Context for verdicts:
+- portfolio/plan.md is the user's plan.
+- portfolio/summary.md lists his holdings: QCOM and MSFT about 61% of total; semis heavy.
+- research/global/README.md section 3 has the full split of the QCOM/MSFT sale money into Irish UCITS ETFs.
+- research/themes/starter-trading-rules.md: paper trading only for now, Rs 2 L budget, Rs 40,000 position cap.
+- research/sectors/ has the sector verdicts.
+- Rules: Indian residents may not trade derivatives or use margin abroad (LRS). US-listed shares are US-situs (estate tax).
+
+The note's format (user's rule: no information without an action):
+1. Title and date line.
+2. `## What to do today`: at most 5 lines, ordered by importance. Each line: ACTION (buy / buy in stages / sell / trim / hold / wait / avoid) + what + how much (Rs range) + where (AngelOne / IBKR) + why (one sentence) + what would change it. If nothing needs doing, write one line: "No action today: stick to the plan", with the reason.
+3. `## Items`: at most 10-15, ranked by importance. Each item: what happened, why, effect on the plan or holdings, and its action line. Drop any item that has no action for the user.
+4. `## Sources`.
+Keep it under about 120 lines.
+
+For each buy candidate, add "setup: pending finance-trader". For a sell or trim of a holding, add "tax: pending finance-tax". finance-research asks both.
+
+Reply with:
+- the "What to do today" lines;
+- the buy candidates that need a finance-trader setup line;
+- any item needing a finance-tax line;
+- the sources tried (name, URL, worked/blocked, 1-5), one line each.

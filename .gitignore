@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+# Raw statements stay in Google Drive, never in git
+*.xlsx
+*.xls
+*.pdf
+*.json
+data/
+
+# Research downloads cache (finance-research)
+research/.cache/
+
+# Backtest tearsheets (finance-trader) live in ~/.local/share/finance-reports
+trading/backtests/reports/
