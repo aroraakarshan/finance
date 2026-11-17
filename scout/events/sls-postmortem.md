@@ -23,10 +23,13 @@ Source tags: [P] yfinance prices, [Sn] numbered sources at the end.
   ("final analysis", "Nth event", "topline", "IDMC"), not by profit screens; (2) an event-count
   tracker for trials whose readout date depends on deaths/events; (3) a separate "event bet"
   bucket with its own small size cap that is not subject to the profit filter.
-- Could we have bought it under the rules? Only partly. The repo trading rules are still TBD and
-  "nothing here allows a trade" (finance rules, Trading rules section; draft in research/themes/starter-trading-rules.md). Under the rules the user stated: price above $5 OK,
+- Could we have bought it under the rules? Only partly. The trading rules in AGENTS.md were approved on
+  15 Nov 2026 for paper trading only (real money after 8 weeks and 20 paper trades) and cover only the
+  Rs 2 L trading budget; no event-bet money existed before the user's decision of 18 Nov 2026
+  (portfolio/targets.md, "Event bets"). (Corrected 18 Nov 2026: an earlier draft said the rules were
+  all TBD, from an old copy of the finance rules.) Under the rules the user stated: price above $5 OK,
   0.5% cap (Rs 2.1 L = about $2,228 at 94.24 INR/USD on 16 Nov [P]) = about 298 shares at 7.47.
-  Result at the 17 Nov close 19.16: about +$3,480 before tax, about +$2,230 after 35.88% slab tax
+  Result at the 17 Nov close 19.15: about +$3,480 before tax, about +$2,230 after 35.88% slab tax
   (held under 24 months). A failed trial would likely have cost most of the $2,228.
 - Now (after +156%): verdict WATCH, not buy. The binary event is over; what is left is a slower
   regulatory path (BLA in 1H 2027, FDA decision most likely 2028), a $150 M ATM ready to sell
@@ -37,8 +40,8 @@ Source tags: [P] yfinance prices, [Sn] numbered sources at the end.
 | Item | Value | Source |
 |---|---|---|
 | Last close before readout | 7.47 on Mon 16 Nov 2026 (Fri 13 Nov: 7.86) | [P] |
-| 17 Nov 2026 | open 24.00, high 24.89, low 16.72, close 19.16, volume 105.7 M (30-day average to 16 Nov: 7.0 M) | [P] |
-| Move | 7.47 -> 19.16 = +156.5% | [P] |
+| 17 Nov 2026 | open 24.00, high 24.89, low 16.72, close 19.15, volume 113.9 M (30-day average to 16 Nov: 7.0 M) | [P] |
+| Move | 7.47 -> 19.15 = +156.4% | [P] |
 | Readout | Primary endpoint OS met; HR 0.59 (41% lower risk of death); two-sided p=0.035; median OS 24.0 vs 14.7 months; 126 patients randomized 1:1 vs best available treatment; open-label; analysis at the pre-set 80 deaths; safety mostly grade 1/2 injection-site reactions | [S11] 8-K 17 Nov 2026 |
 | FDA plan | Meet FDA "to discuss an accelerated filing strategy" and prepare a BLA "in the first half of 2027"; full data at a future medical meeting | [S11] |
 | Designations | GPS has FDA Orphan Drug and Fast Track in AML; Rare Pediatric Disease (pediatric AML, Oct 2024) | [S10] 10-Q p.21 |
@@ -47,8 +50,9 @@ Source tags: [P] yfinance prices, [Sn] numbered sources at the end.
 Discrepancies found:
 - The brief said "14 Nov close". 14 Nov 2026 was a Saturday; the last close before the readout is
   16 Nov 2026 (7.47). Using 13 Nov (7.86) the move is +143.7%.
-- yfinance gave 19.10 on the first pull and 19.16 on a later pull the same night (late prints).
-  19.16 is used. News sites quoted +165% intraday (wallstreetobserver, 17 Nov 2026).
+- yfinance gave 19.10 and 19.16 in pulls before the US close (02:30 IST on 18 Nov), so those were
+  intraday prices. The final close, pulled at 02:34 IST on 18 Nov 2026, is 19.15 (volume 113.9 M);
+  19.15 is used. News sites quoted +165% intraday (wallstreetobserver, 17 Nov 2026).
 - clinicaltrials.gov NCT04229979 still shows primary completion "2025-12 (estimated)", last
   updated 1 Oct 2025 [S1]. A screen that trusts registry dates would have looked in Dec 2025 and
   then dropped it. Registry start date is 8 Feb 2021 (first posted 18 Jan 2020).
@@ -75,7 +79,7 @@ Discrepancies found:
 | 30 Oct 2026 | Short interest 57.1 M shares = 28.2% of float, 8.6 days to cover (prior month 55.1 M) | 9.68 | yfinance info, pulled 18 Nov 2026 |
 | 12 Nov 2026 | Q3 PR: topline "this month"; 10-Q: topline "in November 2026" | 8.03 (-4.6%) | [S9], [S10] |
 | 16 Nov 2026 | Last close before readout | 7.47 (-5.0%) | [P] |
-| 17 Nov 2026 | Positive topline, pre-market | 19.16 (+156.5%) | [S11] |
+| 17 Nov 2026 | Positive topline, pre-market | 19.15 (+156.4%) | [S11] |
 
 Reading the timeline:
 - The death count slowed sharply: 60 by Dec 2024, 72 by Dec 2025, 78 by May 2026, 80 by Oct 2026
@@ -94,7 +98,7 @@ Reading the timeline:
 
 | Check | SLS before the readout | Pass? | Source |
 |---|---|---|---|
-| Repo trading rules | All TBD; "Until then nothing here allows a trade" | NO (applies to every trade) | finance rules, Trading rules |
+| Repo trading rules | Approved 15 Nov 2026 for paper trading only, Rs 2 L budget, max loss Rs 2,000 a trade, no entry within 5 trading days before results; no event-bet slot until 18 Nov 2026 | NO for real money | AGENTS.md, Trading rules; portfolio/targets.md, Event bets |
 | No stocks under $5 | Under $5 until 7 May 2026; above $5 every day 13 May - 16 Nov 2026 (7.47 on 16 Nov) | YES from 13 May 2026 | [P] |
 | Market cap | about $1.52 B on 16 Nov (7.47 x 203.86 M shares at 11 Nov 2026) | YES (not a micro cap) | [P], [S10] |
 | Profitable | Net loss $28.1 M in Jan-Sep 2026; accumulated deficit $303.1 M | NO - this is the filter that dropped it | [S10] |
@@ -105,7 +109,7 @@ Reading the timeline:
 | Tax | Foreign shares held under 24 months: slab 35.88%; over 24 months 14.95% | Event trades are always short-term | scout/universe.md |
 | Size cap 0.5% (about Rs 2.1 L) | about $2,228 = 298 shares at 7.47 | YES | [P] FX 94.24 on 16 Nov |
 
-What it would have paid: 298 shares x (19.16 - 7.47) = about $3,480; after 35.88% tax about
+What it would have paid: 298 shares x (19.15 - 7.47) = about $3,480; after 35.88% tax about
 $2,230 (about Rs 2.08 L at 93.46 on 17 Nov) [P]. That is about +0.5% of the portfolio, for a
 bet where a fail would likely have lost most of $2,228 (about -0.4%). Entry on 28 Oct (10.38) would
 have made +85%; on 12 Nov (8.03) +139% [P].
@@ -154,15 +158,16 @@ Rules for the calendar (proposed for finance-scout):
    Read the 10-Q text: it can be more precise than the PR (here "November 2026").
 4. "Event bet" bucket with its own limits. Up to 0.5% per name (about Rs 2.1 L), at most 1-2%
    total in open event bets; size for a total loss; buy only after the company names a quarter or
-   month; exit or re-decide within a day of the result. Requires the user to set the trading rules
-   first (all TBD now).
+   month; exit or re-decide within a day of the result. The user set this slot on 18 Nov 2026 with a
+   3% total cap and approval of each bet (portfolio/targets.md, "Event bets"); the pre-bet checklist
+   is in [calendar.md](calendar.md).
 5. Pre-event checklist before any event bet: base rate for the phase and area (BIO 2011-2020),
    cash runway past the event, ATM/shelf in place (a raise after a spike is likely), short interest,
    size of the trial and whether it is blinded, and whether US-situs adds to the estate-tax issue.
 
 ## 5. What happens next (verdict: WATCH)
 
-- Price now about 19.16, market cap about $3.9 B vs $134.7 M cash [P, S10]. The binary event is
+- Price now about 19.15, market cap about $3.9 B vs $134.7 M cash [P, S10]. The binary event is
   done; the next steps are slower and the stock has priced in a large part of approval.
 - Regulatory path: FDA meeting first, BLA in 1H 2027 [S11]. Under PDUFA a new BLA gets a decision
   goal 10 months after the 60-day filing date (standard) or 6 months (priority), i.e. 12 or 8 months
@@ -171,7 +176,7 @@ Rules for the calendar (proposed for finance-scout):
 - Base rate filing -> approval in oncology: 92.0% (BIO 2011-2020) [S15], but that average covers
   filed applications; risks here are one small open-label trial, p=0.035 (close to 0.05), and full
   secondary data not yet shown. The FDA may want more, which would delay or block approval.
-- Dilution: the $150 M ATM was unused on 12 Nov 2026 [S10]; selling it all at 19.16 would add
+- Dilution: the $150 M ATM was unused on 12 Nov 2026 [S10]; selling it all at 19.15 would add
   about 7.8 M shares (+3.8%). Launch costs will raise burn well above $30 M a year. A raise after a
   spike is likely; watch EDGAR for 424B5 / prospectus supplements.
 - Other catalysts: SLS009 Phase 2 first-line AML preliminary topline Q4 2026; SLS009 r/r AML data
@@ -187,7 +192,7 @@ date. Add to the new event calendar as "BLA filing 1H 2027".
 ## Sources (all accessed 18 Nov 2026)
 
 - [P] yfinance 1.8.0, ticker SLS and INR=X, daily history 2020-01-01 to 2026-11-17 and .info
-  (market cap, short interest dated 30 Oct 2026), pulled 18 Nov 2026 01:40-02:10 IST.
+  (market cap, short interest dated 30 Oct 2026), pulled 18 Nov 2026 01:40-02:10 IST; final 17 Nov close and volume re-pulled 02:34 IST.
 - [S1] clinicaltrials.gov NCT04229979, record last updated 1 Oct 2025:
   https://clinicaltrials.gov/study/NCT04229979
 - [S2] SELLAS PR 10 Dec 2024, 60 events, interim triggered:
