@@ -2,8 +2,8 @@
 
 ## Summary
 - Why: SELLAS (SLS) rose about 2.6x on 17 Nov 2026 on a Phase 3 result that was public and dated; our profit screens drop such companies ([post-mortem](sls-postmortem.md)). This calendar lists every dated event in the next 90 days and is refreshed each Sunday.
-- Proposed now: 6 event bets (Rs 6.75 L, 1.6% of the total) and 3 conditional ones (Rs 4 L more); everything else is avoid, excluded or watch. Nothing is bought until you approve each bet and `finance-research` has checked it (your rule of 18 Nov in [targets](../../portfolio/targets.md#event-bets-single-binary-events)).
-- This week: Delivery Hero (ask IBKR about the tender by Thu 19 Nov; last buy Fri 20 Nov), PolyPid 28 Nov, Cogent 30 Nov, Sensex announcement late Nov. Then Mineralys 22 Dec and the Castrol offer 24 Dec - 7 Jan.
+- Proposed now: 6 event bets (Rs 6.75 L, 1.6% of the total) and 3 conditional ones (Rs 4 L more); added 18 Nov: 2 India delisting exit-window bets (up to Rs 4 L, about +2.2% after tax each; [India section](#buybacks-open-offers-delistings-and-ipos-india)); everything else is avoid, excluded or watch. Nothing is bought until you approve each bet and `finance-research` has checked it (your rule of 18 Nov in [targets](../../portfolio/targets.md#event-bets-single-binary-events)).
+- This week: Delivery Hero (ask IBKR about the tender by Thu 19 Nov; last buy Fri 20 Nov), Hitech Corp and Jindal Photo delisting exit-window buys (new 18 Nov; before trading stops), PolyPid 28 Nov, Cogent 30 Nov, Sensex announcement late Nov. Then Mineralys 22 Dec and the Castrol offer 24 Dec - 7 Jan.
 - Your choices: the slot rules below (checklist, biotech limit, the $5 rule, holding Delivery Hero past the event), then each bet.
 
 ## What to do, by date
@@ -13,6 +13,8 @@
 | Thu 19 Nov | Approve or drop the slot rules (next section) and the six bets | Most bets need orders before their event; the first ones come this week |
 | Thu 19 Nov | Ask IBKR: can it tender Delivery Hero into Uber's offer in the additional acceptance period, and what is its cut-off? | The period ends Tue 24 Nov; untendered shares do not get EUR 41.50 ([deals](parts/deals.md)) |
 | Fri 20 Nov | If IBKR says yes and its cut-off allows: buy DHER, about 26 shares, limit EUR 36.60 (Rs 1 L), then tender all | German trades settle two business days later, so a Fri 20 Nov buy settles Tue 24 Nov, the last day; later buys miss it |
+| Now, before trading stops (date not announced) | If approved: Hitech Corp (HITECHCORP, BE series) up to Rs 2 L, limit Rs 412 or less; Jindal Photo (JINDALPHOT) up to Rs 2 L, limit Rs 1,122 or less. Hold, then tender to the acquirer in the exit window | Delisting exit prices Rs 426 and Rs 1,161 are fixed for a year after delisting; about +Rs 2,200 per Rs 1 L after slab tax ([india](parts/india.md#7-buybacks-open-offers-delistings-and-ipos-india)) |
+| Mon 23 Nov | Zee buyback: no action (last day to buy for the 25 Nov record date; avoid) | Loses about Rs 2,955 per Rs 1 L at an estimated 12% acceptance ([india](parts/india.md#7-buybacks-open-offers-delistings-and-ipos-india)) |
 | Fri 27 Nov | PolyPid (PYPD): limit $6.50, Rs 0.75 L (about 123 shares), only if the day's volume lets it fill | FDA decision Sat 28 Nov ([bio](parts/bio.md)) |
 | Fri 27 Nov | Cogent (COGT): limit $28.00, Rs 1 L (about 38 shares); hold to the second decision on 30 Dec | FDA decisions Mon 30 Nov and Wed 30 Dec |
 | Late Nov (watch daily) | If BSE names Shriram Finance for the Sensex: buy up to Rs 1 L at or below Rs 1,000; sell by Fri 18 Dec | Change takes effect Mon 21 Dec ([india](parts/india.md)) |
@@ -127,7 +129,7 @@ Prices: US closes of 17 Nov 2026 from yfinance, pulled 18 Nov 2026 02:33 IST aft
 | Q1 2027 | quarter | US | Organon (OGN) | Sun Pharma USD 14 cash deal closes | Paid / falls | about 90% | 13.90 | $3,650 M | - | AVOID (1.3% a year after tax) | 0 | [deals](parts/deals.md) |
 | By end Q1 2027 (votes passed 11 Nov) | quarter | UK | easyJet (EZJ) | Apollo scheme, 715p cash | Paid / towards 398p (-42%) | about 90%; price implies 92% | 689p | GBP 5.2 bn | - | CONDITIONAL: only at 670p or less | Rs 1 L at most | [deals](parts/deals.md) |
 
-Not in the table (no action): Jyothy Labs (23 Nov) and FDC (26 Nov) buybacks closed to new buyers; Mapro and Frontier Capital open offers (BSE-only or under Rs 50); Hitech delisting (no dates); nexfibre CMA ruling (private); UNP/NSC filings (no decision in the window); Dr Reddy's semaglutide relaunch, Sun Pharma Halol and Cipla launches (no dates); defence approvals and the spectrum auction (no dates); large caps whose events do not move them (Roche, argenx, Insmed, Biogen, Incyte, Pharming; see [bio](parts/bio.md)).
+Not in the table (no action): Jyothy Labs (23 Nov) and FDC (26 Nov) buybacks closed to new buyers; Mapro and Kronox open offers (offer below market), Frontier Capital (under Rs 50); Crystal Crop, Mahanadi Coalfields and Watrana IPOs (skip); Hitech and Jindal Photo exit-window bets are in the India section below; nexfibre CMA ruling (private); UNP/NSC filings (no decision in the window); Dr Reddy's semaglutide relaunch, Sun Pharma Halol and Cipla launches (no dates); defence approvals and the spectrum auction (no dates); large caps whose events do not move them (Roche, argenx, Insmed, Biogen, Incyte, Pharming; see [bio](parts/bio.md)).
 
 ## Verdicts
 
@@ -143,6 +145,8 @@ Event bets (6, Rs 6.75 L in all; each needs your approval and research's check):
 | Delivery Hero (DHER) | Tender by 24 Nov 2026; paid about H2 2027 | Rs 1 L (26 shares) | EUR 36.60 (close EUR 36.55) | 13.5% to EUR 41.50 (10.1% a year after tax) / about -44% if the deal breaks |
 
 PolyPid and REGENXBIO closed above their limits on 17 Nov, so those orders fill only on a dip; `finance-research` decides whether to raise the limits. Limits are from [bio](parts/bio.md) and [deals](parts/deals.md).
+
+New 18 Nov, India delisting exit-window bets (2, up to Rs 2 L each; need your approval and research's check): Hitech Corp (HITECHCORP) at Rs 412 or less (exit Rs 426) and Jindal Photo (JINDALPHOT) at Rs 1,122 or less (exit Rs 1,161); about +Rs 2,200 per Rs 1 L after slab tax and charges. See the India section below.
 
 Conditional (3):
 - Shriram Finance (SHRIRAMFIN): only if BSE names it for the Sensex (late Nov); Rs 1 L at Rs 1,000 or less; sell by 18 Dec.
@@ -160,6 +164,27 @@ Key avoids:
 - Zydus (27 Nov) and Dr Reddy's (22 Dec) FDA decisions: small for the stock, larger downside.
 - MSCI adds effective 30 Nov and the Jio lock-ins (25 Nov, 25 Jan): too late or more supply.
 - Monte dei Paschi, tight US cash deals (AES, Bio-Techne, Organon, Baldwin, Lantheus), Japan tenders: spread negative or below 2% a year after tax.
+
+## Buybacks, open offers, delistings and IPOs (India)
+
+Added 18 Nov 2026. Full rows, tax and acceptance workings in [india](parts/india.md#7-buybacks-open-offers-delistings-and-ipos-india). [30d] = key date on or
+before 18 Dec 2026. Gain = per Rs 1 L, after tax (buyback as dividend at 35.88%; open offer 23.92%; delisting exit window at slab
+35.88% as unlisted shares) and about Rs 170-300 charges. Prices: NSE bhavcopy close 17 Nov 2026 (Mapro: BSE).
+
+| Key date | Name (NSE) | Type | Offer vs close 17 Nov | Est. acceptance | Gain per Rs 1 L | Break-even buy | Verdict |
+|---|---|---|---|---|---|---|---|
+| [30d] now, before trading stops | Hitech Corp (HITECHCORP) | Delisting exit window, 1 year | Rs 426 vs Rs 411.10 | 100% | +Rs 2,215 | Rs 425.28 | EVENT BET, up to Rs 2 L, limit Rs 412 |
+| [30d] now, before trading stops | Jindal Photo (JINDALPHOT) | Delisting exit window, 1 year | Rs 1,161 vs Rs 1,120.60 | 100% | +Rs 2,203 | Rs 1,159.03 | EVENT BET, up to Rs 2 L, limit Rs 1,122 |
+| [30d] 6-20 Nov | Kronox Lab Sciences (KRONOX) | Open offer | Rs 157.27 vs Rs 181.46 | - | negative | - | AVOID |
+| [30d] 19 Nov - 3 Dec | Mapro Industries (BSE) | Open offer | Rs 60.13 vs Rs 113.65 | - | negative | - | AVOID |
+| [30d] window closes 23 Nov | Jyothy Labs (JYOTHYLAB) | Buyback | Rs 240 vs Rs 193.55; record date 11 Nov passed | - | - | - | CLOSED |
+| [30d] buy by 23 Nov; record 25 Nov | Zee (ZEEL) | Buyback, 15% small-holder reserve | Rs 91 vs Rs 71.29 | about 12% (7-18%; entitlement about 4-5 per 100) | -Rs 2,955 with offset, -Rs 6,878 without | Rs 68.53 / Rs 66.05 | AVOID |
+| [30d] window closes 26 Nov | FDC (FDC) | Buyback | Rs 500 vs Rs 375.90; record date 13 Nov passed | - | - | - | CLOSED |
+| [30d] 8-21 Dec | Frontier Capital | Open offer | Rs 10.20 | - | - | - | EXCLUDED (under Rs 50) |
+| 24 Dec - 7 Jan | Castrol India (CASTROLIND) | Open offer, 26% | Rs 199.45 vs Rs 191.09 | 53% (all tender) to 60% | -Rs 331 to +Rs 242; +Rs 2,252 if bought at Rs 185 | Rs 190.46 (53%) | CONDITIONAL: Rs 185 or less |
+| [30d] 18-20 Nov | Crystal Crop Protection (IPO) | Rs 455 Cr, Rs 259-272 | GMP +7% (unreliable) | about 1 in 12 for 1 lot | about Rs 60 a lot (expected) | - | SKIP |
+| [30d] 19-23 Nov | Mahanadi Coalfields (IPO) | Rs 8,981 Cr OFS, Rs 129-136 | GMP +3% (unreliable) | likely full for 1 lot | small; median 0% for weak retail demand | - | SKIP |
+| [30d] 19-23 Nov | Watrana Rentals (SME IPO) | Rs 120 Cr, Rs 232-245 | not found | - | - | - | SKIP (SME, Rs 1.47 L minimum) |
 
 ## Watch list: trials that read out when enough events happen (no fixed date)
 
@@ -195,7 +220,7 @@ Found with SEC full-text search of 8-K and 6-K filings, 15 Sep - 18 Nov 2026 ("e
 - US prices: the part files and the post-mortem pulled "17 Nov closes" before the US market closed (02:30 IST on 18 Nov); the SLS price was 19.10, 19.16, 19.465 and 19.52 in different pulls; the final close is 19.15. This table uses the final closes pulled after the close.
 - Trading rules: the brief and the post-mortem said they are all TBD. AGENTS.md shows them approved on 15 Nov 2026 for paper trading, for the Rs 2 L trading budget only; the event-bet slot (0.5% each, 3% in all) was set by you on 18 Nov in [targets](../../portfolio/targets.md#event-bets-single-binary-events). The post-mortem is corrected.
 - Total cap: the post-mortem suggested 1-2%; your rule says 3%. The 3% stays; a 1.5% biotech limit is proposed above.
-- Jio lock-in: our notes and Zerodha say 24 Nov, Nuvama 25 Nov. The lock-in ends on 24 Nov, an NSE holiday (Prakash Gurpurb, NSE holiday list 2026), so 25 Nov is the first day the shares can trade; [india](parts/india.md) now says so.
+- Jio lock-in: our notes and Zerodha say 24 Nov, Nuvama 25 Nov. The lock-in ends on 24 Nov, an NSE holiday (Prakash Gurpurb Sri Guru Nanak Dev, NSE circular NSE/CMTR/71775 of 12 Dec 2025, row 14), so 25 Nov is the first day the shares can trade; [india](parts/india.md) now says so.
 - Total: the brief's Rs 4,20,97,035 is the 15 Nov snapshot; the 18 Nov mark in [targets](../../portfolio/targets.md) is Rs 4,16,33,634, so 0.5% is Rs 2.08 L, not 2.1 L. No size changes (all bets are Rs 2 L or less).
 
 ## Sources and what is not verified
@@ -213,7 +238,7 @@ Not verified:
 - Integer: price per share and whether it has closed; Eleco and Guotai Junan International offer prices; Penumbra's cash and stock split.
 - Dates of the STOXX/DAX and Nasdaq-100 December announcements.
 - Sensex picks are a June 2026 forecast; the BSE announcement was not out on 18 Nov.
-- Castrol's pre-deal price; Zee tender dates; Hitech reverse book-building dates; Mapro price.
+- Castrol's pre-deal price and open-offer acceptance (53-60% assumed); Zee tender dates and small-holder holdings (acceptance about 12% is an estimate); Hitech and Jindal Photo last trading days and exit-window payment time; broker charges (Rs 170-300 per Rs 1 L assumed).
 - Defence approval item of Rs 3.60 L Cr (date); spectrum auction date; Sun Halol classification (news only); Meesho vs Adani Green flows (sources swap them).
 - No Indian base rate for lock-in expiries or for USFDA decision moves in Indian stocks.
 - Microsoft business links of Jio, Coforge and Tech Mahindra (general knowledge, not checked one by one).

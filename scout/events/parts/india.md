@@ -7,7 +7,10 @@ MS = name has a Microsoft business link (insider policy: check before any trade)
 
 ## Summary
 
-No clean, unconditional event bet in India this window. Two bets have a condition, and the rest are avoids or watch-only.
+Update 18 Nov (section 7): two small unconditional event bets found, both delisting exit-window trades [30d]:
+Hitech Corp (HITECHCORP) at Rs 412 or less against a Rs 426 exit price, and Jindal Photo (JINDALPHOT) at Rs 1,122 or less against Rs 1,161.
+About +Rs 2,200 per Rs 1 L after slab tax and charges; buy before trading stops (date not announced).
+Before this update: no clean unconditional event bet; two bets have a condition, and the rest are avoids or watch-only.
 
 **Conditional event bets**
 1. **Shriram Finance (SHRIRAMFIN), Sensex inclusion, effective 21 Dec 2026.** Act only if the BSE announcement
@@ -31,7 +34,7 @@ No clean, unconditional event bet in India this window. Two bets have a conditio
 **Watch only:** Mahanadi Coalfields IPO (Rs 8,981 Cr, 19-23 Nov), Union Budget on 1 Feb 2027, the AMFI list in early Jan, and the Nifty
 reference period ending 31 Jan (March review: Divi's and TVS Motor in, Max Healthcare and HDFC Life out, early estimate).
 
-Row counts: pharma 6, takeovers/buybacks/delisting 7, index/F&O 9, lock-ins 11, policy/court 5, IPOs 3 = 41 rows.
+Row counts: pharma 6, takeovers/buybacks/delisting 7, index/F&O 9, lock-ins 11, policy/court 5; section 7 (18 Nov follow-up): offers 9, IPOs 4.
 
 ## 1. USFDA and pharma
 
@@ -51,13 +54,13 @@ approval [L1]), Biocon (pertuzumab US launch Q3 CY2028 by settlement; EU early 2
 
 | Date | Company (NSE) | Event | Price vs offer | Either way | Base rate | Mcap Rs Cr | Verdict |
 |---|---|---|---|---|---|---|---|
-| 19 Nov - 3 Dec 2026 | Mapro Industries (BSE) | Open offer Rs 60.13, 26% [O3] | not on NSE bhavcopy; price not checked | - | - | - | Not checked (BSE-only microcap) |
+| 19 Nov - 3 Dec 2026 | Mapro Industries (BSE 509762) | Open offer Rs 60.13, 26% [O3] | BSE close Rs 113.65 on 17 Nov (BSE bhavcopy): offer is 47% below market | - | - | - | Avoid (offer below market) |
 | 23 Nov 2026 (closes) | Jyothy Labs (JYOTHYLAB) | Buyback tender Rs 240, Rs 147 Cr; record date 11 Nov [O4] | 193.55 | - | - | 7,108 | Closed to new buyers |
 | 25 Nov 2026 (record) | Zee Entertainment (ZEEL) | Buyback tender Rs 91, Rs 600 Cr, 6.59 Cr shares = 6.86% of equity, promoters not tendering, 15% reserved for small shareholders [O1] | 71.29 (offer +27.6%) | Accepted shares paid Rs 91; the rest fall back | Small-shareholder acceptance: median 95% 2012-19, 43% 2020-26, 37% 2023-26 [O5]; 62% median for 8 deals in 2026 [O6] | 6,848 | **Avoid.** Tax math below |
 | 26 Nov 2026 (closes) | FDC (FDC) | Buyback tender Rs 500, Rs 120 Cr; record date 13 Nov [O7] | 375.90 | - | - | 6,120 | Closed to new buyers |
 | 8-21 Dec 2026 | Frontier Capital | Open offer Rs 10.20 [O8] | under Rs 50 | - | - | - | Excluded (under Rs 50) |
 | 24 Dec 2026 - 7 Jan 2027; pay by 21 Jan | Castrol India (CASTROLIND) | Open offer Rs 199.45 by Motion JVCo (Stonepeak, CPP; bought Castrol from BP), 25.72 Cr shares = 26%, Rs 5,129 Cr; DLOF to SEBI 16 Nov; IDC view by 22 Dec [O2] | 191.09 (offer +4.4%) | Tendered: about 53%+ accepted at 199.45. Rest: price likely falls back | If every public holder (49%) tenders, acceptance = 25.72/48.47 = 53.1% [calc]; more if some do not tender | 18,901 | **Event bet only at Rs 185 or less** (Rs 2 L); avoid at 191 |
-| tbd (exchange nods 25 Sep 2026) | Hitech Corp (HITECHCORP, BE) | Delisting, floor Rs 252, indicative Rs 353 [O9] | 411.10, above the indicative price | Fails if the exit price is not accepted | - | 706 | Avoid (price already above the indicative; reverse book-building dates not found) |
+| bids were 7-13 Oct 2026; delisting pending (final application 28 Oct) | Hitech Corp (HITECHCORP, BE) | Delisting succeeded: exit price Rs 426 (discovered Rs 425); residual holders can sell to the acquirer at Rs 426 for 1 year after delisting [O9][O10] | 411.10 (exit +3.6%) | Exit-window arbitrage, see section 7 | - | 706 | **Event bet, see section 7** (corrected 18 Nov: the earlier 'tbd' was wrong) |
 
 Zee tax math (per accepted share, cost Rs 71.29). Since 1 Oct 2024, buyback proceeds are taxed as dividend at slab rate;
 assume 35.88% (30% + 15% surcharge, the cap for dividends, + 4% cess). Net cash = 91 x 0.6412 = Rs 58.35.
@@ -118,13 +121,70 @@ Both are right: the lock-in ends on 24 Nov, an NSE holiday (Prakash Gurpurb [H1]
 | no date | Vodafone Idea AGR: dues frozen at Rs 87,695 Cr (Cabinet 31 Dec 2025) [P6] | IDEA (under Rs 50, excluded) | Excluded |
 | resolved | Polycab insolvency case set aside (see section 3) | POLYCAB | No event |
 
-## 6. IPOs in the window (watch, not bets)
+## 6. IPOs in the window
 
-| Dates | Issue | Size | Note |
-|---|---|---|---|
-| 18-20 Nov 2026 | Crystal Crop Protection | Rs 455 Cr, band Rs 259-272 [Q1] | - |
-| 19-23 Nov 2026; allotment 25 Nov; listing 27 Nov | Mahanadi Coalfields (Coal India unit) | Rs 8,981 Cr OFS, band Rs 129-136, GMP about 3% (17 Nov) [Q2] | Coal India shareholder quota record date 13 Nov already passed [Q3]; user holds no Coal India (portfolio/ checked) |
-| Feb-May 2027 (unconfirmed) | Zepto; PhonePe (paused); NSE, Jio already listed | Rs 11,000-12,000 Cr each [Q4] | No dates |
+Moved into section 7 (IPO table) on 18 Nov 2026. Big names without dates: Zepto (Feb-May 2027, unconfirmed), PhonePe
+(paused); about Rs 11,000-12,000 Cr each [Q4]. SEBI cleared Veritas Finance, Sagar Defence and Advanced Sys-Tek in Nov 2026; no dates yet [Q5].
+
+## 7. Buybacks, open offers, delistings and IPOs (India)
+
+Added 18 Nov 2026 at the user's request. [30d] = key date (record date, last buy date, window or IPO dates) on or before
+18 Dec 2026. Prices: NSE bhavcopy close 17 Nov 2026 (BSE bhavcopy for BSE-only names). Gains are per Rs 1 L invested,
+after tax and charges.
+
+Assumptions (all rows):
+- Tax: a buyback is taxed as a dividend at 35.88% (30% slab + 15% surcharge cap + 4% cess; your actual slab not checked), and the whole cost of the
+  accepted shares becomes a capital loss. That loss is worth 23.92% only if you have other short-term gains to set it
+  against ("with offset"). Open offers are listed sales: short-term gain 23.92% under 12 months. Delisting exit window: after delisting
+  the shares are unlisted and the sale to the acquirer pays no STT, so a short-term gain is taxed at slab (35.88%).
+- Charges: about Rs 300 per Rs 1 L for an exchange round trip (STT 0.1% each side, stamp 0.015%, exchange fees,
+  Rs 20 brokerage and DP fee per order, assumed); Rs 170 for buy + off-market exit-window transfer. Broker tariff not checked.
+- Shares not accepted in a buyback or open offer are sold after the offer at 5% below the 17 Nov close (assumed; no base rate for India found).
+- Small-shareholder category (buybacks only, SEBI Buy-back Regulations): holders of shares worth Rs 2 L or less on the
+  record date; at least 15% of the buyback is reserved for them. Open offers and delistings have no such reserve.
+- Record date and T+1: to be on the register on the record date, buy one trading day before. 24 Nov 2026 is an NSE
+  holiday [H1], so for a 25 Nov record date the last buy day is Mon 23 Nov.
+
+### Buybacks, open offers, delistings
+
+| Key date | Company (NSE) | Type | Offer price | Close 17 Nov | Record date / window | Small-holder entitlement | Est. acceptance (basis) | After-tax gain per Rs 1 L | Break-even buy price | Verdict |
+|---|---|---|---|---|---|---|---|---|---|---|
+| [30d] buy by Mon 23 Nov; record Wed 25 Nov | Zee Entertainment (ZEEL) | Buyback, tender, Rs 600 Cr, 6,59,34,065 shares = 6.86%; promoters (3.99%) not tendering [O1][O11] | Rs 91 | Rs 71.29 (+27.6%) | Record 25 Nov; tender window not announced (Chittorgarh 17 Nov) [O12] | Reserved 15% = 98,90,110 shares. Holders with up to Rs 2 L nominal: 6,02,095 holding 36.01 Cr shares (37.49%) (BSE shareholding pattern Sep 2026) [O13]; holders worth up to Rs 2 L at Rs 71 (about 2,800 shares) estimated at 18-27 Cr shares, so entitlement about 3.7-5.5 shares per 100 | About 12% (range 7-18%): entitlement divided by an assumed 30-60% of small holders tendering. Zee's 6 lakh retail holders make it much lower than the 2023-26 median of 37% [O5] or the 2026 median of 62% [O6] | -Rs 2,955 with offset (-Rs 6,878 without) at 12%; -Rs 562 with offset even at 37% | Rs 68.53 with offset, Rs 66.05 without (at 12%) | **Avoid** |
+| [30d] 6-20 Nov (closes Fri 20 Nov) | Kronox Lab Sciences (KRONOX, BE) | Open offer by Indo Borax, 95,70,000 shares = 25.79% [O14] | Rs 157.27 | Rs 181.46 (offer -13%) | Window 6-20 Nov | n/a | n/a | Negative (offer below market) | - | Avoid |
+| [30d] 19 Nov - 3 Dec; paid by 17 Dec | Mapro Industries (BSE 509762) | Open offer by Arambhveer, 21,81,121 shares = 26% [O3] | Rs 60.13 | Rs 113.65 BSE (offer -47%) | Window 19 Nov - 3 Dec | n/a | n/a | Negative | - | Avoid |
+| [30d] closes Mon 23 Nov | Jyothy Labs (JYOTHYLAB) | Buyback, tender, Rs 147 Cr, 61,25,000 shares = 1.67% [O4] | Rs 240 | Rs 193.55 | Record date 11 Nov (passed); window 17-23 Nov | - | - | Not available (record date passed) | - | Closed to new buyers |
+| [30d] closes Thu 26 Nov | FDC (FDC) | Buyback, tender, Rs 120 Cr [O7] | Rs 500 | Rs 375.90 | Record date 13 Nov (passed) | - | - | Not available | - | Closed to new buyers |
+| [30d] now, until trading stops (date not announced) | Hitech Corp (HITECHCORP, BE) | Delisting done: exit price Rs 426 (bids 7-13 Oct; 30,09,593 shares bought 23 Oct; final application to NSE/BSE 28 Oct). Residual holders can sell to the acquirer (Geetanjali Trading) at Rs 426 for 1 year after delisting [O9][O10] | Rs 426 | Rs 411.10 (+3.6%); 10,830 shares traded 17 Nov | Exit window: 1 year from the delisting date | n/a | 100% (the acquirer must buy every residual share at the exit price, Delisting Regulations reg. 26) | +Rs 2,215 (gain taxed at slab as unlisted) | Rs 425.28 | **Event bet**: up to Rs 2 L, limit Rs 412 or less, BE series (delivery only); tender in the exit window |
+| [30d] now, until trading stops (date not announced) | Jindal Photo (JINDALPHOT) | Delisting done: exit price Rs 1,161 (bids 2-6 Nov; 16,58,112 shares tendered; promoters 92.10%); payment by 18 Nov [O15] | Rs 1,161 | Rs 1,120.60 (+3.6%); 7,629 shares traded 17 Nov | Exit window: 1 year from the delisting date | n/a | 100% (as above) | +Rs 2,203 | Rs 1,159.03 | **Event bet**: up to Rs 2 L, limit Rs 1,122 or less |
+| 8-21 Dec 2026 [30d] | Frontier Capital | Open offer [O8] | Rs 10.20 | under Rs 50 | Window 8-21 Dec | n/a | - | - | - | Excluded (under Rs 50) |
+| 24 Dec 2026 - 7 Jan 2027; paid by 21 Jan | Castrol India (CASTROLIND) | Open offer by Motion JVCo (Stonepeak 65% / BP 35% of the JV), 25,71,71,820 shares = 26%; price = Rs 194.04 initial + Rs 16.91 enhancement - Rs 11.50 dividend adjustment [O2][O16] | Rs 199.45 | Rs 191.09 (+4.4%) | Window 24 Dec - 7 Jan (25 Dec holiday [H1]) | n/a (no reserve in open offers) | At least 53.1% if every public holder (48.47 Cr shares) tenders; 60% assumed if some retail do not tender (no Indian base rate found) | -Rs 331 at 53%, +Rs 242 at 60%; at Rs 185: +Rs 2,252 at 53% | Rs 190.46 at 53%, Rs 191.69 at 60% | Avoid at Rs 191; **event bet at Rs 185 or less** (unchanged) |
+
+Exit-window arbitrage (Hitech, Jindal Photo): the 3.6% discount pays for waiting (delisting approval, then tender
+and payment; likely 1-3 months, not verified) and for slab tax on unlisted shares. Risks: the acquirer fails to pay (low;
+regulation 26 obliges it to buy), a long delay in the exchanges' final approval, or a mistake in the tender paperwork.
+Both are small (Hitech Rs 706 Cr market cap; Jindal Photo about Rs 1,150 Cr [calc: 26,46,183 public shares = 25.80%, so about 1.026 Cr shares x Rs 1,120.60; O15, Jindal Photo DPA]).
+Annualised after tax: about 2.2% in 1-3 months = 9-27% a year (my arithmetic). Buy only before trading stops: the last trading day was not
+found, and the exchanges usually stop trading within weeks of the final application (not verified).
+
+Zee estimate in detail: reserved 98,90,110 / small-holder shares 18-27 Cr = 3.7-5.5% entitlement. If 30-60% of those
+shares tender, acceptance = 6-18% (central 12%), because shares not tendered free up room for shares that are tendered. Per Rs 1 L (1,402 shares): an accepted
+share nets Rs 58.35 after 35.88% tax and gives a Rs 71.29 capital loss (worth Rs 17.05 with offset). Even at the 37%
+median of 2023-26 the result is negative.
+
+### IPOs opening in the window
+
+Base rates from iponova.in (single read of its data feed, 18 Nov 2026; 107 mainboard IPOs with listing data, 2026):
+median listing gain 7.6%, 67% listed above the issue price; issues of Rs 1,000 Cr or more (32): median 4.9%, 66% positive;
+issues with retail subscription under 5x (48): median 0.0%, 44% positive. Retail allotment odds for a 1-lot application are about
+1 / retail subscription when the retail book is oversubscribed (most apply for 1 lot; not exact).
+Grey-market premium (GMP) is unofficial and unreliable.
+
+| Dates | Issue | Size | Price band; lot | GMP (unreliable) | Retail allotment odds (basis) | Verdict |
+|---|---|---|---|---|---|---|
+| [30d] 18-20 Nov; allot 23 Nov; list 26 Nov | Crystal Crop Protection (agrochemicals) | Rs 455.49 Cr [Q1][Q6] | Rs 259-272; 55 shares = Rs 14,960 | Rs 19 = +7% (ipoguru 18 Nov 01:48); fell from Rs 40-45 on 13 Nov | About 1 in 12: median retail subscription 11.6x for 33 mainboard issues of Rs 300-700 Cr in 2026 (iponova) | Skip: expected value about Rs 60 per application (7% x Rs 14,960 x 0.76 / 12), and the GMP is falling |
+| [30d] 19-23 Nov; allot 25 Nov; list 27 Nov | Mahanadi Coalfields (MCL, Coal India unit), 100% offer for sale | Rs 8,981.12 Cr [Q2] | Rs 129-136; 110 shares = Rs 14,960; P/E 8.4 at Rs 136 (EPS Rs 16.16, iponova) | Rs 4 = +3% (ET 17 Nov), down from about 5% | High, likely full for 1 lot: retail 35% = about Rs 3,143 Cr, about 2.1 lakh minimum lots; median retail subscription 1.4x for 5 issues over Rs 5,000 Cr in 2026. Coal India units: Bharat Coking Coal (Jan 2026) retail 49x, listed +95.7%; CMPDI (Mar 2026) retail 0.35x, listed -7.0% (iponova) | Skip: thin GMP and big supply; issues with retail subscription under 5x had a median 0% listing gain. Apply only if you want coal for the long term (not in the plan) |
+| [30d] 19-23 Nov; list 27 Nov | Watrana Rentals (SME) | Rs 120.1 Cr (large for SME) | Rs 232-245; 600 shares = Rs 1.47 L minimum | not found | not estimated | Skip: SME, Rs 1.47 L minimum ticket, thin trading after listing |
+| none announced for Dec 2026 - Feb 2027 as of 18 Nov | Zepto, PhonePe, Veritas Finance, Sagar Defence, Advanced Sys-Tek | - | - | - | - | Watch weekly |
 
 ## Method and sources
 
@@ -144,7 +204,15 @@ Tax: STCG 23.92%; buyback proceeds are taxed as dividend (35.88% assumed top-sla
 - [O2] Castrol open offer: DPS filed with NSE 2026-11-09 (oquilia); timetable Angel One 2026-11-17, multibagg 2026-11-17
 - [O3] Mapro: scanx 2026-10-14; [O4] Jyothy: BSE notice 20261116-11; [O7] FDC: Chittorgarh 2026-11-16
 - [O5] iamgani.com "Indian Buybacks Decoded" (crawled 2026-11-08); [O6] ipoguru.in past buybacks 2026 (2026-10-30)
-- [O8] Frontier Capital: multibagg 2026-10-27; [O9] Hitech Corp: multibagg 2026-06-10, 2026-09-28
+- [O8] Frontier Capital: multibagg 2026-10-27; [O9] Hitech Corp: multibagg 2026-06-10, 2026-09-28; Letter of Offer (BSE, 2026-09-25: bid period 7-13 Oct)
+- [O10] Hitech outcome: BSE RBB outcome notice 2026-10-13 (discovered Rs 425); scanx 2026-10-15 (exit Rs 426, 1-year exit window); multibagg 2026-10-30; stockssena 2026-11-13 (final application 28 Oct)
+- [O11] Zee board outcome filing 2026-11-12 (BSE corpfiling); public announcement published 2026-11-16 (scanx); note scanx's 'Rs 6,000 crore' headline is wrong: Rs 6,000 million = Rs 600 Cr
+- [O12] Chittorgarh Zee buyback page (2026-11-17): last date to buy 23 Nov, record 25 Nov, window not announced
+- [O13] BSE shareholding pattern, Zee, Sep 2026 quarter (public shareholder page, read 2026-11-18)
+- [O14] BSE notice 20261105-13 (Kronox open offer, 6-20 Nov 2026)
+- [O15] Jindal Photo RBB outcome (Saffron Capital filing 2026-11-06, discovered Rs 1,161); multibagg 2026-11-10 (accepted; payment by 18 Nov)
+- [O16] Castrol DPS (BSE corpfiling 2026-11-06): offer price build-up, 98,91,22,384 shares outstanding
+- [Q5] Livemint 2026-11-10 and 2026-11-17 (SEBI nods); [Q6] ipoguru.in and ipowiz.in Crystal Crop GMP pages (2026-11-17/18); iponova.in data feed (2026-11-18)
 - [F1] NSE/FAOP/77353 2026-11-06; [F2] NSE/FAOP/76497 2026-09-23; [F3] NSE/FAOP/77091 2026-10-23;
   [F4] NSE/SURV/76858 2026-10-12, NSE/SURV/77201 2026-10-30, Polycab filing 2026-10-13, ET 2026-10-30
 - [I1] Moneycontrol 2026-06-28 (Quiddity on SmartKarma); [I2] BSE Index reconstitution calendar 2026 xlsx (notice 20260119-20)
@@ -153,7 +221,7 @@ Tax: STCG 23.92%; buyback proceeds are taxed as dividend (35.88% assumed top-sla
 - [I6] Livemint 2026-11-10, ET 2026-10-05 (Nuvama AMFI); [I7] ET 2026-10-06 (Quiddity); [I8] Moneycontrol 2026-10-30
 - [K1] Livemint 2026-11-10 (Nuvama lock-in list); [K2] ET 2026-10-22; [K3] Zerodha Jio IPO page; [K4] CNBC-TV18 2026-07-09;
   [K5] Amundi release 2026-07-17; [K6] Paterson Capital 2026-10-21 (Jio anchor book 7.25 Cr shares)
-- [H1] NSE trading holidays 2026 (circular COM71784; nseindia.com holiday page, crawled 2026-11-17): 24 Nov 2026 and 25 Dec 2026 closed
+- [H1] NSE circular NSE/CMTR/71775 dated 12 Dec 2025, 'Trading holidays for the calendar year 2026' (PDF read 2026-11-18): row 14 = Tue 24 Nov 2026 Prakash Gurpurb Sri Guru Nanak Dev; row 15 = Fri 25 Dec 2026 Christmas
 - [P1] ET 2026-11-17; [P2] moneynwealth 2026-10-21; [P3] PIB, DAC 26 Oct 2026; [P4] DD News (crawled 2026-11-14);
   [P5] Business Standard 2026-02-24; [P6] Business Today 2026-01-02
 - [Q1] Angel One 2026-11-16; [Q2] ET 2026-11-17; [Q3] ipoji 2026-11-10; [Q4] Candlle 2026-09-08, Livemint 2026-10-26
@@ -162,7 +230,7 @@ Tax: STCG 23.92%; buyback proceeds are taxed as dividend (35.88% assumed top-sla
 
 ## Not verified / open
 - Sensex Dec 2026 picks are a June forecast; the BSE announcement had not been found as of 18 Nov.
-- Castrol undisturbed (pre-deal) price; Zee buyback tender dates; Hitech reverse book-building dates; Mapro price.
+- Castrol undisturbed (pre-deal) price; Zee buyback tender dates; Hitech and Jindal Photo last trading days (delisting dates); small-shareholder holdings by value for Zee (estimated, section 7).
 - DAC Rs 3.60 L Cr item date; spectrum auction date; Sun Halol classification (news only).
 - Meesho vs Adani Green flow numbers (ET and BS swap them).
 - No Indian base rate for lock-in expiries, or for USFDA decision moves in Indian stocks.
