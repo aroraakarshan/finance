@@ -86,7 +86,7 @@ Source [S1]; my arithmetic. 5-yr CAGR FY21-26: sales 18%, EPS 9%. Jun-25 had Rs 
 ## 6. Catalysts (dated)
 | Date | Event | Effect |
 |---|---|---|
-| 24 Nov 2026 / 25 Jan 2027 | Jio anchor lock-ins end, 50% each (LIC, HDFC MF, BlackRock) [N11] | supply on Jio = 46% of RIL |
+| 24 Nov 2026 (NSE holiday; first trading day 25 Nov) / 25 Jan 2027 | Jio anchor lock-ins end, 50% each (LIC, HDFC MF, BlackRock) [N11] | supply on Jio = 46% of RIL |
 | Dec 2026 (forecast) | Mobile tariff hike about 15% (Ambit; no operator confirmed; sectors/communication [C9]) | + Jio |
 | about 15 Jan 2027 | Q3 FY27 results (Yahoo date; company date not out) [Y] | the O2C test |
 | 26 Apr 2027 | Jio pre-IPO holders' 6-month lock-in ends (Meta, Google, PIF, PE funds) [N11] | big supply risk |
