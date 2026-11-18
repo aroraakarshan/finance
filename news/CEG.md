@@ -1,16 +1,15 @@
 # CEG - Constellation Energy Corporation
 
-Market: US. Held in: INDmoney, 4.2868 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US. Held in: INDmoney, 4.2868 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
-Score +2: Q3 2026 adj. EPS $5.06 vs $3.89 estimate, guidance raised again, and new 15-20 year Google and Amazon power contracts.
-Holding: 4.2868 shares in INDmoney, about $1,191 at the 11-16 close $277.82 (cost $997); the 0.2868 fraction sell was queued for 11-16 (limit not in the repo).
-Risk: data-center backlash after the midterms hit power stocks; an officer plans to sell 29,727 shares under a 10b5-1 plan.
-Stock $277.82 on 11-16 (-0.85%, ex-dividend day; utilities held up); BMO target 316 -> 335 (Outperform), Bernstein 296 -> 293.
-Watch: ex-dividend 2026-11-16 ($0.4265, about $1.83); Rhode Island plant purchase and DOE loan (not dated); Q4 results about Feb 2027 (not confirmed).
+Score +2 (unchanged 11-18): Q3 2026 adj. EPS $5.06 vs $3.89 estimate, guidance raised again, and new 15-20 year Google and Amazon power contracts; no new company news.
+Holding: 4.2868 shares in INDmoney, about $1,149 at the 11-17 close $268.07 (cost $997).
+Risk: -3.51% on 11-17 with utilities (sector ETF -1.59%) in a broad US sell-off; data-center backlash after the midterms; officer 10b5-1 sale plan (29,727 shares).
+Watch: dividend paid 2026-12-04 ($0.4265, about $1.83); Rhode Island plant purchase and DOE loan (not dated); Q4 results about Feb 2027 (not confirmed).
 
 ## Sentiment
-Score: +2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: +2 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - BMO raised its target 316 -> 335 (Outperform) on 11-16; Bernstein trimmed 296 -> 293 (yfinance; marketscreener 2026-11-17)
 - Q3 2026 big beat: adj. operating EPS $5.06 vs est. $3.89 (yr ago $3.04); GAAP $5.19; FY2026 guidance narrowed to $12.50-12.80 with midpoint raised (second raise this year) (8-K Ex 99.1, 2026-11-09; Yahoo Finance earnings_history); stock +10.5% that day
 - New long-term contracts: Google 20-yr PPA for ~890 MW of nuclear uprates (+$4.3B investment) and 15-yr 2,700 MW load-following deal (2026-10-06); Amazon 20-yr 690 MW PPA at Calvert Cliffs (Sep 2026); conditional DOE loan guarantee up to $5B (Oct 2026) (8-K Ex 99.1, 2026-11-09)
@@ -27,6 +26,7 @@ Score: +2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | ~2027-02 | Q4 2026 results and 2027 guidance - not confirmed | Earnings | none found |
 
 ## News
+- 2026-11-17: Close $268.07 (-3.51%), volume 0.78x; 5 days +0.1%. Utilities sector ETF -1.59%; all 11 US sectors fell. Bernstein Outperform, target 296 -> 293 (Yahoo 11-17; already noted 11-16). No filing. Source: yfinance; news/market/data/2026-11-18.md; Yahoo 2026-11-17, fetched 2026-11-18.
 - 2026-11-16: BMO target 316 -> 335 (Outperform); Bernstein 296 -> 293 (marketscreener 11-17). No filing. Source: yfinance upgrades_downgrades; marketscreener, fetched 2026-11-17.
 - 2026-11-16: Close $277.82 (-0.85%) on the ex-dividend day ($0.4265); volume 0.93x. Source: yfinance, fetched 2026-11-17.
 - 2026-11-13: Close $280.20; week +12.1% (249.95 on 11-06); from 10-13 -5.3% (295.79); since 09-30 +10.3% (254.02). Period high 300.40 on 10-06, low 239.65 on 11-05. Source: Yahoo Finance via yfinance, fetched 2026-11-15.

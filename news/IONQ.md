@@ -1,16 +1,16 @@
 # IONQ - IonQ, Inc.
 
-Market: US. Held in: INDmoney, 13.2394 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US. Held in: INDmoney, 13.2394 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
-Score -1 (unchanged 11-17): record Q3 revenue (+336%) and a higher FY guide, outweighed by heavy dilution, a sudden CFO exit and only target cuts.
-Holding: 13.2394 shares in INDmoney, about $350 at the 11-16 close $26.45 (cost $499). The queued $28.88 sell limit was above Monday's high $27.86, so it most likely did not fill; check INDmoney.
-Risk: resale of up to 34.58M shares by former Elisity holders (Benzinga ties Monday's fall to it) and a ~$2.0B offering with warrants; adj. EPS still a loss.
-Stock $26.45 on 11-16 (-8.4%), 5 down days (-25.2%), at the 52-week low area ($26.43).
+Score -1 (unchanged 11-18): record Q3 and a higher FY guide are outweighed by dilution, the Elisity resale overhang and a CFO exit; quantum stocks fell again on 11-17 after Rigetti missed Q3 revenue.
+Holding: 13.2394 shares in INDmoney, about $329 at the 11-17 close $24.84 (cost $499); the $28.88 sell limit is well above the price.
+Risk: resale of up to 34.58M Elisity shares and the ~$2.0B offering with warrants; adj. EPS still a loss. Stock $24.84 (-6.1%, new 52-week low $24.08), -29.0% in 5 days; after hours $26.13.
 Watch: new CFO about 2026-12-03; FTSE Russell December reconstitution (not verified); Q4 results about Feb/Mar 2027 (not confirmed).
 
 ## Sentiment
-Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: -1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
+- Stock -6.09% to $24.84 on 11-17, new 52-week low (low $24.08), -29.0% in 5 days; quantum stocks sold off after Rigetti missed Q3 revenue; no IonQ filing (yfinance; Yahoo 2026-11-17; EDGAR 2026-11-18)
 - Stock -8.4% to $26.45 on 11-16, fifth straight down day, -25.2% in 5 days, at the 52-week low area ($26.43); Benzinga ties the fall to the 34.58M-share resale prospectus; no new filing since 11-13 (yfinance; Trefis, Benzinga 2026-11-16/17; EDGAR 2026-11-17)
 - Positive: record Q3 revenue $173.8M (+336% y/y), FY2026 revenue guidance raised to $505-515M, backlog (RPO) $1.2B; DARPA QBI Stage C; NVIDIA to install a Superion 256 system (8-K Ex 99.1, 2026-11-05); stock +23.4% on 11-06
 - Negative: heavy dilution: ~$2.0B offering of 20.5M shares and 29.5M pre-funded warrants, each sold with two Series C warrants at $40.00 combined; the 100M Series C warrants are exercisable at $69.46 for 7 years (8-K, 2026-10-16); 32.2M new shares for the Elisity deal, now registered for resale (34.58M shares, 424B7, 2026-11-13)
@@ -29,6 +29,7 @@ Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | ~2027-02/03 | Q4 2026 results - not confirmed | Earnings vs $505-515M FY guide | none found |
 
 ## News
+- 2026-11-17: Close $24.84 (-6.09%), low $24.08 = new 52-week low; volume 1.25x; 5 days -29.0%; after hours $26.13. Quantum stocks fell after Rigetti missed its Q3 revenue. No IonQ filing since 11-13. Source: yfinance; Yahoo Finance 2026-11-17; EDGAR submissions API, fetched 2026-11-18.
 - 2026-11-17: Pre-market $26.99 (+2.0%) at 07:40 ET. Source: yfinance, fetched 2026-11-17.
 - 2026-11-16: Close $26.45 (-8.41%); open $27.78, high $27.86, low $26.20; volume 22.0M (1.0x 20-day average); 5 down days, -25.2% in 5 days. Benzinga ties the fall to the Elisity resale prospectus (34.58M shares). No filing since 11-13. Source: yfinance; Trefis 2026-11-17; Benzinga 2026-11-16; EDGAR, fetched 2026-11-17.
 - 2026-11-13: Close $28.88; week -11.5% (32.62 on 11-06); from 10-13 -16.8% (34.73); since 09-30 -34.2% (43.86). Period low 26.43 on 11-05, high 45.48 on 09-25. Source: Yahoo Finance via yfinance, fetched 2026-11-15.

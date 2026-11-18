@@ -1,16 +1,16 @@
 # MSFT - Microsoft Corporation
 
-Market: US. Held in: Fidelity, 116.888 shares (portfolio/summary.md; ~$61,235 at 2026-11-13 close $523.88). Current employer. Last update: 2026-11-17.
+Market: US. Held in: Fidelity, 116.888 shares (portfolio/summary.md; ~$61,235 at 2026-11-13 close $523.88). Current employer. Last update: 2026-11-18.
 
 ## Summary
 Score +1: FQ1 FY27 beat (Azure +48%, commercial RPO +73%), FQ2 guide above consensus, and 15 of 17 analyst actions raised targets.
 Second-largest holding: 116.888 shares in Fidelity, about $60,547 at the 11-16 close $517.99 (US cost basis $55,313).
 Risks: Anthropic's Office-style tools (-2.3% on 11-11), the 11-12/13 Outlook/Teams outage, insider sales by the CFO and CMO.
-Stock $517.99 on 11-16 (-1.12%), -5.0% in 5 days; mean analyst target $636. 11-17: outage root cause named (a bug dormant since July); Corvex exited (13F).
+Stock $506.24 on 11-17 (-2.27%), -5.1% in 5 days, 3.4% below the $523.88 vest price; software sold off before the Anthropic IPO (CRM -9.5%); mean analyst target $636.
 Watch: Anthropic IPO 2026-11-18/19 (reported); ex-dividend 2026-11-19 ($0.98, about $115); annual meeting 2026-12-08; FQ2 results 2027-01-27 (not confirmed).
 
 ## Sentiment
-Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: +1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - FQ1 FY27 beat: revenue $92.28B vs $90.69B, EPS $4.89 adj. vs $4.73 (LSEG); Azure +48%; Microsoft Cloud $63.9B (+30%); commercial RPO +73% to $677B (Microsoft EX-99.1 2026-10-28; CNBC 2026-10-28).
 - FQ2 guidance above consensus: revenue $96.0-97.1B vs $95.60B; Azure +49-50% cc vs 45.1% StreetAccount (CNBC 2026-10-28).
 - 15 of 17 analyst actions on 10-29 raised targets (e.g. Bernstein 662 -> 722, DA Davidson 550 -> 650, Stifel 575 -> 650); mean target $636, median $631 (yfinance, fetched 2026-11-15).
@@ -28,6 +28,7 @@ Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | 2027-01-27 (after close) | FQ2 FY27 results (avg EPS est. $4.86) | - | yfinance get_earnings_dates (01-27 16:00 ET), fetched 2026-11-15 (not confirmed by Microsoft) |
 
 ## News
+- 2026-11-17: Close $506.24 (-2.27%), 1.04x volume; 5 days -5.1%; 3.4% below the 11-16 vest price $523.88. Software fell before the Anthropic IPO on worries that AI tools replace software seats (CRM -9.45%, INTU -7.17%, NOW -6.51%). No filing. Source: yfinance; Markets.com, Yahoo/Benzinga 2026-11-17, fetched 2026-11-18.
 - 2026-11-17: Root cause of the 11-12 Microsoft 365 outage: a bug dormant since July. Corvex exited MSFT in Q3 (13F). Source: FinanceFeeds, Seeking Alpha headlines 2026-11-16/17, fetched 2026-11-17.
 - 2026-11-16: Form 4: EVP Amy Coleman, 89.044 shares withheld for tax (code F) at $523.88 (vest; routine, not a market sale). Source: SEC EDGAR Form 4 2026-11-16, fetched 2026-11-17.
 - 2026-11-16: Close $517.99 (-1.12%), volume 1.15x; 5 days -5.0%. Pre-market 11-17 -0.4%. Source: yfinance, fetched 2026-11-17.

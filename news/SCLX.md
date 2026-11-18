@@ -1,16 +1,18 @@
 # SCLX - Scilex Holding Company
 
-Market: US (Nasdaq Capital Market). Held in: INDmoney, 31.4286 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US (Nasdaq Capital Market). Held in: INDmoney, 31.4286 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
-Score -2 (unchanged 11-17): going-concern doubt, about $0.6M cash, a disputed ~1,309 Bitcoin payment from Datavault AI (DVLT), and now a missed 10-Q deadline.
-Holding: 31.4286 shares in INDmoney, about $39 at the 11-16 close $1.25 (cost $186). The queued $1.43 sell limit was above Monday's whole regular-session range (high $1.39), so it most likely did not fill; check INDmoney.
-Risk: no 10-Q (due 11-16) and no NT 10-Q as of 18:18 IST 11-17; a late filing leads to a Nasdaq notice; DVLT (a large Scilex asset) moved to OTC from 11-17.
-Stock $1.25 on 11-16 (-12.6%, new 52-week low, 2.3x volume), -28.2% in 5 days.
-Watch: NT 10-Q is on time only if filed by the end of US day 11-17; then the 5-day extension ends about 11-23; Nasdaq notice after that.
+Score -2 (unchanged 11-18): the stock halved on 11-17 (-48.6% to $0.642, 15x volume); after the close Scilex filed an auditor change (BPM dismissed, Pipara & Co hired) and an NT 10-Q saying the Q3 10-Q will miss even the 5-day extension.
+Holding: 31.4286 shares in INDmoney, about $20 at the 11-17 close $0.642 (cost $186); the $1.43 sell limit is far above the price (fill status not visible here).
+Risk: Nasdaq late-filing notice likely next; the NT 10-Q warns the review "may identify errors or control deficiencies"; price under $1 starts the 30-day bid-price clock; going concern, equity deficit $310.5M at 06-30, disputed DVLT Bitcoin.
+Watch: extension ends 11-21 (Sat; in practice 11-23), company expects to miss it; Nasdaq notice (no date); BPM letter on the auditor change (8-K/A, no date); 10-Q (no date).
 
 ## Sentiment
-Score: -2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: -2 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
+- Auditor change: audit committee dismissed BPM LLP on 11-11 (BPM told 11-16) and hired Pipara & Co LLP (also Semnur's auditor) on 11-13; BPM's FY2024/FY2025 reports had going-concern paragraphs; no disagreements reported; BPM's letter not yet filed (8-K Item 4.01, 2026-11-17)
+- NT 10-Q: more time needed after the auditor change; the 10-Q is not expected within the 5-day extension; risk named: "the review may identify errors or control deficiencies"; no significant change in results expected (NT 10-Q, 2026-11-17)
+- Stock -48.6% to $0.642 on 11-17 (low $0.543, 15.4x 20-day volume), during the session and before both filings; cause not confirmed; -60.1% in 5 days; new 52-week low (yfinance 2026-11-18)
 - Q3 10-Q (due 2026-11-16) not filed and no NT 10-Q as of 2026-11-17 12:48 UTC; last filing is the 8-K of 09-29 (EDGAR submissions API, 2026-11-17)
 - Stock -12.6% to $1.25 on 11-16, a new 52-week low, on 2.3x the 20-day volume (90.6k vs 40.1k) (yfinance, 2026-11-17)
 - Going-concern doubt; cash about $0.6M, negative working capital $476.0M, total stockholders' deficit $310.5M at 2026-06-30 (10-Q, 2026-08-14)
@@ -23,14 +25,20 @@ Score: -2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 ## Catalysts
 | Date | Event | Expected effect | Source |
 |---|---|---|---|
+| not dated | BPM letter to the SEC on the dismissal (8-K/A) | Shows whether BPM agrees with the company's statement | 8-K Item 4.01 2026-11-17 |
+| from 2026-11-17 | First close below $1 ($0.642); Nasdaq bid-price notice after 30 business days below $1 | Delisting path | yfinance; Nasdaq rule 5550(a)(2) |
 | 2026-11-16 (Mon) - MISSED | Q3 10-Q due (non-accelerated filer, 45 days; 11-14 is a Saturday); not filed, no NT 10-Q as of 18:18 IST 11-17 (EDGAR) | NT 10-Q or late filing -> Nasdaq 5250(c)(1) notice likely; will show any DVLT/Bitcoin write-down | 10-Q cover 2026-08-14 (non-accelerated filer) |
-| 2026-11-17 (end of US day) | Last day for a timely NT 10-Q (Rule 12b-25: one business day after the due date) | No NT = late filer at once; Nasdaq 5250(c)(1) notice likely | Rule 12b-25; EDGAR 11-17 |
-| ~2026-11-23 (if NT filed 11-17) | End of NT 10-Q 5-day extension | Missed deadline = Nasdaq deficiency | Rule 12b-25 |
+| 2026-11-17 (done) | NT 10-Q filed on time (accepted 21:21 UTC) | Gives the 5-day extension, but the company says it will not meet it | NT 10-Q 2026-11-17 |
+| 2026-11-21 (Sat; in practice Mon 11-23) | End of the 5-day extension; company "does not currently anticipate" filing by then | Nasdaq 5250(c)(1) late-filing notice likely soon after | NT 10-Q 2026-11-17; Rule 12b-25 |
 | 2026-11-17 | DVLT trading suspended on Nasdaq, moves to OTC | Lower value/liquidity of Scilex's DVLT stake | DVLT 8-K 2026-11-13 |
 | not confirmed | Nasdaq notices: stockholders' equity (deficit $310.5M) or bid < $1 (close $1.43 on 11-13, 30-day rule) | Delisting path | 10-Q 2026-08-14; yfinance |
 | not confirmed | DVLT restated filings; any Scilex 8-K on the Bitcoin receivable | Could force write-downs or disputes | DVLT 8-K 2026-10-26 |
 
 ## News
+- 2026-11-18: After hours 11-17 $0.66. Kalkine says cash is only $0.6M (not checked; same figure as the 06-30 10-Q). Source: yfinance; Kalkine via news-west 2026-11-18, fetched 2026-11-18.
+- 2026-11-17: NT 10-Q (accepted 21:21 UTC): cannot file the Q3 10-Q on time because of the auditor change; "does not currently anticipate" filing within the 5-day extension; will file "as soon as possible"; no significant change in results expected; forward-looking risks include "a material delay in the Company's financial reporting and the possibility that the review may identify errors or control deficiencies". Source: https://www.sec.gov/Archives/edgar/data/1820190/000119312526465558/scilex_10q_q3_nt.htm , fetched 2026-11-18.
+- 2026-11-17: 8-K Item 4.01 (accepted 21:05 UTC): BPM LLP dismissed (committee 11-11, BPM told 11-16); Pipara & Co LLP engaged 11-13 for Q3 and FY2026 (Pipara already audits Semnur); BPM reports had going-concern paragraphs; no disagreements or reportable events; BPM letter not yet received. Source: https://www.sec.gov/Archives/edgar/data/1820190/000119312526465507/sclx-20261111.htm , fetched 2026-11-18.
+- 2026-11-17: Close $0.642 (-48.64%), low $0.543, volume 15.4x the 20-day average; new 52-week low; 5 days -60.1%. The fall came during the session, before both filings (after the close); no news found for it. Source: yfinance; EDGAR acceptance times, fetched 2026-11-18.
 - 2026-11-17: EDGAR check 12:48 UTC (18:18 IST): no 10-Q and no NT 10-Q; last filing 8-K 2026-09-29. Source: SEC EDGAR submissions API, fetched 2026-11-17.
 - 2026-11-16: Close $1.25 (-12.59%), new 52-week low; open $1.39, high $1.39, low $1.24; volume 90.6k vs 40.1k 20-day average (2.3x); -28.2% in 5 days. Pre-market last trade $1.48. Source: yfinance daily and 5-min bars, fetched 2026-11-17.
 - 2026-11-16: DVLT (Datavault AI) suspended from Nasdaq trading from 11-17, moves to OTC. Source: Benzinga, scanx 2026-11-16, fetched 2026-11-17.
@@ -43,6 +51,7 @@ Score: -2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 - No Scilex press release or analyst change found in Google News RSS since 2026-10-01 (only technical-analysis spam pages).
 
 ## Discrepancies
+- End of the NT 10-Q extension: news-west gives 11-21 (fifth calendar day after 11-16); 11-21 is a Saturday, so the next business day 11-23 applies (11-17 file said ~11-23).
 - Queued INDmoney sell limit $1.43 vs 11-16 regular-session high $1.39: did not trade in the regular session; pre-market last trade $1.48, so a fill is possible only if INDmoney routes to pre-market. Check the order status (news-west 11-17).
 - Scilex has not disclosed (no 8-K since 2026-09-29) the DVLT Bitcoin dispute that DVLT reported on 2026-10-26; Scilex's view of the receivable is unknown.
 - portfolio/summary.md shows 31.4286 SCLX shares and 31.4286 SMNR shares; the equal count fits a 1:1 stock dividend but the dividend ratio was not verified here.

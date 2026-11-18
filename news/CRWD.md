@@ -1,16 +1,16 @@
 # CRWD - CrowdStrike Holdings, Inc.
 
-Market: US. Held in: INDmoney, 8.4907 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US. Held in: INDmoney, 8.4907 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
 Score 0: analysts raised targets and new AI-security deals, against heavy steady insider selling and the post-midterm tech sell-off.
 Holding: 8.4907 shares in INDmoney, about $1,895 at the 11-16 close $223.21 (cost $1,496); the 0.4907 fraction sell was queued for 11-16 (limit not in the repo).
 Risk: CEO Kurtz sold about $87M since 09-30 under a 10b5-1 plan; Bernstein target $177 is below the price.
-Stock $223.21 on 11-16 (-1.50%); Cantor target 250 -> 275 (Overweight), TD Cowen Buy $280 and Wells Fargo Buy $300 reiterated before results.
+Stock $219.58 on 11-17 (-1.63%); CEO Kurtz sold 20,000 more shares on 11-13/16 (~$4.47M, 10b5-1 plan); Cantor target 250 -> 275 (Overweight) on 11-16.
 Watch: Q3 FY2027 results 2026-12-01 after the US close; Fiddler AI and Dreadnode deals closing (not dated).
 
 ## Sentiment
-Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: 0 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Target raise before results: Cantor 250 -> 275 (Overweight); TD Cowen Buy $280 and Wells Fargo Buy $300 reiterated (yfinance; Moomoo 2026-11-16)
 - Analysts raised targets through Oct-Nov: Deutsche Bank upgrades Hold -> Buy (PT 240 -> 300, 11-02), Rosenblatt 250 -> 275 (11-13), Needham, BTIG, Wells Fargo, Citi, BMO, StoneX raised to 295-325 (Yahoo Finance upgrades_downgrades, 2026-10-02..11-13)
 - Product/M&A news: agreed to buy AI-security startups Fiddler AI and Dreadnode (reported $495M) and launched an AI-agent "kill switch" (CrowdStrike release / WSJ, 2026-11-03); NVIDIA partnership expansion lifted stock +8.2% on 10-23 (Traders Union headline, 2026-10-23)
@@ -26,6 +26,8 @@ Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | ongoing | CEO Kurtz 10b5-1 selling (multiple Form 4s per week) | Supply overhang, sentiment | Form 4s 2026-10..11 |
 
 ## News
+- 2026-11-17: Form 4 (filed 11-18 01:00 UTC): CEO George Kurtz sold 10,000 shares on 11-13 ($220-235) and 10,000 on 11-16 ($219.58-223.40), about $4.47M in total, under a 10b5-1 plan adopted 2026-01-16; holds about 7.2M. Source: https://www.sec.gov/Archives/edgar/data/1535527/000177856426000211/ , fetched 2026-11-18.
+- 2026-11-17: Close $219.58 (-1.63%) in the software sell-off. Source: yfinance, fetched 2026-11-18.
 - 2026-11-16: Cantor target 250 -> 275 (Overweight); TD Cowen Buy $280 reiterated; Wells Fargo Buy $300 kept. No filing since the Form 4s of 11-13. Source: yfinance upgrades_downgrades; Moomoo 2026-11-16, fetched 2026-11-17.
 - 2026-11-16: Close $223.21 (-1.50%), volume 0.69x; 5 days -2.4%. Source: yfinance, fetched 2026-11-17.
 - 2026-11-13: Close $226.61; week +4.5% (216.90 on 11-06); from 10-13 -13.2% (261.21); since 09-30 -14.4% (264.75). Period high 278.86 on 10-06, low 216.90 on 11-06. Source: Yahoo Finance via yfinance, fetched 2026-11-15.

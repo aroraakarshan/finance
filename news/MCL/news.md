@@ -3,10 +3,14 @@
 Index: [../MCL.md](../MCL.md).
 
 ## Summary
-Dated news entries (newest first) from 2026-09-02 (DRHP) to 2026-11-17 (pre-offer advert, grey market Rs 3), each with its source.
+Dated news entries (newest first) from 2026-09-02 (DRHP) to 2026-11-18 (anchor day; grey market Rs 3.75), each with its source.
 Discrepancies between sources (face value, fresh issue, dates, issue size, EPS, band source) and how each was settled.
 
 ## News
+- 2026-11-18: Anchor book today per the company advert; anchor result (amount, names) not filed on NSE and no press report by 12:35 IST (usually filed in the evening). Source: ETV Bharat/IANS 2026-11-18 12:13 IST; NSE announcement RSS, fetched 2026-11-18.
+- 2026-11-18: Grey market premium Rs 3.75 at about 09:00 IST (about 2.8% over Rs 136), after Rs 4.60 (Livemint 11-17) and Rs 3 (CNBC-TV18 11-17). Unofficial. Source: Investorgain via ETV Bharat 2026-11-18, fetched 2026-11-18.
+- 2026-11-18: Unchanged terms: band Rs 129-136, lot 110 (Rs 14,960), Rs 8,981 crore offer for sale by Coal India, open 11-19, close 11-23, allotment 11-25, listing 11-27; Coal India shareholders get a quota. Other IPOs this week: Crystal Crop Protection opened 11-18 (Rs 259-272, GMP Rs 19), Watrana Rentals opens 11-19. Source: ETV Bharat 2026-11-18; Upstox 2026-11-18, fetched 2026-11-18.
+- 2026-11-18: Coal India (parent) Rs 388.30 (-0.83%) at 12:30 IST, after 3.07x volume on 11-17. Source: yfinance, fetched 2026-11-18.
 - 2026-11-17: Pre-offer and Price Band Advertisement found on the Axis Capital and BOB Caps offer-document pages (same 4-page scanned PDF): confirms band Rs 129-136, lot 110, employee discount Rs 6, anchor 11-18, open 11-19, close 11-23, quotas (shareholders up to 66,183,630 shares; employees up to 33,091,815). Source: axiscapital.co.in and bobcaps.in offer-document pages, fetched 2026-11-17.
 - 2026-11-17: Not on NSE: Coal India's NSE filings 12-17 Nov hold only the 11-14 RHP note; NSE api/all-upcoming-issues (about 18:30 IST) lists Crystal Crop and Watrana, not MCL. mahanadicoal.in, coalindia.in and BSE public-issue pages return 403. Source: NSE API, fetched 2026-11-17.
 - 2026-11-17: Grey market Rs 3, implied listing Rs 139 (CNBC-TV18 07:31); "3%" (ET); after "5%" (ET 11-16) and Rs 7 (Livemint 11-16): falling. Value Research review headline "cheap price, shrinking profits". No anchor news yet. Source: Google News RSS (headlines), fetched 2026-11-17.
@@ -26,6 +30,7 @@ Discrepancies between sources (face value, fresh issue, dates, issue size, EPS, 
 - 2026-09-02: Coal India filing: DRHP dated 2026-09-01 filed with SEBI, BSE, NSE; OFS of up to 661,836,300 shares of face value Rs 2. Source: https://nsearchives.nseindia.in/corporate/COALINDIA_02092026103250_Draft_letter_to_stock_exchange_DRHP_MCL_signed.pdf , fetched 2026-11-15.
 
 ## Discrepancies
+- Grey market 11-17: Rs 4.60 (Livemint 11-17) vs Rs 3 (CNBC-TV18 11-17 07:31); 11-18 Rs 3.75 (Investorgain via ETV Bharat). All unofficial.
 - MCL is not on NSE's forthcoming-issues list (11-17 about 18:30 IST) although the lead managers' advert gives an opening date of 11-19.
 - Face value: India IPO (indiaipo.in) gives Rs 10; Business Standard, Livemint, Coal India's DRHP letter and the RHP give Rs 2. Settled:
   Rs 2 (RHP cover; split from Rs 1,000 on 2026-08-22/27). India IPO is wrong.

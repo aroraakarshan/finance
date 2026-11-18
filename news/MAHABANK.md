@@ -1,16 +1,16 @@
 # MAHABANK - Bank of Maharashtra
 
-Market: India (NSE MAHABANK, BSE 532525). Held in: not held; trading/watchlist.md stage researching (idea since 2026-11-15) (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-17.
+Market: India (NSE MAHABANK, BSE 532525). Held in: not held; trading/watchlist.md stage researching (idea since 2026-11-15) (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-18.
 
 ## Summary
-Score +1 (unchanged 11-17): Q2 FY27 profit +41% y/y, ROE about 27%, GNPA 1.25%; the stock made a new 52-week high Rs 95.99 (+4.3%) on 11-17 in a PSU-bank rally.
+Score +1 (unchanged 11-18): Q2 FY27 profit +41% y/y, ROE about 27%, GNPA 1.25%; the stock made a new 52-week high Rs 95.99 (+4.3%) on 11-17 in a PSU-bank rally.
 Watchlist (researching): the news supports the scout growth/quality thesis; price now well above where the screen found it (+9.5% in 5 days), so valuation (P/B 1.9 vs median 1.0) matters more.
 Risks: loans +30% vs deposits +21.5%, an open Rs 7,500 crore equity-raise approval, a PSB union strike on 12-03 against the IDBI sale.
-No filing; the move came with the sector (PSU bank index +1.95%, Bank Nifty record).
+New all-time high Rs 96.80 intraday on 11-18 (MarketsMojo), Rs 96.13 (+0.15%) at 12:30 IST; no filing; moves with PSU banks.
 Watch: 12-03 bank strike; RBI MPC early December (hike expected); possible equity raise in FY27; Q3 results mid-Jan 2027 (not confirmed).
 
 ## Sentiment
-Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: +1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - New 52-week high Rs 95.99 on 11-17 (+4.34%, 1.9x volume; intraday Rs 94.7 high reported by MarketsMojo), +9.5% in 5 days, in a PSU-bank rally (Nifty PSU Bank +1.95%) (yfinance; MarketsMojo, Moneycontrol 2026-11-17)
 - Q2 FY27 net profit Rs 2,310 crore, +41% y/y and +14% q/q; NII +22% y/y; domestic NIM 3.97%; ROA 2.02%; ROE 26.98% (bank press release, 2026-10-26).
 - Asset quality improved: GNPA 1.25% (1.45% in Jun, 1.72% a year earlier), NNPA 0.12%, PCR 98.53%; SMA-1/2 down 50 bps to 1.37%; agri stress fell 35 bps (press release and earnings call transcript, 2026-10-26).
@@ -31,6 +31,7 @@ Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | 2027-04-01 | ECL provisioning framework starts; bank estimates Rs 2,500 crore over 4 years, Rs 750 crore already provided | Low (front-loaded) | Earnings call transcript 2026-10-26 |
 
 ## News
+- 2026-11-18: New all-time high Rs 96.80 intraday; Rs 96.13 (+0.15%) at 12:30 IST while Nifty fell 0.69% and PSU banks were flat. No filing. Source: MarketsMojo 2026-11-18 (low-quality source); yfinance; NSE announcement RSS, fetched 2026-11-18.
 - 2026-11-17: Close Rs 95.99 (+4.34%), new 52-week high; volume 1.9x 20-day average; 5 days +9.5%. PSU banks led (Nifty PSU Bank +1.95%; Canara, PNB, SBI up to 5%). No filing. Source: yfinance; Moneycontrol 2026-11-17, fetched 2026-11-17.
 - 2026-11-17: Bank unions plan a strike on 2026-12-03 against the IDBI Bank sale. Source: ET BFSI 2026-11-17, fetched 2026-11-17.
 - 2026-11-13: Close Rs 91.70; week +5.5% (86.91 on 11-06); month +9.5% (83.74 on 10-13); 3 months +12.3% (81.65 on 08-13). Nifty PSU Bank (^CNXPSUBANK) week +7.5% (8,612.90 -> 9,258.60); Nifty 500 week +1.2%, month +7.4%. 1-year range (adjusted) 53.86 (2025-12-09) to 94.50 (2026-06-29). Source: yfinance MAHABANK.NS, ^CNXPSUBANK, ^CRSLDX, fetched 2026-11-15.

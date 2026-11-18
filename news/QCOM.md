@@ -1,16 +1,16 @@
 # QCOM - Qualcomm Incorporated
 
-Market: US. Held in: IBKR, 761 shares (portfolio/summary.md; ~$131,250 at 2026-11-13 close $172.47; about 59% of US value). Last update: 2026-11-15.
+Market: US. Held in: IBKR, 761 shares (portfolio/summary.md; ~$131,250 at 2026-11-13 close $172.47; about 59% of US value). Last update: 2026-11-18.
 
 ## Summary
 Score -1: Q1 FY27 guidance below consensus, handset revenue -26% y/y, and 8 of 10 analyst actions since 10-21 cut targets.
-Largest holding: 761 shares in IBKR, about $131,250 at the 13 Nov close (about 59% of US value; our cost $107,955).
+Largest holding: 761 shares in IBKR, about $126,836 at the 11-17 close $166.67 (our cost $107,955).
 Main risk: handset decline (Apple modems) and a margin squeeze until 2H FY27; upside: automotive +89% and the $5B FY27 data-center target.
-Stock $172.47: -6.3% since 09-30; $4.0B of new debt (no new shares); mean analyst target $185.96.
+Stock $166.67 on 11-17 (-1.10%, -4.0% in 5 days); after hours $170.62 (+2.4%) with Nvidia; $4.0B of new debt (no new shares); mean analyst target $185.96.
 Watch: ex-dividend 2026-12-03 ($0.92, about $700); Q1 FY27 results about 2027-02-03 (not confirmed).
 
 ## Sentiment
-Score: -1 (scored 2026-11-15)
+Score: -1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Fiscal Q4 (to 2026-09-27) beat by a cent, but Q1 FY27 guidance (non-GAAP EPS $2.15-2.35, midpoint $2.25) is below the $2.27 consensus; stock -9.5% on 11-05 (CNBC 2026-11-04; Qualcomm 8-K 2026-11-04; yfinance closes).
 - Handset chip revenue -26% y/y to $5.14B (missed $5.21B StreetAccount); Apple moving to its own modems, so the December quarter is no longer the biggest; memory costs hurting phone demand (Qualcomm EX-99.1 2026-11-04; CNBC 2026-11-04; 24/7 Wall St. 2026-11-05).
 - Margin squeeze: Qualcomm says input costs are rising and price increases only reach QCT margins in 2H FY27 (EX-99.1 2026-11-04; Barron's headline 2026-11-05).
@@ -26,6 +26,7 @@ Score: -1 (scored 2026-11-15)
 | March 2027 | Annual meeting | - | not confirmed |
 
 ## News
+- 2026-11-17: Close $166.67 (-1.10%), 5 days -4.0%; after hours $170.62 (+2.4%) on NVDA results. No filing, no news. Source: yfinance; EDGAR, fetched 2026-11-18.
 - 2026-11-13: Close $172.47. Week (11-06 $165.41 -> 11-13) +4.3%; month (10-13 $176.86 -> 11-13) -2.5%; since 09-30 ($184.04) -6.3%. Source: yfinance history, fetched 2026-11-15.
 - 2026-11-13: 8-K (Item 1.01): closed $4.0B senior unsecured notes on 11-12: $750M 5.000% 2028, $750M 5.150% 2029, $1.0B 5.350% 2031, $750M 5.600% 2033, $750M 5.800% 2036; interest each 05-20/11-20. Debt, not shares (no dilution). Source: 8-K https://www.sec.gov/Archives/edgar/data/804328/000110465926127163/ (424B2 11-09, FWP 11-09, 424B5 11-10), fetched 2026-11-15.
 - 2026-11-12: Qualcomm CEO Amon: "There is no AI correction" for us (Yahoo Finance headline); stock +0.3% on the day. Source: Google News RSS headline, fetched 2026-11-15.

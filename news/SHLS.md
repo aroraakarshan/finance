@@ -1,16 +1,18 @@
 # SHLS - Shoals Technologies Group, Inc. (merging into ARRAY Technologies, ARRY)
 
-Market: US. Held in: INDmoney, 45.2102 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US. Held in: INDmoney, 45.2102 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
-Score 0 (was +1; re-scored 11-17): Q3 beat and the ARRAY merger are offset by a UBS downgrade to Neutral (PT $9) and a weak tape (-8.0% in 5 days).
-Holding: 45.2102 shares in INDmoney, about $363 at the 11-16 close $8.02 (cost $237); plan is to sell on or after 30 Nov for tax (news/market/2026-11-16.md).
-Risk: the holding becomes ARRY shares, and ARRAY cut its FY2026 guidance; SHLS gross margin fell to 31.9% from 37.0%.
-New holders: T. Rowe Price 10.7% (13G/A) and Greenvale Capital 5.8% (new 13G), both at 09-30: large funds hold through the merger.
-Watch: ARRAY S-4 / proxy (not yet on EDGAR); shareholder votes and HSR (dates not set); merger close Q1 2027.
+Score -1 (was 0; re-scored 11-18): -12.2% to $7.04 on 11-17 (second day down, -13.4% in 5 days) as the UBS downgrade centred on doubts about the ARRAY merger; the Q3 beat still stands.
+Holding: 45.2102 shares in INDmoney, about $318 at the 11-17 close $7.04 (cost $237); after hours $7.22. Plan is still to sell on or after 30 Nov for tax (news/market/2026-11-16.md).
+Risk: merger uncertainty and ARRAY's FY2026 guidance cut; the holding becomes ARRY shares at 1.6931; volume on the fall was low (0.81x), so no sign of forced selling.
+Watch: ARRAY S-4 / joint proxy (not on EDGAR as of 11-18); votes and HSR (not dated); merger close Q1 2027.
 
 ## Sentiment
-Score: 0 (re-scored 2026-11-17; was +1 on 2026-11-15)
+Score: -1 (re-scored 2026-11-18; was 0 on 2026-11-17, +1 on 2026-11-15)
+- Re-score reason: a second sharp fall tied to merger doubts adds to the UBS downgrade; no new positive news (yfinance; Seeking Alpha 2026-11-17)
+- Stock -12.22% to $7.04 on 11-17 (0.81x volume), -13.4% in 5 days; after hours $7.22 (yfinance 2026-11-18)
+- The UBS downgrade was over uncertainty about the ARRAY merger (Seeking Alpha 2026-11-17); no filing since the 13G/13G/A of 11-16 (EDGAR 2026-11-18)
 - UBS downgraded SHLS Buy -> Neutral, PT $9 (marketscreener, MarketBeat 2026-11-17)
 - SC 13G/A: T. Rowe Price 18,074,527 shares, 10.7%; new SC 13G: Greenvale Capital 9,750,000 shares, 5.8% (both as of 09-30) (EDGAR 2026-11-16)
 - Stock -3.3% to $8.02 on 11-16, -8.0% in 5 days (yfinance, 2026-11-17)
@@ -31,6 +33,7 @@ Score: 0 (re-scored 2026-11-17; was +1 on 2026-11-15)
 | ~late Feb 2027 (not confirmed) | Q4/FY2026 results | Medium | past pattern |
 
 ## News
+- 2026-11-17: Close $7.04 (-12.22%), volume 0.81x 20-day average; 5 days -13.4%; after hours $7.22. Second day down (Bing News item 11-17). Seeking Alpha: UBS downgrade driven by uncertainty about the ARRAY merger. No SHLS filing since 11-16 (EDGAR). Source: yfinance; Seeking Alpha 2026-11-17 (headline); EDGAR submissions API, fetched 2026-11-18.
 - 2026-11-17: UBS downgrade Buy -> Neutral, PT $9. Source: marketscreener, MarketBeat 2026-11-17 (headlines), fetched 2026-11-17.
 - 2026-11-17: Two men charged in an alleged theft from Shoals (local news; minor). Source: Google News RSS 2026-11-17, fetched 2026-11-17.
 - 2026-11-16: SC 13G/A T. Rowe Price 18,074,527 shares (10.7%); new SC 13G Greenvale Capital 9,750,000 shares (5.8%); both as of 2026-09-30. Source: SEC EDGAR 2026-11-16, fetched 2026-11-17.

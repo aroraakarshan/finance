@@ -1,16 +1,15 @@
 # VRT - Vertiv Holdings Co
 
-Market: US. Held in: IBKR account, 3 shares (portfolio/summary.md). Last update: 2026-11-17.
+Market: US. Held in: IBKR account, 3 shares (portfolio/summary.md). Last update: 2026-11-18.
 
 ## Summary
-Score +1 (unchanged 11-17): Q3 2026 beat and raise (sales +61%, orders more than doubled) and a 60% dividend raise, against the AI data-center sell-off.
-Small holding: 3 shares in IBKR, about $566 at the 11-16 close $188.67 (cost $986).
-Risk: AI-power names sold off again on 11-16 (-6.6%) with the chip rout; a MarketBeat headline cites an "analyst downgrade" that could not be confirmed (no rating change in yfinance since 11-14).
-Stock $188.67 on 11-16, -5.9% in 5 days; 52-week range $149.83-376.23; pre-market 11-17 +1.9%.
-Watch: dividend record 2026-11-24 ($0.10, $0.30); NVDA results 11-17 (AI-capex read-across); Q4 results about Feb 2027 (not confirmed).
+Score +1 (unchanged 11-18): Q3 2026 beat and raise (sales +61%, orders more than doubled) and a 60% dividend raise, against the AI data-center sell-off; Nvidia's beat lifted it +6.5% after hours on 11-17.
+Small holding: 3 shares in IBKR, about $571 at the 11-17 close $190.37 (cost $986).
+Risk: AI-power names swing with chip news; its power "breakthrough" news did not lift the stock (Barron's 11-17); the MarketBeat "analyst downgrade" headline of 11-16 is still not confirmed.
+Watch: dividend record 2026-11-24 ($0.10, $0.30); Q4 results about Feb 2027 (not confirmed).
 
 ## Sentiment
-Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: +1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Stock -6.6% to $188.67 on 11-16 in the AI/chip sell-off (SOX -5.28%, XLI -1.85%); MarketBeat headline says "falls 6.8% following analyst downgrade" but no firm or rating change found (yfinance; MarketBeat 2026-11-16; not verified)
 - Q3 2026 beat and raise: adj. EPS $2.21 vs est. $1.82, sales $4.31B (+61%), organic orders >100% growth, FY2026 sales guidance raised by $650M to $14.65B midpoint (8-K Ex 99.1, 2026-10-28; Yahoo Finance earnings_history); stock +16.5% that day
 - Annual dividend raised 60%, $0.25 -> $0.40 (8-K, 2026-11-13)
@@ -26,6 +25,8 @@ Score: +1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | ~2027-02 | Q4 2026 results - not confirmed | Q4 guide: sales $4.41B, adj. EPS $2.25 midpoint | 8-K Ex 99.1 2026-10-28 |
 
 ## News
+- 2026-11-17: Close $190.37 (+0.90%); after hours about +6.5% on NVDA results. Barron's: its power "breakthrough" news did not lift the stock. Source: yfinance; Barron's 2026-11-17 (headline), fetched 2026-11-18.
+- 2026-11-17: Form 4: CFO Craig Chamberlin, 1,234 shares withheld for tax (code F) at $202.07 on 11-15; holds 4,364.95 shares/RSUs/DSUs. Routine, not a market sale. Source: https://www.sec.gov/Archives/edgar/data/1674101/000162828026074512/ , fetched 2026-11-18.
 - 2026-11-17: Pre-market +1.9% at 07:40 ET. Source: yfinance, fetched 2026-11-17.
 - 2026-11-16: Close $188.67 (-6.63%), volume 0.85x 20-day average, -5.9% in 5 days; AI-power names hit in the chip sell-off. No filing since the 8-K of 11-13. MarketBeat headline "falls 6.8% following analyst downgrade": firm not found, yfinance lists no rating change since 11-14 (not verified). Source: yfinance; EDGAR; MarketBeat 2026-11-16, fetched 2026-11-17.
 - 2026-11-13: Close $202.07; week +10.5% (182.86 on 11-06); from 10-13 -14.8% (237.29); since 09-30 -16.3% (241.31). Period high 253.62 on 10-05, low 176.73 on 11-05. Source: Yahoo Finance via yfinance, fetched 2026-11-15.

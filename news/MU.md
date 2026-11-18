@@ -1,16 +1,16 @@
 # MU - Micron Technology, Inc.
 
-Market: US (Nasdaq). Held in: not held; trading/watchlist.md stage dropped (idea since 2026-11-15) (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-17.
+Market: US (Nasdaq). Held in: not held; trading/watchlist.md stage dropped (idea since 2026-11-15) (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-18.
 
 ## Summary
-Score 0 (unchanged 11-17): record quarter and FQ1 FY27 guide, but DRAM price growth is slowing; -7.6% on 11-16 in the chip sell-off and an antitrust suit survived a dismissal bid.
+Score 0 (unchanged 11-18): record quarter and FQ1 FY27 guide, but DRAM price growth is slowing; -7.6% on 11-16 in the chip sell-off and an antitrust suit survived a dismissal bid.
 Watchlist (dropped by finance-research): the news does not change the drop; the stock is -36% from its peak (Motley Fool 11-17), which supports the scout "near a peak" view.
-Event risk is high: Nvidia (biggest customer) reports tonight; pre-market 11-17 +2.2%.
-Stock $719.02 on 11-16 (-7.62%), -1.9% in 5 days.
+Nvidia (biggest customer) beat and raised; MU +4.7% after hours on 11-17.
+Stock $712.42 on 11-17 (-0.92%), -1.8% in 5 days.
 Watch: Nvidia results 2026-11-17; Micron fireside chats 2026-11-18 and 2026-12-01; FQ1 FY27 results mid/late Dec 2026 (not confirmed).
 
 ## Sentiment
-Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: 0 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Negative: an antitrust suit survived Micron's dismissal bid (Simply Wall St 2026-11-17); stock -7.62% on 11-16 with SOX -5.28%, -36% from its peak (yfinance; Motley Fool 2026-11-17)
 - Positive: record FQ4 FY26 (quarter to 2026-09-03): revenue $54.23B (+21% q/q; $11.32B a year ago), non-GAAP EPS $33.42 vs est. $31.82; FQ1 FY27 guide $61.5B +/- $1.5B revenue, ~86.25% non-GAAP gross margin, EPS $38.15 +/- $1.00 (8-K EX-99.1 2026-09-30; yfinance get_earnings_dates).
 - Positive: contract prices still rising: TrendForce/Commercial Times see 4Q26 DRAM contract prices about +20% q/q; makers told distributors of new enterprise DRAM/SSD price rises; HBM average prices forecast to roughly double in 2027 (Goldman Sachs expert call +122%, KeyBanc) (TrendForce 2026-10-20 and 2026-11-12; BigGo/Moomoo 2026-10-28; BigGo 2026-10-19).
@@ -30,6 +30,7 @@ Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | 2027-01-14 | Annual shareholders meeting (expected); director L. Haynesworth retires, board goes to 8 | Low | 8-K EX-99.1 2026-11-05 |
 
 ## News
+- 2026-11-17: Close $712.42 (-0.92%); after hours about +4.7% on NVDA results (supply commitments to $390B, mostly multi-year memory, per NVIDIA CFO commentary). Source: yfinance; NVIDIA CFO commentary 2026-11-17, fetched 2026-11-18.
 - 2026-11-17: Antitrust suit survives Micron's dismissal bid (court and plaintiffs not read). Source: Simply Wall St via Google News RSS 2026-11-17, fetched 2026-11-17.
 - 2026-11-17: Pre-market +2.2%. Stock -36% from its peak (Motley Fool). Source: yfinance; Google News RSS, fetched 2026-11-17.
 - 2026-11-16: Close $719.02 (-7.62%) in the chip sell-off (SOX -5.28%); volume 0.87x; 5 days -1.9%. Source: yfinance, fetched 2026-11-17.

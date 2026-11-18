@@ -1,16 +1,17 @@
 # MCL - Mahanadi Coalfields Ltd (Coal India subsidiary)
 
-Market: India (NSE/BSE), IPO; not listed yet. Held in: not held; trading/watchlist.md row "MCL (IPO)" stage researching (idea since 2026-11-15) (finance-scout, scout/feed.md "2026-11-14 - India IPO: Mahanadi Coalfields"). Last update: 2026-11-17.
+Market: India (NSE/BSE), IPO; not listed yet. Held in: not held; trading/watchlist.md row "MCL (IPO)" stage researching (idea since 2026-11-15) (finance-scout, scout/feed.md "2026-11-14 - India IPO: Mahanadi Coalfields"). Last update: 2026-11-18.
 
 ## Summary
-Score 0 (unchanged 11-17): IPO of Coal India's largest unit, offer for sale only (10%, all money to Coal India); big dividends but revenue and profit fell FY24-FY26 and FY26 was helped by one-offs.
+Score 0 (unchanged 11-18): IPO of Coal India's largest unit, offer for sale only (10%, all money to Coal India); big dividends but revenue and profit fell FY24-FY26 and FY26 was helped by one-offs.
 Watchlist (researching): the band is now confirmed by the lead managers' advert (Rs 129-136, lot 110, employee discount Rs 6): 8.43x FY26 EPS at the top vs Coal India 7.45x, above research's ~Rs 120 skip line, so the scout/research SKIP verdict stands; it is a cash-yield case, not growth.
-It adds to PSU/coal exposure (about 12% of the MF book); grey market fell to about Rs 3 (2%) on 11-17 from Rs 12.50 before the band (reported only, low reliability).
+It adds to PSU/coal exposure (about 12% of the MF book); grey market Rs 3.75 (2.8%) on 11-18 morning, after Rs 3-4.60 on 11-17 and Rs 12.50 before the band (reported only, low reliability). Anchor book is today; results not filed by 12:35 IST.
 Advert: offer Rs 8,517.83-8,981.12 crore net of the employee discount; market cap Rs 85,376.88-90,009.74 crore; peer average P/E 11.57x; weighted RoNW 61.25%.
-Watch: anchor book Wed 2026-11-18; offer 2026-11-19 to 2026-11-23 (UPI cut-off 17:00); allotment ~11-25; listing on or about 2026-11-27.
+Watch: anchor allocation (usually filed in the evening of 11-18); offer 2026-11-19 to 2026-11-23 (UPI cut-off 17:00); allotment ~11-25; listing on or about 2026-11-27.
 
 ## Sentiment
-Score: 0 (scored 2026-11-16; unchanged from 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: 0 (scored 2026-11-16; re-checked 2026-11-18, unchanged)
+- = Anchor book 11-18 per the company advert; no anchor result filed by 12:35 IST; GMP Rs 3.75 (2.8%) (ETV Bharat/IANS, Investorgain 2026-11-18); details in [MCL/news.md](MCL/news.md)
 - - Grey market premium fell further to about Rs 3 (implied listing Rs 139, about 2%) (CNBC-TV18 2026-11-17 07:31; ET 2026-11-17 "3%"; unofficial, low reliability); Value Research review headline: "cheap price, shrinking profits" (2026-11-17)
 - = Band confirmed by a primary document: lead managers' pre-offer advert (Axis Capital, BOB Caps sites, fetched 2026-11-17); no change to the numbers above
 - + Largest coal producer in India: 218.31 MT in FY26, 21% of domestic coal, 28.4% of Coal India output; 99.85% opencast; RoNW 53.77%

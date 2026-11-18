@@ -1,16 +1,16 @@
 # AVGO - Broadcom Inc.
 
-Market: US. Held in: IBKR, 10 shares (portfolio/summary.md; ~$3,470 at 2026-11-13 close $347.01). Last update: 2026-11-17.
+Market: US. Held in: IBKR, 10 shares (portfolio/summary.md; ~$3,470 at 2026-11-13 close $347.01). Last update: 2026-11-18.
 
 ## Summary
 Score 0: a possible ~$43B backstop liability on AI-rack leases (Redburn downgrade) against strong Anthropic-linked demand and 29 of 31 Buy ratings.
 Small holding: 10 shares in IBKR, about $3,334 at the 11-16 close $333.40 (cost $3,917).
 Risk: the AI-financing exposure tied to one customer; upside: Anthropic as its largest custom-chip customer next year.
-Stock $333.40 on 11-16 (-3.92% in the chip sell-off, SOX -5.28%), +4.4% in 5 days; Appaloosa (Tepper) exited in Q3 (13F); pre-market 11-17 +1.1%.
+Stock $341.60 on 11-17 (+2.46%), +2.9% in 5 days; after hours +2.9% on Nvidia's beat and raise; Appaloosa (Tepper) exited in Q3 (13F).
 Watch: Anthropic IPO 2026-11-18/19 (reported); Q4 FY26 results 2026-12-09 after the US close.
 
 ## Sentiment
-Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: 0 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Stock -3.92% on 11-16 with the chip sell-off; Appaloosa (Tepper) exited AVGO in Q3 per its 13F; no AVGO filing (yfinance; Benzinga 2026-11-17; EDGAR)
 - Negative: 8-K of 2026-10-27: Broadcom backstops a special-purpose vehicle that finances AI racks leased to a customer; maximum potential liability ~$43B (covers the gap between 72.5% of lease amounts owed and rack resale value if the customer defaults) (8-K filed 2026-10-27).
 - Negative: Rothschild & Co Redburn downgraded Buy -> Neutral, PT 595 -> 398, citing this AI-financing (Anthropic rack-lease) exposure; stock -4.8% on 11-13 (yfinance; Invezz 2026-11-13).
@@ -26,6 +26,7 @@ Score: 0 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | after 2026-12-09 | Next quarterly dividend (Q3 was announced with results; last $0.65, ex 09-21) | 10 x $0.65 = $6.50 gross if unchanged | date and amount not confirmed (yfinance dividend history; Broadcom Q3 release headline 2026-09-02) |
 
 ## News
+- 2026-11-17: Close $341.60 (+2.46%), among the S&P gainers; after hours about +2.9% with NVDA (Q3 beat and raise). No filing. Source: yfinance; news/market/data/2026-11-18.md, fetched 2026-11-18.
 - 2026-11-17: Appaloosa (David Tepper) exited AVGO and AMD in Q3 (13F, holdings at 09-30). Pre-market +1.1%. Source: Benzinga 2026-11-17; yfinance, fetched 2026-11-17.
 - 2026-11-16: Close $333.40 (-3.92%), volume 0.97x; 5 days +4.4%. No filing. Source: yfinance; EDGAR, fetched 2026-11-17.
 - 2026-11-13: Close $347.01. Week (11-06 $293.69 -> 11-13) +18.2%; month (10-13 $357.31 -> 11-13) -2.9%; since 09-30 ($351.19) -1.2%. Big days: 11-05 -10.4%, 11-09 +8.8%, 11-12 +5.5%, 11-13 -4.8%. Source: yfinance history, fetched 2026-11-15.

@@ -5,15 +5,16 @@ newest first: sentiment changes, new filings, catalysts in the next 10 trading d
 need action (holdings first). Per-stock detail in `news/<SYMBOL>.md`.
 
 ## Summary
-- NVDA -2 (holding): new 52-week low $156.14 (-4.1%) on 11-16; board not considering Huang's return; 4 more target cuts (all still Buy). Results tonight after the US close (~02:50 IST 11-18), options imply ~7%.
-- SCLX -2 (holding): no 10-Q (due 11-16) and no NT 10-Q at 18:18 IST; -12.6% to $1.25, 52-week low, 2.3x volume. SMNR -25.5%, IONQ -8.4% (5 days -25%). The queued SCLX $1.43 and IONQ $28.88 sells most likely did not fill (above Monday's highs) - check INDmoney.
-- Score change: SHLS +1 -> 0 (UBS downgrade to Neutral, PT $9). New first scores: AZN +1, ENR +1, KARURVYSYA +1, 4568 0, NU 0, 8031 0.
-- India holdings: no bad filings; KPIL won a Rs 2,610 cr order; KIRLPNU -6.4% and TEGA -5.3% over two days with no news; ASTRAL at a 52-week low; silver ETFs -5% Mon, flat Tue. MCL band confirmed by the lead managers' advert; grey market down to ~Rs 3.
-- Watch: tonight NVDA; 11-18 Anthropic prices, MCL anchor, SILVER sale; 11-19 MSFT ex-div, MCL opens, FOMC minutes; 11-24 India closed.
+- NVDA 0 (was -2, holding): Q3 FY27 beat and raise (revenue $115.8B vs $109.1B, Q4 guide $130B vs $125.1B, FY28 growth 75%); +4.8% after hours to $162.94; the board says Huang is not coming back; Senate testimony 12-01.
+- SCLX -2 (holding): -48.6% to $0.642 on 11-17; after the close an auditor change (8-K 4.01) and an NT 10-Q saying the 10-Q will miss even the 5-day extension (ends 11-21/23); Nasdaq notice likely. SMNR -40% to $0.21.
+- Score changes: NVDA -2 -> 0; SHLS 0 -> -1 (-12.2% to $7.04, UBS downgrade over ARRAY merger doubts). IONQ new 52-week low $24.08 (-6.1%).
+- India holdings: no bad filings; KPIL small Dubai penalty (Rs 1.07 cr, "no significant impact"); ELGIEQUIP -3.6% and KIRLPNU third day down, no news; silver ETFs -2.8% today (silver $45.93, gold 14-month low). MAHABANK all-time high Rs 96.80.
+- Watch: today SILVER sale (plan), MCL anchor result (evening), Anthropic prices (US evening); 11-19 FOMC minutes 00:30 IST, MCL opens, MSFT ex-div; 11-21/23 SCLX extension ends; 11-24 India closed.
 
 ## Days
 | Date | Highlights | File |
 |---|---|---|
+| 2026-11-18 | NVDA beat and raise, -2 -> 0; SCLX -48.6%, auditor change and NT 10-Q (10-Q late beyond extension); SHLS 0 -> -1 (-12.2%); IONQ 52-week low; silver ETFs -2.8% | [2026-11-18](daily/2026-11-18.md) |
 | 2026-11-17 | NVDA 52-week low before results tonight; SCLX missed its 10-Q; SHLS +1 -> 0 (UBS downgrade); MCL band confirmed; 6 new watchlist files | [2026-11-17](daily/2026-11-17.md) |
 | 2026-11-15 | First scoring of 29 holdings and 15 watchlist ideas; NVDA CEO exit, results 11-17; SCLX/SMNR going concern | [2026-11-15](daily/2026-11-15.md) |
 
@@ -54,11 +55,11 @@ need action (holdings first). Per-stock detail in `news/<SYMBOL>.md`.
 | MSFT | US | Held (Fidelity) | +1 | [MSFT.md](MSFT.md) |
 | MU | US | Watchlist | 0 | [MU.md](MU.md) |
 | NU | US | Watchlist | 0 | [NU.md](NU.md) |
-| NVDA | US | Held (INDmoney) | -2 | [NVDA.md](NVDA.md) |
+| NVDA | US | Held (INDmoney) | 0 | [NVDA.md](NVDA.md) |
 | QCOM | US | Held (IBKR) | -1 | [QCOM.md](QCOM.md) |
 | REGN | US | Watchlist | +2 | [REGN.md](REGN.md) |
 | SCLX | US | Held (INDmoney) | -2 | [SCLX.md](SCLX.md) |
-| SHLS | US | Held (INDmoney) | 0 | [SHLS.md](SHLS.md) |
+| SHLS | US | Held (INDmoney) | -1 | [SHLS.md](SHLS.md) |
 | SILVER | India | Held (AngelOne) | -1 | [SILVER.md](SILVER.md) |
 | SILVERIETF | India | Held (AngelOne) | -1 | [SILVERIETF.md](SILVERIETF.md) |
 | SMNR | US | Held (INDmoney) | -2 | [SMNR.md](SMNR.md) |

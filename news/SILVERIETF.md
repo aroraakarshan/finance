@@ -1,16 +1,16 @@
 # SILVERIETF - ICICI Prudential Silver ETF (NSE: SILVERIETF, Yahoo SILVERIETF.NS, ISIN INF109KC1Y56)
 
-Market: India. Held in: AngelOne, 706 units (broker TaxPnL FY2026-27 "Open Holdings", downloaded 2026-11-15; portfolio/summary.md shows market value Rs 1,28,951 on 8 Nov, -24.9%). Last update: 2026-11-17.
+Market: India. Held in: AngelOne, 706 units (broker TaxPnL FY2026-27 "Open Holdings", downloaded 2026-11-15; portfolio/summary.md shows market value Rs 1,28,951 on 8 Nov, -24.9%). Last update: 2026-11-18.
 
 ## Summary
-Score -1 (unchanged 11-17): silver keeps falling; the ETF fell -4.61% on 11-16 and was flat on 11-17 (-0.19%); the silver future moved $46.78 -> $47.55.
-Holding: 706 units in AngelOne, about Rs 1.18 L at the 11-17 close Rs 167.48; -8.89% in 5 days.
-Main risk: further silver fall on Fed/RBI hike bets and a firm dollar; gold also hit a 1-year low near $3,830 on 11-17.
-Volume on 11-17: 5.14x the 20-day average (heavy selling or switching, no filing beyond routine NAV notices).
-Watch: 2026-11-24 market holiday; Fed decision Dec 2026 (date not confirmed).
+Score -1 (unchanged 11-18): silver fell again on 11-18 (future $45.93, -2.87%) on Fed hike bets and a strong dollar; the ETF was Rs 163.05 at 12:30 IST, -2.78% vs the 11-17 NAV.
+Holding: 706 units in AngelOne, about Rs 1.15 L at Rs 163.05, about Rs 56,500 below cost; volume was 5.14x the 20-day average on 11-17 (no filing beyond NAV notices).
+Main risk: further silver fall (Fed hike about 96% priced for December, dollar index at a 19-month high).
+Watch: planned sale by 9 Dec (plan, not news); FOMC minutes 00:30 IST 11-19; 2026-11-24 market holiday.
 
 ## Sentiment
-Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: -1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
+- ETF Rs 163.05 at 12:30 IST 11-18, -2.78% vs NAV 167.7168 (11-17); 11-17 volume 5.14x the 20-day average (yfinance; mfapi.in; NSE bhavcopy 2026-11-17)
 - ETF -4.61% on 11-16 and -0.19% on 11-17 to Rs 167.48 (-8.89% in 5 days; volume 5.14x); only routine NAV filings (yfinance; NSE 2026-11-17)
 - Same metal as news/SILVER.md: COMEX silver 64.25 -> 49.03 $/oz from 2026-09-25 to 2026-11-13 (-23.7%), -5.4% last week (yfinance SI=F, fetched 2026-11-15).
 - Driver: firm dollar and US Fed rate-hike bets (Economic Times 2026-11-12; Financial Express 2026-11-10).
@@ -26,6 +26,7 @@ Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | not confirmed | SEBI tighter vault rules for gold/silver ETFs; effective date not verified | Operational only | Moneycontrol 2026-09-25; Livemint 2026-09-27 |
 
 ## News
+- 2026-11-18: Rs 163.05 at 12:30 IST, -2.78% vs NAV Rs 167.7168 (11-17). Silver future $45.93 (-2.87%). Silver ETFs -3%+ (Moneycontrol 10:38 IST). Source: yfinance; mfapi.in; Moneycontrol 2026-11-18, fetched 2026-11-18.
 - 2026-11-17: Close Rs 167.48 (-0.19%) after -4.61% on 11-16; 5 days -8.89%; volume 5.14x the 20-day average; 52-week range Rs 150.73-367.25. Silver future $46.78 -> $47.55. Only routine NAV filings. Source: yfinance; NSE corporate announcements, fetched 2026-11-17.
 - 2026-11-13: Close Rs 175.91 vs AMFI NAV Rs 176.1140 (-0.12%). Week: -3.5% (182.36 on 11-06). Month: -18.9% (216.79 on 10-13). Source: yfinance SILVERIETF.NS; AMFI NAVAll.txt https://portal.amfiindia.com/spages/NAVAll.txt and https://api.mfapi.in/mf/149464, fetched 2026-11-15.
 - 2026-11-12: Gold and silver ETFs fell up to 3% on a firm dollar and Fed hike bets. Source: Economic Times headline via Google News RSS (query "ICICI Prudential Silver ETF" OR "silver ETF premium"), fetched 2026-11-15.

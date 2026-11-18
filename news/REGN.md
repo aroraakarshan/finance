@@ -1,16 +1,16 @@
 # REGN - Regeneron Pharmaceuticals, Inc.
 
-Market: US (Nasdaq). Held in: not held; trading/watchlist.md stage idea since 2026-11-15 (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-17.
+Market: US (Nasdaq). Held in: not held; trading/watchlist.md stage idea since 2026-11-15 (finance-scout, scout/ideas.md 'Stock screens 2026-11-15'). Last update: 2026-11-18.
 
 ## Summary
 Score +2: Q3 2026 beat (revenue +36%, non-GAAP EPS $20.07 vs $16.25), raised margin guide, expanded Sanofi deal, positive pipeline data and an UBS upgrade.
 Scout growth/momentum thesis: the news supports it, with caveats - much of the growth is one-time (Sanofi Development Balance repaid, $1.0B upfront in Q4), so growth should slow from 2027.
 Risks: legacy EYLEA -41%, EYLEA HD biosimilars filed in Europe, open litigation; after +27% in a month the price is near the mean target ($985) and insiders sold.
-Latest (11-16/17): Barclays target 917 -> 1,075; EU approved extended Libtayo dosing; two small planned insider sales (Form 144). Stock $952.40 (-0.32%).
+Latest (11-17/18): two more Form 144s (planned sales, 11-17); a $5M milestone to CytomX (small); Barclays target 917 -> 1,075 (11-17). Stock $957.76 (+0.56%).
 Watch: cemdisiran FDA decision in November 2026 (day not disclosed); Q4/FY results 2027-01-28 (not confirmed); odronextamab FDA action Feb 2027.
 
 ## Sentiment
-Score: +2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: +2 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Barclays target 917 -> 1,075 (marketscreener 2026-11-17); EU approved extended dosing for Libtayo (company release 2026-11-17); Form 144s for planned sales: director George Sing 1,000 shares (~$0.96M), officer Marion McCourt 566 shares (~$0.55M) (EDGAR 2026-11-16)
 - Positive: Q3 2026 beat: revenue $5.12B (+36%), non-GAAP EPS $20.07 vs est. $16.25 (+24%); Dupixent global sales $6.5B (+35%), EYLEA HD U.S. $699M (+62%), Libtayo $550M (+51%); 2026 gross-margin guide raised to ~80% GAAP / ~86% non-GAAP and SG&A guide cut; stock +13.3% on 10-30 (8-K EX-99.1 2026-10-30; yfinance).
 - Positive: Sanofi alliance expanded on 10-01: $1.0B upfront (booked in Q4 2026), up to $7.0B milestones, 4 new long-acting antibodies; Regeneron dropped its Dupixent information lawsuit against Sanofi (8-K 2026-10-06).
@@ -30,6 +30,8 @@ Score: +2 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | 2027 | EYLEA HD biosimilars: company called a 2027 launch "very, very, very unlikely"; Alvotech/Advanz filed the first 8 mg biosimilar with EMA (10-14) | Long-term risk to EYLEA HD | Citeline headline 2026-09-21; BioPharm International/GlobeNewswire 2026-10-14/15 |
 
 ## News
+- 2026-11-18: Regeneron pays CytomX a $5M milestone (small). Source: Seeking Alpha 2026-11-18 (headline), fetched 2026-11-18.
+- 2026-11-17: Two Form 144s (planned insider sales; details not read). Close $957.76 (+0.56%). Source: EDGAR https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000872589 ; yfinance, fetched 2026-11-18.
 - 2026-11-17: Barclays target 917 -> 1,075. EU approves extended dosing for Libtayo (company release). Source: marketscreener; Investing.com 2026-11-17, fetched 2026-11-17.
 - 2026-11-16: Form 144s: director George Sing 1,000 shares (~$0.96M) and officer Marion McCourt 566 shares (~$0.55M), planned sales. Source: SEC EDGAR 2026-11-16, fetched 2026-11-17.
 - 2026-11-16: Close $952.40 (-0.32%); 5 days +3.5%; 52-week high $973.36. Source: yfinance, fetched 2026-11-17.

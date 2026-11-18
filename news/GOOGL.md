@@ -1,16 +1,16 @@
 # GOOGL - Alphabet Inc. (Class A)
 
-Market: US. Held in: INDmoney, 9.1606 shares (portfolio/summary.md; ~$2,709 at 2026-11-13 close $295.77). Last update: 2026-11-17.
+Market: US. Held in: INDmoney, 9.1606 shares (portfolio/summary.md; ~$2,709 at 2026-11-13 close $295.77). Last update: 2026-11-18.
 
 ## Summary
 Score -1: Q3 2026 missed revenue and EPS estimates, free cash flow -$9.07B on heavy capex, and the stock had its worst day ever (-12.6% on 10-29).
 Holding: 9.1606 shares in INDmoney, about $2,599 at the 11-16 close $283.72 (cost $2,885).
 Risk: capex above $300B in 2027 (CNBC) funded with debt and share sales; upside: Cloud +103% and TPU interest after Nvidia's turmoil.
-Stock $283.72 on 11-16 (-4.07%), near its 52-week low $273.50; Druckenmiller exited in Q3 (13F); director Form 4s are a GRAT transfer and a 300-share sale (minor).
+Stock $280.20 on 11-17 (-1.24%), near its 52-week low $273.50; UBS resumed coverage 11-17 (rating not checked); Druckenmiller exited in Q3 (13F).
 Watch: Anthropic IPO 2026-11-18/19 (reported); dividend record 2026-12-07 ($0.22); EU fine ruling (date not confirmed); Q4 results late Jan / early Feb 2027.
 
 ## Sentiment
-Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
+Score: -1 (scored 2026-11-15; re-checked 2026-11-18, unchanged)
 - Stock -4.07% to $283.72 on 11-16 in the AI sell-off (52-week low $273.50); Druckenmiller exited GOOGL in Q3 (13F); Form 4s: director Ram Shriram moved 1,000,000 Class C shares into two GRATs (gift, no sale), director John Hennessy sold 300 shares (yfinance; Motley Fool 2026-11-17; EDGAR Form 4 2026-11-16)
 - Q3 2026 missed on both lines for the first time in nearly four years: revenue $127.58B vs $128.22B, EPS $2.67 adj. vs $3.02 (LSEG); free cash flow -$9.07B vs -$2.70B expected (CNBC 2026-10-28).
 - Stock -12.6% on 10-29 (324.89 -> 283.82), reported as its worst day ever (~$475-500B of value) (CNN/NBC/Yahoo headlines 2026-10-29/30; yfinance).
@@ -29,6 +29,7 @@ Score: -1 (scored 2026-11-15; re-checked 2026-11-17, unchanged)
 | late Jan / early Feb 2027 | Q4 results with 2027 capex guide | Capex size and cash flow are the main debate | CNBC 2026-10-28 (date not confirmed) |
 
 ## News
+- 2026-11-17: Close $280.20 (-1.24%); 5 days -2.5%. UBS resumed coverage (rating and target not checked). No new filing since the Form 4s of 11-16. Source: yfinance; Quantisnow 2026-11-17 (headline); EDGAR, fetched 2026-11-18.
 - 2026-11-17: Druckenmiller (Duquesne) exited GOOGL in Q3 (13F, holdings at 09-30). Source: Motley Fool 2026-11-17, fetched 2026-11-17.
 - 2026-11-16: Form 4s (trades 11-12): director Ram Shriram moved 1,000,000 Class C shares into two GRAT trusts (code G, no sale); director John Hennessy sold 300 shares. Source: SEC EDGAR Form 4 2026-11-16, fetched 2026-11-17.
 - 2026-11-16: Close $283.72 (-4.07%); 5 days -1.5%; XLC -1.72%. Pre-market 11-17 -0.1%. Source: yfinance, fetched 2026-11-17.
