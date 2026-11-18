@@ -4,7 +4,7 @@
 
 - Yes. For Indian tax you may sell a US share at a loss and buy it back the same day (or minute); the loss counts. India has no wash-sale rule, and the US 30-day wash-sale rule does not apply to you (no US capital gains tax for a nonresident).
 - Caveats: the rebought shares get a new cost and a new 24-month clock; check each lot in rupees first (NVDA and the GOOGL Nov-2025 lot are rupee gains); keep it a normal market order, not a deal with a relative.
-- With QCOM sale 1 in 2026-27 (the plan, LTCG about Rs 15.2 L, specific identification), every rupee of 2026-27 loss saves 14.95% this year and nothing carries forward: all silver (-Rs 1,18,047, user decision 16 Nov) about Rs 17,648, SCLX + IONQ about Rs 5,264 (SMNR/SYRS when sold at IBKR, [migration 3.5](migration-indmoney-to-ibkr.md)). If QCOM sale 1 slips past 31 Mar 2027, the INDmoney loss carries forward instead (about Rs 67,300-87,000 with all silver sold; ITR by 31 Jul 2027).
+- With QCOM sale 1 in 2026-27 (the plan, LTCG about Rs 15.2 L, specific identification), every rupee of 2026-27 loss saves 14.95% this year and nothing carries forward: all silver (sold 18 Nov, -Rs 1,43,572 actual) about Rs 21,464, AngelOne shares and 2 MFs sold 18 Nov (-Rs 8,159) about Rs 1,220, SCLX + IONQ about Rs 5,264 (SMNR/SYRS when sold at IBKR, [migration 3.5](migration-indmoney-to-ibkr.md)). If QCOM sale 1 slips past 31 Mar 2027, the loss carries forward instead (about Rs 97,000-1,19,700; ITR by 31 Jul 2027).
 - 16-25 Nov: sell SCLX, SMNR, IONQ (SYRS by 27 Nov) anyway (real loss, may not move to IBKR); do not rebuy at INDmoney before the transfer; rebuy (if wanted, and only shares above $5) at IBKR after it.
 
 Prepared 15 Nov 2026 by `finance-tax` (agent `harvest`). Plan only: no orders. Tax year 2026-27,
@@ -109,10 +109,11 @@ bonus shares' cost.
 | NXPI LT gain (IBKR, 9 Jul 2026) | +2,76,457 |
 | LT gain left, taxed at 14.95% | 66,323 (tax Rs 9,915) |
 | INDmoney harvest (SCLX, SMNR, IONQ, SYRS) | -51,800 to -70,100 |
-| AngelOne: all silver incl. ABSL (16 Nov decision; ETFs 16 Nov close, FoFs NAV 13 Nov) | -1,18,047 |
+| AngelOne: all silver incl. ABSL, sold 18 Nov (actual fills; FoFs NAV 17 Nov; `angelone-metals-and-mf-exits.md` 3B) | -1,43,572 |
+| AngelOne: Nippon MC150 + Invesco PSU (-3,484) and 8 shares (-3,797; losses -4,675, gains +878 exempt), sold 18 Nov | -7,281 |
 | QCOM sale 1 + MSFT Jan lot (LT, specific identification, `employer-stock/staged-sale.md` section 3) | about +15.78 L |
-| With QCOM sale 1 (the plan) | All losses set off this year; no carry-forward. New losses save 14.95%: all silver 17,648, SCLX + IONQ (-35,209) 5,264, MF ST (-963) 144, less fraction gains (+7,155) 1,070. Excess over NXPI + fractions (about 87,200) plus the MSFT new-vest ST loss (about 18,155, provisional) = about 1,05,400 offsets QCOM: about Rs 15,750; QCOM sale 1 tax about Rs 2,11,000 after losses (Rs 2,26,828 before); advance tax about Rs 1,53,600 by 15 Dec, Rs 1,91,400 by 15 Mar |
-| If QCOM sale 1 slips past 31 Mar 2027 | Tax 0; about Rs 67,300-87,000 ST loss carries forward with all silver sold (lower end with the 7 MF exits; SMNR/SYRS excluded until sold) |
+| With QCOM sale 1 (the plan) | All losses set off this year; no carry-forward. New losses save 14.95%: all silver 21,464, SCLX + IONQ (-35,209) 5,264, MF ST (-3,484 sold, +2,064 Dec) 212, shares (-4,675) 699, less fraction gains (+7,155) 1,070. Excess over NXPI + fractions (about 1,17,800) plus the MSFT new-vest ST loss (about 18,155, provisional) = about 1,36,000 offsets QCOM: about Rs 20,330; QCOM sale 1 tax about Rs 2,06,500 after losses (Rs 2,26,828 before); advance tax about Rs 1,50,200 by 15 Dec, Rs 1,90,200 by 15 Mar (`employer-stock/staged-sale.md` 5) |
+| If QCOM sale 1 slips past 31 Mar 2027 | Tax 0; about Rs 97,000-1,19,700 ST loss carries forward with the 18 Nov AngelOne sales (lower end with the 5 Dec MF exits; SMNR/SYRS excluded until sold) |
 
 With QCOM sale 1 in 2026-27 (`portfolio/plan.md`) the INDmoney harvest saves 14.95% this year.
 Only if QCOM sale 1 is postponed does its value become a carry-forward (worth 14.95%-35.88% in a

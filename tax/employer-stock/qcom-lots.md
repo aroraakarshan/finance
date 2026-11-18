@@ -3,7 +3,7 @@
 ## Summary
 
 - User decision 17 Nov 2026: report the actual lot sold (specific identification) for foreign shares at foreign brokers; FIFO is the fallback if the officer disagrees (3.3).
-- QCOM: sell the long-term lots with the highest Indian cost first (3.4). At 16 Nov inputs sale 1 (432 sh) tax about Rs 2,26,800 before losses (about Rs 2,11,000 after); sale 2 (195 sh) about Rs 1,57,700. FIFO would be Rs 3,28,200 / Rs 1,60,900.
+- QCOM: sell the long-term lots with the highest Indian cost first (3.4). At 16 Nov inputs sale 1 (432 sh) tax about Rs 2,26,800 before losses (about Rs 2,06,500 after); sale 2 (195 sh) about Rs 1,57,700. FIFO would be Rs 3,28,200 / Rs 1,60,900.
 - Risk: an adverse 2026 ITAT ruling (Megasolis) exists; if FIFO were imposed on 2026-27: about Rs 1.01 L more tax + 1% a month + a possible 50% penalty. Keep the broker lot records and the FIFO figure on file.
 - At IBKR, match each QCOM sale to the lots in 3.4 with Specific Lot in the Tax Optimizer the same day, before 8:30 PM ET (3.5).
 
@@ -128,7 +128,7 @@ separate award lots at IBKR (for example 2023-11-20 = 22 + 52 + 4 + 19); lots of
 | P3 | 7-11 Dec | est 93.60 | 2022-08-20: 2.845; 2022-07-31: 23; 2021-01-31: 25; 2021-07-31: 19; 2023-01-31: 27; 2023-07-31: 11.155 | 5,00,043 | 74,756 | 54,329 |
 | P4 | 16-18 Dec (not 14-15 Dec, [staged-sale.md](staged-sale.md) section 5) | est 93.60 | 2023-07-31: 17.845; 2020-11-20: 23; 2023-11-20: 67.155 | 5,41,609 | 80,970 | 82,304 |
 | **Sale 1** | | | 432 sh, about $72,800 = about Rs 68 L | **15,17,246** | **2,26,828** | 3,28,245 |
-| Sale 1 after the 2026-27 losses (about Rs 1,05,400 meet QCOM incl. the 17 Nov MSFT loss, staged-sale.md 5) | | | | | **about 2,11,000** | about 3,12,400 |
+| Sale 1 after the 2026-27 losses (about Rs 1,36,000 meet QCOM incl. the 17 Nov MSFT loss and the 18 Nov AngelOne sales, staged-sale.md 5) | | | | | **about 2,06,500** | about 3,07,900 |
 | Sale 2 | Apr 2027 | 31 Mar 2027 (est 93.60) | 2025-03-27 DRIP: 3.004; 2024-12-19 DRIP: 2.974; 2023-11-20: 29.845; 2021-08-20: 22; 2021-02-20: 21; 2022-05-20: 32; 2022-11-20: 77; 2021-05-20: 7.177 | 10,54,624 | **1,57,666** | 1,60,900 |
 | Kept 134 | later | - | 2019-08-19: 7; 2020-07-31: 29; 2020-08-20: 42; 2023-05-20: 43; 2021-05-20: 4.823; DRIP 2025-06-26, 2025-09-25, 2025-12-18 (8.177, LT from Jun-Dec 2027) | 9,62,011 | 1,43,821 | 39,170 |
 

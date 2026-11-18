@@ -2,10 +2,9 @@
 
 ## Summary
 
-- Selling the 9 loss-making shares by 31 Mar 2027 books about -Rs 6,823 of loss (after sale charges) and saves about **Rs 1,020** of tax against the QCOM sale 1 gain (14.95%); after sale costs (about Rs 290) you keep about Rs 730.
-- Short-term or long-term does not matter for the losses this year: both meet the QCOM long-term gain.
-- Worth it for tax: SUZLON, ICICIGI, DALBHARAT, TECHNOE, FINPIPE, KIRLPNU. Barely (net Rs 6-12, a loss if you buy back): ASTRAL, TEGA, TIMETECHNO.
-- The 3 winners (AZAD, KPIL, ELGIEQUIP) cost no tax at best and at most about Rs 164 in total; sell ELGIEQUIP on or after Wed 2 Dec 2026 (long-term then).
+- Sold 18 Nov 2026 (section 6, charges estimated): TEGA, ASTRAL (s.196 ST -646), AZAD, KPIL (s.198 LT +878), DALBHARAT, TECHNOE, SUZLON, FINPIPE (s.198 LT -4,029), each in full: net -Rs 3,797; the losses save about **Rs 699** against the QCOM sale 1 gain (14.95%), the gains stay inside Rs 1.25 L.
+- Still held: ICICIGI, KIRLPNU, TIMETECHNO (losses, about -Rs 2,328 after charges at 13 Nov, saving about Rs 348 if sold) and ELGIEQUIP (gain; sell on or after Wed 2 Dec 2026, long-term then).
+- Short-term or long-term does not matter for losses this year: both meet the QCOM long-term gain.
 - Last day: trade by Wed 31 Mar 2027 (safer by Fri 26 Mar). If you buy any back, buy the next trading day, not the same day. Whether to keep each stock is scout/research's call.
 
 Written 2026-11-17 by `finance-tax` (agent `a1stocks`) for `finance-scout`. Plan only: no orders; you trade.
@@ -130,3 +129,40 @@ STT 0.1%. About Rs 30-40 per stock. Not checked on a 2026 contract note.
 | AZAD | Keep or sell: no tax inside Rs 1.25 L (worst Rs 127) |
 | KPIL | Keep or sell: no tax (worst Rs 20) |
 | ELGIEQUIP | If selling, wait until 2 Dec 2026 (LT): then no tax (worst Rs 17) |
+
+## 6. Realised 18 Nov 2026 (actual fills)
+
+Fills (Wed 18 Nov 2026, from `finance` main): TEGA, AZAD, KPIL, ASTRAL, DALBHARAT, TECHNOE 1 each (09:08),
+SUZLON 50, FINPIPE 6 (12:34). Each is the whole holding (section 1), so each sale is that one lot.
+Still held: ICICIGI 5, KIRLPNU 2, ELGIEQUIP 2 (LT from Wed 2 Dec), TIMETECHNO 3.
+
+Sale charges are estimates: no contract note for 18 Nov in Drive (checked 18 Nov 12:50). Rates from the
+FY2025-26 trade book: brokerage Rs 5 per order (Nov 2025 delivery sells) + 18% GST on brokerage and fees;
+NSE turnover 0.00297%; SEBI and IPFT 0.0001% each; DP Rs 23.60 per scrip. STT 0.1% shown apart: not
+deductible (s.72(1)(a); 1961 s.48).
+
+| Stock | Bought | Qty sold / held | Cost Rs | Price | Sale value Rs | Charges Rs | STT Rs | Gain/loss Rs | Term | Section |
+|---|---|---|---|---|---|---|---|---|---|---|
+| TEGA | 2025-11-26 | 1 / 1 | 1,936.16 | 1,595.00 | 1,595.00 | 29.56 | 2 | -370.72 | ST (LT from 27 Nov) | s.196 |
+| ASTRAL | 2025-11-26 | 1 / 1 | 1,486.98 | 1,241.40 | 1,241.40 | 29.55 | 1 | -275.13 | ST (LT from 27 Nov) | s.196 |
+| AZAD | 2025-07-25 | 1 / 1 | 1,577.46 | 2,366.00 | 2,366.00 | 29.59 | 2 | +758.95 | LT | s.198 |
+| KPIL | 2025-07-25 | 1 / 1 | 1,188.58 | 1,336.80 | 1,336.80 | 29.55 | 1 | +118.67 | LT | s.198 |
+| DALBHARAT | 2025-07-25 | 1 / 1 | 2,265.29 | 1,525.90 | 1,525.90 | 29.56 | 2 | -768.95 | LT | s.198 |
+| TECHNOE | 2025-07-25 | 1 / 1 | 1,465.83 | 950.00 | 950.00 | 29.54 | 1 | -545.37 | LT | s.198 |
+| SUZLON | 2024-08-19 | 50 / 50 | 4,089.66 | 36.37 | 1,818.50 | 29.57 | 2 | -2,300.73 | LT | s.198 |
+| FINPIPE | 2025-07-25 | 6 / 6 | 1,257.02 | 145.39 | 872.34 | 29.53 | 1 | -414.21 | LT | s.198 |
+| **Total (8)** | | | **15,266.98** | | **11,705.94** | **236.45** | **12** | **-3,797.48** | | |
+
+| Totals by section | Rs |
+|---|---|
+| s.196 ST loss (TEGA, ASTRAL) | -645.85 |
+| s.198 LT gain (AZAD, KPIL) | +877.62 |
+| s.198 LT loss (DALBHARAT, TECHNOE, SUZLON, FINPIPE) | -4,029.26 |
+| Net | -3,797.48 |
+
+- Plan case (QCOM sale 1 in 2026-27): the losses (-4,675) meet the QCOM LT gain at 14.95%: about **Rs 699**
+  less tax; the gains (+878) stay inside the Rs 1.25 L s.198 exemption (about Rs 84,300 left after MF exits
+  and the March harvest); worst case Rs 131 if the ITR utility sets loss against them (section 3).
+- Versus section 2 (13 Nov prices): these 6 losers were -4,495 (saving Rs 672); AZAD +848, KPIL +131.
+- Whole-year position and advance tax: `../employer-stock/staged-sale.md` section 5; AngelOne metals and
+  MFs of the same day: `../angelone-metals-and-mf-exits.md` section 3B.

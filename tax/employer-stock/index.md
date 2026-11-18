@@ -3,8 +3,8 @@
 ## Summary
 
 - User decision 17 Nov 2026: for foreign shares at foreign brokers report the actual lot sold (specific identification); FIFO is the fallback if the officer disagrees. Risk: an adverse 2026 ITAT ruling (Megasolis); if FIFO were imposed, about Rs 1.01 L more tax on QCOM plus interest and a possible 50% penalty. Keep broker lot records and the FIFO figure ([qcom-lots.md](qcom-lots.md) 3.3).
-- QCOM: sell the long-term lots with the highest Indian cost first, matched with Specific Lot at IBKR on each sale day ([qcom-lots.md](qcom-lots.md) 3.4-3.5). Sale 1 (432 sh) tax about Rs 2,26,800 before losses, about Rs 2,11,000 after; sale 2 (195 sh, Apr 2027) about Rs 1,57,700.
-- Advance tax: about Rs 1,53,600 by 15 Dec 2026 and Rs 1,91,400 by 15 Mar 2027; sell QCOM part 4 on 16-18 Dec. Rs 2 Cr stays far (about Rs 70 L of room) ([staged-sale.md](staged-sale.md) 5).
+- QCOM: sell the long-term lots with the highest Indian cost first, matched with Specific Lot at IBKR on each sale day ([qcom-lots.md](qcom-lots.md) 3.4-3.5). Sale 1 (432 sh) tax about Rs 2,26,800 before losses, about Rs 2,06,500 after; sale 2 (195 sh, Apr 2027) about Rs 1,57,700.
+- Advance tax: about Rs 1,50,200 by 15 Dec 2026 and Rs 1,90,200 by 15 Mar 2027 (after the AngelOne sales of 18 Nov); sell QCOM part 4 on 16-18 Dec. Rs 2 Cr stays far (about Rs 70 L of room) ([staged-sale.md](staged-sale.md) 5).
 - MSFT: sell each new vest at once choosing that lot (Fidelity Specific Shares): the 17 Nov sale of 10.9 sh of the 15 Nov vest is a small ST loss (about Rs 18,155, tax 0, provisional until the fill price); older lots as each turns long-term ([staged-sale.md](staged-sale.md) 3.6).
 - ESPP: sell each purchase the same day choosing that lot: about 7.1% net after payroll tax ([espp.md](espp.md)); report the shares in Schedule FA.
 

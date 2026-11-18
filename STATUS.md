@@ -30,8 +30,8 @@ Last update: 2026-11-18 (work Mac).
   lot records identify each lot. Risk: ITAT Mumbai Megasolis (5 May 2026, Indian physical shares) applied FIFO;
   if an officer imposes FIFO: about Rs 1.01 L more QCOM tax + interest + a possible 50% penalty. Safeguards: keep
   confirmations showing each lot and the FIFO figure on file. New figures: QCOM sale 1 Rs 2,26,828 before losses
-  (about Rs 2,11,000 after; FIFO Rs 3,28,245), sale 2 Rs 1,57,666; advance tax 15 Dec about Rs 1,53,600, 15 Mar
-  about Rs 1,91,400; ESPP same-day sale back to about 7.1% net. DONE tonight: 10.9 MSFT (16 Nov 2026 vest lot) sold
+  (about Rs 2,06,500 after; FIFO Rs 3,28,245), sale 2 Rs 1,57,666; advance tax 15 Dec about Rs 1,50,200, 15 Mar
+  about Rs 1,90,200; ESPP same-day sale back to about 7.1% net. DONE tonight: 10.9 MSFT (16 Nov 2026 vest lot) sold
   at Fidelity, market, confirmation 2G11972R, about $5,484, cash kept in the Fidelity stock plan account (not
   HDFC); short-term loss about Rs 17,500-21,800, tax 0. `portfolio/decisions.md` row (review 2027-07-31),
   `portfolio/plan.md`, tax/ notes by finance-tax.
@@ -196,11 +196,11 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
 5c. Advance tax (`tax/employer-stock/staged-sale.md` section 5, `tax/FY2026-27/fd-and-advance-tax.md`):
     Plan case: QCOM parts 1-3 by 11 Dec, part 4 on 16-18 Dec, net of all 2026-27 losses.
     Specific lots (user decision 17 Nov), incl. tonight's MSFT vest loss.
-    - By Tue 15 Dec 2026: about Rs 1,53,600 (base + QCOM parts 1-3 Rs 1,09,400, all losses set off; was 2,45,100 under FIFO); on top of Rs 1,50,000 paid on 9 Nov.
-    - By Mon 15 Mar 2027: about Rs 1,91,400 (base, rest of parts 1-3, part 4, MSFT Jan lot; was 2,31,400).
+    - By Tue 15 Dec 2026: about Rs 1,50,200 (base + QCOM parts 1-3 Rs 1,09,400, all losses set off; was 2,45,100 under FIFO); on top of Rs 1,50,000 paid on 9 Nov.
+    - By Mon 15 Mar 2027: about Rs 1,90,200 (base, rest of parts 1-3, part 4, MSFT Jan lot; was 2,31,400).
     - If FIFO were imposed: about Rs 2,28,700 and Rs 2,17,700.
     - Without QCOM sale 1: Rs 63,500 by 15 Dec and Rs 71,200 by 15 Mar.
-5c1. QCOM sale tax (specific lots, `tax/employer-stock/qcom-lots.md` 3.4): sale 1 (432 shares) Rs 2,26,828 (about Rs 2,11,000 after losses;
+5c1. QCOM sale tax (specific lots, `tax/employer-stock/qcom-lots.md` 3.4): sale 1 (432 shares) Rs 2,26,828 (about Rs 2,06,500 after losses;
     FIFO Rs 3,28,245); sale 2 (195 shares) Rs 1,57,666 (FIFO Rs 1,60,900). Part 4 on 16-18 Dec so its tax falls in the 15 Mar instalment. User tells
     finance-tax each sale date and amount.
 5c2. Rs 2 Cr surcharge step (`tax/employer-stock.md` section 2): about Rs 86.6 L of income away in 2026-27;

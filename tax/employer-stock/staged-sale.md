@@ -3,7 +3,7 @@
 ## Summary
 
 - Same long-term rate (14.95%) in both years: staging QCOM only defers tax and keeps each year under Rs 2 Cr (about Rs 70 L of room left in 2026-27).
-- Advance tax (specific identification, after the 2026-27 losses): pay about Rs 1,53,600 by 15 Dec 2026 (incl. Rs 1,09,400 for QCOM parts 1-3) and about Rs 1,91,400 by 15 Mar 2027; sell part 4 on 16-18 Dec so its Rs 81,000 waits for 15 Mar (section 5).
+- Advance tax (specific identification, after the 2026-27 losses incl. the AngelOne sales of 18 Nov): pay about Rs 1,50,200 by 15 Dec 2026 (incl. Rs 1,09,400 for QCOM parts 1-3) and about Rs 1,90,200 by 15 Mar 2027 (was Rs 1,53,600 / Rs 1,91,400); sell part 4 on 16-18 Dec so its Rs 81,000 waits for 15 Mar (section 5).
 - MSFT (user decision 17 Nov: the actual lot sold counts): sell each new vest at once by choosing that lot - the 17 Nov sale of 10.9 sh of the 15 Nov vest is a small ST loss (about Rs 18,155, tax 0, provisional); sell older lots as each turns long-term (3.6).
 - Sale value uses the SBI TT buying rate of the last day of the month before the sale (31 Oct 2026 = 94.36).
 
@@ -84,7 +84,7 @@ Lots and FMVs: `fidelity.holdings()` (2026-11-17).
 
 Year totals with this plan (specific identification; 16-17 Nov inputs): 2026-27 LT gain about Rs 15.78 L
 (QCOM sale 1 + MSFT Jan lot) and an MSFT ST loss of about Rs 18,155 (provisional); tax about Rs 2,35,900 before the loss
-set-off (about Rs 2,20,100 after, section 5); income about Rs 1.30 Cr, about Rs 70 L under Rs 2 Cr. 2027-28 LT
+set-off (about Rs 2,15,600 after, section 5); income about Rs 1.30 Cr, about Rs 70 L under Rs 2 Cr. 2027-28 LT
 gain about Rs 14.0 L (QCOM sale 2 + MSFT lots LT from Apr 2027 to Mar 2028), tax about Rs 2,09,300 (income about
 Rs 1.3 Cr if salary stays about Rs 1.06 Cr - not known yet). Both far under Rs 2 Cr.
 
@@ -99,14 +99,34 @@ Rs 1.3 Cr if salary stays about Rs 1.06 Cr - not known yet). Both far under Rs 2
 
 ## 5. Losses and advance tax (2026-27)
 
-- Set-off: 2026-27 losses (about Rs 3.71 L: INDmoney to 9 Nov -2,16,582, all silver incl. ABSL -1,18,047 (user decision 16 Nov;
-  ETFs 16 Nov close, FoFs NAV 13 Nov; `../angelone-metals-and-mf-exits.md` section 3A), SCLX + IONQ
-  -35,209, MF ST -963; 13 Nov prices) offset QCOM sale 1 directly once the NXPI gain (Rs 2,76,457) and
-  the INDmoney fraction gains (about +7,155) are used: about Rs 87,200 meets QCOM. The 17 Nov MSFT sale of
-  the new vest (17 Nov, 10.9 sh) adds an ST loss of about Rs 18,155 (3.6; provisional until the fill price), so about Rs 1,05,400
-  meets QCOM, saving about Rs 15,750 (14.95%). Nothing carries forward. QCOM sale 1 tax (qcom-lots.md 3.4, 16 Nov inputs): Rs 2,26,828
-  before losses, about Rs 2,11,000 after (FIFO fallback Rs 3,28,245 / about Rs 3,12,400). SMNR/SYRS, if
+- Set-off: 2026-27 losses (about Rs 4.01 L: INDmoney to 9 Nov -2,16,582; AngelOne sales of 18 Nov, actual
+  fills (`../angelone-metals-and-mf-exits.md` section 3B, `../FY2026-27/angelone-stocks.md` section 6):
+  all silver -1,43,572, Nippon MC150 + Invesco PSU -3,484, 6 loss shares -4,675; planned: SCLX + IONQ
+  -35,209 (13 Nov prices), the 5 Dec MF exits ST +2,064) offset QCOM sale 1 directly once the NXPI gain
+  (Rs 2,76,457) and the INDmoney fraction gains (about +7,155) are used: about Rs 1,17,800 meets QCOM.
+  The 17 Nov MSFT sale of the new vest (10.9 sh) adds an ST loss of about Rs 18,155 (3.6; provisional
+  until the fill price), so about **Rs 1,36,000** meets QCOM, saving about **Rs 20,330** (14.95%; plan of
+  17 Nov: Rs 1,05,400 / Rs 15,750). Nothing carries forward. s.198 gains (AZAD, KPIL +878; Dec MF exits
+  LT +20,644) stay inside Rs 1.25 L. QCOM sale 1 tax (qcom-lots.md 3.4, 16 Nov inputs): Rs 2,26,828
+  before losses, about Rs 2,06,500 after (FIFO fallback Rs 3,28,245 / about Rs 3,07,900). SMNR/SYRS, if
   sold at IBKR by 31 Mar 2027, save about Rs 5,200 more (`tax/migration-indmoney-to-ibkr.md` section 3.5).
+  Provisional: FoF/MF at NAV 17 Nov, AngelOne sale charges estimated (no contract note yet).
+
+| 2026-27 capital gains position (plan case, approx INR) | ST (slab) | ST s.196 | LT s.197 | LT s.198 |
+|---|---|---|---|---|
+| INDmoney sales to 9 Nov (realised) | -2,16,582 | | | |
+| INDmoney fractions (planned) | +7,155 | | | |
+| SCLX + IONQ (planned 16-25 Nov) | -35,209 | | | |
+| NXPI 9 Jul 2026 (realised) | | | +2,76,457 | |
+| MSFT new vest 17 Nov (realised, provisional) | -18,155 | | | |
+| AngelOne silver 18 Nov (realised) | -1,44,341 | | +769 | |
+| AngelOne MFs 18 Nov (realised) | | -3,484 | | |
+| AngelOne shares 18 Nov (realised) | | -646 | | +878 / -4,029 |
+| AngelOne 5 MF exits 11-14 Dec (planned) | | +2,064 | | +20,644 |
+| QCOM sale 1 (planned, specific identification) | | | +15,17,246 | |
+| MSFT Jan lot (planned, Jan-Mar) | | | +60,574 | |
+| **After set-off** (losses about -4,13,200 net of the +7,155 fractions and +2,064 MF ST meet NXPI, the ABSL LT lot and QCOM; s.198 gains +21,522 exempt) | 0 | 0 | about +14,41,800 (tax about Rs 2,15,600) | 0 taxable |
+
 - AF s.404 (1961 s.208): advance tax if tax after TDS is Rs 10,000 or more. AF s.408 (1961 s.211):
   15%/45%/75%/100% by 15 Jun/Sep/Dec/Mar. AF s.425(1) (1961 s.234C): 1% a month on a shortfall
   (3 months for Jun/Sep/Dec, 1 for Mar). AF s.425(4) (1961 s.234C proviso): no interest on a shortfall
@@ -126,10 +146,13 @@ tax by part from [qcom-lots.md](qcom-lots.md) 3.4 (specific identification, 16 N
 | MSFT: 17 Nov new-vest sale (loss) | 0 | 0 |
 | MSFT Jan lot (LT from 1 Jan 2027), if sold Jan-Mar | 0 | + Rs 9,100 |
 | Total before the Nov-Dec losses | about Rs 1,72,900 | about Rs 1,97,800 |
-| Losses: all silver, SCLX + IONQ, MF ST, MSFT new vest (tax Rs 25,670 less: NXPI base 9,915 + QCOM 15,750), 75% / 25% | - Rs 19,300 | - Rs 6,400 |
-| **Total, plan** | **about Rs 1,53,600** | **about Rs 1,91,400** |
+| Losses: AngelOne 18 Nov actual (silver, 2 MFs, 6 shares), SCLX + IONQ, Dec MF ST, MSFT new vest (tax Rs 30,247 less: NXPI base 9,915 + QCOM 20,332), 75% / 25% | - Rs 22,700 | - Rs 7,600 |
+| **Total, plan** | **about Rs 1,50,200** | **about Rs 1,90,200** |
 | If P4 is sold 14-15 Dec instead | + Rs 60,700 | - Rs 60,700 |
-| For comparison: QCOM at FIFO (fallback) | about Rs 2,28,700 | about Rs 2,17,700 |
+| For comparison: QCOM at FIFO (fallback) | about Rs 2,25,300 | about Rs 2,16,600 |
+
+Was (17 Nov, planned silver -1,18,047, no AngelOne shares): Rs 1,53,600 / Rs 1,91,400. The 18 Nov fills
+add about Rs 30,700 of loss: Rs 4,583 less tax, Rs 3,400 less by 15 Dec and Rs 1,200 less by 15 Mar.
 
 The losses row includes the silver effect on the base (fd note: Rs 56,000 / Rs 68,700). Sell P4 on 16-18 Dec, not
 14-15 Dec, so its tax moves to 15 Mar with no interest.

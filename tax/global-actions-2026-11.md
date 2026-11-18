@@ -4,7 +4,7 @@
 
 - One tax line per planned Nov 2026 action (plan only, no orders).
 - Selling QCOM (long-term lots, highest cost first): gain about Rs 39.3 L, tax about Rs 5.9 L. Reinvesting the proceeds abroad at IBKR (EXUS, AVGS, XDWH/XDW0) within 180 days needs no new remittance and no TCS (AD bank to confirm).
-- Sell ICICI Silver ETF (by 9 Dec), ICICI Silver FoF and Motilal Gold+Silver FoF: short-term loss about -Rs 78,094 offsets other gains; buying GOLDIETF has no tax.
+- Done 18 Nov: all silver sold (ICICI and ABSL Silver ETFs, ICICI Silver FoF, Motilal Gold+Silver FoF): loss about -Rs 1,43,572 (`angelone-metals-and-mf-exits.md` 3B) offsets other gains; GOLDIETF bought, no tax.
 - IB01: plan on every gain being short-term at 35.88% (same as cash interest; still beats idle cash). IGLN and bitcoin ETPs: ask the AD bank in writing first (LRS). Kotak NN50 kept; SIPs fine. Former CA items: [ca-questions.md](ca-questions.md).
 
 Written 2026-11-15 by `finance-tax`. Plan only, no orders; not tax advice. Resident (ROR), new
@@ -19,7 +19,7 @@ not US-situs unless stated, no Indian STT.
 | 1 | QCOM -> EXUS (IE0006WW1TQ4), opt. IJPA (IE00B4L5YX21), IBKR | Sale: LT lots first, highest-cost first, LT 14.95% on about Rs 39.3 L (+Rs 5.9 L tax, `investment-types.md` 5.1-5.2), no US tax; buy - no tax, no TCS [N1]; hold - Irish acc, no Indian tax till sale, no US estate tax, FA A3; exit - LT >24m 14.95%, ST 35.88%; Ireland WHT none. |
 | 2 | AVGS (IE0003R87OG3), IBKR | Buy - as #0; hold - Irish acc (active UCITS), no tax till sale, not US-situs, FA A3; exit - LT >24m 14.95%, ST 35.88%. |
 | 3 | XDWH (IE00BM67HK77), XDW0 (IE00BM67HM91), IBKR | Buy - as #0; hold - Irish acc, no tax till sale, not US-situs, FA A3; exit - LT >24m 14.95%, ST 35.88%. |
-| 4a | Sell ICICI Silver ETF, ICICI Silver FoF, Motilal Gold+Silver FoF; buy GOLDIETF, AngelOne | Sell - ST loss about -Rs 78,094 (13 Nov NAVs), sets off against any gain incl. QCOM LTCG (saves 14.95%); sell ICICI ETF by 9 Dec; buy - no tax, no STT, stamp 0.015% [N4]; hold - nothing yearly, no FA; exit - listed in India: LT >12m 14.95% (AF s.197), ST 35.88%; outside AF s.76; no Rs 1.25 L exemption. |
+| 4a | Sell ICICI Silver ETF, ICICI Silver FoF, Motilal Gold+Silver FoF; buy GOLDIETF, AngelOne | Sell - ST loss about -Rs 78,094 (13 Nov NAVs), sets off against any gain incl. QCOM LTCG (saves 14.95%); ICICI ETF sold 18 Nov (done; all silver -1,43,572 actual, 3B of `angelone-metals-and-mf-exits.md`); buy - no tax, no STT, stamp 0.015% [N4]; hold - nothing yearly, no FA; exit - listed in India: LT >12m 14.95% (AF s.197), ST 35.88%; outside AF s.76; no Rs 1.25 L exemption. |
 | 4b | IGLN (IE00B4ND3602, ETC), IBKR | AD bank first, in writing (LRS) [N2]; buy - LRS: OPI bar on "commodities" may apply; hold - no income, FA A3; exit - likely a foreign security: LT >24m 14.95%, ST 35.88%; if "unlisted bond"/MLD (AF s.76): always ST 35.88%. |
 | 5 | IB01 (IE00BGSF1X88, acc), IBKR cash parking | Buy - as #0, counts as reinvestment [N1]; hold - no tax till sale, no US WHT on Treasuries; exit - AF s.76 likely applies: always ST 35.88% [N3]; post-tax yield 4.26% YTM -> about 2.7% (s.76) or 3.6% (>24m, 14.95%), rupee gain taxed the same; idle IBKR cash 3.38% (above $10k) -> 2.2%. |
 | 6 | SIP/lump sum UTI Nifty 50 index, Kotak Nifty Next 50 index (keep NN50) | Buy - stamp 0.005%; hold - growth, nothing yearly; exit - ST <=12m 23.92%, LT 14.95% above Rs 1.25 L/FY (shared), STT 0.001% on redemption, FIFO per SIP lot (AF s.67(7)) [N5]. |

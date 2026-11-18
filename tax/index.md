@@ -4,7 +4,7 @@
 
 - Tax plans and references by `finance-tax` for tax year 2026-27 (new regime, income about Rs 1.06 Cr, so LT 14.95%, Indian equity ST 23.92%, slab 35.88%). Plans only; you decide and trade.
 - Nov-Dec 2026: loss sales and fractions at INDmoney 16-25 Nov (SHLS only on or after 30 Nov), then the ACATS move to IBKR about 27 Nov - 4 Dec, done before 31 Dec.
-- AngelOne: metal FoFs and 2 MF exits from Wed 18 Nov, ICICI Silver ETF by 9 Dec, the other 5 MF exits Fri 11 - Mon 14 Dec.
+- AngelOne: done 18 Nov - all silver (both ETFs incl. ICICI, both FoFs), 2 MF exits and 8 shares sold (loss about -Rs 1,50,900), GOLDIETF bought; the other 5 MF exits Fri 11 - Mon 14 Dec.
 - Advance tax: 75% by 15 Dec 2026, 100% by 15 Mar 2027. Employer NPS: ask HR about opting in (about Rs 1.36 L tax saved a year).
 
 | Note | What it answers | Date | Status |

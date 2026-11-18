@@ -5,7 +5,7 @@
 - HDFC FDs (9 x Rs 5.31 L, 6.25%, cumulative) earn about Rs 3.04 L in 2026-27 on accrual; HDFC deducts 10% TDS at each quarterly compounding and on the 31 Mar accrual. Rest taxed at 35.88%.
 - Do not break the FDs: to 10 May 2027 after tax, arbitrage gives Rs 4,146 less, a 182-day T-bill Rs 18,548 less, an SFB FD wins only above about 8.03% (and needs ~10 banks for DICGC cover).
 - Advance tax (planning: PGB FDs Rs 72 L at 7.5% + savings Rs 10 L): about Rs 2.85 L after TDS; Rs 1,50,000 paid 9 Nov. Pay about Rs 63,500 by 15 Dec 2026 and Rs 71,200 by 15 Mar 2027 (range Rs 42,000-63,500 / Rs 64,000-71,200). s.234C already fixed: about Rs 4,100-4,500. Old Qualcomm EPF interest counted as exempt (Rs 0; `epf-interest.md`).
-- Without QCOM: silver sold by 9 Dec makes capital-gains tax 0: about Rs 56,000 by 15 Dec and Rs 68,700 by 15 Mar. Send the PGB FD list (no documents in Drive yet). With QCOM sale 1 (the plan; specific identification, user decision 17 Nov) and all 2026-27 losses set off against it: pay about Rs 1,53,600 by 15 Dec and Rs 1,91,400 by 15 Mar (`../employer-stock/staged-sale.md` section 5).
+- Without QCOM: all silver sold 18 Nov (done) makes capital-gains tax 0: about Rs 56,000 by 15 Dec and Rs 68,700 by 15 Mar. Send the PGB FD list (no documents in Drive yet). With QCOM sale 1 (the plan; specific identification, user decision 17 Nov) and all 2026-27 losses (incl. the AngelOne sales of 18 Nov) set off against it: pay about Rs 1,50,200 by 15 Dec and Rs 1,90,200 by 15 Mar (was 1,53,600 / 1,91,400; `../employer-stock/staged-sale.md` section 5).
 
 Written 2026-11-15 by `finance-tax` (agent fdtax). New regime; rates incl. 15% surcharge and 4%
 cess: slab 35.88%, s.111A (AF s.196) 23.92%, LT 14.95%. Sections: 2025 Act (AF) with 1961 in
@@ -155,7 +155,7 @@ year, AF s.393(1) Sl.5(iii)); check AIS.
 | EPF taxable interest | 5,000 | 1,794 | 0 (assumed) | 1,794 |
 | Qualcomm EPF interest (not transferred; exempt on the best reading, `epf-interest.md`) | about 2,39,000 | 0 | 0 | 0 |
 | US dividends: IBKR $1,436 to Sep + Dec/Mar QCOM; MSFT $198 + 2 x $105; $3,261 x 94.03 | 3,06,600 | 1,10,017 | US 25% FTC 76,656 | 33,361 |
-| Capital gains, scenario A (NXPI LT +2,76,457, INDmoney ST -2,16,582, fractions); 0 if silver sold by 9 Dec. With QCOM sale 1 the further losses (about Rs 1,05,400 beyond this incl. the MSFT new-vest ST loss, all silver sold) cut the QCOM tax by about Rs 15,750: about Rs 2,11,000 after losses, Rs 2,26,828 before (staged-sale section 5) | LT 66,323 | 9,915 | 0 | 9,915 or 0 |
+| Capital gains, scenario A (NXPI LT +2,76,457, INDmoney ST -2,16,582, fractions); 0 with silver sold (done 18 Nov). With QCOM sale 1 the further losses (about Rs 1,36,000 beyond this incl. the MSFT new-vest ST loss and the AngelOne sales of 18 Nov) cut the QCOM tax by about Rs 20,330: about Rs 2,06,500 after losses, Rs 2,26,828 before (staged-sale section 5) | LT 66,323 | 9,915 | 0 | 9,915 or 0 |
 | **Total after TDS/FTC, planning** | | | | **about 2,84,600** (2,74,700 with silver sold) |
 | PGB case A / B low (6.5%) | | | | about 2,67,300 / 2,66,000 (less 9,915 with silver sold) |
 
@@ -163,13 +163,13 @@ Salary tax is assumed fully covered by employer TDS (above). AIS (8 Nov) shows n
 2026-27. Indian dividends: about Rs 128 in 2025-26 (TIS); ignored. FX: yfinance close 13 Nov
 2026; the return uses SBI TT buying rates (AF r.76 FTC; Form 44 by 31 Mar 2028).
 
-| Instalment (AF s.408; 1961 s.211) | Cumulative due, planning | Paid | Pay, planning | Pay, silver sold by 9 Dec | Pay, B low + silver sold |
+| Instalment (AF s.408; 1961 s.211) | Cumulative due, planning | Paid | Pay, planning | Pay, silver sold (18 Nov) | Pay, B low + silver sold |
 |---|---|---|---|---|---|
 | 15 Jun 2026: 15% | about 36,400 | 0 | missed | | |
 | 15 Sep 2026: 45% | about 1,12,900 | 0 | missed | | |
 | 15 Dec 2026: 75% | about 2,13,500 | 1,50,000 | **about Rs 63,500** | about 56,000 | about 42,000 |
 | 15 Mar 2027: 100% | about 2,84,600 | 2,13,500 | **about Rs 71,200** | about 68,700 | about 64,000 |
-| QCOM sale 1 (specific identification; P1-P3 by 11 Dec, P4 16-18 Dec), MSFT new vest sold at once, MSFT Jan lot if sold Jan-Mar, net of all 2026-27 losses (`../employer-stock/staged-sale.md` section 5) | | | total about Rs 1,53,600 by 15 Dec, Rs 1,91,400 by 15 Mar | |
+| QCOM sale 1 (specific identification; P1-P3 by 11 Dec, P4 16-18 Dec), MSFT new vest sold at once, MSFT Jan lot if sold Jan-Mar, net of all 2026-27 losses (`../employer-stock/staged-sale.md` section 5) | | | total about Rs 1,50,200 by 15 Dec, Rs 1,90,200 by 15 Mar | |
 | Qualcomm EPF interest, only if you take the cautious (taxable) view | | | add about Rs 64,300 by 15 Dec, Rs 21,400 by 15 Mar | |
 
 Interest:
