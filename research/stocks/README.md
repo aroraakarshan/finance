@@ -78,6 +78,7 @@
 | [HRB](HRB.md) | WATCH | <=$44 | yes |
 | [EXPE](EXPE.md) | WATCH | $255 / $225 after Q4 guidance | yes |
 | [GDDY](GDDY.md) | WATCH | $115 / $100 after 1 Dec investor night | yes |
+| [SLS](SLS.md) SELLAS | AVOID (Rs 0) | look again at <=$7 if FDA accepts REGAL for filing, or as an event bet once a PDUFA date is set | yes |
 | [REGN](REGN.md) | WATCH | long-term only | yes |
 | [ZAB](ZAB.md) Zabka | SKIP | cash takeover at PLN 32 closes 2 Dec | no |
 | [APA](APA.md), [CCC](CCC.md), [1113](1113.md), [9766](9766.md) | DROP | - | - |
