@@ -70,8 +70,9 @@ Discrepancies fixed (18 Nov 2026, from [research](../../research/stocks/SLS.md) 
   by finance-research, 18 Nov 2026). The close 19.15 and high 24.89 are unchanged.
 - After hours on 17 Nov: $17.13 once the offering was announced (finance-news,
   news/market/2026-11-18.md); it was missing here.
-- Highest close in the past year: the prospectus says $15.46; this note has 15.45 (29 Jun, yfinance).
-  Left as is (small rounding gap between sources).
+- Highest close in the past year: 15.45 -> 15.46 (29 Jun 2026), the figure in the preliminary 424B5
+  of 17 Nov 2026 [S17]. Yahoo (yfinance) shows 15.45, most likely rounding in its daily bar
+  (finance-research, 18 Nov 2026).
 
 ## 2. Timeline - was it visible beforehand?
 
@@ -88,7 +89,7 @@ Discrepancies fixed (18 Nov 2026, from [research](../../research/stocks/SLS.md) 
 | 5 Jan 2026 | First close at or above $5 | 5.00 (+14.9%) | [P] |
 | 12 May 2026 | Q1 PR: 78 deaths as of 11 May 2026; company will announce the 80th | 5.22; 6.53 next day (+25.1%) | [S6] |
 | 13 May 2026 | From here every close is above $5 | 6.53 | [P] |
-| 26 Jun 2026 to 29 Jun 2026 | Run-up, no filing found | 12.39 -> 15.45 | [P] |
+| 26 Jun 2026 to 29 Jun 2026 | Run-up, no filing found | 12.39 -> 15.46 | [P]; 29 Jun close from the 424B5 [S17] (Yahoo 15.45) |
 | 24-28 Jul 2026 | Lost 3D Medicines arbitration | 11.32 -> 10.09 | [S12] |
 | 11 Aug 2026 | Q2 PR: still waiting for 80th death | about 11-13 | [S7] |
 | 28 Oct 2026 | 80th death reached; topline "this quarter" | 10.38 (-14.7%, 23.8 M shares) | [S8] |
@@ -102,7 +103,7 @@ Reading the timeline:
   (8 deaths in 10 months) [S2, S13, S6, S8]. In a blinded OS trial, slow event accrual means
   pooled survival is longer than planned. It is a weak hint (the control arm can also do better),
   but the company and the market read it as positive: the stock went from 1.50 (1 Dec 2025) to
-  15.45 (29 Jun 2026) [P] while the readout kept slipping.
+  15.46 (29 Jun 2026) [S17] while the readout kept slipping.
 - Prior IDMC "continue" decisions said only that the trial was not futile and safe. They did not
   say it would win; the Jan 2025 interim was also an efficacy look that did not stop the trial.
   The stock fell on both 60-death news days and on the 80th-death day, so "continue" news was not
