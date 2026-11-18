@@ -1,8 +1,17 @@
 # Status
 
-Last update: 2026-11-17 (work Mac).
+Last update: 2026-11-18 (work Mac).
 
 ## Done
+- 2026-11-18 12:41: AngelOne trades done (user screenshots, order history). SOLD (delivery): TEGA 1 @1,595.00,
+  AZAD 1 @2,366.00, KPIL 1 @1,336.80, ASTRAL 1 @1,241.40, DALBHARAT 1 @1,525.90, TECHNOE 1 @950.00 (09:08:03);
+  SUZLON 50 @36.37 (12:34:01); FINPIPE 6 @145.39 (12:34:09); ABSL Silver ETF (SILVER) 2,319 @162.83 (12:36:54);
+  ICICI Silver ETF (SILVERIETF) 706 @162.89 (12:37:04). Total sold Rs 5,04,309.05 (10 trades). BOUGHT: GOLDIETF
+  1,770 @111.56 = Rs 1,97,461.20 (12:41:26), both gold parts at once: silver-to-gold swap complete, gold about
+  3.5%. Kept: ICICIGI 5, KIRLPNU 2, ELGIEQUIP 2, TIMETECHNO 3. About Rs 3.07 L (Rs 3,06,847.85 before charges)
+  stays in the AngelOne trading balance. 4 MF withdrawals placed 17 Nov (Nippon MC150, Invesco PSU, ICICI Silver
+  FoF, Motilal Gold+Silver FoF) go at the 18 Nov NAV, about Rs 5 L by 20 Nov. Both amounts join item 2a.
+  `trading/positions.csv` (sold rows closed, GOLDIETF row added), `portfolio/plan.md`.
 - 2026-11-18 02:30: user decision: event bets approved: Cogent (COGT) Rs 1 L, limit $28.00 or less; Immunic (IMUX)
   Rs 1 L, limit $7.40 or less (both this week from the INDmoney USD wallet, about $5,116); Mineralys (MLYS)
   Rs 1.5 L, limit $14.60 or less, week of 14 Dec. Declined PYPD, Hitech Corp, Jindal Photo; Shriram Finance,
@@ -149,7 +158,13 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
    `journal/signals.md` and the `tax_effect` column, tax writes `tax/new-investments.md`.
    `research/watchlist.md` (older list) to be moved into `trading/watchlist.md` by finance-research.
 2. Decided (Decisions 2026-11-15, 2026-11-16): all silver sold (incl. ABSL Silver ETF), GOLDIETF Rs 1,97,734;
-   15 mutual funds cut to 5.
+   15 mutual funds cut to 5. DONE 18 Nov: both silver ETFs sold, GOLDIETF 1,770 bought (Rs 1,97,461.20); silver
+   FoFs, Nippon MC150 and Invesco PSU withdrawals at the 18 Nov NAV (money by 20 Nov).
+2b. finance-tax: record the actual realised gains/losses from the 18 Nov AngelOne fills (Done 2026-11-18: 8 shares,
+    2 silver ETFs; 4 MF withdrawals at the 18 Nov NAV) and update the tax savings and advance tax figures.
+2c. User, after 19 Nov (settlement): download a new AngelOne TaxPnL (Open Holdings) to Drive. Until then
+    `python -m scripts.mark` reads the 15 Nov file and puts the sold rows back to open and GOLDIETF to closed
+    (checked 18 Nov; do not commit its positions.csv before the new file).
 1a. Event bets (Decisions 2026-11-18; `portfolio/targets.md` Event bets):
     - This week, at the US open (9:30 AM ET = 8:00 PM IST), INDmoney USD wallet, limit orders:
       Cogent (COGT) about 38 shares, limit $28.00 or less, only after checking why it fell 12% (31.64 -> 27.85,
@@ -160,8 +175,9 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
     - Fri 20 Nov: read the BSE Sensex December review release. If it adds Shriram Finance: ASK THE USER before any
       order (Rs 1 L, limit Rs 1,000, next trading day). Castrol, Delivery Hero, easyJet: ask the user when the
       price condition is met.
-2a. PENDING USER DECISION: about Rs 16.6 L unassigned (HDFC savings Rs 10.5 L + ABSL Silver ETF money about
-    Rs 4.2 L + rest of the silver money after GOLDIETF about Rs 1.9 L). One choice for all of it. Per-fund top-up amounts: item 7.
+2a. PENDING USER DECISION: about Rs 18.6 L unassigned (HDFC savings about Rs 10.5 L + about Rs 3.07 L of the
+    18 Nov sale money in the AngelOne trading balance + about Rs 5 L of fund money arriving by 20 Nov; the Nippon
+    and Invesco PSU part, about Rs 2.5 L, was meant for the Dec core-fund top-ups, item 7). One choice for all of it. Per-fund top-up amounts: item 7.
 3. INDmoney -> IBKR transfer: user actions in `portfolio/migration-indmoney-to-ibkr.md`.
 4. User, this week: IBKR Client Portal > Performance & Reports > Tax Documents > Tax Optimizer: leave
    Account Match Method on FIFO (fallback only). TWS > Portfolio > right-click QCOM > Change Tax Lots: check the
@@ -235,12 +251,12 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
      (SMNR cost nil, SCLX keeps full cost). FLNA loss needs recomputing with the r.206 SBI TT rates (finance-tax).
 7. AngelOne silver/gold and 7 equity MF exits, tax step order (user actions;
    `tax/angelone-metals-and-mf-exits.md` s7):
-   - Wed 18 Nov 2026: sell all ABSL Silver ETF (2,319 units; Decisions 2026-11-16), ICICI Silver FoF and Motilal
-     Gold+Silver FoF; GOLDIETF part 1 (Rs 98,867) within 2 days. Sale tips: ETFs by limit order near the AMC's
+   - DONE 18 Nov 2026: all ABSL Silver ETF (2,319 @162.83) and ICICI Silver ETF (706 @162.89) sold; ICICI Silver FoF
+     and Motilal Gold+Silver FoF withdrawn (18 Nov NAV); GOLDIETF both parts at once, 1,770 @111.56 = Rs 1,97,461.20. Sale tips: ETFs by limit order near the AMC's
      live iNAV, not in the first or last 15 minutes; DP charge about Rs 15-20 per scrip per sale day.
-   - By Wed 9 Dec 2026: sell all ICICI Silver ETF (first lot turns long-term on 10 Dec); GOLDIETF part 2 (Rs 98,867).
+   - DONE 18 Nov (was by 9 Dec): ICICI Silver ETF sold and GOLDIETF part 2 bought (see above).
    - 7 equity MF exits (Kotak NN50 kept, Decisions 2026-11-15): Rs 0 tax, exit load about Rs 354.
-     The 2 loss funds (Nippon MC150, Invesco PSU) from Wed 18 Nov; the 5 gain funds (ICICI LC,
+     The 2 loss funds (Nippon MC150, Invesco PSU): withdrawals placed 17 Nov, 18 Nov NAV, money by 20 Nov; the 5 gain funds (ICICI LC,
      Invesco Mid Cap, SBI PSU, ABSL PSU, LIC Infra) on or after Fri 11 Dec 2026.
    - Buys after the exits (13 Nov NAVs from the 14 Nov MF holdings file: sales Rs 5,32,143, about
      Rs 5,31,800 after about Rs 354 exit loads, split 54.5 / 8.7 / 18.1 / 18.7%): UTI Nifty 50 Index
@@ -251,7 +267,8 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
      FoF Rs 1,38,484, ICICI Silver ETF Rs 1,24,348 = about Rs 3,92,200, plus ABSL Silver ETF about Rs 4.2 L
      (Rs 3,89,522 at the 16 Nov close). GOLDIETF = gap to 5% of total
      (Rs 2,97,58,520) after jewellery Rs 12,90,192 = Rs 1,97,734 in 2 parts of Rs 98,867; no gold from
-     savings or FDs. Rest about Rs 1.9 L and the ABSL money about Rs 4.2 L: HDFC savings, unassigned (item 2a; Decisions 2026-11-16).
+     savings or FDs. Rest about Rs 1.9 L and the ABSL money about Rs 4.2 L: unassigned (item 2a; Decisions 2026-11-16).
+     Actual 18 Nov: ETFs sold Rs 4,92,603.11, GOLDIETF Rs 1,97,461.20; the rest stays in the AngelOne balance (item 2a).
      No other gold (user 16 Nov: no top-ups; gold about 3.5%, band 3-6%).
    - Option (not chosen; user approved on/after 11 Dec): move the 5 gain-fund exits to on/after 1 Apr 2027 to keep about Rs 14.8k of loss
      carried forward (`tax/angelone-metals-and-mf-exits.md`).
