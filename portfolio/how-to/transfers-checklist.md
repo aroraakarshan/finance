@@ -7,8 +7,9 @@ ending 4972, Alpaca account ending 1593 (behind INDmoney). Background and source
 `portfolio/migration-indmoney-to-ibkr.md`.
 
 ## Summary
-- **A. INDmoney shares -> IBKR (ACATS).** You start it at IBKR between 27 Nov and 4 Dec 2026,
-  after the loss sales have settled and the cash is out. Takes 4-8 business days. IBKR is free;
+- **A. INDmoney shares -> IBKR (ACATS).** You start it at IBKR between 1 and 4 Dec 2026 (not 27 Nov:
+  the Cogent and Immunic event bets are held at INDmoney and must not be frozen around the 30 Nov FDA
+  date), after the loss sales have settled and the cash is out. Takes 4-8 business days. IBKR is free;
   Alpaca charges $125 or $25 (not yet clear). Have at least USD 25 free cash at IBKR (now USD 794).
 - **B. Fidelity MSFT shares -> IBKR (form + call).** 116 whole shares move; sell the 0.8879
   fraction at Fidelity. File the IBKR "Free of Payment" notice, phone Fidelity, then email the
@@ -38,8 +39,9 @@ ending 4972, Alpaca account ending 1593 (behind INDmoney). Background and source
 - IBKR incoming transfer forms opened and read (not submitted); fields are listed below.
 
 ## A. INDmoney (Alpaca) -> IBKR by ACATS
-When: 27 Nov - 4 Dec 2026, after the loss and fraction sales settle (T+1). Finish by mid-Dec,
-before 31 Dec 2026.
+When: 1 - 4 Dec 2026 (moved from 27 Nov on 18 Nov: COGT and IMUX, bought at INDmoney, must not be frozen
+around the 30 Nov FDA date; they move with the rest), after the loss and fraction sales settle (T+1). Finish
+by mid-Dec, at the latest 31 Dec 2026.
 
 1. [you do] By 20 Nov: secure message to IBKR - do you accept SYRS, SMNR and SCLX (SMNR and SYRS
    are suspended); source account is the Alpaca one ending 1593; Alpaca's fee ($125 or $25).
@@ -53,7 +55,7 @@ before 31 Dec 2026.
    statement (account title and full account number are on it). Keep the lot file
    (date, quantity, USD cost per lot).
 5. [you do] Check IBKR has at least USD 25 free cash (USD 794.51 on 15 Nov) and a W-8BEN.
-6. [you do] 27 Nov - 4 Dec: IBKR -> Transfer & Pay -> Transfer Positions -> Incoming ->
+6. [you do] 1 - 4 Dec: IBKR -> Transfer & Pay -> Transfer Positions -> Incoming ->
    Region "United States" -> "ACATS" -> Go. Saved broker info -> No. Fill in:
    - Where are your assets held: "Another broker"; Broker Name: **Alpaca Securities
      (Part #: 3021)**.

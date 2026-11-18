@@ -87,7 +87,7 @@ LT = long-term after; FTC = foreign tax credit (AF s.159 / r.76 / Form 44); FA =
 | NPS Tier 2 | No deduction (private sector) | Unclear | - | CA |
 | EPF/VPF | New regime: no deduction (AF s.123 old regime only); interest on employee contribution above Rs 2.5 L/yr taxable at slab (Schedule II Sl.4; old Rule 9D -> r.277), already passed, so VPF earns about 5.3% after tax; see `tax/FY2026-27/employer-nps.md` | - | Other sources | Employer PF+NPS+super above Rs 7.5 L is a perquisite (AF s.17(1)(h)) |
 | REIT/InvIT units | SPV interest at slab; SPV dividend exempt if SPV not in s.115BAA (Schedule V); debt repayment taxed (AF s.92(2)(k)) | 12 m / 12.5% above Rs 1.25 L (AF s.198) / 20% (AF s.196) | - | Other receipts reduce cost (AF s.72(4)) |
-| Indian listed shares, IPOs | Dividends at slab (TDS 10%) | 12 m / 12.5% above Rs 1.25 L / 20% | - | Buybacks now taxed as capital gains (FA 2026) |
+| Indian listed shares, IPOs | Dividends at slab (TDS 10%) | 12 m / 12.5% above Rs 1.25 L / 20% | - | Buybacks: capital gains from 1 Apr 2026 (AF s.69(1), FA 2026); the deemed-dividend rule applied only to buybacks from 1 Oct 2024 to 31 Mar 2026 - see `global-actions-2026-11.md` row 33, N11 |
 | Indian international FoFs | - | Unlisted: 24 m / 12.5% / slab | - | Outside AF s.76 (">65% debt" test); no FTC |
 | Listed international ETFs (India) | - | 12 m / 12.5% / slab | - | No FTC (fund pays foreign tax) |
 | GIFT City IFSC funds | Distributions at slab | 24 m / 12.5% / slab | Probably not FA | Whether IFSC = "recognised exchange in India" unsettled |

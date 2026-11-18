@@ -3,6 +3,13 @@
 Last update: 2026-11-17 (work Mac).
 
 ## Done
+- 2026-11-18 02:30: user decision: event bets approved: Cogent (COGT) Rs 1 L, limit $28.00 or less; Immunic (IMUX)
+  Rs 1 L, limit $7.40 or less (both this week from the INDmoney USD wallet, about $5,116); Mineralys (MLYS)
+  Rs 1.5 L, limit $14.60 or less, week of 14 Dec. Declined PYPD, Hitech Corp, Jindal Photo; Shriram Finance,
+  Castrol India, Delivery Hero, easyJet stay as conditions, each needs a new yes when triggered. New rule: open
+  biotech bets at most 1.5% of the total. ACATS start moved to 1-4 Dec (COGT/IMUX not frozen around FDA 30 Nov),
+  finish by 31 Dec. `portfolio/decisions.md` (review 2027-01-15), `portfolio/targets.md` (Event bets),
+  `portfolio/plan.md`, `portfolio/how-to/transfers-checklist.md`.
 - 2026-11-18 01:36: user decision: event bets slot (single binary events from `scout/events/calendar.md`, checked
   by finance-research): at most 0.5% of the total per bet (about Rs 2.1 L), 3% in all open event bets (about
   Rs 12.6 L), apart from the ideas cap and the trading budget; each bet with event date, outcomes, base rate and exit
@@ -143,6 +150,16 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
    `research/watchlist.md` (older list) to be moved into `trading/watchlist.md` by finance-research.
 2. Decided (Decisions 2026-11-15, 2026-11-16): all silver sold (incl. ABSL Silver ETF), GOLDIETF Rs 1,97,734;
    15 mutual funds cut to 5.
+1a. Event bets (Decisions 2026-11-18; `portfolio/targets.md` Event bets):
+    - This week, at the US open (9:30 AM ET = 8:00 PM IST), INDmoney USD wallet, limit orders:
+      Cogent (COGT) about 38 shares, limit $28.00 or less, only after checking why it fell 12% (31.64 -> 27.85,
+      10-17 Nov; `research/events/bets/COGT.md`); hold through 30 Dec unless the 30 Nov GIST decision is a refusal (CRL).
+      Immunic (IMUX) about 144 shares, limit $7.40 or less; sell the first US session after the topline.
+    - Week of 14 Dec (by Fri 18 Dec): Mineralys (MLYS) about 109 shares, limit $14.60 or less; sell the first
+      session after the FDA decision of 22 Dec. Account to choose (INDmoney is in the share move then).
+    - Fri 20 Nov: read the BSE Sensex December review release. If it adds Shriram Finance: ASK THE USER before any
+      order (Rs 1 L, limit Rs 1,000, next trading day). Castrol, Delivery Hero, easyJet: ask the user when the
+      price condition is met.
 2a. PENDING USER DECISION: about Rs 16.6 L unassigned (HDFC savings Rs 10.5 L + ABSL Silver ETF money about
     Rs 4.2 L + rest of the silver money after GOLDIETF about Rs 1.9 L). One choice for all of it. Per-fund top-up amounts: item 7.
 3. INDmoney -> IBKR transfer: user actions in `portfolio/migration-indmoney-to-ibkr.md`.
@@ -210,7 +227,8 @@ Decision log (date, decision, why, source note, review date): [portfolio/decisio
      suspended shares; sell at IBKR later at a nominal price to book the loss.
    - By 31 Mar 2027: sell SMNR and SYRS at IBKR at a nominal price so the loss counts in 2026-27 (SYRS is
      long-term from 30 Nov: its loss offsets only long-term gains).
-   - About 27 Nov - 4 Dec 2026: start the ACATS at IBKR, after the sales settle and the cash is out.
+   - 1-4 Dec 2026 (not 27 Nov; user decision 18 Nov): start the ACATS at IBKR, after the sales settle, so COGT and
+     IMUX are not frozen around the 30 Nov FDA date. They move to IBKR with the rest.
    - Finish the move and the cash withdrawal before 31 Dec 2026.
    - Advance tax: see item 5c.
    - Resolved by finance-tax (`tax/ca-questions.md`): ACATS is not a transfer; SCLX->SMNR is not income
