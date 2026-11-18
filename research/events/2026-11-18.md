@@ -5,6 +5,10 @@ Written 12:50-13:15 IST from finance-news's brief (news/market/2026-11-18.md, ab
 is live at about 12:30 IST.
 
 ## What to do today
+Update 18 Nov evening (finance-main): lines 1-2 are DONE (all silver sold, the 4 funds out, GOLDIETF 1,770 units
+bought in both parts; SCLX, IONQ, TRVI and CRWD sold 17 Nov). Line 4: Cogent and Immunic approved (orders
+tonight); Hitech, Jindal Photo and PolyPid declined. Open: lines 3 and 5 only.
+
 1. SELL then BUY (plan) - AngelOne today: sell all units of ABSL Silver ETF (2,319), ICICI Silver FoF,
    Motilal Gold and Silver FoF, Nippon India Nifty Midcap 150 and Invesco India PSU (fund orders before
    15:00 for today's NAV; ETF limit near iNAV, not in the first or last 15 minutes). Then buy GOLDIETF

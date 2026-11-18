@@ -7,6 +7,8 @@ Input: finance-news's market brief, news/market/DATE.md, plus news/daily/DATE.md
 - results and guidance changes of major companies.
 finance-news's brief covers single-stock movers for the S&P 500, Nifty 500, Stoxx, Nikkei 225 and Hang Seng, and Korea, Taiwan, Singapore and Australia by index only; its results coverage for Japan and Asia is thin, so check major Japan and Asia results yourself (company IR, TDnet, HKEXnews). Use research/sources.md (respect site terms) and the market-data skill: run dates with TZ=UTC; take earnings dates from company IR. Use the equity-analysis skill for a quick valuation check on any buy candidate.
 
+Before writing the list: read STATUS.md and scout/events/calendar.md (verdicts and approvals) and portfolio/decisions.md, so 'What to do today' holds only OPEN actions - nothing already done, and no bet or idea the user declined (do not offer declined ones again).
+
 Context for verdicts:
 - portfolio/plan.md is the user's plan.
 - portfolio/summary.md lists his holdings: QCOM and MSFT about 61% of total; semis heavy.
