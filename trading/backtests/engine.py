@@ -1078,7 +1078,13 @@ def check_rules(o, fx, earn, today):
     return fails, sh, ns
 
 
-def setup_table(syms, until=None, limits=None):
+def event_text(t):
+    n = t.split(".")[0]
+    return (f"event hold, no stop, exit per the bet note ([research/events/bets/{n}.md](../../research/events/bets/{n}.md)); "
+            "risk control = size (at most 0.5% of the total)")
+
+
+def setup_table(syms, until=None, limits=None, events=()):
     limits = limits or {}
     idx = [market(t)[1] for t in syms]
     bad = [t for t, i in zip(syms, idx) if i is None]
@@ -1105,9 +1111,11 @@ def setup_table(syms, until=None, limits=None):
         entry = (f"buy next open, limit {o['close'] * (1 + LIMIT_UP):.2f}" if o["don_entry"] else
                  f"trigger: close > {o['hi50']:.2f} ({o['hi50'] / o['close'] - 1:+.1%})")
         risk = o["entry"] - o["stop"]
+        ev = t in events
         out += (f"| {t} | {o['close']:.2f} {ccys[t]} ({o['date']}) | {trend} | {o['rsi14']:.1f} | {o.get(f'rs_{ix}_3m', float('nan')):+.1%} vs {ix} | {entry} | "
-                f"{o['stop']:.2f} ({o['stop_rule']}, {risk / o['entry']:.1%}) | {sh} (risk {size(o['entry'], o['stop'], fx)[1]}, cap {size(o['entry'], o['stop'], fx)[2]}; "
-                f"FX {fx:.4f} {fxd or ''}) | {'yes' if not fails else 'no: ' + fails[0] + (f' (+{len(fails) - 1} more: ' + '; '.join(fails[1:]) + ')' if len(fails) > 1 else '')}{'; earnings n/a (fund)' if is_fund(t) else ''} | {limit_note(o, limits.get(t))}{stage_note(o)[0]} |\n")
+                + ("event hold, no stop | size per the bet note (at most 0.5% of the total) | " if ev else
+                   f"{o['stop']:.2f} ({o['stop_rule']}, {risk / o['entry']:.1%}) | {sh} (risk {size(o['entry'], o['stop'], fx)[1]}, cap {size(o['entry'], o['stop'], fx)[2]}; "
+                   f"FX {fx:.4f} {fxd or ''}) | ") + f"{'yes' if not fails else 'no: ' + fails[0] + (f' (+{len(fails) - 1} more: ' + '; '.join(fails[1:]) + ')' if len(fails) > 1 else '')}{'; earnings n/a (fund)' if is_fund(t) else ''} | {(event_text(t) + '; ') if ev else ''}{limit_note(o, limits.get(t))}{stage_note(o)[0]} |\n")
         info.append(dict(t=t, valid=not fails, waits=stage_note(o)[1], date=o["date"], limit=limits.get(t), close=o["close"]))
         for r in o["data_rows"]:
             if r["big"] or r["gap"] or r["fixed"] or r["stale"] or r["bad_hl"]:
@@ -1176,7 +1184,7 @@ def quote_spread(t):
     return None
 
 
-def liquidity_table(syms, until=None, limits=None, sizes=None):
+def liquidity_table(syms, until=None, limits=None, sizes=None, events=()):
     """Liquidity and spread view for event or arbitrage buys: 50-day volume and value, order size vs a day's value, spread, circuit band,
     and the rules stop at the limit vs the normal daily move."""
     limits, sizes, rows = limits or {}, sizes or {}, []
@@ -1201,13 +1209,34 @@ def liquidity_table(syms, until=None, limits=None, sizes=None):
         sp = (q + "; " if q else "no bid/ask; ") + f"proxy: median day range {((tail.H - tail.L) / tail.C).median():.1%}"
         zero = f"{(tail.V == 0).mean():.0%} zero-volume days"
         plan = sizes.get(t)
-        rows.append((t, f"{adv:,.0f} sh; {val:,.0f} {ccy} = Rs {val * fx / 1e7:,.2f} cr", f"{sh} sh = Rs {sh * lim * fx:,.0f}",
+        ev = t in events
+        rows.append((t, f"{adv:,.0f} sh; {val:,.0f} {ccy} = Rs {val * fx / 1e7:,.2f} cr", "event: " + event_text(t) if ev else f"{sh} sh = Rs {sh * lim * fx:,.0f}",
                      f"{40000 / (val * fx):.1%}" + (f"; planned Rs {plan / 1e5:g} L = {plan / (val * fx):.0%}" if plan else ""),
                      sp + "; " + zero, (f"{band[0]}% band, series {band[1]}" + (" (trade-for-trade: delivery only)" if band[1] == "BE" else "")) if band
                      else ("not in NSE sec_list" if t.endswith(".NS") else "none (no US circuit; LULD pauses)"),
-                     f"{stop:.2f} ({stopp:.1%})", f"{atrp:.1%}" + ("; WIDER than the stop: a normal day can stop it out" if atrp >= stopp else "")))
+                     "event hold, no stop" if ev else f"{stop:.2f} ({stopp:.1%})",
+                     f"{atrp:.1%}" + ("; WIDER than the stop: a normal day can stop it out" if atrp >= stopp and not ev else "")))
     return tbl(["Symbol", "50-day avg volume and value", "Rules size at the limit (Rs 2,000 risk, 20% cap)", "Rs 40,000 as % of a day's value",
                 "Spread", "Circuit", "Rules stop at the limit (risk)", "ATR(14) a day"], rows)
+
+
+def keep_declined(table, old_path, syms):
+    """Carry rows for declined symbols over from the previous version of the file, marked as declined (no new data is fetched for them)."""
+    if not old_path.exists():
+        return table
+    mark = f"declined by user {pd.Timestamp.now(tz='Asia/Kolkata'):%Y-%m-%d}"
+    old = [l for l in old_path.read_text().splitlines() if any(l.startswith(f"| {t} |") for t in syms)]
+    lines = table.splitlines()
+    for l in old:
+        cells = l.split(" | ")
+        if mark not in l:
+            cells[-1] = f"{mark.upper()}; " + cells[-1]
+        new = " | ".join(cells)
+        n = l.count(" | ")
+        last = max((i for i, x in enumerate(lines) if x.startswith("| ") and x.count(" | ") == n and not x.startswith("| Symbol")), default=None)
+        if last is not None:
+            lines.insert(last + 1, new)
+    return "\n".join(lines)
 
 
 def write_setup(path, table, info, note="", title=None, until=None):
@@ -2016,15 +2045,18 @@ def momentum_spot(data, wt):
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a and a[0] == "setup":
-        opt = {k: a[a.index(k) + 1] for k in ("--date", "--out", "--note", "--title", "--limits", "--sizes") if k in a}
+        opt = {k: a[a.index(k) + 1] for k in ("--date", "--out", "--note", "--title", "--limits", "--sizes", "--event", "--declined") if k in a}
         syms = [x for x in a[1:] if x not in opt and x not in opt.values() and x != "--liquidity"]
         lims = {k: float(v) for k, v in (x.split("=") for x in opt.get("--limits", "").split(",") if "=" in x)}
-        table, info = setup_table(syms, opt.get("--date"), lims)
+        evs = [x for x in opt.get("--event", "").split(",") if x]
+        table, info = setup_table(syms, opt.get("--date"), lims, evs)
         if "--liquidity" in a:
             sizes = {k: float(v) for k, v in (x.split("=") for x in opt.get("--sizes", "").split(",") if "=" in x)}
-            table += ("\n## Liquidity and spread (event or arbitrage view)\n" + liquidity_table(syms, opt.get("--date"), lims, sizes) +
+            table += ("\n## Liquidity and spread (event or arbitrage view)\n" + liquidity_table(syms, opt.get("--date"), lims, sizes, evs) +
                       "\nValue = 50-day average of close x volume. Rules size uses the research limit as the entry and the AGENTS.md stop (tightest of "
                       "2 x ATR(14), 10-day swing low, 10%). The research sizes are event or ideas-budget amounts, not the Rs 2 L trading budget.\n")
+        if "--declined" in opt and "--out" in opt:
+            table = keep_declined(table, Path(opt["--out"]), [x for x in opt["--declined"].split(",") if x])
         print(table)
         if "--out" in opt:
             write_setup(opt["--out"], table, info, opt.get("--note", ""), opt.get("--title"), opt.get("--date"))
@@ -2036,6 +2068,6 @@ if __name__ == "__main__":
         else:
             sys.exit(daily(dt) if a[0] == "daily" else (paper(dt), 0)[1])
     elif a and a[0] in ("-h", "--help"):
-        print("engine.py [all|trend-following|momentum-rotation|swing-pullback|drop-vs-trend]  |  engine.py setup SYM ... [--date YYYY-MM-DD] [--out trading/setups/YYYY-MM-DD.md] [--note TEXT] [--title TEXT] [--limits SYM=PRICE,...] [--liquidity [--sizes SYM=INR,...]]  |  engine.py scan|paper|daily [--date YYYY-MM-DD]  |  engine.py universe-bar")
+        print("engine.py [all|trend-following|momentum-rotation|swing-pullback|drop-vs-trend]  |  engine.py setup SYM ... [--date YYYY-MM-DD] [--out trading/setups/YYYY-MM-DD.md] [--note TEXT] [--title TEXT] [--limits SYM=PRICE,...] [--liquidity [--sizes SYM=INR,...]] [--event SYM,...] [--declined SYM,... (keeps their old rows from --out)]  |  engine.py scan|paper|daily [--date YYYY-MM-DD]  |  engine.py universe-bar")
     else:
         main(a[0] if a else "all")
