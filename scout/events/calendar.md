@@ -108,7 +108,7 @@ Prices: US closes of 17 Nov 2026 from yfinance, pulled 18 Nov 2026 02:33 IST aft
 | By 31 Dec 2026 | window ('2H 2026') | US | Biohaven (BHVN) | Ph2/3 RISE 3 topline, epilepsy | +30-60% / -40-60% (est.) | Ph3 57.8% | 13.24 | $2,001 M | ~5 mo; debt $300 M | AVOID (raise near-certain) | 0 | [bio](parts/bio.md) |
 | Q4 2026 | quarter (company) | US | REGENXBIO (RGNX) | Two pivotal Ph3 in wet AMD (with AbbVie) | +40-80% / -35-50% (research) | eye Ph3 51.2% | 7.24 | $479 M ($493 M with pre-funded warrants) | ~13 mo (co: late Q4 2027); going-concern doubt (10-Q) | NO-GO ([RGNX](../../research/events/bets/RGNX.md)) | 0 | [bio](parts/bio.md) |
 | Q4 2026 | quarter | EU/US | Inventiva (IVA) | Ph3 NATiV3 in MASH | +100-250% / -60-80% (est.) | Ph3 57.8% | 3.22 | $770 M | going-concern language | EXCLUDED (under $5) | 0 | [bio](parts/bio.md) |
-| Q4 2026; 12-15 Dec (ASH); BLA 1H 2027 | quarter | US | SELLAS (SLS) | Ph2 SLS009 prelim. data; r/r AML data at ASH; BLA for GPS after the 17 Nov Phase 3 REGAL win | +/-20-40% (est.) | Ph2 to Ph3 28.9% | 19.15 | $3,904 M | $134.7 M; 12+ mo (co) | WATCH (post-mortem) | 0 | [post-mortem](sls-postmortem.md) |
+| Q4 2026; 12-15 Dec (ASH); BLA 1H 2027; PDUFA date likely about Q3 2027 | quarter | US | SELLAS (SLS) | Ph2 SLS009 prelim. data; r/r AML data at ASH; BLA for GPS after the 17 Nov Phase 3 REGAL win | +/-20-40% (est.) | Ph2 to Ph3 28.9% | 19.15 (17.13 after hours, on the offering) | $3,904 M | $134.7 M (30 Sep) + $150 M offering (17 Nov) + unused $150 M ATM: up to $322.5 M new stock | AVOID ([SLS](../../research/stocks/SLS.md), 18 Nov): $17 assumes $1.6-2.5 B of US sales from about 1,000-1,500 patients; value about $1.4 / $4 / $11-16 (low / base / high). Look again at $7 or less if the FDA accepts REGAL alone, or as an event bet once a PDUFA date exists. Risk: FDA asks for a second trial | 0 | [post-mortem](sls-postmortem.md) |
 | Around year-end 2026 | window | US | Oculis (OCS) | Ph2/3 PREDICT-1 dry eye | +40-80% / -30-40% (est.) | eye Ph3 51.2%; dry eye often misses | 7.51 | $418 M | ~32 mo | AVOID | 0 | [bio](parts/bio.md) |
 | Around year-end 2026 | window | US | NewAmsterdam (NAMS) | Ph3 RUBENS | +/-5-15% (est.) | high | 19.39 | $2,325 M | ~47 mo | AVOID (not binary) | 0 | [bio](parts/bio.md) |
 | Late 2026 / early 2027 | window | US | AES (AES); Bio-Techne (TECH); Integer (ITGR) | Cash deals closing | Paid / falls | about 90% | 14.96; 72.63; 126.97 (16 Nov) | $10,675 M; $11,409 M; $4,317 M | - | AVOID (0.5-1.3% a year after tax) | 0 | [deals](parts/deals.md) |
@@ -154,7 +154,7 @@ Totals against your caps ([targets](../../portfolio/targets.md#event-bets-single
 
 The previous plan (6 bets, Rs 6.75 L: IMUX 1.5, MLYS 1.5, RGNX 1, COGT 1, PYPD 0.75, DHER 1) is replaced by the table above.
 
-Watch, may become bets: Dyne (DYN, FDA 21 Jan 2027; up to Rs 1 L), Agios (AGIO, FDA 1 Feb 2027; up to Rs 1 L if the REMS issue settles), MoonLake (MLTX, Q1 2027), SELLAS (SLS, BLA 1H 2027; WATCH as the post-mortem).
+Watch, may become bets: Dyne (DYN, FDA 21 Jan 2027; up to Rs 1 L), Agios (AGIO, FDA 1 Feb 2027; up to Rs 1 L if the REMS issue settles), MoonLake (MLTX, Q1 2027), SELLAS (SLS: AVOID now per [research](../../research/stocks/SLS.md), 18 Nov; look again at $7 or less if the FDA accepts REGAL alone for filing, or as an event bet once a PDUFA date exists, likely about Q3 2027; key risk: the FDA asks for a second trial).
 
 Key avoids:
 - Capricor (CAPR, 22 Nov): FDA advisers voted 3-9 against.
@@ -198,7 +198,7 @@ Rules from the [post-mortem](sls-postmortem.md#4-lessons): record the trigger (e
 | Exelixis (EXEL) | STELLAR-304, Phase 3, kidney cancer | not disclosed | not disclosed | topline Q1 2027 (8-K 29 Oct 2026) | 68.50; $16,715 M | WATCH (large company; small move) |
 | Madrigal (MDGL) | MAESTRO-NASH OUTCOMES, event-driven | not disclosed | not disclosed | no date in the Q3 release (8-K 3 Nov 2026) | 421.99; $9,803 M | WATCH |
 | Karyopharm (KPTI) | event-driven trial (name not checked) | not disclosed | topline not announced at its bankruptcy petition | 8-K 3 Nov 2026 | not pulled | AVOID (Chapter 11) |
-| SELLAS (SLS) | REGAL, Phase 3, overall survival | 80 deaths | 80 reached 28 Oct 2026; result 17 Nov 2026 | done; BLA 1H 2027 | 19.15; $3,904 M | WATCH (event over) |
+| SELLAS (SLS) | REGAL, Phase 3, overall survival | 80 deaths | 80 reached 28 Oct 2026; result 17 Nov 2026 | done; BLA 1H 2027 | 19.15; $3,904 M | AVOID (event over; research 18 Nov) |
 
 Found with SEC full-text search of 8-K and 6-K filings, 15 Sep - 18 Nov 2026 ("event-driven", "final analysis", "number of events"). None of these companies gives a count; ask for one on their next call and re-check each 10-Q.
 
@@ -216,7 +216,8 @@ Found with SEC full-text search of 8-K and 6-K filings, 15 Sep - 18 Nov 2026 ("e
 
 ## Fixes made in this merge (18 Nov 2026)
 
-- SELLAS: [bio](parts/bio.md) called SLS an avoid and spoke only of the Phase 2 data; the 17 Nov jump was the Phase 3 REGAL result (8-K 17 Nov 2026, post-mortem). Changed to WATCH, as in the post-mortem.
+- SELLAS: [bio](parts/bio.md) called SLS an avoid and spoke only of the Phase 2 data; the 17 Nov jump was the Phase 3 REGAL result (8-K 17 Nov 2026, post-mortem). Changed to WATCH, as in the post-mortem; then to AVOID on research's deep dive ([SLS](../../research/stocks/SLS.md), 18 Nov 2026).
+- SELLAS offering: the post-mortem said "a $150 M ATM ready to sell". The 17 Nov sale is a separate $150 M underwritten offering (+ $22.5 M option) and the $150 M ATM is still unused: up to $322.5 M of new stock (424B5, 17 Nov 2026). The 17 Nov bar is open 24.11, low 16.70, volume 119.9 M (was 24.00, 16.72, 113.9 M); after hours $17.13 (news/market/2026-11-18.md). Post-mortem fixed.
 - Cogent: the brief said the mastocytosis decision moved to 29 Jun 2027. Cogent's 8-K of 5 Nov 2026 (the latest filing on 18 Nov) gives 30 Nov 2026 (GIST), 30 Dec 2026 (non-advanced mastocytosis) and 29 Jun 2027 (advanced mastocytosis). Both dates in the window stay; size unchanged (Rs 1 L).
 - US prices: the part files and the post-mortem pulled "17 Nov closes" before the US market closed (02:30 IST on 18 Nov); the SLS price was 19.10, 19.16, 19.465 and 19.52 in different pulls; the final close is 19.15. This table uses the final closes pulled after the close.
 - Trading rules: the brief and the post-mortem said they are all TBD. AGENTS.md shows them approved on 15 Nov 2026 for paper trading, for the Rs 2 L trading budget only; the event-bet slot (0.5% each, 3% in all) was set by you on 18 Nov in [targets](../../portfolio/targets.md#event-bets-single-binary-events). The post-mortem is corrected.

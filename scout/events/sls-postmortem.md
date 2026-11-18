@@ -31,16 +31,21 @@ Source tags: [P] yfinance prices, [Sn] numbered sources at the end.
   0.5% cap (Rs 2.1 L = about $2,228 at 94.24 INR/USD on 16 Nov [P]) = about 298 shares at 7.47.
   Result at the 17 Nov close 19.15: about +$3,480 before tax, about +$2,230 after 35.88% slab tax
   (held under 24 months). A failed trial would likely have cost most of the $2,228.
-- Now (after +156%): verdict WATCH, not buy. The binary event is over; what is left is a slower
-  regulatory path (BLA in 1H 2027, FDA decision most likely 2028), a $150 M ATM ready to sell
-  shares, a small open-label trial with p=0.035, and 28% of float sold short.
+- Now (after +156%): verdict AVOID (Rs 0), as in [research](../../research/stocks/SLS.md)
+  (finance-research, 18 Nov 2026). The binary event is over; what is left is a slower regulatory
+  path (BLA in 1H 2027, FDA decision most likely 2028), up to $322.5 M of new stock (a $150 M
+  underwritten offering announced 17 Nov plus a $22.5 M option, and a separate unused $150 M ATM),
+  a small open-label trial with p=0.035, and 28% of float sold short. At about $17 (after hours
+  $17.13 on 17 Nov, after the offering; news/market/2026-11-18.md) the price assumes $1.6-2.5 B a
+  year of US sales from a niche of about 1,000-1,500 US patients; research's risk-adjusted value
+  is about $1.4 (low) / $4 (base, $3.7) / $11-16 (high) a share (SLS.md section 5, 18 Nov 2026).
 
 ## 1. Facts checked
 
 | Item | Value | Source |
 |---|---|---|
 | Last close before readout | 7.47 on Mon 16 Nov 2026 (Fri 13 Nov: 7.86) | [P] |
-| 17 Nov 2026 | open 24.00, high 24.89, low 16.72, close 19.15, volume 113.9 M (30-day average to 16 Nov: 7.0 M) | [P] |
+| 17 Nov 2026 | open 24.11, high 24.89, low 16.70, close 19.15, volume 119.9 M (30-day average to 16 Nov: 7.0 M); after hours $17.13 on the offering news | [P] re-pulled by finance-research 18 Nov 2026 (research/stocks/SLS.md); after hours: news/market/2026-11-18.md |
 | Move | 7.47 -> 19.15 = +156.4% | [P] |
 | Readout | Primary endpoint OS met; HR 0.59 (41% lower risk of death); two-sided p=0.035; median OS 24.0 vs 14.7 months; 126 patients randomized 1:1 vs best available treatment; open-label; analysis at the pre-set 80 deaths; safety mostly grade 1/2 injection-site reactions | [S11] 8-K 17 Nov 2026 |
 | FDA plan | Meet FDA "to discuss an accelerated filing strategy" and prepare a BLA "in the first half of 2027"; full data at a future medical meeting | [S11] |
@@ -51,11 +56,22 @@ Discrepancies found:
 - The brief said "14 Nov close". 14 Nov 2026 was a Saturday; the last close before the readout is
   16 Nov 2026 (7.47). Using 13 Nov (7.86) the move is +143.7%.
 - yfinance gave 19.10 and 19.16 in pulls before the US close (02:30 IST on 18 Nov), so those were
-  intraday prices. The final close, pulled at 02:34 IST on 18 Nov 2026, is 19.15 (volume 113.9 M);
-  19.15 is used. News sites quoted +165% intraday (wallstreetobserver, 17 Nov 2026).
+  intraday prices. The final close, pulled at 02:34 IST on 18 Nov 2026, is 19.15; 19.15 is used. News sites quoted +165% intraday (wallstreetobserver, 17 Nov 2026).
 - clinicaltrials.gov NCT04229979 still shows primary completion "2025-12 (estimated)", last
   updated 1 Oct 2025 [S1]. A screen that trusts registry dates would have looked in Dec 2025 and
   then dropped it. Registry start date is 8 Feb 2021 (first posted 18 Jan 2020).
+
+Discrepancies fixed (18 Nov 2026, from [research](../../research/stocks/SLS.md) section 11):
+- Offering: this note said "a $150 M ATM ready to sell shares". The 17 Nov sale is a separate
+  $150 M underwritten offering (J.P. Morgan, TD Cowen; plus a 30-day option for $22.5 M), not priced
+  at 18 Nov 12:00 IST; the $150 M ATM is still unused and usable after the 60-day lock-up (about
+  mid-Jan 2027). Up to $322.5 M of new stock in all (preliminary 424B5, 17 Nov 2026).
+- 17 Nov bar: open 24.00 -> 24.11, low 16.72 -> 16.70, volume 113.9 M -> 119.9 M (yfinance re-pull
+  by finance-research, 18 Nov 2026). The close 19.15 and high 24.89 are unchanged.
+- After hours on 17 Nov: $17.13 once the offering was announced (finance-news,
+  news/market/2026-11-18.md); it was missing here.
+- Highest close in the past year: the prospectus says $15.46; this note has 15.45 (29 Jun, yfinance).
+  Left as is (small rounding gap between sources).
 
 ## 2. Timeline - was it visible beforehand?
 
@@ -104,7 +120,7 @@ Reading the timeline:
 | Profitable | Net loss $28.1 M in Jan-Sep 2026; accumulated deficit $303.1 M | NO - this is the filter that dropped it | [S10] |
 | Cash runway | $134.7 M cash at 30 Sep 2026; operating cash use $22.4 M in 9 months (about $30 M a year); company says enough for 12+ months; no going-concern doubt | YES | [S10] |
 | Dilution history | Shares 28.3 M (15 Mar 2023) -> 70.4 M (12 Nov 2024) -> 142.4 M (11 Nov 2025) -> 203.9 M (11 Nov 2026), about 7.2x in 3.7 years; offerings with warrants 2023-2025; $85.1 M from 50.4 M warrant exercises at $1.69 average in Jan-Sep 2026; 8.1 M warrants left ($1.41-$2.00) | Heavy dilution, now funded | XBRL dei shares [S14], [S10] |
-| ATM | $150 M ATM with TD Cowen since Mar 2026 (S-3ASR 20 Mar 2026); none sold as of 12 Nov 2026 | Overhang now | [S10], [S6] |
+| ATM | $150 M ATM with TD Cowen since Mar 2026 (S-3ASR 20 Mar 2026); none sold as of 12 Nov 2026 | Overhang now, on top of the 17 Nov $150 M offering | [S10], [S6], [S17] |
 | US-situs | Yes (US company, Nasdaq). Adds to US estate tax exposure that idea 2 is trying to shrink | Soft NO for size | scout/ideas.md |
 | Tax | Foreign shares held under 24 months: slab 35.88%; over 24 months 14.95% | Event trades are always short-term | scout/universe.md |
 | Size cap 0.5% (about Rs 2.1 L) | about $2,228 = 298 shares at 7.47 | YES | [P] FX 94.24 on 16 Nov |
@@ -165,7 +181,7 @@ Rules for the calendar (proposed for finance-scout):
    cash runway past the event, ATM/shelf in place (a raise after a spike is likely), short interest,
    size of the trial and whether it is blinded, and whether US-situs adds to the estate-tax issue.
 
-## 5. What happens next (verdict: WATCH)
+## 5. What happens next (verdict: AVOID)
 
 - Price now about 19.15, market cap about $3.9 B vs $134.7 M cash [P, S10]. The binary event is
   done; the next steps are slower and the stock has priced in a large part of approval.
@@ -176,23 +192,32 @@ Rules for the calendar (proposed for finance-scout):
 - Base rate filing -> eventual approval in oncology (after any resubmission, not first cycle): 92.0% (BIO 2011-2020) [S15], but that average covers
   filed applications; risks here are one small open-label trial, p=0.035 (close to 0.05), and full
   secondary data not yet shown. The FDA may want more, which would delay or block approval.
-- Dilution: the $150 M ATM was unused on 12 Nov 2026 [S10]; selling it all at 19.15 would add
-  about 7.8 M shares (+3.8%). Launch costs will raise burn well above $30 M a year. A raise after a
-  spike is likely; watch EDGAR for 424B5 / prospectus supplements.
+- Dilution: the raise came the same day. On 17 Nov SELLAS announced a $150 M underwritten offering
+  (plus a 30-day option for $22.5 M), not priced at 18 Nov 12:00 IST; the separate $150 M ATM was
+  unused on 12 Nov 2026 [S10] and is usable after the 60-day lock-up (about mid-Jan 2027) [S17].
+  Up to $322.5 M of new stock in all; at about $17 the offering is about 9-10.5 M shares (+5%) and
+  the full ATM about 8.8 M more (research/stocks/SLS.md, 18 Nov 2026). Watch EDGAR for the final 424B5.
 - Other catalysts: SLS009 Phase 2 first-line AML preliminary topline Q4 2026; SLS009 r/r AML data
   at ASH 12-15 Dec 2026; full REGAL data at a future medical meeting [S9, S11].
 - Volatility: 17 Nov range 16.72-24.89 [P]; short interest 28.2% of float (30 Oct) may keep it
   swinging both ways.
 - Tax and size: any trade now is short-term (35.88%) and US-situs; no edge left from the event.
 
-Verdict: WATCH. Not an event bet now (the binary event is past) and not a long-term buy under a
-profit-based rule. Re-check on: FDA meeting outcome, any offering, full REGAL data, BLA filing
-date. Add to the new event calendar as "BLA filing 1H 2027".
+Verdict: AVOID (Rs 0), per [research](../../research/stocks/SLS.md) (18 Nov 2026). Not an event bet
+now (the binary event is past) and not a long-term buy: at about $17 the price assumes $1.6-2.5 B a
+year of US sales from about 1,000-1,500 US patients a year; research's risk-adjusted value is about
+$1.4 (low) / $4 (base) / $11-16 (high) a share.
+Look again only if:
+- the price is $7 or less and the FDA accepts REGAL alone for filing; or
+- the FDA sets a PDUFA date (likely about Q3 2027, on BLA acceptance), then as an event bet
+  (0.5% cap, Rs 2.08 L at the 18 Nov total, portfolio/targets.md "Event bets").
+Key risk: the FDA asks for a second trial (REGAL was one open-label trial, 126 patients, p=0.035).
+On the [event calendar](calendar.md) as "BLA filing 1H 2027".
 
 ## Sources (all accessed 18 Nov 2026)
 
 - [P] yfinance 1.8.0, ticker SLS and INR=X, daily history 2020-01-01 to 2026-11-17 and .info
-  (market cap, short interest dated 30 Oct 2026), pulled 18 Nov 2026 01:40-02:10 IST; final 17 Nov close and volume re-pulled 02:34 IST.
+  (market cap, short interest dated 30 Oct 2026), pulled 18 Nov 2026 01:40-02:10 IST; final 17 Nov close re-pulled 02:34 IST; 17 Nov open, low and volume from finance-research's later pull (research/stocks/SLS.md, 18 Nov 2026).
 - [S1] clinicaltrials.gov NCT04229979, record last updated 1 Oct 2025:
   https://clinicaltrials.gov/study/NCT04229979
 - [S2] SELLAS PR 10 Dec 2024, 60 events, interim triggered:
@@ -225,6 +250,8 @@ date. Add to the new event calendar as "BLA filing 1H 2027".
 - [S15] BIO, Informa Pharma Intelligence, QLS Advisors, "Clinical Development Success Rates and
   Contributing Factors 2011-2020", Feb 2021:
   https://www.bio.org/clinical-development-success-rates-and-contributing-factors-2011-2020
+- [S17] Preliminary 424B5, 17 Nov 2026 ($150 M underwritten offering, $22.5 M option, separate $150 M ATM, 60-day lock-up):
+  https://www.sec.gov/Archives/edgar/data/1390478/000110465926129063/tm2629996d1_424b5.htm
 - [S16] FDA PDUFA goals (PDUFA VII commitment letter, FY2023-2027): new BLA review goal 10 months
   (standard) / 6 months (priority) from the 60-day filing date:
   https://www.fda.gov/media/151712/download
