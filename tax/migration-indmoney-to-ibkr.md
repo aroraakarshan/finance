@@ -5,7 +5,7 @@
 - Moving the US shares from INDmoney to IBKR (ACATS) is not a sale: no tax; cost and buy dates carry over.
 - 16-25 Nov 2026: sell SCLX, IONQ and the fractions except SHLS (orders placed for 16 Nov); SMNR and SYRS are untradeable: decided to move them to IBKR by ACATS (ask IBKR first) and sell there later; the loss counts in the year of that sale (section 3.5). With QCOM sale 1 in 2026-27 (the plan, `portfolio/plan.md`) every rupee of loss saves 14.95% this year: SCLX + IONQ (about -Rs 35,209) save about Rs 5,264, no carry-forward; if QCOM sale 1 slips past 31 Mar 2027, it carries forward instead ([loss-harvesting.md](loss-harvesting.md)).
 - SHLS: the Array (ARRY) merger is a taxable exchange in India (not in the US). Do not sell before Mon 30 Nov (35.88% vs 14.95%); if you do not want ARRY, sell on or after 30 Nov.
-- Withdraw the leftover cash to India (keep the FIRC). Start the ACATS about 27 Nov - 4 Dec and finish before 31 Dec 2026, so Alpaca appears only in the CY2026 Schedule FA.
+- Withdraw the leftover cash to India (keep the FIRC). Start the ACATS on 1-4 Dec (user decision 18 Nov, so COGT/IMUX at INDmoney are not frozen around the 30 Nov FDA date) and finish before 31 Dec 2026, so Alpaca appears only in the CY2026 Schedule FA.
 - Pay advance tax on any gains by 15 Dec 2026 / 15 Mar 2027.
 
 Prepared 15 Nov 2026 by `finance-tax`. PLAN ONLY: no orders, no emails. The user decides and
@@ -502,7 +502,7 @@ What matters for timing:
 
 Recommended window:
 - 16-25 Nov 2026: loss sales and fraction sales.
-- About 27 Nov - 4 Dec 2026: start the ACATS, after the sales settle (T+1) and the cash is out.
+- 1-4 Dec 2026: start the ACATS (user decision 18 Nov), after the sales settle (T+1) and the cash is out; must finish by 31 Dec 2026.
 - Target: complete by mid-Dec 2026, with slack before 31 Dec.
 
 ## 10. Recommended step order
@@ -520,7 +520,7 @@ Recommended window:
 6. After settlement (T+1), withdraw all USD cash to the Indian bank and keep the FIRC. Or buy
    whole SGOV/GOVT only if the cash is large (section 4).
 7. Make sure IBKR holds at least USD 25 free cash and that a W-8BEN is on file at IBKR.
-8. Start the incoming ACATS at IBKR (late Nov / early Dec). Move: GOOGL 9, CRWD 8, NVDA 7,
+8. Start the incoming ACATS at IBKR (1-4 Dec). Move: GOOGL 9, CRWD 8, NVDA 7,
    TRVI 161, CEG 4, SHLS 45, plus SMNR 31 and SYRS 800 if IBKR accepts them (if not, fallback
    (b)/(d) in section 3.5).
 8a. SHLS: if you do not want ARRY, sell it on or after Mon 30 Nov - either at INDmoney before
