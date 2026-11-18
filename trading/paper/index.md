@@ -1,13 +1,13 @@
 # Paper trading
 
 ## Summary
-- 2026-11-17: 0 open, 3 pending orders; open risk Rs 5,062 (2.5% of equity; limit 5%).
-- Budget equity Rs 200,000 (Rs 2,00,000 + realised paper P&L Rs 0).
-- Paper check: 0 of 20 closed trades, 0.0 of 8 weeks since the first fill (no fill yet).
+- 2026-11-17: 2 open, 0 pending orders; open risk Rs 3,127 (1.5% of equity; limit 5%).
+- Budget equity Rs 203,841 (Rs 2,00,000 + realised paper P&L Rs 3,841).
+- Paper check: 1 of 20 closed trades, 0.0 of 8 weeks since the first fill (2026-11-17).
 - Rule breaks: 0 (orders are only created inside the AGENTS.md rules).
 - Active strategies: Turtle 20/10 (10-day-low exit), rules stop, 2R target, 15-day time stop (US, below bar: user via finance-main 2026-11-16: rules-following test; full-universe rules-sized PF 1.21 (full period) / 1.19 (2020-2026), trading/backtests/short-breakout/universe.md).
 
-Paper only: agents never place orders. Ledger: [trades.csv](trades.csv); strategies allowed below the bar: [allowed.csv](allowed.csv); daily lines for finance-journal: [outbox/](outbox/).
+Paper only: agents never place orders. Ledger: [trades.csv](trades.csv); strategies allowed below the bar: [allowed.csv](allowed.csv); daily lines for finance-journal (named by the US signal close; newest first): [2026-11-17](outbox/2026-11-17.md), [2026-11-16](outbox/2026-11-16.md), [2026-11-13](outbox/2026-11-13.md).
 
 ## Active strategies
 | Market | Strategy | Backtest | Status | Why |
@@ -17,12 +17,13 @@ Paper only: agents never place orders. Ledger: [trades.csv](trades.csv); strateg
 ## Open and pending
 | symbol | strategy | approval | status | signal_date | limit | fill_date | fill_price | stop | target | time_stop_date | shares | risk_inr | notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| BILL | turtle2r | below bar | pending | 2026-11-16 | 57.9182 |  |  | 53.8115 | 66.1315 |  | 5 | 1935 | stop/target are estimates until the fill |
-| PG | turtle2r | below bar | pending | 2026-11-16 | 173.8851 |  |  | 167.3462 | 186.9629 |  | 2 | 1232 | stop/target are estimates until the fill |
-| CMCSA | turtle2r | below bar | pending | 2026-11-16 | 25.7280 |  |  | 24.2914 | 28.6012 |  | 14 | 1895 | stop/target are estimates until the fill |
+| PG | turtle2r | below bar | open | 2026-11-16 | 173.8851 | 2026-11-17 | 171.3400 | 164.8011 | 184.4178 | 2026-12-08 | 2 | 1232 | stop and target set from the fill 2026-11-17 |
+| CMCSA | turtle2r | below bar | open | 2026-11-16 | 25.7280 | 2026-11-17 | 25.4350 | 23.9984 | 28.3082 | 2026-12-08 | 14 | 1895 | stop and target set from the fill 2026-11-17 |
 
 ## Closed (last 20)
-None.
+| symbol | strategy | fill_date | fill_price | exit_date | exit_price | exit_reason | r_multiple | pnl_inr |
+|---|---|---|---|---|---|---|---|---|
+| BILL | turtle2r | 2026-11-17 | 56.7600 | 2026-11-17 | 64.9734 | target | 1.99 | 3841 |
 
 ## How orders are handled
 | Step | Rule |

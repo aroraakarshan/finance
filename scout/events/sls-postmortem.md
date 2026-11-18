@@ -173,7 +173,7 @@ Rules for the calendar (proposed for finance-scout):
   goal 10 months after the 60-day filing date (standard) or 6 months (priority), i.e. 12 or 8 months
   from submission [S16]. With a 1H 2027 submission the FDA decision is most likely between early
   2028 and mid 2028, unless the FDA asks for more data.
-- Base rate filing -> approval in oncology: 92.0% (BIO 2011-2020) [S15], but that average covers
+- Base rate filing -> eventual approval in oncology (after any resubmission, not first cycle): 92.0% (BIO 2011-2020) [S15], but that average covers
   filed applications; risks here are one small open-label trial, p=0.035 (close to 0.05), and full
   secondary data not yet shown. The FDA may want more, which would delay or block approval.
 - Dilution: the $150 M ATM was unused on 12 Nov 2026 [S10]; selling it all at 19.15 would add

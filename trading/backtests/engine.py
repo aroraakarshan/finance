@@ -80,7 +80,9 @@ INDEX_SUFFIX = {"^NSEI": ".NS", "^N225": ".T", "^HSI": ".HK", "^FTSE": ".L", "^G
 
 
 def closed_bars(t, df, now=None):
-    """Drop a bar for a session that has not closed yet (exchange close in UTC + 30 min), so an intraday bar is never stored as a close."""
+    """Bars safe to store: drop rows with missing prices (Yahoo sometimes returns a volume-only row for a closed day) and a bar for a
+    session that has not closed yet (exchange close in UTC + 30 min), so neither can replace a good cached bar."""
+    df = df.dropna(subset=[c for c in ("Open", "High", "Low", "Close") if c in df.columns])
     suf = "=X" if t.endswith("=X") else INDEX_SUFFIX.get(t, "." + t.rsplit(".", 1)[1] if "." in t else "")
     h, mnt, off = CLOSE_UTC.get(suf, CLOSE_UTC[""])
     now = now or pd.Timestamp.now(tz="UTC").tz_localize(None)
@@ -121,7 +123,69 @@ def refresh_recent(names, batch=40, period="1mo"):
     if redo:
         log(f"full history for {len(redo)}: {' '.join(redo)}")
         download(redo, batch=20, live=True, end=str((pd.Timestamp.today() + pd.Timedelta(days=1)).date()))
+    nse_fill([t for t in names if t.endswith(".NS") or t == "^NSEI"], expected_day("India"))
     return redo
+
+
+NSE_UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"}
+
+
+def nse_day(day):
+    """Official NSE closes for one day: equity bhavcopy (sec_bhavdata_full) and index closes (ind_close_all), cached; None if not published."""
+    import io, requests
+    day = pd.Timestamp(day)
+    out = {}
+    for kind, url in (("eq", f"https://archives.nseindia.com/products/content/sec_bhavdata_full_{day:%d%m%Y}.csv"),
+                      ("ix", f"https://archives.nseindia.com/content/indices/ind_close_all_{day:%d%m%Y}.csv")):
+        p = CACHE / "nse" / url.rsplit("/", 1)[1]
+        if not p.exists():
+            r = requests.get(url, headers=NSE_UA, timeout=60)
+            if r.status_code != 200 or len(r.content) < 1000:
+                return None
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_bytes(r.content)
+        f = pd.read_csv(p, skipinitialspace=True)
+        f.columns = [c.strip() for c in f.columns]
+        out[kind] = f
+    eq = out["eq"][out["eq"].SERIES.str.strip().isin(["EQ", "BE", "BZ"])].drop_duplicates("SYMBOL")
+    rows = {s_.strip() + ".NS": (r.OPEN_PRICE, r.HIGH_PRICE, r.LOW_PRICE, r.CLOSE_PRICE, r.TTL_TRD_QNTY) for s_, r in zip(eq.SYMBOL, eq.itertuples())}
+    n50 = out["ix"][out["ix"]["Index Name"].str.strip() == "Nifty 50"]
+    if len(n50):
+        r = n50.iloc[0]
+        rows["^NSEI"] = (r["Open Index Value"], r["High Index Value"], r["Low Index Value"], r["Closing Index Value"], r["Volume"])
+    return rows
+
+
+def nse_fill(names, day):
+    """If Yahoo has no usable bar for a closed NSE session, add the official NSE bar (same day only, so no adjustment issue)."""
+    day = pd.Timestamp(day)
+    need = []
+    for t in names:
+        p = fname(t, True)
+        if p.exists():
+            d = pd.read_csv(p, index_col=0, parse_dates=True)
+            good = d.dropna(subset=["Open", "High", "Low", "Close"])
+            if len(good) and good.index[-1] < day:
+                need.append((t, p, d))
+    if not need:
+        return 0
+    try:
+        rows = nse_day(day)
+    except Exception as ex:
+        log(f"nse_fill {day.date()}: {ex!r}")
+        return 0
+    if rows is None:
+        log(f"nse_fill: no NSE file for {day.date()} (holiday or not published yet); {len(need)} names stay at their last bar")
+        return 0
+    n = 0
+    for t, p, d in need:
+        if t in rows:
+            d = d[d.index < day]
+            d.loc[day] = rows[t]
+            d.to_csv(p)
+            n += 1
+    log(f"nse_fill {day.date()}: {n} of {len(need)} India names filled from NSE files (Yahoo had no usable bar)")
+    return n
 
 
 def latest_date(m, live=True):
@@ -1233,6 +1297,18 @@ def tbl(head, rows):
     return "| " + " | ".join(head) + " |\n|" + "---|" * len(head) + "\n" + "".join("| " + " | ".join(str(x) for x in r) + " |\n" for r in rows)
 
 
+def page_or_append(path, title, summary, body):
+    """Dated run files are never overwritten: a second run for the same date is appended as its own section."""
+    path = Path(path)
+    if not path.exists():
+        return page(path, title, summary, body)
+    ts = pd.Timestamp.now(tz="Asia/Kolkata").strftime("%Y-%m-%d %H:%M")
+    body = "\n".join("#" + l if l.startswith("## ") or l.startswith("### ") else l for l in body.splitlines())
+    with open(path, "a") as f:
+        f.write(f"\n## Run {ts} IST\n" + "\n".join(f"- {x}" for x in summary) + "\n\n" + body + "\n")
+    log(f"appended run to {path}")
+
+
 def page(path, title, summary, body):
     assert len(summary) <= 5
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -1515,7 +1591,7 @@ def active_table(act):
 
 
 def write_scan(res, scout_tbl):
-    D = max(res["dates"].values())
+    D = res["dates"]["US"]
     sg = res["sigs"]
     ok = [s_ for s_ in sg if not s_["why"]]
     al = "; ".join(f"{m}: {', '.join(STRATS[k]['label'] + ' (' + status_label(st) + ')' for k, st, _ in v) or 'none'}" for m, v in res["active"].items())
@@ -1536,7 +1612,7 @@ def write_scan(res, scout_tbl):
             "\n## Near triggers (within 2% of a trigger, top 20)\n" + (tbl(["Symbol", "Market", "Strategies", "Close", "Trigger (close above)", "Distance", "Also needs", "Any strategy allowed"], nr) if nr else "None.\n") +
             "\n## Scout names\n" + scout_tbl + "\n")
     p = SETUPS / f"{D}.md"
-    page(p, f"Setup check {D}", summ, body)
+    page_or_append(p, f"Setup check {D} (US signal close)", summ, body)
     setups_index()
     return p
 
@@ -1618,6 +1694,7 @@ def paper(D=None, res=None, allow_new=True, warn=""):
             tsd = (d.index[f + N].date() if f + N < len(d) else np.busday_offset(str(d.index[f].date()), N)) if N else ""
             L.loc[i, ["status", "fill_date", "fill_price", "stop", "target", "shares", "risk_inr", "time_stop_date"]] = \
                 ["open", str(d.index[f].date()), f"{fill:.4f}", f"{stop:.4f}", f"{tgt:.4f}" if tgt else "", str(sh), f"{sh * (fill - stop) * fx:.0f}", str(tsd)]
+            L.loc[i, "notes"] = f"stop and target set from the fill {d.index[f].date()}"
             events.append(("fill", L.loc[i]))
         row = L.loc[i]
         if row["status"] != "open":
@@ -1678,7 +1755,7 @@ def paper(D=None, res=None, allow_new=True, warn=""):
         n_live += 1
         risk_live += s_["risk_inr"]
     L[LEDGER_COLS].to_csv(PAPER / "trades.csv", index=False)
-    D_ = max(dates.values()).date()
+    D_ = dates["US"].date()
     out = write_outbox(D_, events, skipped, L, equity, warn)
     write_paper_index(L, equity, D_, block, res["active"])
     return events, skipped, out
@@ -1701,8 +1778,10 @@ def journal_line(kind, r):
                     reason=tag + sig + f"; filled at {how}; stop and target set from the fill; time stop {r['time_stop_date'] or 'none'}")
     if kind == "exit":
         why = SIGTEXT[k][1] if r["exit_reason"] == "exit rule" else EXIT_WORDS.get(r["exit_reason"], r["exit_reason"])
-        return dict(base, date=r["exit_date"], side="sell", price=r["exit_price"], fees=r["costs_inr"],
-                    reason=tag + f"{why} exit {r['exit_date']}; R {r['r_multiple']}; P&L Rs {r['pnl_inr']}; entry: " + sig)
+        exit_fee = float(r["shares"]) * float(r["exit_price"]) * cost * float(r["fx"])
+        return dict(base, date=r["exit_date"], side="sell", price=r["exit_price"], fees=f"{exit_fee:.0f}",
+                    reason=tag + f"{why} exit {r['exit_date']}; R {r['r_multiple']}; net P&L Rs {r['pnl_inr']} after both fees "
+                    f"(Rs {r['costs_inr']} = entry {float(r['shares']) * float(r['fill_price']) * cost * float(r['fx']):.0f} + exit {exit_fee:.0f}); entry: " + sig)
     return dict(base, date=r["signal_date"], side="cancel", price=r["limit"], stop_loss="", target="", risk="", fees="",
                 reason=tag + sig + "; cancelled: " + r["notes"])
 
@@ -1715,7 +1794,7 @@ def write_outbox(D, events, skipped, L, equity, warn=""):
     cnt = lambda k: sum(1 for k_, _ in events if k_ == k)
     head = (f"Paper: {(L.status == 'open').sum()} open, {cnt('order')} new orders, {cnt('exit')} exits, equity Rs {equity:,.0f}, "
             f"trades so far {(L.status == 'closed').sum()}/20" + (f"; {warn}" if warn else "") + ".")
-    page(p, f"Paper outbox {D}", [head, f"{len(lines)} lines for finance-journal ({sum(1 for k, _ in events if k == 'order')} new pending orders, "
+    page_or_append(p, f"Paper outbox {D} (US signal close)", [head, f"{len(lines)} lines for finance-journal ({sum(1 for k, _ in events if k == 'order')} new pending orders, "
                                   f"{sum(1 for k, _ in events if k == 'fill')} fills, {sum(1 for k, _ in events if k == 'exit')} exits); {len(skipped)} valid signals skipped by portfolio rules.",
                                   "Columns match journal/trades.csv; risk and fees in INR; plan = paper ledger id (+ trade plan if one exists); paper only, no orders at any broker."],
          (tbl(cols, [[x[c] for c in cols] for x in lines]) if lines else "No new orders, fills or exits.\n") +
@@ -1735,7 +1814,9 @@ def write_paper_index(L, equity, D, block, act):
             "Active strategies: " + ("; ".join(f"{STRATS[k]['label']} ({m}, {status_label(st)}: {why})" for m, v in act.items() for k, st, why in v) or "none") + "."]
     show = ["symbol", "strategy", "approval", "status", "signal_date", "limit", "fill_date", "fill_price", "stop", "target", "time_stop_date", "shares", "risk_inr", "notes"]
     body = ("Paper only: agents never place orders. Ledger: [trades.csv](trades.csv); strategies allowed below the bar: [allowed.csv](allowed.csv); "
-            "daily lines for finance-journal: [outbox/](outbox/).\n\n## Active strategies\n" + active_table(act).replace("../backtests/", "../backtests/") + "\n## Open and pending\n" + (tbl(show, L[L.status.isin(["open", "pending"])][show].values.tolist()) if len(op) + len(pe) else "None.\n") +
+            "daily lines for finance-journal (named by the US signal close; newest first): " +
+            (", ".join(f"[{f.stem}](outbox/{f.name})" for f in sorted((PAPER / "outbox").glob("[0-9]*.md"), reverse=True)) or "none yet") +
+            ".\n\n## Active strategies\n" + active_table(act).replace("../backtests/", "../backtests/") + "\n## Open and pending\n" + (tbl(show, L[L.status.isin(["open", "pending"])][show].values.tolist()) if len(op) + len(pe) else "None.\n") +
             "\n## Closed (last 20)\n" + (tbl(["symbol", "strategy", "fill_date", "fill_price", "exit_date", "exit_price", "exit_reason", "r_multiple", "pnl_inr"],
                                            cl.sort_values("exit_date").tail(20)[["symbol", "strategy", "fill_date", "fill_price", "exit_date", "exit_price", "exit_reason", "r_multiple", "pnl_inr"]].values.tolist())
                                        if len(cl) else "None.\n") +
