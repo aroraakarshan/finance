@@ -1,7 +1,7 @@
 # Drive index
 
-Generated 2026-11-17 by `python -m scripts.drive_index` from file names in Google Drive
-`Finance/` (2308 files; no file opened). Run it after every download. Periods come from the
+Generated 2026-11-18 by `python -m scripts.drive_index` from file names in Google Drive
+`Finance/` (2334 files; no file opened). Run it after every download. Periods come from the
 file names ("Newest" is the newest date in the names; "Added" is when the newest file was saved
 to Drive). Gaps are months or years missing inside the covered range, at the series' own cadence;
 brokers send quarterly statements in months without activity, so a monthly gap is not always a
@@ -10,13 +10,13 @@ missing file. Account numbers show only the last 4 digits.
 ## Brokers and sources
 | Broker / source | Files | Folders | Accounts | Added |
 |---|---|---|---|---|
-| AngelOne | 37 | Investments/Stocks/AngelOne, Tax/FY*/Angel One | - | 2026-11-15 |
+| AngelOne | 42 | Investments/Stocks/AngelOne, Tax/FY*/Angel One | - | 2026-11-15 |
 | ClearTax | 1 | Tax/FY*/ClearTax | - | 2026-07-18 |
 | ETrade | 193 | Investments/Stocks/ETrade, Tax/FY*/ETrade | ****7855, ****8803 | 2026-11-08 |
-| Fidelity | 27 | Investments/Stocks/Fidelity, Investments/Stocks/Fidelity/forms, Tax/FY*/Fidelity | - | 2026-11-16 |
+| Fidelity | 46 | Investments/Stocks/Fidelity, Investments/Stocks/Fidelity/forms, Investments/Stocks/Fidelity/statements, Tax/FY*/Fidelity | - | 2026-11-16 |
 | Guides | 7 | Guides | - | 2026-11-08 |
 | HDFC | 41 | Banking/HDFC/CreditCard, Banking/HDFC/FD, Banking/HDFC/Savings | ****2235, ****9102 | 2026-11-15 |
-| IBKR | 15 | Investments/Stocks/IBKR, Tax/FY*/IBKR | U****4563 | 2026-11-15 |
+| IBKR | 17 | Investments/Stocks/IBKR, Tax/FY*/IBKR | U****4563 | 2026-11-15 |
 | Income Tax Site | 42 | Tax/FY*/Income Tax Site, Tax/FY2026-27 | - | 2026-11-09 |
 | INDmoney | 37 | Investments/Stocks/INDmoney, Tax/FY*/INDmoney | - | 2026-11-15 |
 | ITR | 59 | Tax/FY*/ITR | - | 2026-11-08 |
@@ -25,7 +25,7 @@ missing file. Account numbers show only the last 4 digits.
 | Qualcomm | 3 | Tax/FY*/Qualcomm | - | 2025-08-29 |
 
 ## AngelOne
-Files per tax folder: FY2024-25 10, FY2025-26 9, FY2026-27 14.
+Files per tax folder: FY2024-25 10, FY2025-26 10, FY2026-27 18.
 
 | Type | Kind | Files | Periods | Gaps | Newest |
 |---|---|---|---|---|---|
@@ -34,6 +34,7 @@ Files per tax folder: FY2024-25 10, FY2025-26 9, FY2026-27 14.
 | holdings | MF holdings | 2 | as of 2026-11-14 (2 dates, from 2026-11-07) | - | 2026-11-14 |
 | statement | ELSS | 3 | FY2024-25..FY2026-27 | - | FY2026-27 |
 | statement | Ledger | 4 | FY2024-25..FY2026-27 (FY2026-27 to 2026-11-14) | - | 2026-11-14 |
+| statement | Statement | 5 | 2025-04, 2026-04, 2026-11 | 2025-11, 2026-06 | 2026-11-14 |
 | tax P&L | MF CapitalGains | 3 | FY2024-25..FY2026-27 | - | FY2026-27 |
 | tax P&L | PnLSummary | 4 | FY2024-25..FY2026-27 (FY2026-27 to 2026-11-14) | - | 2026-11-14 |
 | tax P&L | TaxPnL | 10 | FY2024-25..FY2026-27 (FY2026-27 to 2026-11-15) | - | 2026-11-15 |
@@ -78,10 +79,10 @@ Files per tax folder: FY2024-25 6, FY2025-26 12, FY2026-27 4.
 |---|---|---|---|---|---|
 | 1042-S | 1042-S | 1 | FY2025-26 | - | FY2025-26 |
 | other | other | 3 | 1 date, 2026-11-15 | - | 2026-11-15 |
-| statement | Statement | 13 | 2024-07, 2024-09..2024-12, 2025-06..2026-09 | 2024-08, 2025-01..2025-05 | 2026-09 |
+| statement | Statement | 26 | 2024-07, 2024-09..2024-12, 2025-06..2026-09 | 2024-08, 2025-01..2025-05 | 2026-09 |
 | statement | TransactionSummary | 2 | FY2024-25..FY2025-26 | - | FY2025-26 |
-| statement | Year-end report | 2 | CY2024..CY2025 | - | CY2025 |
-| trade confirmation | TradeConfirmation | 4 | 4 dates, 2025-01-02..2025-07-01 | - | 2025-07-01 |
+| statement | Year-end report | 4 | CY2024..CY2025 | - | CY2025 |
+| trade confirmation | TradeConfirmation | 8 | 4 dates, 2025-01-02..2025-07-01 | - | 2025-07-01 |
 | trades export | ESPP activity | 2 | CY2024..CY2025 | - | CY2025 |
 
 ## Guides
@@ -114,9 +115,10 @@ Files per tax folder: FY2025-26 7, FY2026-27 6.
 
 | Type | Kind | Files | Periods | Gaps | Newest |
 |---|---|---|---|---|---|
+| other | other | 1 | no period in name | - | - |
 | statement | ActivityStatement | 9 | CY2025..CY2026, FY2025-26..FY2026-27 (CY2026 to 2026-11-13; FY2026-27 to 2026-11-06); 2026-01..2026-03 | - | 2026-11-13 |
 | tax P&L | RealizedSummary | 4 | FY2025-26..FY2026-27 (FY2026-27 to 2026-11-06) | - | 2026-11-06 |
-| trade confirmation | TradeConfirmation | 2 | 2025-04-01..2026-11-13 (2 cumulative exports) | - | 2026-11-13 |
+| trade confirmation | TradeConfirmation | 3 | 2025-04-01..2026-11-13 (3 cumulative exports) | - | 2026-11-13 |
 
 ## Income Tax Site
 Files per tax folder: FY2015-16 1, FY2016-17 1, FY2017-18 1, FY2018-19 1, FY2019-20 2, FY2020-21 1, FY2021-22 5, FY2022-23 5, FY2023-24 5, FY2024-25 5, FY2025-26 11, FY2026-27 4.

@@ -3,10 +3,10 @@
 Written 2026-11-18 by `finance-research` (post-event check). Research only, not advice; no orders. Price $19.15, close of
 17 Nov 2026 (+156% from 7.47 on 16 Nov); $17.13 after hours on 17 Nov once the share sale was announced; market cap
 $3.90 B at the close [Y]. USD/INR 93.96 (17 Nov) [Y]. "not verified" = no source confirmed it. News score: pending
-finance-news (no `news/SLS.md`). Scout: WATCH ([calendar](../../scout/events/calendar.md), [post-mortem](../../scout/events/sls-postmortem.md)).
+finance-news (no `news/SLS.md`). Scout: AVOID (18 Nov; [calendar](../../scout/events/calendar.md), [post-mortem](../../scout/events/sls-postmortem.md)).
 
 ## Summary
-- **AVOID now (Rs 0). Re-check only if (a) the price falls to $7 or below while the FDA still accepts REGAL as enough for a BLA, or (b) the FDA sets a PDUFA date - then as an event bet (max Rs 2.1 L, portfolio/targets.md "Event bets"), not under the Rs 4.2 L idea cap.**
+- **AVOID now (Rs 0). Re-check only if (a) the price falls to $7 or below while the FDA still accepts REGAL as enough for a BLA, or (b) the FDA sets a PDUFA date - then as an event bet (max 0.5% of the total, about Rs 2.08 L at the 18 Nov mark, portfolio/targets.md "Event bets"), not under the Rs 4.2 L idea cap.**
 - What it is: a 13-person biotech whose cancer vaccine GPS just won a small, open-label Phase 3 (REGAL) in AML patients in second remission who cannot get a transplant; no sales, approval not before about 2028.
 - Why not: at about $17 the market pays for $1.6-2.5 B of yearly US sales in a niche of about 1,000-1,500 US patients a year; my risk-adjusted value is about $1.4 / $4 / $11-16 per share (low/base/high). Approved AML peers Syndax and Kura are worth $0.7-0.8 B each.
 - 1-3 year return in INR: low -73% / base -35% / high +110% (section 8). Key risk: the FDA asks for a second trial (one trial, 126 patients, p=0.035).
