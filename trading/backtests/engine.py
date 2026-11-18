@@ -1136,6 +1136,80 @@ def stage_note(o):
             + ("wait: " + ", ".join(waits) if waits else "no wait flag")), waits
 
 
+def nse_band(t):
+    """NSE price band (circuit) and series from sec_list.csv (cached per day); None if not found."""
+    import requests
+    p = CACHE / "nse" / f"sec_list_{time.strftime('%Y%m%d')}.csv"
+    if not p.exists():
+        r = requests.get("https://archives.nseindia.com/content/equities/sec_list.csv", headers=NSE_UA, timeout=60)
+        if r.status_code != 200:
+            return None
+        p.parent.mkdir(parents=True, exist_ok=True)
+        p.write_bytes(r.content)
+    f = pd.read_csv(p)
+    m = f[f.Symbol.str.strip() == t.replace(".NS", "")]
+    return None if m.empty else (str(m.Band.iloc[0]).strip(), str(m.Series.iloc[0]).strip())
+
+
+OPEN_UTC = {"": (14, 30), ".NS": (3, 45), ".BO": (3, 45), ".T": (0, 0), ".HK": (1, 30), ".L": (8, 0), ".DE": (8, 0), ".PA": (8, 0), ".MC": (8, 0), ".MI": (8, 0)}
+
+
+def market_open(t, now=None):
+    suf = INDEX_SUFFIX.get(t, "." + t.rsplit(".", 1)[1] if "." in t else "")
+    now = now or pd.Timestamp.now(tz="UTC").tz_localize(None)
+    o, c = OPEN_UTC.get(suf, OPEN_UTC[""]), CLOSE_UTC.get(suf, CLOSE_UTC[""])
+    m = now.hour * 60 + now.minute
+    return now.weekday() < 5 and o[0] * 60 + o[1] <= m < c[0] * 60 + c[1]
+
+
+def quote_spread(t):
+    import yfinance as yf
+    try:
+        i = yf.Ticker(t).info
+        b, a = i.get("bid") or 0, i.get("ask") or 0
+        time.sleep(2)
+        if b > 0 and a > b:
+            return (f"quote bid {b:.2f} / ask {a:.2f} = {(a - b) / ((a + b) / 2):.2%} (yfinance {pd.Timestamp.now(tz='Asia/Kolkata'):%Y-%m-%d %H:%M} IST, "
+                    + ("market open)" if market_open(t) else "market closed: last quote, not a real spread)"))
+    except Exception as ex:
+        log(f"{t} quote: {ex!r}")
+    return None
+
+
+def liquidity_table(syms, until=None, limits=None, sizes=None):
+    """Liquidity and spread view for event or arbitrage buys: 50-day volume and value, order size vs a day's value, spread, circuit band,
+    and the rules stop at the limit vs the normal daily move."""
+    limits, sizes, rows = limits or {}, sizes or {}, []
+    for t in syms:
+        raw = load(t, until, True)
+        if raw is None:
+            rows.append((t,) + ("no data",) + ("",) * 7)
+            continue
+        tail = raw.dropna(subset=["C"]).tail(50)
+        o = setup(t, until)
+        if "error" in o:
+            continue
+        ccy = currency(t)
+        fx = fx_inr(ccy, str(o["date"]))[0]
+        adv, val = tail.V.mean(), (tail.C * tail.V).mean()
+        lim = limits.get(t, o["close"])
+        stop = plan_stop(lim, o["atr14"], o["swlo"])
+        sh = size(lim, stop, fx)[0]
+        atrp, stopp = o["atr14"] / o["close"], (lim - stop) / lim
+        band = nse_band(t) if t.endswith(".NS") else None
+        q = quote_spread(t)
+        sp = (q + "; " if q else "no bid/ask; ") + f"proxy: median day range {((tail.H - tail.L) / tail.C).median():.1%}"
+        zero = f"{(tail.V == 0).mean():.0%} zero-volume days"
+        plan = sizes.get(t)
+        rows.append((t, f"{adv:,.0f} sh; {val:,.0f} {ccy} = Rs {val * fx / 1e7:,.2f} cr", f"{sh} sh = Rs {sh * lim * fx:,.0f}",
+                     f"{40000 / (val * fx):.1%}" + (f"; planned Rs {plan / 1e5:g} L = {plan / (val * fx):.0%}" if plan else ""),
+                     sp + "; " + zero, (f"{band[0]}% band, series {band[1]}" + (" (trade-for-trade: delivery only)" if band[1] == "BE" else "")) if band
+                     else ("not in NSE sec_list" if t.endswith(".NS") else "none (no US circuit; LULD pauses)"),
+                     f"{stop:.2f} ({stopp:.1%})", f"{atrp:.1%}" + ("; WIDER than the stop: a normal day can stop it out" if atrp >= stopp else "")))
+    return tbl(["Symbol", "50-day avg volume and value", "Rules size at the limit (Rs 2,000 risk, 20% cap)", "Rs 40,000 as % of a day's value",
+                "Spread", "Circuit", "Rules stop at the limit (risk)", "ATR(14) a day"], rows)
+
+
 def write_setup(path, table, info, note="", title=None, until=None):
     path = Path(path)
     date = max((str(i["date"]) for i in info if "date" in i), default=time.strftime("%Y-%m-%d"))
@@ -1942,10 +2016,15 @@ def momentum_spot(data, wt):
 if __name__ == "__main__":
     a = sys.argv[1:]
     if a and a[0] == "setup":
-        opt = {k: a[a.index(k) + 1] for k in ("--date", "--out", "--note", "--title", "--limits") if k in a}
-        syms = [x for x in a[1:] if x not in opt and x not in opt.values()]
+        opt = {k: a[a.index(k) + 1] for k in ("--date", "--out", "--note", "--title", "--limits", "--sizes") if k in a}
+        syms = [x for x in a[1:] if x not in opt and x not in opt.values() and x != "--liquidity"]
         lims = {k: float(v) for k, v in (x.split("=") for x in opt.get("--limits", "").split(",") if "=" in x)}
         table, info = setup_table(syms, opt.get("--date"), lims)
+        if "--liquidity" in a:
+            sizes = {k: float(v) for k, v in (x.split("=") for x in opt.get("--sizes", "").split(",") if "=" in x)}
+            table += ("\n## Liquidity and spread (event or arbitrage view)\n" + liquidity_table(syms, opt.get("--date"), lims, sizes) +
+                      "\nValue = 50-day average of close x volume. Rules size uses the research limit as the entry and the AGENTS.md stop (tightest of "
+                      "2 x ATR(14), 10-day swing low, 10%). The research sizes are event or ideas-budget amounts, not the Rs 2 L trading budget.\n")
         print(table)
         if "--out" in opt:
             write_setup(opt["--out"], table, info, opt.get("--note", ""), opt.get("--title"), opt.get("--date"))
@@ -1957,6 +2036,6 @@ if __name__ == "__main__":
         else:
             sys.exit(daily(dt) if a[0] == "daily" else (paper(dt), 0)[1])
     elif a and a[0] in ("-h", "--help"):
-        print("engine.py [all|trend-following|momentum-rotation|swing-pullback|drop-vs-trend]  |  engine.py setup SYM ... [--date YYYY-MM-DD] [--out trading/setups/YYYY-MM-DD.md] [--note TEXT] [--title TEXT] [--limits SYM=PRICE,...]  |  engine.py scan|paper|daily [--date YYYY-MM-DD]  |  engine.py universe-bar")
+        print("engine.py [all|trend-following|momentum-rotation|swing-pullback|drop-vs-trend]  |  engine.py setup SYM ... [--date YYYY-MM-DD] [--out trading/setups/YYYY-MM-DD.md] [--note TEXT] [--title TEXT] [--limits SYM=PRICE,...] [--liquidity [--sizes SYM=INR,...]]  |  engine.py scan|paper|daily [--date YYYY-MM-DD]  |  engine.py universe-bar")
     else:
         main(a[0] if a else "all")

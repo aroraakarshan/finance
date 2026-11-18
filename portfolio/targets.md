@@ -63,6 +63,8 @@ stocks, so moves like SELLAS (SLS, +156% on 17 Nov 2026 after a Phase 3 success)
    Rs 6.2 L at Rs 4.16 Cr; your decision of 2026-11-18).
 3. Each bet states: the event date, what happens if it wins and if it loses, how often such events succeeded in
    the past (base rate), and the exit rule: sell after the event either way, unless research says hold.
+   Event bets have no stop loss (held through the event; the size cap limits the loss), so they are not trades
+   under the trading rules card (stop on every trade) and do not count in the Rs 2 L trading budget.
 4. You approve each bet before any order.
 5. Approved 2026-11-18 (all biotech, Rs 3.5 L in all, 0.84% of the total; notes in `research/events/bets/`):
 
