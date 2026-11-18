@@ -1,11 +1,14 @@
 """Daily market data as markdown: indices, volatility and breadth, flows, sentiment, rates/FX/commodities,
-sector heat by region and notable moves, with the source and as-of date of every number.
+sector heat by region, notable moves and big movers (whole markets), with the source and as-of date of every number.
 
 Sources: yfinance daily closes (currency =X closes moved to their own day, see FX_NOTE); NSE India API (allIndices, live-analysis-advance, fiidiiTradeReact,
 historicalOR/indicesHistory) with a browser User-Agent and home-page cookies, for India indices Yahoo
 has no history for; Sina Finance daily klines for China CSI indices (Yahoo gives one row only); CNN
 Fear & Greed JSON; constituent lists: Wikipedia (S&P 500, Euro Stoxx 50, Hang Seng), NSE archives
-(Nifty 500), indexes.nikkei.co.jp (Nikkei 225). Moves use each series' own trading days up to --date
+(Nifty 500), indexes.nikkei.co.jp (Nikkei 225). Big movers (whole markets, section 8): Nasdaq screener
+(api.nasdaq.com, all NASDAQ/NYSE/AMEX stocks), NSE and BSE UDiFF bhavcopies, Yahoo screener (yf.screen) by region for
+Europe, Japan and APAC (and the US and India when their main source is behind), Yahoo shares, FX and splits.
+Moves use each series' own trading days up to --date
 (a bar dated D is used only once its exchange has closed on D plus CLOSE_BUFFER, see EXCHANGES; futures, FX and
 crypto only up to yesterday (UTC), so no partial bar): 1d = last close vs the one before, 1w = vs 5 trading days
 earlier, 1m = vs 21 trading days earlier; 52-week high = highest daily close of the last 365 days.
@@ -21,6 +24,7 @@ import json
 import logging
 import re
 import time
+import zipfile
 from datetime import date, datetime
 from functools import cache
 from pathlib import Path
@@ -32,7 +36,8 @@ import requests
 from scripts.common import PRICE_CACHE
 
 CACHE = PRICE_CACHE.parent / "market"
-OUT_DIR = Path.home() / ".local" / "share" / "superpowers" / "finance-news-first-run" / "market"
+OUT_DIR = Path(__file__).resolve().parents[1] / "news" / "market" / "data"
+USER_TZ = ZoneInfo("Asia/Kolkata")  # the run's own date and the Generated time; the process runs with TZ=UTC
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
                     "Chrome/130.0 Safari/537.36", "Accept-Language": "en-US,en;q=0.9"}
 
@@ -722,6 +727,399 @@ def section_notable(cells, day, offline, failed) -> list[str]:
     return out
 
 
+BIG_MOVE, HOLDING_MOVE, BIG_ROWS = 30.0, 8.0, 60
+MICRO_USD, PENNY_USD, MICRO_INR, PENNY_INR = 300e6, 1.0, 1e10, 10.0
+BIG_MARKETS = {"US": "US", "India": "NSE", "Europe": "Xetra", "Japan": "TSE", "APAC": "HKEX"}  # market -> default exchange
+NASDAQ_URL = "https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=10000&download=true"
+# yf.screen fallback: market -> (regions, primary exchanges)
+YF_SCREEN = {"US": (["us"], ["NMS", "NYQ", "ASE", "NGM", "NCM"]), "India": (["in"], ["NSI", "BSE"]),
+             "Europe": (["gb", "de", "fr", "es", "it", "nl", "ch", "se", "be", "dk", "fi", "no", "at", "pt", "ie"],
+                        ["LSE", "GER", "PAR", "AMS", "BRU", "MIL", "MCE", "EBS", "STO", "HEL", "CPH", "OSL", "VIE", "LIS", "ISE"]),
+             "Japan": (["jp"], ["JPX"]), "APAC": (["hk", "cn", "kr", "tw", "sg", "au"],
+                                                   ["HKG", "SHH", "SHZ", "KSC", "KOE", "TAI", "TWO", "ASX", "SES"])}
+NSE_SERIES = {"EQ": "", "BE": "T2T", "BZ": "T2T", "SM": "SME", "ST": "SME", "SZ": "SME"}
+BSE_GROUPS = {"A": "", "B": "", "X": "", "P": "", "Z": "Z group", "T": "T2T", "XT": "T2T", "M": "SME",
+              "MT": "SME", "MS": "SME"}
+JUNK = re.compile(r"\b(?:warrants?|rights?|units?|preferred|pref|etfs?|bees)\b", re.I)
+SRC_RANK = {"NSE bhavcopy": 0, "BSE bhavcopy": 1, "Nasdaq screener": 2, "yf.screen": 3}
+SUB_UNIT = {"GBp": ("GBP", 100), "GBX": ("GBP", 100), "ILA": ("ILS", 100), "ZAc": ("ZAR", 100), "ZAC": ("ZAR", 100)}
+MOVERS = CACHE / "movers"
+ROOT = Path(__file__).resolve().parents[1]
+ENTRY_COLS = ["market", "sym", "yf", "name", "exch", "date", "close", "prev", "pct", "vol", "avgvol", "mcap", "mcap_usd",
+              "cur", "src", "tags"]
+
+
+def finish(e: pd.DataFrame, ts: pd.Series | None = None) -> pd.DataFrame:
+    """Entries with ex (close cutoff), date (from unix bar time ts when given) and pct, finished bars only."""
+    e = e.reset_index(drop=True)
+    e["ex"] = [exchange("yf", c) or BIG_MARKETS[m] for c, m in zip(e.yf, e.market)]
+    if ts is not None:
+        ts = pd.to_datetime(ts.reset_index(drop=True), unit="s", utc=True)
+        e["date"] = pd.NaT
+        for ex, idx in e.groupby("ex").groups.items():
+            e.loc[idx, "date"] = ts[idx].dt.tz_convert(EXCHANGES[ex][1]).dt.tz_localize(None).dt.normalize()
+    e["date"] = pd.to_datetime(e.date)
+    e = e[(e.close > 0) & (e.prev > 0) & e.date.notna()]
+    e = e[e.date <= e.ex.map(last_complete)].copy()
+    e["pct"] = (e.close / e.prev - 1) * 100
+    return e
+
+
+def bhav(src: str, d: pd.Timestamp, offline: bool) -> pd.DataFrame:
+    """NSE or BSE UDiFF bhavcopy (full cash market) for day d, cached in CACHE/bhav/."""
+    f = CACHE / "bhav" / f"{src}-{d:%Y%m%d}.csv"
+    if not f.exists():
+        if offline:
+            raise FileNotFoundError(f)
+        if src == "NSE":
+            z = zipfile.ZipFile(io.BytesIO(get(
+                f"https://nsearchives.nseindia.com/content/cm/BhavCopy_NSE_CM_0_0_0_{d:%Y%m%d}_F_0000.csv.zip", tries=1).content))
+            raw = z.read(z.namelist()[0])
+        else:
+            raw = get(f"https://www.bseindia.com/download/BhavCopy/Equity/BhavCopy_BSE_CM_0_0_0_{d:%Y%m%d}_F_0000.CSV",
+                      tries=1).content
+        pd.read_csv(io.BytesIO(raw), nrows=5)["ClsPric"]  # not a bhavcopy -> error, nothing cached
+        f.parent.mkdir(parents=True, exist_ok=True)
+        f.write_bytes(raw)
+    return pd.read_csv(f)
+
+
+def india_entries(day: date, offline: bool) -> tuple[pd.DataFrame, str]:
+    """NSE (all series incl. SME) plus BSE-only scrips from the bhavcopies of the latest finished session <= day."""
+    tgt = min(pd.Timestamp(day), last_complete("NSE"))
+    for d in [tgt - pd.Timedelta(days=i) for i in range(8)]:
+        if d.weekday() >= 5:
+            continue
+        try:
+            nse = bhav("NSE", d, offline)
+        except Exception:
+            continue
+        frames, how = [], f"NSE bhavcopy {d:%Y-%m-%d}"
+        try:
+            bse = bhav("BSE", d, offline)
+            bse = bse[~bse.ISIN.isin(nse.ISIN)]
+            how += f", BSE bhavcopy {d:%Y-%m-%d} ({len(bse)} BSE-only rows)"
+        except Exception as ex:
+            bse, how = None, how + f"; BSE bhavcopy failed ({type(ex).__name__})"
+        for src, b, keep, sfx in [("NSE", nse, NSE_SERIES, "NS"), ("BSE", bse, BSE_GROUPS, "BO")]:
+            if b is None:
+                continue
+            b = b[(b.FinInstrmTp == "STK") & b.SctySrs.isin(list(keep))]
+            sym = b.TckrSymb.astype(str)
+            frames.append(pd.DataFrame({"market": "India", "sym": src + ":" + sym, "yf": sym + "." + sfx,
+                                        "name": b.FinInstrmNm, "exch": src, "date": pd.to_datetime(b.TradDt),
+                                        "close": b.ClsPric, "prev": b.PrvsClsgPric, "vol": b.TtlTradgVol,
+                                        "avgvol": float("nan"), "mcap": float("nan"), "cur": "INR",
+                                        "src": f"{src} bhavcopy", "tags": b.SctySrs.map(keep)}))
+        return finish(pd.concat(frames)), how
+    return pd.DataFrame(columns=ENTRY_COLS), "no NSE bhavcopy found in the 8 days to " + f"{tgt:%Y-%m-%d}"
+
+
+def nasdaq_entries() -> tuple[pd.DataFrame, str]:
+    """All NASDAQ/NYSE/AMEX stocks from the Nasdaq screener; its session is the day whose Yahoo closes of 4 large caps
+    equal its last sale (the screener carries no date)."""
+    n = pd.DataFrame(get(NASDAQ_URL).json()["data"]["rows"])
+    n["close"] = pd.to_numeric(n.lastsale.str.replace(r"[$,]", "", regex=True), errors="coerce")
+    n["prev"] = n.close - pd.to_numeric(n.netchange, errors="coerce")
+    ref = ["AAPL", "MSFT", "NVDA", "AMZN"]
+    today = date.today()
+    c, _ = yf_download(ref, today - pd.Timedelta(days=12), today + pd.Timedelta(days=1))
+    last = n.set_index("symbol").close.reindex(ref)
+    hits = [d for d in c.index if ((c.loc[d, ref] / last - 1).abs() < 0.002).all()]
+    if not hits:
+        return pd.DataFrame(columns=ENTRY_COLS), "session date not matched to Yahoo closes, not used"
+    sym = n.symbol.str.strip()
+    e = pd.DataFrame({"market": "US", "sym": sym, "yf": sym.str.replace("/", "-"), "name": n.name, "exch": "US",
+                      "date": hits[-1], "close": n.close, "prev": n.prev,
+                      "vol": pd.to_numeric(n.volume, errors="coerce"), "avgvol": float("nan"),
+                      "mcap": pd.to_numeric(n.marketCap, errors="coerce"), "cur": "USD", "src": "Nasdaq screener",
+                      "tags": ""})
+    e = finish(e)
+    return e, f"{len(n)} stocks, session {hits[-1]:%Y-%m-%d}" + ("" if len(e) else " (not finished, not used)")
+
+
+def yfscreen_entries(market: str) -> pd.DataFrame:
+    """Stocks with |1d| >= BIG_MOVE, market cap > 0 and volume > 0 on the market's primary exchanges from Yahoo's
+    screener. It is a live snapshot: a quote counts once its exchange has closed (finish), and only each exchange's
+    latest session is kept (older quotes are stocks that did not trade). Market cap = shares outstanding x close."""
+    import yfinance as yf
+    from yfinance import EquityQuery as Q
+
+    regions, exch = YF_SCREEN[market]
+    q = Q("and", [Q("is-in", ["region", *regions]), Q("is-in", ["exchange", *exch]), Q("gt", ["intradaymarketcap", 0]),
+                  Q("gt", ["dayvolume", 0]),
+                  Q("or", [Q("gte", ["percentchange", BIG_MOVE]), Q("lte", ["percentchange", -BIG_MOVE])])])
+    rows, total = [], 1
+    while len(rows) < min(total, 2000):
+        r = yf.screen(q, offset=len(rows), size=250, sortField="percentchange", sortAsc=False)
+        rows += r["quotes"]
+        total = r.get("total", 0)
+        if not r["quotes"]:
+            break
+    if not rows:
+        return pd.DataFrame(columns=ENTRY_COLS)
+    r = pd.DataFrame(rows)
+    col = lambda k: r[k] if k in r else pd.Series(float("nan"), index=r.index)
+    e = pd.DataFrame({"market": market, "sym": r.symbol, "yf": r.symbol, "name": col("longName").fillna(col("shortName")),
+                      "exch": r.exchange, "close": r.regularMarketPrice, "prev": r.regularMarketPreviousClose,
+                      "vol": r.regularMarketVolume, "avgvol": col("averageDailyVolume3Month"),
+                      "mcap": (col("sharesOutstanding") * r.regularMarketPrice
+                               / r.currency.map(lambda c: SUB_UNIT.get(c, ("", 1))[1])).fillna(col("marketCap")),
+                      "cur": r.currency, "src": "yf.screen", "tags": ""})
+    e = finish(e, r.regularMarketTime)
+    return e[e.date == e.groupby("ex").date.transform("max")]
+
+
+def holdings() -> list[str]:
+    """Yahoo tickers of the open positions in trading/positions.csv (all accounts; funds, FDs and cash skipped)."""
+    p = pd.read_csv(ROOT / "trading" / "positions.csv")
+    t = p[p.status.eq("open")].ticker.dropna().astype(str)
+    return sorted({x for x in t if x and not x.startswith(("AMFI:", "FD", "EPF"))
+                   and re.fullmatch(r"[A-Z0-9&.\-^]+", x)})
+
+
+def holding_entries(codes: list[str], day: date) -> pd.DataFrame:
+    """Yahoo fallback for holdings missing from the market sources: last two finished closes <= day."""
+    end = (pd.Timestamp(day) + pd.Timedelta(days=1)).date()
+    c, v = yf_download(codes, end - pd.Timedelta(days=15), end)
+    c = complete(c, "yf")
+    rows = []
+    for s in c:
+        cs = c[s].dropna()
+        cs = cs[cs.index <= pd.Timestamp(day)]
+        if len(cs) >= 2:
+            rows.append({"market": "India" if s.endswith((".NS", ".BO")) else "US", "sym": s, "yf": s, "name": s,
+                         "exch": exchange("yf", s), "date": cs.index[-1], "close": cs.iloc[-1], "prev": cs.iloc[-2],
+                         "vol": v[s].get(cs.index[-1]), "cur": "INR" if s.endswith((".NS", ".BO")) else "USD",
+                         "src": "yfinance", "tags": ""})
+    return finish(pd.DataFrame(rows)) if rows else pd.DataFrame(columns=ENTRY_COLS)
+
+
+def write_movers(keep: pd.DataFrame, sessions: pd.DataFrame) -> None:
+    """Cache the entries that matter (|1d| >= HOLDING_MOVE or a holding) per market and session, plus a marker row so a
+    session with no such entry still counts as covered."""
+    MOVERS.mkdir(parents=True, exist_ok=True)
+    for m, d in sessions.itertuples(index=False):
+        g = keep[(keep.market == m) & (keep.date == d)]
+        mark = pd.DataFrame([{"market": m, "yf": "_session", "date": d, "src": "marker"}])
+        f = MOVERS / f"{m}-{d:%Y-%m-%d}.csv"
+        old = pd.read_csv(f, parse_dates=["date"], dtype={"sym": str, "tags": str}) if f.exists() else None
+        pd.concat([g, mark] + ([old] if old is not None else [])).drop_duplicates(["yf", "src"]).to_csv(f, index=False)
+
+
+def read_movers(day: date) -> pd.DataFrame:
+    fs = [f for f in MOVERS.glob("*.csv") if 0 <= (pd.Timestamp(day) - pd.Timestamp(f.stem[-10:])).days <= 10] \
+        if MOVERS.exists() else []
+    return pd.concat([pd.read_csv(f, parse_dates=["date"], dtype={"sym": str, "tags": str}) for f in fs],
+                     ignore_index=True) if fs else pd.DataFrame(columns=ENTRY_COLS)
+
+
+SPLIT_RATIOS = sorted({r for n in (2, 3, 4, 5, 10, 20, 50, 100) for r in (n, 1 / n)} | {2 / 3, 3 / 4, 4 / 5, 3 / 2})
+
+
+def action_flags(rows: pd.DataFrame) -> dict[int, str]:
+    """{row index: flag} from Yahoo splits within 3 days of the move, else a price ratio equal to a split/bonus ratio."""
+    import yfinance as yf
+
+    alt = {".PA": [".AS", ".BR", ".LS", ".IR"], ".KS": [".KQ"]}
+    cands = {i: [r.yf] + [r.yf[:-3] + a for k, v in alt.items() if r.yf.endswith(k) for a in v] for i, r in rows.iterrows()}
+    sp = pd.DataFrame()
+    try:
+        d = yf.download(sorted({c for v in cands.values() for c in v}), start=f"{rows.date.min() - pd.Timedelta(days=7):%Y-%m-%d}",
+                        end=f"{rows.date.max() + pd.Timedelta(days=4):%Y-%m-%d}", actions=True, auto_adjust=False,
+                        progress=False, threads=True)
+        sp = d["Stock Splits"] if "Stock Splits" in d else sp
+        if isinstance(sp, pd.Series):
+            sp = sp.to_frame(next(iter(cands.values()))[0])
+        sp.index = pd.to_datetime(sp.index).tz_localize(None).normalize()
+    except Exception:
+        pass
+    out = {}
+    for i, r in rows.iterrows():
+        for c in cands[i]:
+            if c not in sp:
+                continue
+            s = sp[c].dropna()
+            s = s[(s > 0) & ((s.index - r.date).days.map(abs) <= 3)]
+            if len(s):
+                f = s.iloc[0]
+                out[i] = (f"probably a corporate action (Yahoo split {f:g} on {s.index[0]:%Y-%m-%d})"
+                          if abs(r.close / r.prev * f - 1) < 0.15 else
+                          f"Yahoo split {f:g} on {s.index[0]:%Y-%m-%d}, move differs from it: check")
+        ratio = r.close / r.prev
+        if i not in out and "penny" not in size_flags(r) and any(abs(ratio / x - 1) < 0.005 for x in SPLIT_RATIOS):
+            out[i] = f"price ratio {ratio:.3f} matches a split/bonus ratio: check corporate actions"
+    return out
+
+
+def enrich(rows: pd.DataFrame) -> pd.DataFrame:
+    """Shown rows with mcap filled from Yahoo shares outstanding x close where the source has none (bhavcopies), and
+    fx (quote currency -> USD, sub-units such as GBp included) and mcap_usd from Yahoo's latest FX closes."""
+    import yfinance as yf
+    from concurrent.futures import ThreadPoolExecutor
+
+    rows = rows.copy()
+    need = rows.index[rows.mcap.isna()]
+
+    def shares(c):
+        try:
+            return yf.Ticker(c).fast_info["shares"]
+        except Exception:
+            return None
+
+    if len(need):
+        with ThreadPoolExecutor(8) as ex:
+            rows.loc[need, "mcap"] = [s * c if s else float("nan") for s, c in
+                                      zip(ex.map(shares, rows.loc[need, "yf"]), rows.loc[need, "close"])]
+    main = rows.cur.map(lambda c: SUB_UNIT.get(c, (c, 1))[0])
+    pairs = sorted({f"{c}USD=X" for c in main.dropna() if c != "USD"})
+    rate = {"USD": 1.0}
+    if pairs:
+        try:
+            c, _ = yf_download(pairs, date.today() - pd.Timedelta(days=10), date.today() + pd.Timedelta(days=1))
+            rate |= {k[:3]: v.dropna().iloc[-1] for k, v in c.items() if v.notna().any()}
+        except Exception:
+            pass
+    rows["fx"] = main.map(rate) / rows.cur.map(lambda c: SUB_UNIT.get(c, ("", 1))[1])
+    rows["mcap_usd"] = rows.mcap * main.map(rate)
+    return rows
+
+
+def cap_text(r) -> str:
+    if r.market == "India" and pd.notna(r.mcap):
+        return f"Rs {r.mcap / 1e7:,.0f} cr"
+    v = r.mcap_usd if pd.notna(r.mcap_usd) else None
+    if v is None:
+        return "n/a" if pd.isna(r.mcap) else f"{r.mcap / 1e6:,.0f}M {r.cur}"
+    return f"${v / 1e9:,.2f}B" if v >= 1e9 else f"${v / 1e6:,.0f}M" if v >= 10e6 else f"${v / 1e6:,.1f}M"
+
+
+def size_flags(r) -> list[str]:
+    f = []
+    if r.market == "India":
+        if pd.notna(r.mcap) and r.mcap < MICRO_INR:
+            f.append("micro-cap")
+        if r.close < PENNY_INR:
+            f.append("penny")
+        return f
+    if pd.notna(r.mcap_usd) and r.mcap_usd < MICRO_USD:
+        f.append("micro-cap")
+    if pd.notna(r.fx) and r.close * r.fx < PENNY_USD:
+        f.append("penny")
+    return f
+
+
+def mover_rows(df: pd.DataFrame, acts: dict) -> list[list]:
+    rows = []
+    for i, r in df.iterrows():
+        flags = [x for x in str(r.tags if pd.notna(r.tags) else "").split(", ") if x] + size_flags(r)
+        if i in acts:
+            flags.append(acts[i])
+        vx = r.vol / r.avgvol if pd.notna(r.vol) and pd.notna(r.avgvol) and r.avgvol > 0 else None
+        sym = r.sym if isinstance(r.sym, str) and r.sym else r.yf
+        rows.append([sym, str(r["name"])[:40], f"{f2(r.close, 2 if r.close >= 1 else 4)} {r.cur if pd.notna(r.cur) else ''}",
+                     pc(r.pct), f2(vx, 1), cap_text(r),
+                     ", ".join(flags) or "-", f"{r.src}, {ds(r.date)}"])
+    return rows
+
+
+def section_big_movers(day: date, offline: bool, failed: list[str]) -> list[str]:
+    t0 = time.time()
+    held = set(holdings())
+    live, how = [], {}
+    if not offline:
+        srcs = [("Nasdaq screener", nasdaq_entries), ("bhavcopy", lambda: india_entries(day, offline))]
+        # yf.screen for every market: main source for Europe, Japan and APAC; for the US and India it finds the
+        # latest session when the Nasdaq screener or the bhavcopy is not updated yet
+        srcs += [(f"yf.screen {m}", lambda m=m: yfscreen_entries(m)) for m in BIG_MARKETS]
+        for name, fn in srcs:
+            try:
+                r = fn()
+                e, note = r if isinstance(r, tuple) else (r, f"{len(r)} rows, session " + (
+                    ", ".join(sorted({f"{d:%Y-%m-%d}" for d in r.date})) or "none finished"))
+                live.append(e)
+                how[name] = note
+            except Exception as ex:
+                how[name] = f"failed ({type(ex).__name__}: {str(ex)[:80]})"
+                failed.append(f"big movers: {name} {how[name]}")
+    live = [e for e in live if len(e)]
+    e = pd.concat(live, ignore_index=True) if live else pd.DataFrame(columns=ENTRY_COLS)
+    if len(e):
+        e = e[e.date <= pd.Timestamp(day)]
+        write_movers(e[(e.pct.abs() >= HOLDING_MOVE) | e.yf.isin(held)], e[["market", "date"]].drop_duplicates())
+    allr = read_movers(day)
+    allr = allr[allr.date <= pd.Timestamp(day)].copy()
+    allr["rank"] = allr.src.map(SRC_RANK).fillna(9)
+    allr["avgvol"] = allr.avgvol.fillna(allr.groupby(["date", "yf"]).avgvol.transform("max"))
+    allr = allr.sort_values("rank").drop_duplicates(["market", "date", "yf"])
+    out = ["## 8. Big movers", "",
+           f"Whole markets (small caps included): every stock with |1d| >= {BIG_MOVE:g}% in its market's latest finished "
+           f"session (exchange close + {CLOSE_BUFFER.seconds // 60} min), and every open holding (trading/positions.csv, "
+           f"all accounts) with |1d| >= {HOLDING_MOVE:g}%. Warrants, rights, units, preferreds and ETFs dropped. "
+           f"Flags: micro-cap (< ${MICRO_USD / 1e6:,.0f}M; India < Rs {MICRO_INR / 1e7:,.0f} cr) and penny "
+           f"(< ${PENNY_USD:g}; India < Rs {PENNY_INR:g}): don't chase by default; SME, T2T (trade-to-trade), Z group "
+           "(exchange series); corporate action: Yahoo split within 3 days, or a price ratio equal to a split/bonus "
+           "ratio. Vol x = day volume / Yahoo 3-month average volume. Market cap = shares outstanding x the session's close "
+           "(Nasdaq screener: its own cap at the same last sale), in USD (India in Rs crore).", "",
+           "Sources: " + ("; ".join(f"{k}: {v}" for k, v in how.items()) if how else "offline, cache only") +
+           f". Cached in {MOVERS} (entries >= {HOLDING_MOVE:g}% and holdings per market and session).", ""]
+    sel, sessions = [], {}
+    for m in BIG_MARKETS:
+        a = allr[allr.market == m]
+        if a.empty:
+            out += [f"### {m}", "", "Not available: no source and no cache for this date.", ""]
+            failed.append(f"big movers {m}: no data")
+            continue
+        s = a.date.max()
+        sessions[m] = s
+        a = a[(a.date == s) & (a.yf != "_session")]
+        if m == "India" and a.src.str.endswith("bhavcopy").any():
+            a = a[a.src.str.endswith("bhavcopy")]
+        sel.append(a)
+    sel = pd.concat(sel) if sel else pd.DataFrame(columns=ENTRY_COLS)
+    big = sel[(sel.pct.abs() >= BIG_MOVE) & ~sel.name.astype(str).str.contains(JUNK)
+              & ~sel.sym.astype(str).str.contains(r"-RE\d*$")]  # India rights entitlements
+    hold = sel[sel.yf.isin(held)]
+    missing = sorted(held - set(hold.yf))
+    if missing and not offline:
+        try:
+            extra = holding_entries(missing, day)
+            hold = pd.concat([hold, extra]) if len(extra) else hold
+        except Exception as ex:
+            failed.append(f"big movers: holdings fallback failed ({type(ex).__name__})")
+    hold8 = hold[hold.pct.abs() >= HOLDING_MOVE]
+    show = pd.concat([big.assign(kind="big"), hold8.assign(kind="hold")], ignore_index=True)
+    if len(show) and not offline:
+        show = enrich(show)
+    elif "fx" not in show:
+        show = show.assign(fx=show.cur.eq("USD").map({True: 1.0, False: float("nan")}), mcap_usd=show.mcap.where(show.cur.eq("USD")))
+    big, hold8 = show[show.kind == "big"], show[show.kind == "hold"]
+    acts = {}
+    if len(show) and not offline:
+        acts = action_flags(show.assign(date=pd.to_datetime(show.date)))
+    for m in BIG_MARKETS:
+        if m not in sessions:
+            continue
+        b = big[big.market == m]
+        b = b.reindex(b.pct.abs().sort_values(ascending=False).index)
+        out += [f"### {m}: session {ds(sessions[m])}, {len(b)} stock(s) with |1d| >= {BIG_MOVE:g}%", ""]
+        hdr = ["Symbol", "Name", "Close", "1d %", "Vol x", "Market cap", "Flags", "Source, as of"]
+        out += table(hdr, mover_rows(b.head(BIG_ROWS), acts)) if len(b) else ["None.", ""]
+        if len(b) > BIG_ROWS:
+            out += [f"{len(b) - BIG_ROWS} more not shown (smaller moves).", ""]
+    hold8 = hold8.reindex(hold8.pct.abs().sort_values(ascending=False).index)
+    out += [f"### Holdings {HOLDING_MOVE:g}%+", ""]
+    out += table(["Symbol", "Name", "Close", "1d %", "Vol x", "Market cap", "Flags", "Source, as of"],
+                 mover_rows(hold8, acts)) if len(hold8) else \
+        [f"None of the {len(set(hold.yf))} priced holdings moved {HOLDING_MOVE:g}% or more.", ""]
+    still = sorted(held - set(hold.yf))
+    if still:
+        out += [f"Holdings not priced: {', '.join(still)}.", ""]
+        failed.append(f"big movers: holdings not priced: {', '.join(still)}")
+    out += [f"Section built in {time.time() - t0:.0f} s.", ""]
+    return out
+
+
 def cross_check(series, day, offline) -> list[str]:
     """Yahoo closes vs NSE allIndices 'last' for the same day (NSE gives only its latest session)."""
     ai, how = snapshot("nse-allindices", lambda: nse_api("allIndices"), offline)
@@ -742,17 +1140,24 @@ def cross_check(series, day, offline) -> list[str]:
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--date", type=date.fromisoformat, default=date.today(), help="use closes up to this day (default today)")
-    ap.add_argument("--out", type=Path, help="output file (default <work folder>/market/data-<date>.md)")
+    ap.add_argument("--date", type=date.fromisoformat, default=datetime.now(USER_TZ).date(),
+                    help="use closes up to this day (default today in India time)")
+    ap.add_argument("--out", type=Path, help="output file (default news/market/data/<date>.md)")
     ap.add_argument("--offline", action="store_true", help="use cached data only (no network)")
     args = ap.parse_args()
-    day, out_f = args.date, args.out or OUT_DIR / f"data-{args.date}.md"
+    day, out_f = args.date, args.out or OUT_DIR / f"{args.date}.md"
+    # never replace the data of another date: the file's own header date (or the date in its name) must be this run's
+    named = re.findall(r"\d{4}-\d{2}-\d{2}", out_f.name)
+    head = re.match(r"# Market data (\S+)", out_f.read_text()[:40]) if out_f.exists() else None
+    for other in ([head.group(1)] if head else []) + named[-1:]:
+        if other != f"{day}":
+            raise SystemExit(f"refusing to write {out_f}: it is for {other}, this run is for {day}")
     t0 = time.time()
     series, notes = fetch_series(day, args.offline)
     failed: list[str] = []
     cells = sector_cells(series, day)
     lines = [f"# Market data {day}", "",
-             f"Generated {datetime.now():%Y-%m-%d %H:%M} by scripts/market.py{' (offline)' if args.offline else ''}. "
+             f"Generated {datetime.now(USER_TZ):%Y-%m-%d %H:%M} IST by scripts/market.py{' (offline)' if args.offline else ''}. "
              "Closes up to the date above; each row shows its own last trading day. A bar counts only once its exchange "
              f"has closed that day (+{CLOSE_BUFFER.seconds // 60} min), so Asia can be a day ahead of Europe and the US; "
              "futures, FX and crypto use the last full UTC day.", ""]
@@ -763,6 +1168,7 @@ def main():
     lines += section_rates(series, day, failed)
     lines += section_sectors(cells, failed)
     lines += section_notable(cells, day, args.offline, failed)
+    lines += section_big_movers(day, args.offline, failed)
     lines += cross_check(series, day, args.offline)
     lines += ["## Failures and notes", ""] + [f"- {x}" for x in failed + notes] + ([] if failed or notes else ["- none"]) + [""]
     out_f.parent.mkdir(parents=True, exist_ok=True)

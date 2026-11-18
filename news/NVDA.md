@@ -5,6 +5,7 @@ Market: US. Held in: INDmoney, 7.4949 shares (portfolio/summary.md; ~$1,165 at 2
 ## Summary
 Score 0 (was -2; re-scored 11-18): Q3 FY27 beat and raise (revenue $115.8B vs $109.1B expected, Q4 guide $130B vs $125.1B, FY28 growth raised to 75%) offsets the leadership crisis, which is still open: the board says Huang is not coming back.
 Holding: 7.4949 shares in INDmoney, about $1,165 at the 11-17 close $155.46 (cost $1,329); about $1,221 at the after-hours $162.94 (+4.8%). The plan trigger "below $140 after results" was not hit (after-hours low $153.79).
+Action (research/events/2026-11-18.md line 3, 18 Nov): hold the 7 whole shares (to IBKR), sell the 0.49 fraction by 11-25, do not add; re-check if an outside CEO is named or on a close below $140.
 Risk: governance (CEO search, activists, possible special meeting, export probe), Senate testimony 12-01, no China data-center revenue in the Q4 guide, Q4 gross margin guide 71-72% (74.9% in Q3).
 Watch: US open 11-18 (20:00 IST) - does the after-hours gain hold; Anthropic prices 11-18 US evening, trades 11-19; Huang and Teter at Senate Banking (closed) 12-01; dividend record 12-02.
 
@@ -39,6 +40,8 @@ Score: 0 (re-scored 2026-11-18; was -2 from 2026-11-15)
 | 2026-11-18/19 | Anthropic IPO pricing 11-18, trading 11-19 (reported); Nvidia named in a reported $26B placement (not confirmed) | AI-sentiment signal | NerdWallet 2026-11-10 citing CNBC; Yahoo/24/7 Wall St. 2026-11-10 |
 | before 2026-11-26 (not confirmed) | Huang closed-door testimony to House committees (Foreign Affairs etc.) on the suspected-spy relationship | Headline risk, national-security angle, possible export-policy fallout | Republic World 2026-11-13 citing CNN and Fox News |
 | open | Board search for permanent CEO (internal and external candidates); investors ask for a slow process | A named successor (or Huang's return) would move the stock | NVIDIA press release 2026-11-12; CNBC 2026-11-14 |
+| open (re-check trigger) | An outside CEO is named | Research re-checks the hold | research/events/2026-11-18.md line 3 |
+| open (re-check trigger) | A close below $140 | Research re-checks the hold | research/events/2026-11-18.md line 3 |
 | 2026-12-02 record (ex-date same day under T+1), paid 2026-12-23 | Quarterly dividend $0.25 | 7.4949 x $0.25 = ~$1.87 gross | Q3 FY27 press release (8-K Ex 99.1) 2026-11-17 |
 
 ## News
